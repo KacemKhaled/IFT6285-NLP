@@ -32,6 +32,7 @@ def affichage(wrong_word, corrections):
     else:
         result =  wrong_word + '\t' + '\t'.join(corrections)
     print(result)
+    logging.info(result)
 
 def find_best_candidates(wrong_word, vocab_scores, nb_best_scores, largest, n=5, order_by= 'unigram'): 
     scores = list(set(a[0] for a in vocab_scores.values())) 
