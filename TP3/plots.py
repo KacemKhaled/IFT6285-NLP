@@ -44,23 +44,34 @@ def read_evals(logs_folder): # Time or score
             f.close()
     return evals_specs
 
-def plot_eval_per_time(df):
-    fig, ax = plt.subplots(figsize=(8,7))
+def plot_eval_per_time(df1,df2):
+
+    fig, (ax1,ax2)= plt.subplots(1, 2, figsize=(10,4))
 
     #ax.legend()
     #ax.grid(True)
-    title = f"Performance {str(df.name)} / Temps d'exécution"
-    plt.title(title)
-    plt.xlabel("Temps mis dans la correction (en secondes)")
-    plt.ylabel("La performance du correcteur")
-    #ax = df.plot.scatter(x="a", y="b", color="DarkBlue", label="Group 1")
+    title = f"Performance (metric='{df1.name}' or '{df2.name}' ) / Temps d'exécution"
+    fig.suptitle(title)
+    ax1.set_xlabel("Temps mis dans la correction (en secondes)")
+    ax1.set_ylabel(f"La performance du correcteur '{df1.name}'")
+    ax2.set_xlabel("Temps mis dans la correction (en secondes)")
+    ax2.set_ylabel(f"La performance du correcteur '{df2.name}'")
+    fig.tight_layout()
+    sns.scatterplot(ax=ax1,data=df1, x="Temps", y="Performance", hue="Distance", style="Ordre",
+                    sizes=[0.9 for n in range(len(df1))],
+                    markers=['o','X','P', 's'], legend=False)
+    sns.scatterplot(ax=ax2,data=df2, x="Temps", y="Performance", hue="Distance", style="Ordre",
+                    sizes=[0.9 for n in range(len(df1))],
+                    markers=['o','X','P', 's'], legend="auto")
 
-    #df.plot.scatter(x="c", y="d", color="DarkGreen", label="Group 2", ax=ax)
-    #df.plot.scatter(x="Temps", y="Performance", c="Distance", cmap="viridis", s=50)
-    sns.scatterplot(data=df, x="Temps", y="Performance", hue="Distance", style="Ordre")
+    plt.subplots_adjust(right=0.75)
 
-    fig.savefig(f"out/eval-Performance {df.name} - Temps d'exécution.svg",format="svg")
-    fig.savefig(f"out/eval-Performance {df.name} - Temps d'exécution.eps",format="eps")
+    # Put a legend to the right of the current axis
+    ax2.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+    figtitle = f"out/eval-Performance_{df1.name}_{df2.name}-Temps"
+    fig.savefig(f"{figtitle}.svg",format="svg")
+    fig.savefig(f"{figtitle}.eps",format="eps")
+    fig.savefig(f"{figtitle}.pdf")
     plt.show()
 
 def main():
@@ -78,8 +89,8 @@ def main():
     resultat.to_csv('resultat.csv')
     no_order.to_csv('no_order.csv')
     by_order.to_csv('by_order.csv')
-    plot_eval_per_time(no_order)
-    plot_eval_per_time(by_order)
+    plot_eval_per_time(no_order,by_order)
+
 
 
 

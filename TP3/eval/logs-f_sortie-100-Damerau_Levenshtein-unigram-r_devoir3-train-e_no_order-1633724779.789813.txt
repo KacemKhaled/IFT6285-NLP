@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Damerau_Levenshtein-unigram.txt
+reference file: devoir3-train.txt
+evaluation_measure:no_order
+score is = 50.00 %
+50.0

@@ -1,0 +1,406 @@
+['Damerau_Levenshtein']
+comb_d_u
+Correcting 100 words
+1: ****************** reccodmission
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('readmission', [3, 200]), ('decommission', [3, 182]), ('re-admission', [3, 30]), ('commission', [4, 113377]), ('remission', [4, 871]), ('rescission', [4, 174]), ('readmissions', [4, 97]), ('resubmission', [4, 46]), ('recommissioned', [4, 30]), ('comission', [4, 24])]
+reccodmission	readmission	decommission	re-admission	commission	remission
+2: ****************** unpair
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('unfair', [1, 13294]), ('unpaid', [1, 6260]), ('pair', [2, 45687]), ('repair', [2, 17940]), ('on-air', [2, 1350]), ('impair', [2, 678]), ('nair', [2, 391]), ('unpack', [2, 238]), ('unsaid', [2, 234]), ('funfair', [2, 137])]
+unpair	unfair	unpaid	pair	repair	on-air
+3: ****************** oconomic
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('economic', [1, 253089]), ('economics', [2, 19320]), ('economix', [2, 30]), ('economico', [2, 28]), ('economy', [3, 227089]), ('economies', [3, 24906]), ('economist', [3, 23667]), ('comic', [3, 11157]), ('iconic', [3, 8785]), ('cosmic', [3, 2243])]
+oconomic	economic	economics	economix	economico	economy
+4: ****************** accidnts
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('accidents', [1, 11385]), ('accounts', [2, 46572]), ('accident', [2, 42092]), ('accents', [2, 1696]), ('ancients', [2, 146]), ('account', [3, 67176]), ('actions', [3, 42577]), ('clients', [3, 40157]), ('incidents', [3, 21787]), ('ancient', [3, 19457])]
+accidnts	accidents	accounts	accident	accents	ancients
+5: ****************** succes
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('succes', [0, 58]), ('success', [1, 81991]), ('sources', [2, 58857]), ('succeed', [2, 16941]), ('soccer', [2, 15281]), ('spaces', [2, 8804]), ('suites', [2, 3788]), ('ounces', [2, 3430]), ('succeeds', [2, 2984]), ('slices', [2, 2397])]
+succes	succes	success	sources	succeed	soccer
+6: ****************** enthousiastic
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('enthusiastic', [1, 6474]), ('enthusiasts', [3, 3893]), ('enthusiast', [3, 1751]), ('unenthusiastic', [3, 206]), ('enthusiasm', [4, 10634]), ('enthusiasms', [4, 159])]
+enthousiastic	enthusiastic	enthusiasts	enthusiast	unenthusiastic	enthusiasm
+7: ****************** produse
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('produce', [1, 50454]), ('profuse', [1, 104]), ('product', [2, 70402]), ('produced', [2, 52312]), ('producer', [2, 32314]), ('promise', [2, 27602]), ('produces', [2, 11521]), ('propose', [2, 6226]), ('prose', [2, 2066]), ('rouse', [2, 1184])]
+produse	produce	profuse	product	produced	producer
+8: ****************** tecnologycal
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('technological', [2, 7556]), ('ecological', [3, 2754]), ('teleological', [3, 17]), ('ethnological', [3, 16]), ('technology', [4, 131287]), ('geological', [4, 5124]), ('neurological', [4, 2500]), ('theological', [4, 1611]), ('technologically', [4, 1141]), ('sociological', [4, 422])]
+tecnologycal	technological	ecological	teleological	ethnological	technology
+9: ****************** upto
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('upto', [0, 144]), ('upton', [1, 3178]), ('unto', [1, 866]), ('pto', [1, 67]), ('uspto', [1, 67]), ('updo', [1, 45]), ('into', [2, 969249]), ('put', [2, 266604]), ('upi', [2, 143940]), ('spot', [2, 50978])]
+upto	upto	upton	unto	pto	uspto
+10: ****************** poisioning
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('poisoning', [1, 4938]), ('positioning', [2, 3949]), ('provisioning', [2, 496]), ('poisonings', [2, 248]), ('postponing', [3, 1221]), ('petitioning', [3, 372]), ('envisioning', [3, 252]), ('consigning', [3, 173]), ('ossining', [3, 103]), ('motioning', [3, 101])]
+poisioning	poisoning	positioning	provisioning	poisonings	postponing
+11: ****************** competitiors
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('competitors', [1, 15421]), ('competitions', [1, 5402]), ('competition', [2, 72728]), ('competitor', [2, 6184]), ('competitive', [3, 30332]), ('compositions', [3, 1104]), ('computations', [3, 84]), ('competiton', [3, 37]), ('competizione', [3, 18])]
+competitiors	competitors	competitions	competition	competitor	competitive
+12: ****************** riks
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('risk', [1, 147298]), ('risks', [1, 51153]), ('ribs', [1, 3117]), ('rigs', [1, 2044]), ('rios', [1, 1449]), ('rics', [1, 940]), ('riki', [1, 728]), ('rips', [1, 390]), ('rims', [1, 278]), ('ricks', [1, 268])]
+riks	risk	risks	ribs	rigs	rios
+13: ****************** definations
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('definitions', [1, 1298]), ('definition', [2, 10326]), ('destinations', [2, 7657]), ('designations', [2, 368]), ('deviations', [2, 227]), ('detonations', [2, 96]), ('dedications', [2, 50]), ('derivations', [2, 22]), ('defintion', [2, 17]), ('donations', [3, 16889])]
+definations	definitions	definition	destinations	designations	deviations
+14: ****************** vivd
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('vivid', [1, 4083]), ('viva', [1, 1280]), ('vied', [1, 483]), ('vivo', [1, 245]), ('viv', [1, 203]), ('vive', [1, 104]), ('vivi', [1, 88]), ('ivd', [1, 70]), ('vid', [1, 59]), ('vvd', [1, 32])]
+vivd	vivid	viva	vied	vivo	viv
+15: ****************** tradind
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('trading', [1, 94146]), ('train', [2, 52944]), ('trained', [2, 21442]), ('traded', [2, 20597]), ('trains', [2, 19186]), ('tracing', [2, 1673]), ('grading', [2, 951]), ('treading', [2, 747]), ('tracinda', [2, 276]), ('aravind', [2, 130])]
+tradind	trading	train	trained	traded	trains
+16: ****************** materail
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('material', [1, 42907]), ('materials', [2, 28469]), ('maternal', [2, 3005]), ('lateral', [2, 987]), ('materiel', [2, 305]), ('wateraid', [2, 54]), ('matera', [2, 42]), ('materia', [2, 19]), ('natural', [3, 72473]), ('trail', [3, 19555])]
+materail	material	materials	maternal	lateral	materiel
+17: ****************** useig
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('used', [2, 296737]), ('use', [2, 282280]), ('using', [2, 154020]), ('users', [2, 58840]), ('uses', [2, 31384]), ('user', [2, 15594]), ('seng', [2, 3450]), ('selig', [2, 2137]), ('usaid', [2, 1870]), ('usain', [2, 1676])]
+useig	used	use	using	users	uses
+18: ****************** thoese
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('those', [1, 526090]), ('these', [1, 414456]), ('there', [2, 1167647]), ('three', [2, 630715]), ('house', [2, 412470]), ('whose', [2, 168237]), ('choose', [2, 34164]), ('chose', [2, 21627]), ('horse', [2, 20247]), ('theme', [2, 18537])]
+thoese	those	these	there	three	house
+19: ****************** concludsion
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('conclusion', [1, 14539]), ('conclusions', [2, 7289]), ('concussion', [2, 3236]), ('confusion', [3, 9903]), ('inclusion', [3, 5309]), ('concession', [3, 3909]), ('concluding', [3, 3003]), ('collusion', [3, 1273]), ('conclusive', [3, 1266]), ('concussions', [3, 985])]
+concludsion	conclusion	conclusions	concussion	confusion	inclusion
+20: ****************** controll
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('controll', [0, 26]), ('control', [1, 160347]), ('controls', [1, 22306]), ('controlled', [2, 23715]), ('controller', [2, 5417]), ('cottrell', [2, 287]), ('cantrell', [2, 271]), ('controled', [2, 44]), ('pointroll', [2, 44]), ('controlee', [2, 23])]
+controll	controll	control	controls	controlled	controller
+21: ****************** thise
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('this', [1, 2175742]), ('those', [1, 526090]), ('these', [1, 414456]), ('thine', [1, 60]), ('thies', [1, 51]), ('thie', [1, 27]), ('thile', [1, 24]), ('this-', [1, 24]), ('thase', [1, 19]), ('thse', [1, 16])]
+thise	this	those	these	thine	thies
+22: ****************** banefit
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('benefit', [1, 56481]), ('benefits', [2, 70518]), ('bandit', [2, 723]), ('benifit', [2, 46]), ('befit', [2, 45]), ('baneful', [2, 16]), ('banfi', [2, 16]), ('benedict', [3, 12657]), ('benefited', [3, 9141]), ('janet', [3, 6950])]
+banefit	benefit	benefits	bandit	benifit	befit
+23: ****************** fatct
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('fact', [1, 125152]), ('fatcat', [1, 16]), ('face', [2, 168249]), ('act', [2, 107302]), ('match', [2, 99904]), ('watch', [2, 69744]), ('fast', [2, 43814]), ('catch', [2, 29901]), ('matt', [2, 26005]), ('fat', [2, 21666])]
+fatct	fact	fatcat	face	act	match
+24: ****************** condamnation
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('condemnation', [1, 4690]), ('contamination', [2, 4590]), ('condemnations', [2, 282]), ('condensation', [3, 422]), ('consummation', [3, 381]), ('damnation', [3, 213]), ('concatenation', [3, 27]), ('contaminations', [3, 23])]
+condamnation	condemnation	contamination	condemnations	condensation	consummation
+25: ****************** forula
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('formula', [1, 20438]), ('formal', [2, 25039]), ('forum', [2, 20723]), ('foul', [2, 13470]), ('forums', [2, 3441]), ('fouls', [2, 2801]), ('formulas', [2, 1136]), ('forma', [2, 986]), ('fibula', [2, 371]), ('forza', [2, 311])]
+forula	formula	formal	forum	foul	forums
+26: ****************** thingh
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('things', [1, 158391]), ('thing', [1, 120606]), ('thigh', [1, 3866]), ('thingy', [1, 128]), ('think', [2, 303839]), ('high', [2, 300791]), ('though', [2, 219883]), ('thinks', [2, 26982]), ('thin', [2, 13653]), ('singh', [2, 13605])]
+thingh	things	thing	thigh	thingy	think
+27: ****************** migth
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('might', [1, 264441]), ('mirth', [1, 264]), ('with', [2, 4671305]), ('month', [2, 327414]), ('high', [2, 300791]), ('right', [2, 284152]), ('night', [2, 270053]), ('eight', [2, 145007]), ('fight', [2, 93072]), ('light', [2, 88781])]
+migth	might	mirth	with	month	high
+28: ****************** healtheir
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('healthier', [1, 5961]), ('heather', [2, 4539]), ('wealthier', [2, 1901]), ('health', [3, 345821]), ('weather', [3, 59522]), ('healthcare', [3, 44792]), ('healthy', [3, 37550]), ('leather', [3, 8703]), ('feather', [3, 1198]), ('heater', [3, 1099])]
+healtheir	healthier	heather	wealthier	health	weather
+29: ****************** everythingfor
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('everything', [3, 80664]), ('everthing', [4, 69]), ('eveything', [4, 22]), ('ever-higher', [5, 110])]
+everythingfor	everything	everthing	eveything	ever-higher
+30: ****************** beleif
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('belief', [1, 18792]), ('relief', [2, 42963]), ('beef', [2, 13252]), ('beliefs', [2, 10005]), ('belies', [2, 580]), ('belied', [2, 503]), ('belie', [2, 273]), ('belbin', [2, 267]), ('beleive', [2, 243]), ('leif', [2, 235])]
+beleif	belief	relief	beef	beliefs	belies
+31: ****************** resourses
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('resources', [1, 56432]), ('recourses', [1, 21]), ('resource', [2, 11414]), ('recourse', [2, 1208]), ('resourced', [2, 301]), ('sources', [3, 58857]), ('reserves', [3, 24065]), ('courses', [3, 14164]), ('pressures', [3, 11586]), ('responses', [3, 8935])]
+resourses	resources	recourses	resource	recourse	resourced
+32: ****************** advantanges
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('advantages', [1, 6006]), ('advantage', [2, 52286]), ('advantaged', [2, 201]), ('advantageous', [3, 665]), ('aadvantage', [3, 143])]
+advantanges	advantages	advantage	advantaged	advantageous	aadvantage
+33: ****************** diguise
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('disguise', [1, 2786]), ('disguised', [2, 2855]), ('guise', [2, 1481]), ('disguises', [2, 446]), ('deluise', [2, 177]), ('digitise', [2, 138]), ('disuse', [2, 105]), ('diguido', [2, 16]), ('figures', [3, 95878]), ('disease', [3, 77275])]
+diguise	disguise	disguised	guise	disguises	deluise
+34: ****************** additionly
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('additional', [2, 79878]), ('addition', [2, 66873]), ('additionally', [2, 6441]), ('additions', [2, 2932]), ('addiction', [3, 8712]), ('audition', [3, 2434]), ('auditions', [3, 1407]), ('addictions', [3, 838]), ('auditioned', [3, 614]), ('adult-only', [3, 60])]
+additionly	additional	addition	additionally	additions	addiction
+35: ****************** opportunnity
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('opportunity', [1, 68288]), ('oppurtunity', [2, 23]), ('oportunity', [2, 19]), ('opportunist', [3, 514]), ('opportunism', [3, 471]), ('opportunists', [3, 282]), ('opportunites', [3, 34])]
+opportunnity	opportunity	oppurtunity	oportunity	opportunist	opportunism
+36: ****************** urself
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('ourself', [1, 34]), ('itself', [2, 81854]), ('herself', [2, 34483]), ('myself', [2, 30201]), ('yourself', [2, 24751]), ('self', [2, 10101]), ('ursula', [2, 572]), ('relf', [2, 78]), ('uriel', [2, 47]), ('unseld', [2, 38])]
+urself	ourself	itself	herself	myself	yourself
+37: ****************** rebelion
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('rebellion', [1, 4781]), ('rebellions', [2, 315]), ('rebellin', [2, 183]), ('rebelo', [2, 72]), ('rebello', [2, 21]), ('region', [3, 129032]), ('recession', [3, 89627]), ('rebels', [3, 33932]), ('reaction', [3, 26114]), ('religion', [3, 21544])]
+rebelion	rebellion	rebellions	rebellin	rebelo	rebello
+38: ****************** chioce
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('choice', [1, 63350]), ('chance', [2, 104654]), ('choose', [2, 34164]), ('chose', [2, 21627]), ('choices', [2, 18385]), ('chile', [2, 11963]), ('chic', [2, 3838]), ('chrome', [2, 2413]), ('choke', [2, 1646]), ('chloe', [2, 1571])]
+chioce	choice	chance	choose	chose	choices
+39: ****************** consdiered
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('considered', [1, 75819]), ('conspired', [2, 1846]), ('consider', [3, 64035]), ('considers', [3, 9793]), ('wondered', [3, 7517]), ('consisted', [3, 2521]), ('conquered', [3, 1229]), ('consigned', [3, 1022]), ('pondered', [3, 705]), ('reconsidered', [3, 687])]
+consdiered	considered	conspired	consider	considers	wondered
+40: ****************** travals
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('travels', [1, 6830]), ('travails', [1, 977]), ('travel', [2, 88020]), ('rivals', [2, 36150]), ('trials', [2, 22493]), ('trails', [2, 5598]), ('travis', [2, 4295]), ('travers', [2, 863]), ('trawls', [2, 100]), ('travail', [2, 79])]
+travals	travels	travails	travel	rivals	trials
+41: ****************** inturn
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('intern', [1, 1966]), ('return', [2, 164885]), ('turn', [2, 107010]), ('injury', [2, 67790]), ('inter', [2, 6729]), ('saturn', [2, 3711]), ('insure', [2, 2839]), ('incur', [2, 1796]), ('u-turn', [2, 1795]), ('upturn', [2, 1584])]
+inturn	intern	return	turn	injury	inter
+42: ****************** inly
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('only', [1, 721447]), ('indy', [1, 2403]), ('idly', [1, 562]), ('inla', [1, 264]), ('inky', [1, 261]), ('illy', [1, 76]), ('inlay', [1, 54]), ('inl', [1, 21]), ('ifly', [1, 17]), ('inle', [1, 17])]
+inly	only	indy	idly	inla	inky
+43: ****************** everydays
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('everyday', [1, 10203]), ('every-day', [2, 51]), ('everday', [2, 20]), ('everyman', [3, 674]), ('overlays', [3, 142]), ('everyones', [3, 93]), ('heydays', [3, 43]), ('entryways', [3, 37]), ('overpays', [3, 30]), ('overplays', [3, 27])]
+everydays	everyday	every-day	everday	everyman	overlays
+44: ****************** specilaized
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('specialized', [1, 4853]), ('specializes', [2, 4301]), ('specialised', [2, 1733]), ('specialize', [2, 1122]), ('speculated', [3, 3846]), ('specified', [3, 2901]), ('specialises', [3, 2071]), ('socialized', [3, 917]), ('specialise', [3, 663]), ('sterilized', [3, 245])]
+specilaized	specialized	specializes	specialised	specialize	speculated
+45: ****************** runned
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('runner', [1, 6946]), ('ruined', [1, 5116]), ('gunned', [1, 2704]), ('turned', [2, 111849]), ('ruled', [2, 48162]), ('banned', [2, 32657]), ('ranked', [2, 18221]), ('funded', [2, 17919]), ('rushed', [2, 15561]), ('burned', [2, 14681])]
+runned	runner	ruined	gunned	turned	ruled
+46: ****************** allive
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('alive', [1, 28335]), ('allie', [1, 251]), ('live', [2, 142710]), ('active', [2, 35043]), ('allies', [2, 31846]), ('arrive', [2, 19829]), ('allied', [2, 8640]), ('alike', [2, 8143]), ('alice', [2, 6616]), ('olive', [2, 5943])]
+allive	alive	allie	live	active	allies
+47: ****************** anylonger
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('anyone', [3, 100227]), ('longer', [3, 93112]), ('nylander', [3, 219]), ('anyones', [3, 72]), ('anlong', [3, 57]), ('keylogger', [3, 36]), ('antlfinger', [3, 29]), ('alonge', [3, 16]), ('another', [4, 394236]), ('along', [4, 165199])]
+anylonger	anyone	longer	nylander	anyones	anlong
+48: ****************** explantion
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('explanation', [1, 12955]), ('expansion', [2, 27662]), ('explanations', [2, 2828]), ('explaination', [2, 26]), ('expiation', [2, 24]), ('explain', [3, 31073]), ('explosion', [3, 24379]), ('exploration', [3, 13487]), ('expedition', [3, 4335]), ('expiration', [3, 2722])]
+explantion	explanation	expansion	explanations	explaination	expiation
+49: ****************** insearch
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('research', [2, 201240]), ('search', [2, 83185]), ('onesearch', [2, 41]), ('iresearch', [2, 33]), ('instance', [3, 25307]), ('interact', [3, 3882]), ('insert', [3, 2091]), ('insect', [3, 2051]), ('impeach', [3, 906]), ('inserts', [3, 554])]
+insearch	research	search	onesearch	iresearch	instance
+50: ****************** advertisments
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('advertisments', [0, 18]), ('advertisements', [1, 5316]), ('advertisment', [1, 30]), ('advertisement', [2, 3878])]
+advertisments	advertisments	advertisements	advertisment	advertisement
+51: ****************** referencial
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('referential', [1, 30]), ('preferential', [2, 1509]), ('referencing', [2, 726]), ('deferential', [2, 330]), ('reverential', [2, 188]), ('reference', [3, 17385]), ('references', [3, 6395]), ('referenced', [3, 1148]), ('referenda', [3, 128])]
+referencial	referential	preferential	referencing	deferential	reverential
+52: ****************** processure
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('pressure', [2, 108004]), ('procedure', [2, 15361]), ('processor', [2, 3310]), ('processors', [2, 2331]), ('process', [3, 123965]), ('professor', [3, 64476]), ('procedures', [3, 19591]), ('processing', [3, 13071]), ('pressures', [3, 11586]), ('processes', [3, 9535])]
+processure	pressure	procedure	processor	processors	process
+53: ****************** whis
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('his', [1, 3048518]), ('this', [1, 2175742]), ('whip', [1, 5399]), ('wis', [1, 3577]), ('weis', [1, 1671]), ('whips', [1, 1268]), ('whisk', [1, 1041]), ('whim', [1, 928]), ('whiz', [1, 620]), ('whims', [1, 579])]
+whis	his	this	whip	wis	weis
+54: ****************** populization
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('population', [2, 71143]), ('popularization', [2, 40]), ('populations', [3, 9721]), ('mobilization', [3, 585]), ('polarization', [3, 553]), ('pollination', [3, 346]), ('localization', [3, 134]), ('copulation', [3, 131]), ('vocalization', [3, 31]), ('popularisation', [3, 20])]
+populization	population	popularization	populations	mobilization	polarization
+55: ****************** prodcut
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('product', [1, 70402]), ('products', [2, 116826]), ('produce', [2, 50454]), ('prout', [2, 361]), ('produ', [2, 63]), ('woodcut', [2, 57]), ('prodrug', [2, 36]), ('pre-cut', [2, 30]), ('proact', [2, 28]), ('precut', [2, 18])]
+prodcut	product	products	produce	prout	produ
+56: ****************** beleived
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('beleived', [0, 17]), ('believed', [1, 84783]), ('beleive', [1, 243]), ('belived', [1, 25]), ('beleives', [1, 17]), ('believe', [2, 156795]), ('received', [2, 132089]), ('believes', [2, 59554]), ('beloved', [2, 7586]), ('relieved', [2, 6992])]
+beleived	beleived	believed	beleive	belived	beleives
+57: ****************** backgrounging
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('background', [4, 21795]), ('backgrounds', [4, 4764]), ('scrounging', [4, 132]), ('backgrounder', [4, 34]), ('accounting', [5, 22295]), ('grounding', [5, 1258]), ('bankrolling', [5, 511]), ('backtracking', [5, 380]), ('bankrupting', [5, 339]), ('beckoning', [5, 314])]
+backgrounging	background	backgrounds	scrounging	backgrounder	accounting
+58: ****************** difinetly
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('definetly', [1, 31]), ('divinely', [2, 125]), ('definitly', [2, 25]), ('defintely', [2, 17]), ('definitely', [3, 19926]), ('distinctly', [3, 2241]), ('finely', [3, 1581]), ('defiantly', [3, 974]), ('diligently', [3, 965]), ('divinity', [3, 484])]
+difinetly	definetly	divinely	definitly	defintely	definitely
+59: ****************** addtion
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('addition', [1, 66873]), ('action', [2, 130866]), ('auction', [2, 27898]), ('edition', [2, 27313]), ('adoption', [2, 10979]), ('addiction', [2, 8712]), ('additions', [2, 2932]), ('audition', [2, 2434]), ('add-on', [2, 935]), ('addison', [2, 745])]
+addtion	addition	action	auction	edition	adoption
+60: ****************** anyhting
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('anything', [1, 96936]), ('anying', [2, 28]), ('anthing', [2, 17]), ('nothing', [3, 112871]), ('fighting', [3, 75667]), ('acting', [3, 35189]), ('noting', [3, 14559]), ('wanting', [3, 11782]), ('awaiting', [3, 11646]), ('lighting', [3, 10438])]
+anyhting	anything	anying	anthing	nothing	fighting
+61: ****************** variatons
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('variations', [1, 5137]), ('variation', [2, 3373]), ('varvatos', [2, 118]), ('various', [3, 51012]), ('britons', [3, 8479]), ('varieties', [3, 4066]), ('vacations', [3, 3174]), ('valuations', [3, 2443]), ('variant', [3, 1812]), ('variants', [3, 1397])]
+variatons	variations	variation	varvatos	various	britons
+62: ****************** interfer
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('interfere', [1, 4381]), ('internet', [2, 118543]), ('interior', [2, 27564]), ('interfax', [2, 2055]), ('interfered', [2, 1026]), ('interferes', [2, 555]), ('interred', [2, 378]), ('interned', [2, 371]), ('interferon', [2, 332]), ('intersex', [2, 132])]
+interfer	interfere	internet	interior	interfax	interfered
+63: ****************** eloctronics
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('electronics', [1, 19254]), ('electronic', [2, 30483]), ('electronica', [2, 338]), ('electrons', [3, 687]), ('electrics', [3, 251]), ('optronics', [3, 156]), ('flextronics', [3, 148]), ('plantronics', [3, 29]), ('plextronics', [3, 21]), ('teltronics', [3, 19])]
+eloctronics	electronics	electronic	electronica	electrons	electrics
+64: ****************** undestanded
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('underhanded', [2, 228]), ('undescended', [2, 19]), ('understand', [3, 57709]), ('understands', [3, 8331]), ('understated', [3, 1789]), ('underfunded', [3, 940]), ('understaffed', [3, 459]), ('undermanned', [3, 271]), ('undefended', [3, 56]), ('underbanked', [3, 47])]
+undestanded	underhanded	undescended	understand	understands	understated
+65: ****************** easially
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('easily', [2, 38854]), ('basically', [2, 12720]), ('racially', [2, 3318]), ('casually', [2, 1802]), ('rascally', [2, 43]), ('facially', [2, 34]), ('nasally', [2, 29]), ('aerially', [2, 24]), ('lassally', [2, 16]), ('usually', [3, 54057])]
+easially	easily	basically	racially	casually	rascally
+66: ****************** assestments
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('assessments', [1, 5657]), ('assessment', [2, 23384]), ('assortments', [2, 77]), ('assesment', [2, 28]), ('investments', [3, 35950]), ('adjustments', [3, 5397]), ('assistants', [3, 3737]), ('assignments', [3, 2636]), ('assortment', [3, 1638]), ('resentments', [3, 515])]
+assestments	assessments	assessment	assortments	assesment	investments
+67: ****************** regared
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('regarded', [1, 16466]), ('regard', [1, 13867]), ('reared', [1, 1113]), ('regaled', [1, 178]), ('related', [2, 54828]), ('prepared', [2, 47385]), ('retired', [2, 36203]), ('feared', [2, 19203]), ('reward', [2, 13400]), ('regret', [2, 8714])]
+regared	regarded	regard	reared	regaled	related
+68: ****************** knowlkedge
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('knowledge', [1, 32726]), ('knowlege', [2, 26]), ('acknowledge', [3, 10818]), ('adknowledge', [3, 41])]
+knowlkedge	knowledge	knowlege	acknowledge	adknowledge
+69: ****************** successs
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('success', [1, 81991]), ('successes', [1, 5366]), ('successor', [2, 14734]), ('succeeds', [2, 2984]), ('successors', [2, 1621]), ('succes', [2, 58]), ('sucess', [2, 43]), ('access', [3, 97469]), ('successful', [3, 59742]), ('suggests', [3, 40133])]
+successs	success	successes	successor	succeeds	successors
+70: ****************** represant
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('represent', [1, 25789]), ('represents', [2, 32225]), ('depressant', [2, 57]), ('present', [3, 61188]), ('represented', [3, 22515]), ('relevant', [3, 16963]), ('repeat', [3, 15617]), ('retreat', [3, 9221]), ('reprisals', [3, 1280]), ('reprimand', [3, 899])]
+represant	represent	represents	depressant	present	represented
+71: ****************** actractive
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('attractive', [1, 17581]), ('extractive', [2, 112]), ('interactive', [3, 11553]), ('attraction', [3, 7569]), ('attracting', [3, 7104]), ('retroactive', [3, 1235]), ('unattractive', [3, 982]), ('accretive', [3, 346]), ('overactive', [3, 319]), ('attractively', [3, 291])]
+actractive	attractive	extractive	interactive	attraction	attracting
+72: ****************** nood
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('good', [1, 332676]), ('food', [1, 175493]), ('wood', [1, 24651]), ('mood', [1, 18864]), ('hood', [1, 9315]), ('noon', [1, 8243]), ('nod', [1, 5428]), ('nord', [1, 1490]), ('noor', [1, 1018]), ('nook', [1, 959])]
+nood	good	food	wood	mood	hood
+73: ****************** focuss
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('focus', [1, 81419]), ('focuses', [1, 8209]), ('focused', [2, 41856]), ('forums', [2, 3441]), ('fouls', [2, 2801]), ('fuss', [2, 2756]), ('fours', [2, 2510]), ('focussed', [2, 796]), ('locust', [2, 299]), ('locusts', [2, 297])]
+focuss	focus	focuses	focused	forums	fouls
+74: ****************** decreace
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('decrease', [1, 15898]), ('decreased', [2, 11680]), ('decree', [2, 4388]), ('decreases', [2, 2304]), ('recreate', [2, 1703]), ('decroce', [2, 18]), ('secrease', [2, 17]), ('increase', [3, 159575]), ('create', [3, 83270]), ('decade', [3, 61944])]
+decreace	decrease	decreased	decree	decreases	recreate
+75: ****************** magagine
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('magazine', [1, 47592]), ('managing', [2, 28351]), ('magazines', [2, 8807]), ('maggie', [2, 3588]), ('margarine', [2, 317]), ('mawazine', [2, 30]), ('magaziner', [2, 19]), ('magasin', [2, 16]), ('again', [3, 200028]), ('marine', [3, 28873])]
+magagine	magazine	managing	magazines	maggie	margarine
+76: ****************** knowedge
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('knowledge', [1, 32726]), ('newedge', [2, 144]), ('knowlege', [2, 26]), ('knowing', [3, 18451]), ('acknowledge', [3, 10818]), ('wedge', [3, 2823]), ('snowed', [3, 302]), ('knowle', [3, 197]), ('knowable', [3, 62]), ('adknowledge', [3, 41])]
+knowedge	knowledge	newedge	knowlege	knowing	acknowledge
+77: ****************** relativley
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('relatively', [1, 39165]), ('relatives', [2, 27652]), ('relative', [2, 20319]), ('relativity', [2, 616]), ('negatively', [3, 2653]), ('creatively', [3, 874]), ('relativism', [3, 229]), ('relatable', [3, 185]), ('relativist', [3, 32]), ('reactively', [3, 19])]
+relativley	relatively	relatives	relative	relativity	negatively
+78: ****************** wheter
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('whether', [1, 251914]), ('wheater', [1, 381]), ('whiter', [1, 326]), ('wheler', [1, 25]), ('whetter', [1, 16]), ('where', [2, 570946]), ('white', [2, 234713]), ('water', [2, 164661]), ('peter', [2, 61514]), ('winter', [2, 48631])]
+wheter	whether	wheater	whiter	wheler	whetter
+79: ****************** convience
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('convince', [1, 12005]), ('confidence', [2, 56928]), ('convinced', [2, 18967]), ('convenience', [2, 6484]), ('conscience', [2, 4261]), ('convene', [2, 2038]), ('convinces', [2, 372]), ('continence', [2, 78]), ('conference', [3, 157054]), ('continue', [3, 132544])]
+convience	convince	confidence	convinced	convenience	conscience
+80: ****************** extremly
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('extremly', [0, 18]), ('extremely', [1, 33126]), ('extreme', [2, 21892]), ('extremes', [2, 1897]), ('extremity', [2, 198]), ('extremis', [2, 155])]
+extremly	extremly	extremely	extreme	extremes	extremity
+81: ****************** espacilly
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('especially', [2, 95238]), ('especialy', [2, 20]), ('specially', [3, 4570]), ('scilly', [3, 465]), ('especial', [3, 108]), ('spatially', [3, 54]), ('desailly', [3, 52]), ('epically', [3, 45]), ('escamilla', [3, 31]), ('escamillo', [3, 25])]
+espacilly	especially	especialy	specially	scilly	especial
+82: ****************** becasuse
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('because', [1, 652844]), ('becasue', [1, 105]), ('becaue', [2, 27]), ('beacuse', [2, 21]), ('beause', [2, 21]), ('becase', [2, 18]), ('became', [3, 127979]), ('cause', [3, 93979]), ('measure', [3, 59671]), ('belarus', [3, 4834])]
+becasuse	because	becasue	becaue	beacuse	beause
+83: ****************** carrir
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('carrier', [1, 17958]), ('carrie', [1, 3783]), ('carrio', [1, 88]), ('carrer', [1, 48]), ('carri', [1, 28]), ('carril', [1, 27]), ('career', [2, 108330]), ('carried', [2, 63575]), ('carry', [2, 51802]), ('carter', [2, 21225])]
+carrir	carrier	carrie	carrio	carrer	carri
+84: ****************** actualy
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('actualy', [0, 35]), ('actually', [1, 91960]), ('actual', [1, 29663]), ('actuary', [1, 367]), ('factual', [2, 1737]), ('acutely', [2, 1564]), ('factually', [2, 381]), ('actuality', [2, 243]), ('actorly', [2, 53]), ('pactual', [2, 48])]
+actualy	actualy	actually	actual	actuary	factual
+85: ****************** calaberating
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('calibrating', [2, 114]), ('celebrating', [3, 11176]), ('collaborating', [3, 1959]), ('elaborating', [3, 1043]), ('deliberating', [3, 1003]), ('liberating', [3, 916]), ('lacerating', [3, 117]), ('cooperating', [4, 4442]), ('accelerating', [4, 3697]), ('calculating', [4, 2271])]
+calaberating	calibrating	celebrating	collaborating	elaborating	deliberating
+86: ****************** simpley
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('simply', [1, 76362]), ('simple', [1, 45074]), ('simpler', [1, 3160]), ('simplex', [1, 120]), ('simley', [1, 28]), ('simples', [1, 24]), ('samples', [2, 13913]), ('sample', [2, 11499]), ('imply', [2, 2596]), ('simplify', [2, 1635])]
+simpley	simply	simple	simpler	simplex	simley
+87: ****************** remanticism
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('romanticism', [1, 335]), ('romanticise', [2, 29]), ('romantics', [3, 336]), ('semantics', [3, 245]), ('relativism', [3, 229]), ('romanticised', [3, 81]), ('romanticize', [3, 59]), ('atlanticism', [3, 16])]
+remanticism	romanticism	romanticise	romantics	semantics	relativism
+88: ****************** pannel
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('panel', [1, 50644]), ('panned', [1, 988]), ('pannell', [1, 195]), ('dannel', [1, 18]), ('pannal', [1, 18]), ('panne', [1, 18]), ('planned', [2, 79710]), ('channel', [2, 42742]), ('banned', [2, 32657]), ('daniel', [2, 28818])]
+pannel	panel	panned	pannell	dannel	pannal
+89: ****************** diferrent
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('diferent', [1, 16]), ('different', [2, 149327]), ('deterrent', [2, 2936]), ('divergent', [2, 735]), ('deferment', [2, 142]), ('diffrent', [2, 18]), ('deferred', [3, 5609]), ('fervent', [3, 1273]), ('detergent', [3, 887]), ('deferring', [3, 734])]
+diferrent	diferent	different	deterrent	divergent	deferment
+90: ****************** reguire
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('require', [1, 43675]), ('required', [2, 64998]), ('regime', [2, 34336]), ('requires', [2, 27632]), ('retire', [2, 11422]), ('reggie', [2, 3038]), ('maguire', [2, 1996]), ('mcguire', [2, 1609]), ('gregoire', [2, 543]), ('rehire', [2, 223])]
+reguire	require	required	regime	requires	retire
+91: ****************** sucject
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('subject', [1, 58245]), ('suspect', [2, 42946]), ('subjects', [2, 12991]), ('suchet', [2, 141]), ('project', [3, 113450]), ('success', [3, 81991]), ('secret', [3, 46517]), ('suggest', [3, 42783]), ('suspects', [3, 34372]), ('succeed', [3, 16941])]
+sucject	subject	suspect	subjects	suchet	project
+92: ****************** diostract
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('distract', [1, 2583]), ('district', [2, 107832]), ('distracts', [2, 295]), ('contract', [3, 88971]), ('districts', [3, 14191]), ('distant', [3, 9105]), ('distinct', [3, 6071]), ('distracted', [3, 4321]), ('abstract', [3, 3708]), ('disgrace', [3, 2995])]
+diostract	distract	district	distracts	contract	districts
+93: ****************** tremeadous
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('tremendous', [1, 9016]), ('tremendously', [3, 1384]), ('tremulous', [3, 112]), ('tremadog', [3, 44]), ('freedoms', [4, 4201]), ('meadows', [4, 2975]), ('remedies', [4, 2866]), ('tremors', [4, 1299]), ('demeanour', [4, 733]), ('treehouse', [4, 358])]
+tremeadous	tremendous	tremendously	tremulous	tremadog	freedoms
+94: ****************** dirive
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('drive', [1, 82834]), ('derive', [1, 1129]), ('dirie', [1, 135]), ('idrive', [1, 104]), ('driver', [2, 57042]), ('driven', [2, 33243]), ('drove', [2, 31640]), ('arrive', [2, 19829]), ('drives', [2, 11849]), ('divide', [2, 9474])]
+dirive	drive	derive	dirie	idrive	driver
+95: ****************** tecnologies
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('technologies', [1, 29028]), ('ecologies', [2, 17]), ('technologie', [2, 16]), ('technologists', [3, 315]), ('technologist', [3, 236]), ('ecologie', [3, 32]), ('technologizer', [3, 18])]
+tecnologies	technologies	ecologies	technologie	technologists	technologist
+96: ****************** desappear
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('disappear', [1, 6647]), ('disappears', [2, 1426]), ('reappear', [2, 760]), ('re-appear', [2, 40]), ('appear', [3, 67670]), ('disappeared', [3, 17300]), ('dapper', [3, 552]), ('sapper', [3, 266]), ('reappears', [3, 156])]
+desappear	disappear	disappears	reappear	re-appear	appear
+97: ****************** genarally
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('generally', [1, 38262]), ('centrally', [2, 1114]), ('genially', [2, 65]), ('general', [3, 222018]), ('mentally', [3, 7956]), ('generals', [3, 6885]), ('federally', [3, 3317]), ('generale', [3, 1962]), ('generically', [3, 437]), ('generali', [3, 224])]
+genarally	generally	centrally	genially	general	mentally
+98: ****************** profesor
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('professor', [1, 64476]), ('professors', [2, 4705]), ('processor', [2, 3310]), ('profess', [2, 505]), ('protestor', [2, 207]), ('prosor', [2, 125]), ('proceso', [2, 16]), ('process', [3, 123965]), ('protests', [3, 44601]), ('protest', [3, 41707])]
+profesor	professor	professors	processor	profess	protestor
+99: ****************** abandant
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('abundant', [1, 2828]), ('abandon', [2, 10465]), ('abandons', [2, 433]), ('bandana', [2, 176]), ('abadan', [2, 37]), ('abandoned', [3, 21286]), ('amanda', [3, 5952]), ('attendant', [3, 3537]), ('adamant', [3, 3194]), ('banana', [3, 3149])]
+abandant	abundant	abandon	abandons	bandana	abadan
+100: ****************** greatt
+Corrections using Damerau_Levenshtein distance :
+TOP 10 best candidates : [('great', [1, 193270]), ('greats', [1, 1641]), ('great-', [1, 33]), ('create', [2, 83270]), ('greater', [2, 71068]), ('grant', [2, 32150]), ('greatest', [2, 30657]), ('treaty', [2, 28231]), ('treat', [2, 25050]), ('breast', [2, 22325])]
+greatt	great	greats	great-	create	greater
+
+Total Time:
+1529.7534489631653

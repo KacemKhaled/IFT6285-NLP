@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#Jaro_Winkler Levenshtein Jaccard Cosine Hamming LCSS Needleman_Wunsch Soundex
+#Jaro_Winkler Levenshtein Jaccard Cosine Hamming LCSS Damerau_Levenshtein Needleman_Wunsch Soundex
 
-for DISTANCE in Jaro_Winkler Levenshtein Jaccard Cosine Hamming LCSS Needleman_Wunsch Soundex
+for DISTANCE in Jaro_Winkler Levenshtein Jaccard Cosine Hamming LCSS Damerau_Levenshtein Needleman_Wunsch Soundex
 do
   for ORDER in distance unigram comb_d_u comb_u_d
   do
