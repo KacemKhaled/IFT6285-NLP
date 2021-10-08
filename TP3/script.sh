@@ -15,5 +15,5 @@ do
     python eval.py -f $OUTFILENAME -r devoir3-train.txt -e by_order
   done
 done
-
+python plots.py
 

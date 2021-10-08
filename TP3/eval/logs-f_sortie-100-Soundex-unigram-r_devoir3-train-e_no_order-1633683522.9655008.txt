@@ -1,5 +1,0 @@
-file_to_evaluate: out/sortie-100-Soundex-unigram.txt
-reference file: devoir3-train.txt
-evaluation_measure:no_order
-score is = 31.00 %
-31.0

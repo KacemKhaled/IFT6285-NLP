@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Needleman_Wunsch-comb_u_d.txt
+reference file: devoir3-train.txt
+evaluation_measure:by_order
+score is = 49.40 %
+49.4

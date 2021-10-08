@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Levenshtein-comb_d_u.txt
+reference file: devoir3-train.txt
+evaluation_measure:no_order
+score is = 83.00 %
+83.0

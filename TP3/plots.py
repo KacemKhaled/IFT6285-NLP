@@ -13,7 +13,6 @@ def read_times(logs_folder):
             with open(logs_folder+fn, 'r', encoding="utf8") as f:
                 lines = f.readlines()
                 specs = fn.split('-')
-                print(specs)
                 if "Total Time:" in lines[-2]:
                     print(fn)
                     time = float(lines[-1])
@@ -33,7 +32,6 @@ def read_evals(logs_folder): # Time or score
             with open(logs_folder+fn, 'r', encoding="utf8") as f:
                 lines = f.readlines()
                 specs = fn.split('-')
-                print(specs)
                 if "score" in lines[-2]:
                     print(fn)
                     score = float(lines[-1])

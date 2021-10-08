@@ -1,3 +1,0 @@
-file_to_evaluate: out/sortie-100-Jaro_Winkler-comb_u_d.txt
-reference file: devoir3-train.txt
-evaluation_measure:by_order

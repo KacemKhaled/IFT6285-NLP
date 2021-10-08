@@ -1,0 +1,406 @@
+['Hamming']
+comb_u_d
+Correcting 100 words
+1: ****************** reccodmission
+Corrections using Hamming distance :
+TOP 10 best candidates : [('renegotiation', [7, 523]), ('decompression', [6, 322]), ('zero-emission', [5, 305]), ('recrimination', [7, 295]), ('self-delusion', [7, 180]), ('noncommissioned', [6, 162]), ('zero-emissions', [6, 105]), ('recalibration', [7, 93]), ('recombination', [7, 60]), ('dispossession', [7, 54])]
+reccodmission	renegotiation	decompression	zero-emission	recrimination	self-delusion
+2: ****************** unpair
+Corrections using Hamming distance :
+TOP 10 best candidates : [('affair', [3, 22160]), ('repair', [2, 17940]), ('unfair', [1, 13294]), ('repairs', [3, 8441]), ('unpaid', [1, 6260]), ('unveil', [3, 5356]), ('unfairly', [3, 5061]), ('repaid', [3, 4691]), ('unsafe', [3, 4259]), ('uneasy', [3, 3263])]
+unpair	affair	repair	unfair	repairs	unpaid
+3: ****************** oconomic
+Corrections using Hamming distance :
+TOP 10 best candidates : [('economic', [1, 253089]), ('economy', [3, 227089]), ('economies', [3, 24906]), ('economist', [3, 23667]), ('economics', [2, 19320]), ('economical', [3, 1713]), ('economise', [3, 105]), ('economize', [3, 83]), ('zoonotic', [3, 65]), ('econetic', [3, 51])]
+oconomic	economic	economy	economies	economist	economics
+4: ****************** accidnts
+Corrections using Hamming distance :
+TOP 10 best candidates : [('action', [4, 130866]), ('patients', [4, 106436]), ('account', [3, 67176]), ('activity', [4, 55559]), ('accounts', [2, 46572]), ('actions', [4, 42577]), ('accident', [3, 42092]), ('ancient', [3, 19457]), ('accurate', [4, 13614]), ('accidents', [4, 11385])]
+accidnts	action	patients	account	activity	accounts
+5: ****************** succes
+Corrections using Hamming distance :
+TOP 10 best candidates : [('success', [1, 81991]), ('succeed', [2, 16941]), ('soccer', [2, 15281]), ('spaces', [2, 8804]), ('suites', [2, 3788]), ('ounces', [2, 3430]), ('slices', [2, 2397]), ('sucked', [2, 2063]), ('surges', [2, 1452]), ('spices', [2, 1413])]
+succes	success	succeed	soccer	spaces	suites
+6: ****************** enthousiastic
+Corrections using Hamming distance :
+TOP 10 best candidates : [('without', [9, 265171]), ('although', [9, 184617]), ('entertainment', [9, 41145]), ('anthony', [9, 25925]), ('indonesia', [9, 19886]), ('enterprise', [9, 19504]), ('methods', [9, 16710]), ('authors', [9, 14640]), ('enthusiasm', [9, 10634]), ('anxious', [9, 8931])]
+enthousiastic	without	although	entertainment	anthony	indonesia
+7: ****************** produse
+Corrections using Hamming distance :
+TOP 10 best candidates : [('provide', [3, 134668]), ('process', [3, 123965]), ('products', [3, 116826]), ('product', [2, 70402]), ('proposed', [3, 65516]), ('produced', [2, 52312]), ('produce', [1, 50454]), ('profile', [3, 44344]), ('protest', [3, 41707]), ('promised', [3, 41538])]
+produse	provide	process	products	product	proposed
+8: ****************** tecnologycal
+Corrections using Hamming distance :
+TOP 10 best candidates : [('neurological', [4, 2500]), ('pathological', [5, 683]), ('radiological', [5, 646]), ('sociological', [4, 422]), ('mythological', [5, 313]), ('genealogical', [5, 248]), ('astrological', [5, 153]), ('scatological', [5, 106]), ('cosmological', [5, 103]), ('hydrological', [5, 72])]
+tecnologycal	neurological	pathological	radiological	sociological	mythological
+9: ****************** upto
+Corrections using Hamming distance :
+TOP 10 best candidates : [('into', [2, 969249]), ('upi', [2, 143940]), ('upon', [2, 45559]), ('nato', [2, 44688]), ('onto', [2, 40832]), ('auto', [2, 35976]), ('veto', [2, 9326]), ('opt', [2, 6960]), ('ups', [2, 4387]), ('upton', [1, 3178])]
+upto	into	upi	upon	nato	onto
+10: ****************** poisioning
+Corrections using Hamming distance :
+TOP 10 best candidates : [('continuing', [5, 41923]), ('pension', [5, 32326]), ('monitoring', [5, 21120]), ('consulting', [5, 16208]), ('portion', [5, 16066]), ('containing', [5, 15232]), ('passion', [5, 13655]), ('publishing', [5, 13526]), ('pensions', [5, 12774]), ('concerning', [5, 8679])]
+poisioning	continuing	pension	monitoring	consulting	portion
+11: ****************** competitiors
+Corrections using Hamming distance :
+TOP 10 best candidates : [('competition', [2, 72728]), ('competitive', [3, 30332]), ('competitions', [1, 5402]), ('compositions', [3, 1104]), ('computations', [3, 84]), ('competizione', [3, 18])]
+competitiors	competition	competitive	competitions	compositions	computations
+12: ****************** riks
+Corrections using Hamming distance :
+TOP 10 best candidates : [('with', [3, 4671305]), ('his', [3, 3048518]), ('will', [3, 2187657]), ('this', [3, 2175742]), ('first', [3, 1033443]), ('time', [3, 851131]), ('like', [2, 653907]), ('him', [3, 638864]), ('says', [3, 490545]), ('make', [3, 489593])]
+riks	with	his	will	this	first
+13: ****************** definations
+Corrections using Hamming distance :
+TOP 10 best candidates : [('definition', [2, 10326]), ('nominations', [3, 8763]), ('medications', [3, 7955]), ('dedication', [3, 3975]), ('domination', [3, 2589]), ('delegations', [3, 2055]), ('defamation', [3, 2002]), ('decorations', [3, 1732]), ('definitions', [1, 1298]), ('detonation', [3, 581])]
+definations	definition	nominations	medications	dedication	domination
+14: ****************** vivd
+Corrections using Hamming distance :
+TOP 10 best candidates : [('with', [3, 4671305]), ('said', [3, 4306425]), ('his', [3, 3048518]), ('have', [3, 3012093]), ('will', [3, 2187657]), ('time', [3, 851131]), ('like', [3, 653907]), ('him', [3, 638864]), ('told', [3, 495022]), ('city', [3, 438721])]
+vivd	with	said	his	have	will
+15: ****************** tradind
+Corrections using Hamming distance :
+TOP 10 best candidates : [('leading', [3, 145072]), ('trade', [3, 126459]), ('trading', [1, 94146]), ('reading', [3, 49333]), ('heading', [3, 29287]), ('trained', [3, 21442]), ('drawing', [3, 21194]), ('traded', [3, 20597]), ('traders', [3, 18209]), ('trapped', [3, 16228])]
+tradind	leading	trade	trading	reading	heading
+16: ****************** materail
+Corrections using Hamming distance :
+TOP 10 best candidates : [('later', [4, 269899]), ('water', [4, 164661]), ('natural', [4, 72473]), ('material', [2, 42907]), ('internal', [4, 34714]), ('maintain', [4, 33559]), ('baseball', [4, 33239]), ('veteran', [4, 31337]), ('maker', [4, 31267]), ('camera', [4, 29587])]
+materail	later	water	natural	material	internal
+17: ****************** useig
+Corrections using Hamming distance :
+TOP 10 best candidates : [('the', [4, 41223601]), ('are', [4, 2831102]), ('they', [4, 2242804]), ('their', [3, 1953337]), ('been', [4, 1744807]), ('one', [4, 1461202]), ('when', [4, 1295835]), ('she', [4, 1173359]), ('there', [4, 1167647]), ('over', [4, 1018636])]
+useig	the	are	they	their	been
+18: ****************** thoese
+Corrections using Hamming distance :
+TOP 10 best candidates : [('the', [4, 41223601]), ('that', [4, 6960157]), ('they', [4, 2242804]), ('this', [4, 2175742]), ('who', [4, 2108824]), ('their', [4, 1953337]), ('than', [4, 1250163]), ('there', [4, 1167647]), ('two', [4, 1118241]), ('people', [4, 1099043])]
+thoese	the	that	they	this	who
+19: ****************** concludsion
+Corrections using Hamming distance :
+TOP 10 best candidates : [('concerns', [6, 88962]), ('competition', [6, 72728]), ('congressional', [6, 41898]), ('corporation', [6, 36639]), ('concluded', [4, 25389]), ('combination', [6, 25076]), ('cooperation', [6, 24211]), ('consumption', [5, 21403]), ('conclusion', [5, 14539]), ('congressman', [6, 9262])]
+concludsion	concerns	competition	congressional	corporation	concluded
+20: ****************** controll
+Corrections using Hamming distance :
+TOP 10 best candidates : [('control', [1, 160347]), ('controlled', [2, 23715]), ('controls', [1, 22306]), ('controller', [2, 5417]), ('cottrell', [2, 287]), ('cantrell', [2, 271]), ('controled', [2, 44]), ('controll', [0, 26]), ('controlee', [2, 23]), ('cottrill', [2, 18])]
+controll	control	controlled	controls	controller	cottrell
+21: ****************** thise
+Corrections using Hamming distance :
+TOP 10 best candidates : [('the', [3, 41223601]), ('that', [3, 6960157]), ('they', [3, 2242804]), ('this', [1, 2175742]), ('their', [3, 1953337]), ('which', [3, 1662661]), ('than', [3, 1250163]), ('there', [2, 1167647]), ('them', [3, 739516]), ('three', [2, 630715])]
+thise	the	that	they	this	their
+22: ****************** banefit
+Corrections using Hamming distance :
+TOP 10 best candidates : [('benefits', [2, 70518]), ('benefit', [1, 56481]), ('benefited', [3, 9141]), ('banquet', [3, 1973]), ('bluefin', [3, 1686]), ('sanofi', [3, 768]), ('bane', [3, 396]), ('banff', [3, 302]), ('banality', [3, 297]), ('kanepi', [3, 282])]
+banefit	benefits	benefit	benefited	banquet	bluefin
+23: ****************** fatct
+Corrections using Hamming distance :
+TOP 10 best candidates : [('for', [4, 6763830]), ('was', [4, 4696797]), ('with', [4, 4671305]), ('said', [4, 4306425]), ('from', [4, 3270570]), ('have', [4, 3012093]), ('has', [4, 3001796]), ('but', [4, 2773554]), ('not', [4, 2310462]), ('had', [4, 1990115])]
+fatct	for	was	with	said	from
+24: ****************** condamnation
+Corrections using Hamming distance :
+TOP 10 best candidates : [('condemnation', [1, 4690]), ('condensation', [3, 422]), ('consummation', [3, 381]), ('condemnations', [2, 282])]
+condamnation	condemnation	condensation	consummation	condemnations
+25: ****************** forula
+Corrections using Hamming distance :
+TOP 10 best candidates : [('for', [3, 6763830]), ('more', [4, 1729941]), ('first', [4, 1033443]), ('world', [4, 663896]), ('should', [4, 458188]), ('work', [4, 410152]), ('former', [3, 389414]), ('four', [4, 382015]), ('found', [4, 370657]), ('york', [4, 365138])]
+forula	for	more	first	world	should
+26: ****************** thingh
+Corrections using Hamming distance :
+TOP 10 best candidates : [('this', [3, 2175742]), ('than', [3, 1250163]), ('being', [3, 579175]), ('then', [3, 490001]), ('going', [3, 317959]), ('think', [2, 303839]), ('china', [3, 273798]), ('third', [3, 242438]), ('change', [3, 222433]), ('though', [2, 219883])]
+thingh	this	than	being	then	going
+27: ****************** migth
+Corrections using Hamming distance :
+TOP 10 best candidates : [('most', [3, 688710]), ('months', [3, 329215]), ('month', [2, 327414]), ('high', [3, 300791]), ('south', [3, 297726]), ('right', [3, 284152]), ('night', [3, 270053]), ('might', [2, 264441]), ('north', [3, 262807]), ('big', [3, 260350])]
+migth	most	months	month	high	south
+28: ****************** healtheir
+Corrections using Hamming distance :
+TOP 10 best candidates : [('health', [3, 345821]), ('healthcare', [3, 44792]), ('healthy', [3, 37550]), ('wealth', [4, 26608]), ('wealthy', [4, 19026]), ('healthier', [2, 5961]), ('apartheid', [4, 3449]), ('wealthier', [3, 1901]), ('heartbeat', [4, 1789]), ('heartfelt', [4, 1740])]
+healtheir	health	healthcare	healthy	wealth	wealthy
+29: ****************** everythingfor
+Corrections using Hamming distance :
+TOP 10 best candidates : [('everything', [3, 80664]), ('everywhere', [7, 15302]), ('overseeing', [7, 6954]), ('exercising', [7, 3264]), ('overcoming', [7, 2532]), ('overriding', [7, 1468]), ('overtaking', [7, 1433]), ('ever-changing', [6, 627]), ('everytime', [7, 411]), ('overeating', [7, 395])]
+everythingfor	everything	everywhere	overseeing	exercising	overcoming
+30: ****************** beleif
+Corrections using Hamming distance :
+TOP 10 best candidates : [('were', [4, 1856428]), ('been', [4, 1744807]), ('before', [4, 666773]), ('being', [4, 579175]), ('well', [4, 417982]), ('billion', [4, 358486]), ('help', [4, 338718]), ('best', [4, 263754]), ('here', [4, 250995]), ('never', [4, 239430])]
+beleif	were	been	before	being	well
+31: ****************** resourses
+Corrections using Hamming distance :
+TOP 10 best candidates : [('resources', [1, 56432]), ('resource', [2, 11414]), ('responses', [3, 8935]), ('recourse', [2, 1208]), ('resonates', [3, 957]), ('resourced', [2, 301]), ('renounces', [3, 153]), ('resounded', [3, 150]), ('rehearses', [3, 97]), ('refocuses', [3, 56])]
+resourses	resources	resource	responses	recourse	resonates
+32: ****************** advantanges
+Corrections using Hamming distance :
+TOP 10 best candidates : [('advantage', [4, 52286]), ('atlanta', [6, 37890]), ('advanced', [6, 37771]), ('advance', [6, 34581]), ('assistance', [6, 32537]), ('appearances', [6, 16165]), ('attendance', [6, 10138]), ('adventure', [6, 9751]), ('acceptance', [6, 8877]), ('advances', [6, 8615])]
+advantanges	advantage	atlanta	advanced	advance	assistance
+33: ****************** diguise
+Corrections using Hamming distance :
+TOP 10 best candidates : [('despite', [4, 172457]), ('rights', [4, 152510]), ('biggest', [4, 131945]), ('defense', [4, 107770]), ('figures', [4, 95878]), ('disease', [3, 77275]), ('figure', [4, 68313]), ('english', [4, 63995]), ('highest', [4, 60044]), ('decline', [4, 58177])]
+diguise	despite	rights	biggest	defense	figures
+34: ****************** additionly
+Corrections using Hamming distance :
+TOP 10 best candidates : [('additional', [2, 79878]), ('addition', [2, 66873]), ('ambitions', [4, 11534]), ('adoption', [4, 10979]), ('ambition', [4, 8204]), ('additionally', [4, 6441]), ('admittedly', [4, 3112]), ('additions', [2, 2932]), ('audition', [3, 2434]), ('adoptions', [4, 1547])]
+additionly	additional	addition	ambitions	adoption	ambition
+35: ****************** opportunnity
+Corrections using Hamming distance :
+TOP 10 best candidates : [('opportunity', [4, 68288]), ('opportunities', [5, 35367]), ('opportunistic', [4, 1430]), ('opportunist', [3, 514]), ('opportunism', [4, 471]), ('opportune', [4, 348]), ('opportunists', [3, 282]), ('apportioning', [5, 116]), ('opportunites', [4, 34]), ('oppurtunity', [5, 23])]
+opportunnity	opportunity	opportunities	opportunistic	opportunist	opportunism
+36: ****************** urself
+Corrections using Hamming distance :
+TOP 10 best candidates : [('under', [4, 443716]), ('case', [4, 259406]), ('until', [4, 256446]), ('likely', [4, 208998]), ('free', [4, 173150]), ('based', [4, 154290]), ('rose', [4, 136457]), ('level', [4, 124629]), ('order', [4, 123934]), ('result', [4, 120568])]
+urself	under	case	until	likely	free
+37: ****************** rebelion
+Corrections using Hamming distance :
+TOP 10 best candidates : [('decision', [4, 174848]), ('relations', [4, 60091]), ('rebels', [3, 33932]), ('robinson', [4, 27971]), ('trillion', [4, 26320]), ('reaction', [3, 26114]), ('religion', [3, 21544]), ('rebel', [3, 19987]), ('petition', [4, 11063]), ('peterson', [4, 10543])]
+rebelion	decision	relations	rebels	robinson	trillion
+38: ****************** chioce
+Corrections using Hamming distance :
+TOP 10 best candidates : [('this', [4, 2175742]), ('which', [4, 1662661]), ('before', [4, 666773]), ('while', [4, 625393]), ('police', [4, 585150]), ('think', [4, 303839]), ('china', [3, 273798]), ('chief', [3, 257372]), ('office', [4, 256288]), ('third', [4, 242438])]
+chioce	this	which	before	while	police
+39: ****************** consdiered
+Corrections using Hamming distance :
+TOP 10 best candidates : [('consumer', [4, 86377]), ('consumers', [4, 79407]), ('considered', [2, 75819]), ('consider', [4, 64035]), ('considering', [5, 43006]), ('controlled', [5, 23715]), ('conspiracy', [5, 21213]), ('classified', [5, 9973]), ('considers', [4, 9793]), ('contracted', [5, 8855])]
+consdiered	consumer	consumers	considered	consider	considering
+40: ****************** travals
+Corrections using Hamming distance :
+TOP 10 best candidates : [('travel', [2, 88020]), ('tribal', [3, 23003]), ('traders', [3, 18209]), ('traveled', [3, 13247]), ('travels', [1, 6830]), ('trojans', [3, 4870]), ('travis', [3, 4295]), ('traveler', [3, 3029]), ('gravel', [3, 2314]), ('travolta', [3, 1705])]
+travals	travel	tribal	traders	traveled	travels
+41: ****************** inturn
+Corrections using Hamming distance :
+TOP 10 best candidates : [('into', [3, 969249]), ('future', [3, 178912]), ('return', [2, 164885]), ('internet', [3, 118543]), ('injured', [3, 72515]), ('injury', [2, 67790]), ('ensure', [3, 60700]), ('indian', [3, 57355]), ('entire', [3, 55031]), ('nature', [3, 45996])]
+inturn	into	future	return	internet	injured
+42: ****************** inly
+Corrections using Hamming distance :
+TOP 10 best candidates : [('and', [3, 16149834]), ('they', [3, 2242804]), ('will', [3, 2187657]), ('its', [3, 1635951]), ('one', [3, 1461202]), ('all', [3, 1097198]), ('into', [2, 969249]), ('only', [1, 721447]), ('many', [3, 619785]), ('any', [3, 532764])]
+inly	and	they	will	its	one
+43: ****************** everydays
+Corrections using Hamming distance :
+TOP 10 best candidates : [('every', [4, 238886]), ('everyone', [4, 86474]), ('everybody', [4, 23564]), ('everyday', [1, 10203]), ('thursdays', [4, 850]), ('everyman', [3, 674]), ('overheads', [4, 593]), ('everytime', [4, 411]), ('entryway', [4, 276]), ('overcoats', [4, 141])]
+everydays	every	everyone	everybody	everyday	thursdays
+44: ****************** specilaized
+Corrections using Hamming distance :
+TOP 10 best candidates : [('specialized', [2, 4853]), ('specializes', [3, 4301]), ('specialises', [4, 2071]), ('specialised', [3, 1733]), ('specialize', [3, 1122]), ('specialise', [4, 663])]
+specilaized	specialized	specializes	specialises	specialised	specialize
+45: ****************** runned
+Corrections using Hamming distance :
+TOP 10 best candidates : [('run', [3, 215809]), ('running', [3, 118430]), ('wanted', [3, 116211]), ('turned', [2, 111849]), ('raised', [3, 90049]), ('runs', [3, 82490]), ('warned', [3, 80876]), ('range', [3, 79406]), ('opened', [3, 77366]), ('signed', [3, 73875])]
+runned	run	running	wanted	turned	raised
+46: ****************** allive
+Corrections using Hamming distance :
+TOP 10 best candidates : [('also', [4, 1223081]), ('all', [3, 1097198]), ('police', [3, 585150]), ('office', [4, 256288]), ('again', [4, 200028]), ('almost', [4, 175437]), ('along', [4, 165199]), ('policy', [4, 158217]), ('able', [4, 156468]), ('april', [4, 155690])]
+allive	also	all	police	office	again
+47: ****************** anylonger
+Corrections using Hamming distance :
+TOP 10 best candidates : [('announced', [5, 198518]), ('announce', [5, 26816]), ('passenger', [5, 25967]), ('anthony', [5, 25925]), ('anywhere', [5, 20067]), ('alexander', [5, 20007]), ('anybody', [5, 14342]), ('encounter', [5, 11518]), ('unchanged', [5, 10718]), ('anymore', [5, 10034])]
+anylonger	announced	announce	passenger	anthony	anywhere
+48: ****************** explantion
+Corrections using Hamming distance :
+TOP 10 best candidates : [('opposition', [5, 105452]), ('population', [5, 71143]), ('collection', [5, 40854]), ('convention', [5, 33128]), ('explain', [5, 31073]), ('reputation', [5, 30267]), ('explained', [5, 26515]), ('exhibition', [4, 23818]), ('prevention', [5, 18950]), ('explains', [5, 14207])]
+explantion	opposition	population	collection	convention	explain
+49: ****************** insearch
+Corrections using Hamming distance :
+TOP 10 best candidates : [('research', [2, 201240]), ('instance', [3, 25307]), ('inspired', [4, 22138]), ('researcher', [4, 12423]), ('instant', [4, 10961]), ('install', [4, 9354]), ('inspire', [4, 6339]), ('instances', [4, 5577]), ('insects', [4, 4125]), ('interact', [4, 3882])]
+insearch	research	instance	inspired	researcher	instant
+50: ****************** advertisments
+Corrections using Hamming distance :
+TOP 10 best candidates : [('advertising', [5, 46362]), ('advertisers', [5, 7672]), ('advertised', [5, 4173]), ('advertisement', [5, 3878]), ('advertise', [5, 2651]), ('advertiser', [5, 1172]), ('advertises', [5, 531]), ('advertisment', [1, 30]), ('advertisments', [0, 18])]
+advertisments	advertising	advertisers	advertised	advertisement	advertise
+51: ****************** referencial
+Corrections using Hamming distance :
+TOP 10 best candidates : [('reference', [3, 17385]), ('references', [3, 6395]), ('referenced', [3, 1148]), ('referencing', [2, 726]), ('deferential', [2, 330]), ('reverential', [2, 188]), ('referential', [1, 30])]
+referencial	reference	references	referenced	referencing	deferential
+52: ****************** processure
+Corrections using Hamming distance :
+TOP 10 best candidates : [('process', [3, 123965]), ('professor', [3, 64476]), ('protesters', [4, 36281]), ('processing', [3, 13071]), ('processes', [3, 9535]), ('profession', [4, 7309]), ('processed', [3, 5649]), ('professors', [3, 4705]), ('procession', [3, 3826]), ('processor', [2, 3310])]
+processure	process	professor	protesters	processing	processes
+53: ****************** whis
+Corrections using Hamming distance :
+TOP 10 best candidates : [('the', [3, 41223601]), ('that', [3, 6960157]), ('was', [3, 4696797]), ('with', [3, 4671305]), ('said', [3, 4306425]), ('they', [3, 2242804]), ('will', [3, 2187657]), ('this', [1, 2175742]), ('who', [2, 2108824]), ('were', [3, 1856428])]
+whis	the	that	was	with	said
+54: ****************** populization
+Corrections using Hamming distance :
+TOP 10 best candidates : [('organization', [5, 65835]), ('complications', [5, 8079]), ('coordination', [5, 5113]), ('exploitation', [5, 4086]), ('amortization', [5, 3551]), ('modification', [5, 3526]), ('solicitation', [5, 3355]), ('notification', [5, 2623]), ('civilization', [4, 2201]), ('civilisation', [5, 1366])]
+populization	organization	complications	coordination	exploitation	amortization
+55: ****************** prodcut
+Corrections using Hamming distance :
+TOP 10 best candidates : [('program', [4, 184415]), ('problem', [4, 138465]), ('provide', [4, 134668]), ('process', [4, 123965]), ('products', [3, 116826]), ('project', [3, 113450]), ('brought', [4, 102976]), ('property', [4, 91023]), ('product', [2, 70402]), ('profit', [4, 68775])]
+prodcut	program	problem	provide	process	products
+56: ****************** beleived
+Corrections using Hamming distance :
+TOP 10 best candidates : [('received', [2, 132089]), ('believed', [2, 84783]), ('bereaved', [2, 1323]), ('deceived', [2, 1172]), ('beleive', [1, 243]), ('beleived', [0, 17]), ('beleives', [1, 17]), ('beseiged', [2, 16])]
+beleived	received	believed	bereaved	deceived	beleive
+57: ****************** backgrounging
+Corrections using Hamming distance :
+TOP 10 best candidates : [('background', [4, 21795]), ('backdrop', [7, 7023]), ('backgrounds', [4, 4764]), ('masterminding', [7, 1265]), ('backdating', [7, 611]), ('fairgrounds', [7, 599]), ('campground', [7, 586]), ('game-changing', [7, 544]), ('back-row', [7, 541]), ('hand-wringing', [7, 473])]
+backgrounging	background	backdrop	backgrounds	masterminding	backdating
+58: ****************** difinetly
+Corrections using Hamming distance :
+TOP 10 best candidates : [('defiantly', [3, 974]), ('definetly', [1, 31]), ('definitly', [2, 25]), ('defintely', [3, 17])]
+difinetly	defiantly	definetly	definitly	defintely
+59: ****************** addtion
+Corrections using Hamming distance :
+TOP 10 best candidates : [('million', [4, 669787]), ('billion', [4, 358486]), ('added', [4, 229343]), ('station', [3, 88552]), ('version', [4, 70726]), ('address', [4, 69627]), ('mission', [4, 60382]), ('adding', [4, 59969]), ('add', [4, 53695]), ('fashion', [4, 46512])]
+addtion	million	billion	added	station	version
+60: ****************** anyhting
+Corrections using Hamming distance :
+TOP 10 best candidates : [('anything', [2, 96936]), ('fighting', [3, 75667]), ('starting', [4, 74070]), ('shooting', [4, 57488]), ('allowing', [4, 47966]), ('existing', [4, 46645]), ('creating', [4, 38244]), ('visiting', [4, 31473]), ('entering', [4, 20876]), ('exciting', [4, 15254])]
+anyhting	anything	fighting	starting	shooting	allowing
+61: ****************** variatons
+Corrections using Hamming distance :
+TOP 10 best candidates : [('pakistan', [5, 120655]), ('christmas', [5, 55678]), ('various', [5, 51012]), ('marketing', [5, 46425]), ('decisions', [5, 44434]), ('pakistani', [5, 42286]), ('positions', [5, 33842]), ('sanctions', [5, 33723]), ('variety', [4, 30626]), ('directors', [5, 29940])]
+variatons	pakistan	christmas	various	marketing	decisions
+62: ****************** interfer
+Corrections using Hamming distance :
+TOP 10 best candidates : [('interest', [3, 153836]), ('internet', [2, 118543]), ('intended', [3, 37658]), ('internal', [3, 34714]), ('interior', [2, 27564]), ('intense', [3, 22853]), ('interim', [3, 17072]), ('intervene', [3, 6963]), ('inter', [3, 6729]), ('interfere', [1, 4381])]
+interfer	interest	internet	intended	internal	interior
+63: ****************** eloctronics
+Corrections using Hamming distance :
+TOP 10 best candidates : [('electronic', [2, 30483]), ('electronics', [1, 19254]), ('electronica', [2, 338]), ('flextronics', [3, 148]), ('plantronics', [3, 29]), ('plextronics', [3, 21])]
+eloctronics	electronic	electronics	electronica	flextronics	plantronics
+64: ****************** undestanded
+Corrections using Hamming distance :
+TOP 10 best candidates : [('undervalued', [4, 2084]), ('underpinned', [4, 1258]), ('underfunded', [3, 940]), ('undisturbed', [4, 532]), ('underhand', [4, 279]), ('undermanned', [3, 271]), ('underhanded', [2, 228]), ('underbanked', [3, 47]), ('uninstalled', [4, 31]), ('undescribed', [4, 23])]
+undestanded	undervalued	underpinned	underfunded	undisturbed	underhand
+65: ****************** easially
+Corrections using Hamming distance :
+TOP 10 best candidates : [('actually', [4, 91960]), ('easily', [4, 38854]), ('easier', [4, 31170]), ('entirely', [4, 26659]), ('normally', [4, 23249]), ('formally', [4, 16431]), ('racial', [4, 15327]), ('annually', [4, 15020]), ('sexually', [4, 13575]), ('easing', [4, 11754])]
+easially	actually	easily	easier	entirely	normally
+66: ****************** assestments
+Corrections using Hamming distance :
+TOP 10 best candidates : [('investments', [3, 35950]), ('assessment', [2, 23384]), ('assessments', [1, 5657]), ('adjustments', [3, 5397]), ('assignments', [3, 2636]), ('assortment', [3, 1638]), ('resentments', [3, 515]), ('divestments', [3, 218]), ('assortments', [2, 77])]
+assestments	investments	assessment	assessments	adjustments	assignments
+67: ****************** regared
+Corrections using Hamming distance :
+TOP 10 best candidates : [('reached', [3, 79617]), ('refused', [3, 55270]), ('related', [2, 54828]), ('reduced', [3, 44707]), ('removed', [3, 36748]), ('retired', [2, 36203]), ('regime', [3, 34336]), ('remarks', [3, 26525]), ('delayed', [3, 23058]), ('cleared', [3, 21518])]
+regared	reached	refused	related	reduced	removed
+68: ****************** knowlkedge
+Corrections using Hamming distance :
+TOP 10 best candidates : [('know', [6, 262929]), ('known', [6, 176141]), ('involved', [6, 115751]), ('knows', [6, 44470]), ('knowledge', [5, 32726]), ('knowing', [6, 18451]), ('answered', [6, 12490]), ('provoked', [6, 6051]), ('enrolled', [6, 5473]), ('engulfed', [6, 3060])]
+knowlkedge	know	known	involved	knows	knowledge
+69: ****************** successs
+Corrections using Hamming distance :
+TOP 10 best candidates : [('success', [1, 81991]), ('successful', [3, 59742]), ('suggests', [3, 40133]), ('succeed', [3, 16941]), ('successor', [2, 14734]), ('successive', [3, 10441]), ('succession', [3, 7671]), ('successes', [2, 5366]), ('succeeds', [2, 2984]), ('duchess', [3, 2552])]
+successs	success	successful	suggests	succeed	successor
+70: ****************** represant
+Corrections using Hamming distance :
+TOP 10 best candidates : [('represents', [2, 32225]), ('represent', [1, 25789]), ('represented', [3, 22515]), ('reprisals', [3, 1280]), ('reprimand', [3, 899]), ('repressed', [3, 773]), ('reprisal', [3, 765]), ('repugnant', [3, 476]), ('reprising', [3, 441]), ('repress', [3, 203])]
+represant	represents	represent	represented	reprisals	reprimand
+71: ****************** actractive
+Corrections using Hamming distance :
+TOP 10 best candidates : [('attractive', [1, 17581]), ('attraction', [3, 7569]), ('attracting', [3, 7104]), ('overactive', [3, 319]), ('attractively', [3, 291]), ('refractive', [3, 127]), ('extractive', [2, 112])]
+actractive	attractive	attraction	attracting	overactive	attractively
+72: ****************** nood
+Corrections using Hamming distance :
+TOP 10 best candidates : [('for', [3, 6763830]), ('said', [3, 4306425]), ('from', [3, 3270570]), ('not', [2, 2310462]), ('who', [3, 2108824]), ('more', [3, 1729941]), ('new', [3, 1488011]), ('you', [3, 1321122]), ('two', [3, 1118241]), ('some', [3, 946152])]
+nood	for	said	from	not	who
+73: ****************** focuss
+Corrections using Hamming distance :
+TOP 10 best candidates : [('forces', [3, 147796]), ('access', [3, 97469]), ('focus', [1, 81419]), ('faces', [3, 55922]), ('focused', [2, 41856]), ('forest', [3, 28163]), ('forms', [3, 22057]), ('bonus', [3, 20744]), ('forum', [3, 20723]), ('foods', [3, 20476])]
+focuss	forces	access	focus	faces	focused
+74: ****************** decreace
+Corrections using Hamming distance :
+TOP 10 best candidates : [('increase', [3, 159575]), ('decrease', [1, 15898]), ('decreased', [2, 11680]), ('decree', [3, 4388]), ('decreases', [2, 2304]), ('recreate', [2, 1703]), ('necklace', [3, 1621]), ('terrence', [3, 1434]), ('decorate', [3, 997]), ('decreed', [3, 822])]
+decreace	increase	decrease	decreased	decree	decreases
+75: ****************** magagine
+Corrections using Hamming distance :
+TOP 10 best candidates : [('magazine', [1, 47592]), ('managing', [2, 28351]), ('damaging', [3, 12815]), ('engaging', [3, 9130]), ('magazines', [2, 8807]), ('migraine', [3, 3217]), ('melamine', [3, 2879]), ('mainline', [3, 1099]), ('madeline', [3, 563]), ('ravaging', [3, 363])]
+magagine	magazine	managing	damaging	engaging	magazines
+76: ****************** knowedge
+Corrections using Hamming distance :
+TOP 10 best candidates : [('know', [4, 262929]), ('known', [4, 176141]), ('showed', [4, 120506]), ('knows', [4, 44470]), ('knowing', [3, 18451]), ('slowed', [4, 11053]), ('knowingly', [4, 2828]), ('snowe', [4, 2445]), ('flowed', [4, 2030]), ('know-how', [4, 1503])]
+knowedge	know	known	showed	knows	knowing
+77: ****************** relativley
+Corrections using Hamming distance :
+TOP 10 best candidates : [('relations', [4, 60091]), ('relatively', [2, 39165]), ('relatives', [3, 27652]), ('relative', [3, 20319]), ('relating', [4, 11725]), ('relation', [4, 7919]), ('negatively', [4, 2653]), ('negativity', [4, 874]), ('relativity', [2, 616]), ('relativism', [3, 229])]
+relativley	relations	relatively	relatives	relative	relating
+78: ****************** wheter
+Corrections using Hamming distance :
+TOP 10 best candidates : [('when', [3, 1295835]), ('there', [3, 1167647]), ('what', [3, 849283]), ('while', [3, 625393]), ('where', [2, 570946]), ('these', [3, 414456]), ('whether', [3, 251914]), ('white', [2, 234713]), ('better', [3, 220640]), ('center', [3, 175352])]
+wheter	when	there	what	while	where
+79: ****************** convience
+Corrections using Hamming distance :
+TOP 10 best candidates : [('committee', [5, 147322]), ('continue', [5, 132544]), ('congress', [5, 125271]), ('concerns', [5, 88962]), ('continued', [5, 82250]), ('candidate', [5, 81050]), ('confirmed', [5, 76767]), ('considered', [5, 75819]), ('challenge', [5, 72480]), ('condition', [5, 69324])]
+convience	committee	continue	congress	concerns	continued
+80: ****************** extremly
+Corrections using Hamming distance :
+TOP 10 best candidates : [('extremely', [3, 33126]), ('extreme', [2, 21892]), ('extremist', [3, 7559]), ('extremism', [3, 5605]), ('extremes', [2, 1897]), ('extremity', [3, 198]), ('extremis', [2, 155]), ('estrella', [3, 133]), ('entreaty', [3, 49]), ('extremly', [0, 18])]
+extremly	extremely	extreme	extremist	extremism	extremes
+81: ****************** espacilly
+Corrections using Hamming distance :
+TOP 10 best candidates : [('especially', [4, 95238]), ('typically', [4, 27849]), ('ethically', [4, 867]), ('espanyol', [4, 607]), ('espanol', [4, 294]), ('especial', [3, 108]), ('espace', [4, 107]), ('topically', [4, 61]), ('espanola', [4, 56]), ('escamilla', [3, 31])]
+espacilly	especially	typically	ethically	espanyol	espanol
+82: ****************** becasuse
+Corrections using Hamming distance :
+TOP 10 best candidates : [('because', [4, 652844]), ('became', [4, 127979]), ('decades', [4, 70044]), ('becomes', [4, 28619]), ('decrease', [4, 15898]), ('lebanese', [4, 11144]), ('recalls', [4, 10870]), ('pleasure', [4, 9458]), ('decisive', [4, 9118]), ('reassure', [4, 6176])]
+becasuse	because	became	decades	becomes	decrease
+83: ****************** carrir
+Corrections using Hamming distance :
+TOP 10 best candidates : [('care', [3, 212106]), ('car', [3, 199795]), ('career', [2, 108330]), ('cancer', [3, 99474]), ('cars', [3, 83647]), ('carried', [2, 63575]), ('martin', [3, 62655]), ('card', [3, 57208]), ('carry', [2, 51802]), ('carbon', [3, 46575])]
+carrir	care	car	career	cancer	cars
+84: ****************** actualy
+Corrections using Hamming distance :
+TOP 10 best candidates : [('actually', [2, 91960]), ('actual', [1, 29663]), ('actuary', [1, 367]), ('actorly', [2, 53]), ('actualy', [0, 35]), ('acteal', [2, 21])]
+actualy	actually	actual	actuary	actorly	actualy
+85: ****************** calaberating
+Corrections using Hamming distance :
+TOP 10 best candidates : [('accelerating', [5, 3697]), ('exaggerating', [5, 1040]), ('deliberating', [3, 1003]), ('deliberation', [5, 979]), ('illustrating', [5, 921]), ('co-operating', [4, 901]), ('recuperating', [5, 638]), ('masquerading', [5, 625]), ('deleveraging', [5, 605]), ('exasperating', [5, 299])]
+calaberating	accelerating	exaggerating	deliberating	deliberation	illustrating
+86: ****************** simpley
+Corrections using Hamming distance :
+TOP 10 best candidates : [('similar', [3, 105616]), ('single', [3, 101844]), ('simply', [2, 76362]), ('complex', [3, 47036]), ('simple', [1, 45074]), ('display', [3, 33804]), ('stanley', [3, 25153]), ('simpson', [3, 15002]), ('samples', [2, 13913]), ('singles', [3, 12593])]
+simpley	similar	single	simply	complex	simple
+87: ****************** remanticism
+Corrections using Hamming distance :
+TOP 10 best candidates : [('romanticism', [1, 335]), ('romanticised', [3, 81]), ('romanticize', [3, 59]), ('romanticise', [2, 29]), ('atlanticism', [3, 16])]
+remanticism	romanticism	romanticised	romanticize	romanticise	atlanticism
+88: ****************** pannel
+Corrections using Hamming distance :
+TOP 10 best candidates : [('wanted', [3, 116211]), ('cancer', [3, 99474]), ('phone', [3, 96203]), ('cannot', [3, 85589]), ('warned', [3, 80876]), ('range', [3, 79406]), ('passed', [3, 69718]), ('winner', [3, 59860]), ('plane', [3, 54970]), ('panel', [3, 50644])]
+pannel	wanted	cancer	phone	cannot	warned
+89: ****************** diferrent
+Corrections using Hamming distance :
+TOP 10 best candidates : [('different', [2, 149327]), ('difference', [4, 43545]), ('referring', [4, 21194]), ('referred', [4, 18961]), ('diverse', [4, 12204]), ('dependent', [4, 10018]), ('defendant', [4, 9593]), ('differently', [4, 8380]), ('underwent', [4, 7257]), ('deferred', [3, 5609])]
+diferrent	different	difference	referring	referred	diverse
+90: ****************** reguire
+Corrections using Hamming distance :
+TOP 10 best candidates : [('receive', [3, 65008]), ('required', [2, 64998]), ('regular', [3, 50409]), ('require', [1, 43675]), ('requires', [2, 27632]), ('restore', [3, 20109]), ('repair', [3, 17940]), ('realize', [3, 15557]), ('genuine', [3, 12059]), ('acquire', [3, 11772])]
+reguire	receive	required	regular	require	requires
+91: ****************** sucject
+Corrections using Hamming distance :
+TOP 10 best candidates : [('project', [3, 113450]), ('success', [3, 81991]), ('subject', [1, 58245]), ('suspect', [2, 42946]), ('suggest', [3, 42783]), ('suspects', [3, 34372]), ('succeed', [3, 16941]), ('subjects', [2, 12991]), ('subjected', [3, 7169]), ('secrecy', [3, 5673])]
+sucject	project	success	subject	suspect	suggest
+92: ****************** diostract
+Corrections using Hamming distance :
+TOP 10 best candidates : [('different', [5, 149327]), ('democracy', [5, 36983]), ('diplomacy', [5, 8392]), ('dissident', [5, 4926]), ('construct', [4, 3504]), ('airstrike', [5, 2627]), ('disarray', [5, 2440]), ('disparate', [5, 2076]), ('sinatra', [5, 1918]), ('firsthand', [5, 1884])]
+diostract	different	democracy	diplomacy	dissident	construct
+93: ****************** tremeadous
+Corrections using Hamming distance :
+TOP 10 best candidates : [('tremendous', [1, 9016]), ('tremendously', [3, 1384]), ('troubadour', [4, 260]), ('treasonous', [4, 156])]
+tremeadous	tremendous	tremendously	troubadour	treasonous
+94: ****************** dirive
+Corrections using Hamming distance :
+TOP 10 best candidates : [('during', [3, 477570]), ('strike', [3, 65513]), ('arrived', [3, 61941]), ('direct', [3, 50054]), ('decide', [3, 44011]), ('deliver', [3, 38417]), ('active', [3, 35043]), ('device', [3, 34530]), ('marine', [3, 28873]), ('native', [3, 25908])]
+dirive	during	strike	arrived	direct	decide
+95: ****************** tecnologies
+Corrections using Hamming distance :
+TOP 10 best candidates : [('territories', [5, 6958]), ('accessories', [6, 5499]), ('secretaries', [6, 2781]), ('neurological', [6, 2500]), ('pathologist', [6, 1755]), ('sociology', [6, 1519]), ('necessities', [6, 1477]), ('neurology', [6, 1456]), ('signatories', [6, 1234]), ('neurologist', [5, 1121])]
+tecnologies	territories	accessories	secretaries	neurological	pathologist
+96: ****************** desappear
+Corrections using Hamming distance :
+TOP 10 best candidates : [('disappeared', [3, 17300]), ('disappear', [1, 6647]), ('disappears', [2, 1426]), ('re-appear', [2, 40])]
+desappear	disappeared	disappear	disappears	re-appear
+97: ****************** genarally
+Corrections using Hamming distance :
+TOP 10 best candidates : [('general', [3, 222018]), ('generally', [1, 38262]), ('generals', [3, 6885]), ('federally', [3, 3317]), ('generale', [3, 1962]), ('centrally', [2, 1114]), ('generali', [3, 224]), ('neutrally', [3, 46]), ('severally', [3, 43]), ('minerally', [3, 40])]
+genarally	general	generally	generals	federally	generale
+98: ****************** profesor
+Corrections using Hamming distance :
+TOP 10 best candidates : [('prices', [4, 203889]), ('process', [3, 123965]), ('project', [4, 113450]), ('property', [4, 91023]), ('profit', [4, 68775]), ('proposed', [4, 65516]), ('professor', [3, 64476]), ('protect', [4, 64115]), ('projects', [4, 61883]), ('proposal', [4, 53189])]
+profesor	prices	process	project	property	profit
+99: ****************** abandant
+Corrections using Hamming distance :
+TOP 10 best candidates : [('abandoned', [3, 21286]), ('abandon', [2, 10465]), ('amanda', [3, 5952]), ('abundance', [3, 2846]), ('abundant', [1, 2828]), ('rwandan', [3, 2703]), ('ugandan', [3, 2020]), ('abundantly', [3, 600]), ('abandons', [2, 433]), ('ugandans', [3, 276])]
+abandant	abandoned	abandon	amanda	abundance	abundant
+100: ****************** greatt
+Corrections using Hamming distance :
+TOP 10 best candidates : [('area', [3, 207448]), ('great', [1, 193270]), ('credit', [3, 165083]), ('growth', [3, 144387]), ('areas', [3, 117656]), ('green', [3, 104347]), ('create', [2, 83270]), ('break', [3, 82882]), ('created', [3, 73159]), ('greater', [2, 71068])]
+greatt	area	great	credit	growth	areas
+
+Total Time:
+205.60984063148499

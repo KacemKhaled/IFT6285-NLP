@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Jaccard-comb_u_d.txt
+reference file: devoir3-train.txt
+evaluation_measure:no_order
+score is = 70.00 %
+70.0

@@ -1,0 +1,406 @@
+['Needleman_Wunsch']
+unigram
+Correcting 100 words
+1: ****************** reccodmission
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('repossession', [-7.0, 1286]), ('decommissioned', [-7.0, 661]), ('decompression', [-7.0, 322]), ('zero-emission', [-8.0, 305]), ('readmission', [-8.0, 200]), ('decommission', [-9.0, 182]), ('noncommissioned', [-7.0, 162]), ('retransmission', [-8.0, 153]), ('zero-emissions', [-7.0, 105]), ('readmissions', [-7.0, 97])]
+reccodmission	repossession	decommissioned	decompression	zero-emission	readmission
+2: ****************** unpair
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('affair', [-3.0, 22160]), ('repair', [-4.0, 17940]), ('unfair', [-5.0, 13294]), ('repairs', [-3.0, 8441]), ('unpaid', [-5.0, 6260]), ('unveil', [-3.0, 5356]), ('unfairly', [-3.0, 5061]), ('repaid', [-3.0, 4691]), ('despair', [-3.0, 4442]), ('unsafe', [-3.0, 4259])]
+unpair	affair	repair	unfair	repairs	unpaid
+3: ****************** oconomic
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('economic', [-7.0, 253089]), ('economies', [-5.0, 24906]), ('economist', [-5.0, 23667]), ('economics', [-6.0, 19320]), ('economical', [-5.0, 1713]), ('ergonomic', [-5.0, 245]), ('uneconomic', [-5.0, 217]), ('economise', [-5.0, 105]), ('economize', [-5.0, 83]), ('autonomic', [-5.0, 81])]
+oconomic	economic	economies	economist	economics	economical
+4: ****************** accidnts
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('accounts', [-6.0, 46572]), ('accident', [-5.0, 42092]), ('incidents', [-5.0, 21787]), ('accidents', [-7.0, 11385]), ('accidental', [-5.0, 4916]), ('accents', [-5.0, 1696]), ('accidently', [-5.0, 154]), ('ancients', [-6.0, 146]), ('accredits', [-5.0, 125])]
+accidnts	accounts	accident	incidents	accidents	accidental
+5: ****************** succes
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('success', [-5.0, 81991]), ('sources', [-4.0, 58857]), ('succeed', [-4.0, 16941]), ('soccer', [-4.0, 15281]), ('spaces', [-4.0, 8804]), ('suites', [-4.0, 3788]), ('ounces', [-4.0, 3430]), ('succeeds', [-4.0, 2984]), ('slices', [-4.0, 2397]), ('sucked', [-4.0, 2063])]
+succes	success	sources	succeed	soccer	spaces
+6: ****************** enthousiastic
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('enthusiastic', [-11.0, 6474]), ('enthusiasts', [-8.0, 3893]), ('unenthusiastic', [-9.0, 206])]
+enthousiastic	enthusiastic	enthusiasts	unenthusiastic
+7: ****************** produse
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('provide', [-4.0, 134668]), ('process', [-4.0, 123965]), ('products', [-4.0, 116826]), ('product', [-5.0, 70402]), ('proposed', [-4.0, 65516]), ('produced', [-5.0, 52312]), ('produce', [-6.0, 50454]), ('profile', [-4.0, 44344]), ('protest', [-4.0, 41707]), ('promised', [-4.0, 41538])]
+produse	provide	process	products	product	proposed
+8: ****************** tecnologycal
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('technological', [-10.0, 7556]), ('neurological', [-8.0, 2500]), ('technologically', [-8.0, 1141]), ('sociological', [-8.0, 422]), ('phonological', [-8.0, 22]), ('selenological', [-8.0, 19]), ('teleological', [-9.0, 17]), ('ethnological', [-8.0, 16])]
+tecnologycal	technological	neurological	technologically	sociological	phonological
+9: ****************** upto
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('into', [-2.0, 969249]), ('upon', [-2.0, 45559]), ('nato', [-2.0, 44688]), ('onto', [-2.0, 40832]), ('auto', [-2.0, 35976]), ('veto', [-2.0, 9326]), ('upton', [-3.0, 3178]), ('alto', [-2.0, 2336]), ('undo', [-2.0, 1584]), ('gupta', [-2.0, 1535])]
+upto	into	upon	nato	onto	auto
+10: ****************** poisioning
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('questioning', [-6.0, 15705]), ('poisoning', [-8.0, 4938]), ('possessing', [-6.0, 4745]), ('positioning', [-8.0, 3949]), ('conditioning', [-6.0, 3514]), ('consisting', [-6.0, 3004]), ('mentioning', [-6.0, 2669]), ('commissioning', [-6.0, 1353]), ('postponing', [-7.0, 1221]), ('auctioning', [-6.0, 937])]
+poisioning	questioning	poisoning	possessing	positioning	conditioning
+11: ****************** competitiors
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('competition', [-9.0, 72728]), ('competitors', [-10.0, 15421]), ('competitions', [-11.0, 5402]), ('compositions', [-9.0, 1104]), ('computations', [-9.0, 84]), ('competizione', [-9.0, 18])]
+competitiors	competition	competitors	competitions	compositions	computations
+12: ****************** riks
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('with', [-1.0, 4671305]), ('his', [-1.0, 3048518]), ('will', [-1.0, 2187657]), ('this', [-1.0, 2175742]), ('its', [-1.0, 1635951]), ('first', [-1.0, 1033443]), ('time', [-1.0, 851131]), ('like', [-2.0, 653907]), ('says', [-1.0, 490545]), ('make', [-1.0, 489593])]
+riks	with	his	will	this	its
+13: ****************** definations
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('definition', [-8.0, 10326]), ('nominations', [-8.0, 8763]), ('medications', [-8.0, 7955]), ('destinations', [-9.0, 7657]), ('delegations', [-8.0, 2055]), ('decorations', [-8.0, 1732]), ('resignations', [-8.0, 1677]), ('definitions', [-10.0, 1298]), ('denominations', [-8.0, 823]), ('terminations', [-8.0, 410])]
+definations	definition	nominations	medications	destinations	delegations
+14: ****************** vivd
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('with', [-1.0, 4671305]), ('said', [-1.0, 4306425]), ('have', [-1.0, 3012093]), ('will', [-1.0, 2187657]), ('time', [-1.0, 851131]), ('like', [-1.0, 653907]), ('told', [-1.0, 495022]), ('city', [-1.0, 438721]), ('did', [-1.0, 433086]), ('very', [-1.0, 357345])]
+vivd	with	said	have	will	time
+15: ****************** tradind
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('leading', [-4.0, 145072]), ('trading', [-6.0, 94146]), ('training', [-4.0, 93651]), ('reading', [-4.0, 49333]), ('heading', [-4.0, 29287]), ('trained', [-4.0, 21442]), ('drawing', [-4.0, 21194]), ('traded', [-4.0, 20597]), ('trains', [-4.0, 19186]), ('traders', [-4.0, 18209])]
+tradind	leading	trading	training	reading	heading
+16: ****************** materail
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('natural', [-4.0, 72473]), ('material', [-6.0, 42907]), ('internal', [-4.0, 34714]), ('maintain', [-4.0, 33559]), ('baseball', [-4.0, 33239]), ('materials', [-5.0, 28469]), ('veterans', [-4.0, 26093]), ('moderate', [-4.0, 20374]), ('marshall', [-4.0, 11939]), ('naturally', [-4.0, 11079])]
+materail	natural	material	internal	maintain	baseball
+17: ****************** useig
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('said', [-1.0, 4306425]), ('their', [-2.0, 1953337]), ('there', [-1.0, 1167647]), ('being', [-1.0, 579175]), ('where', [-1.0, 570946]), ('during', [-1.0, 477570]), ('under', [-1.0, 443716]), ('these', [-1.0, 414456]), ('public', [-1.0, 392331]), ('going', [-1.0, 317959])]
+useig	said	their	there	being	where
+18: ****************** thoese
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('their', [-2.0, 1953337]), ('there', [-3.0, 1167647]), ('people', [-2.0, 1099043]), ('three', [-3.0, 630715]), ('where', [-2.0, 570946]), ('those', [-4.0, 526090]), ('through', [-2.0, 485031]), ('should', [-2.0, 458188]), ('these', [-4.0, 414456]), ('house', [-3.0, 412470])]
+thoese	their	there	people	three	where
+19: ****************** concludsion
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('conclusion', [-9.0, 14539]), ('conclusions', [-8.0, 7289]), ('concession', [-7.0, 3909]), ('concussion', [-8.0, 3236]), ('concluding', [-7.0, 3003]), ('conclusive', [-7.0, 1266]), ('concussions', [-7.0, 985]), ('conciliation', [-7.0, 679]), ('convulsion', [-7.0, 124]), ('contruction', [-7.0, 19])]
+concludsion	conclusion	conclusions	concession	concussion	concluding
+20: ****************** controll
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('control', [-6.0, 160347]), ('controlled', [-6.0, 23715]), ('controls', [-7.0, 22306]), ('controller', [-6.0, 5417]), ('cottrell', [-6.0, 287]), ('cantrell', [-6.0, 271]), ('controled', [-6.0, 44]), ('pointroll', [-6.0, 44]), ('controll', [-8.0, 26]), ('controlee', [-6.0, 23])]
+controll	control	controlled	controls	controller	cottrell
+21: ****************** thise
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('this', [-3.0, 2175742]), ('their', [-2.0, 1953337]), ('which', [-2.0, 1662661]), ('there', [-3.0, 1167647]), ('time', [-2.0, 851131]), ('three', [-3.0, 630715]), ('while', [-3.0, 625393]), ('where', [-2.0, 570946]), ('those', [-4.0, 526090]), ('these', [-4.0, 414456])]
+thise	this	their	which	there	time
+22: ****************** banefit
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('benefits', [-5.0, 70518]), ('benefit', [-6.0, 56481]), ('benedict', [-4.0, 12657]), ('benefited', [-4.0, 9141]), ('banquet', [-4.0, 1973]), ('barefoot', [-4.0, 1688]), ('bluefin', [-4.0, 1686]), ('bandit', [-4.0, 723]), ('panelist', [-4.0, 329]), ('banality', [-4.0, 297])]
+banefit	benefits	benefit	benedict	benefited	banquet
+23: ****************** fatct
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('first', [-2.0, 1033443]), ('later', [-2.0, 269899]), ('march', [-2.0, 203774]), ('face', [-2.0, 168249]), ('water', [-2.0, 164661]), ('force', [-2.0, 149485]), ('fact', [-3.0, 125152]), ('latest', [-2.0, 123530]), ('father', [-2.0, 116409]), ('rates', [-2.0, 115853])]
+fatct	first	later	march	face	water
+24: ****************** condamnation
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('condemnation', [-11.0, 4690]), ('contamination', [-10.0, 4590]), ('condensation', [-9.0, 422]), ('consummation', [-9.0, 381]), ('condemnations', [-10.0, 282]), ('concatenation', [-9.0, 27]), ('contaminations', [-9.0, 23])]
+condamnation	condemnation	contamination	condensation	consummation	condemnations
+25: ****************** forula
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('former', [-3.0, 389414]), ('forces', [-3.0, 147796]), ('forced', [-3.0, 96603]), ('popular', [-3.0, 87937]), ('florida', [-3.0, 82226]), ('forest', [-3.0, 28163]), ('formal', [-3.0, 25039]), ('formed', [-3.0, 24506]), ('forget', [-3.0, 21437]), ('forum', [-3.0, 20723])]
+forula	former	forces	forced	popular	florida
+26: ****************** thingh
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('through', [-3.0, 485031]), ('think', [-3.0, 303839]), ('change', [-3.0, 222433]), ('though', [-4.0, 219883]), ('things', [-5.0, 158391]), ('thought', [-3.0, 143348]), ('thing', [-4.0, 120606]), ('thanks', [-3.0, 40582]), ('thinks', [-4.0, 26982]), ('brings', [-3.0, 22442])]
+thingh	through	think	change	though	things
+27: ****************** migth
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('with', [-2.0, 4671305]), ('months', [-2.0, 329215]), ('month', [-3.0, 327414]), ('high', [-2.0, 300791]), ('south', [-2.0, 297726]), ('right', [-2.0, 284152]), ('night', [-2.0, 270053]), ('might', [-3.0, 264441]), ('north', [-2.0, 262807]), ('march', [-2.0, 203774])]
+migth	with	months	month	high	south
+28: ****************** healtheir
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('healthcare', [-6.0, 44792]), ('health-care', [-5.0, 10149]), ('healthier', [-7.0, 5961]), ('wheelchair', [-5.0, 5104]), ('heather', [-5.0, 4539]), ('apartheid', [-5.0, 3449]), ('wealthiest', [-5.0, 2858]), ('wealthier', [-6.0, 1901]), ('heartbeat', [-5.0, 1789]), ('heartfelt', [-5.0, 1740])]
+healtheir	healthcare	health-care	healthier	wheelchair	heather
+29: ****************** everythingfor
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('everything', [-7.0, 80664]), ('worthington', [-5.0, 1311]), ('over-the-top', [-5.0, 1255]), ('ever-changing', [-7.0, 627]), ('over-the-air', [-5.0, 467]), ('energy-hungry', [-5.0, 259]), ('overstock.com', [-5.0, 206]), ('ever-shifting', [-6.0, 129]), ('overachieving', [-5.0, 114]), ('ever-higher', [-6.0, 110])]
+everythingfor	everything	worthington	over-the-top	ever-changing	over-the-air
+30: ****************** beleif
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('before', [-2.0, 666773]), ('between', [-2.0, 443920]), ('billion', [-2.0, 358486]), ('recent', [-2.0, 231365]), ('better', [-2.0, 220640]), ('become', [-2.0, 207340]), ('behind', [-2.0, 167226]), ('believe', [-3.0, 156795]), ('became', [-2.0, 127979]), ('release', [-2.0, 113186])]
+beleif	before	between	billion	recent	better
+31: ****************** resourses
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('resources', [-8.0, 56432]), ('resource', [-6.0, 11414]), ('responses', [-6.0, 8935]), ('recourse', [-6.0, 1208]), ('resonates', [-6.0, 957]), ('resourced', [-7.0, 301]), ('reimburses', [-6.0, 171]), ('renounces', [-6.0, 153]), ('resounded', [-6.0, 150]), ('racecourses', [-6.0, 141])]
+resourses	resources	resource	responses	recourse	resonates
+32: ****************** advantanges
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('advantage', [-7.0, 52286]), ('advantages', [-9.0, 6006]), ('advantageous', [-7.0, 665]), ('advantaged', [-8.0, 201])]
+advantanges	advantage	advantages	advantageous	advantaged
+33: ****************** diguise
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('disease', [-4.0, 77275]), ('dioxide', [-4.0, 13033]), ('diverse', [-4.0, 12204]), ('dismiss', [-4.0, 6722]), ('dignity', [-4.0, 6203]), ('digging', [-4.0, 5381]), ('diocese', [-4.0, 4141]), ('dislike', [-4.0, 2971]), ('disguised', [-5.0, 2855]), ('disguise', [-6.0, 2786])]
+diguise	disease	dioxide	diverse	dismiss	dignity
+34: ****************** additionly
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('additional', [-8.0, 79878]), ('addition', [-6.0, 66873]), ('additionally', [-8.0, 6441]), ('admittedly', [-6.0, 3112]), ('additions', [-7.0, 2932]), ('auditions', [-6.0, 1407]), ('addictions', [-6.0, 838]), ('auditioned', [-7.0, 614]), ('auditioning', [-6.0, 491]), ('admiringly', [-6.0, 164])]
+additionly	additional	addition	additionally	admittedly	additions
+35: ****************** opportunnity
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('opportunity', [-10.0, 68288]), ('opportunities', [-8.0, 35367]), ('opportunistic', [-8.0, 1430]), ('opportunist', [-8.0, 514]), ('opportunism', [-8.0, 471]), ('opportunists', [-9.0, 282]), ('opportunites', [-8.0, 34]), ('oppurtunity', [-9.0, 23]), ('oportunity', [-8.0, 19])]
+opportunnity	opportunity	opportunities	opportunistic	opportunist	opportunism
+36: ****************** urself
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('himself', [-3.0, 125763]), ('itself', [-4.0, 81854]), ('herself', [-4.0, 34483]), ('myself', [-4.0, 30201]), ('yourself', [-4.0, 24751]), ('russell', [-3.0, 16552]), ('urgent', [-3.0, 13035]), ('freely', [-3.0, 7180]), ('upheld', [-3.0, 6415]), ('nursery', [-3.0, 4935])]
+urself	himself	itself	herself	myself	yourself
+37: ****************** rebelion
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('recession', [-5.0, 89627]), ('reaction', [-5.0, 26114]), ('religion', [-5.0, 21544]), ('reception', [-5.0, 11307]), ('relation', [-5.0, 7919]), ('rejection', [-5.0, 5859]), ('revelation', [-5.0, 5630]), ('rebellion', [-7.0, 4781]), ('retention', [-5.0, 3733]), ('sebelius', [-5.0, 3617])]
+rebelion	recession	reaction	religion	reception	relation
+38: ****************** chioce
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('which', [-2.0, 1662661]), ('before', [-2.0, 666773]), ('while', [-2.0, 625393]), ('police', [-2.0, 585150]), ('since', [-2.0, 576176]), ('those', [-2.0, 526090]), ('children', [-2.0, 332506]), ('china', [-2.0, 273798]), ('chief', [-2.0, 257372]), ('office', [-2.0, 256288])]
+chioce	which	before	while	police	since
+39: ****************** consdiered
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('considered', [-8.0, 75819]), ('conscience', [-6.0, 4261]), ('consisted', [-6.0, 2521]), ('conspired', [-7.0, 1846]), ('constituted', [-6.0, 1679]), ('conflicted', [-6.0, 1336]), ('conquered', [-6.0, 1229]), ('consigned', [-6.0, 1022]), ('configured', [-6.0, 711]), ('reconsidered', [-6.0, 687])]
+consdiered	considered	conscience	consisted	conspired	constituted
+40: ****************** travals
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('travel', [-4.0, 88020]), ('rivals', [-4.0, 36150]), ('trials', [-4.0, 22493]), ('traders', [-4.0, 18209]), ('travelers', [-4.0, 14439]), ('traveled', [-4.0, 13247]), ('travels', [-6.0, 6830]), ('trails', [-4.0, 5598]), ('trojans', [-4.0, 4870]), ('travis', [-4.0, 4295])]
+travals	travel	rivals	trials	traders	travelers
+41: ****************** inturn
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('future', [-3.0, 178912]), ('return', [-4.0, 164885]), ('internet', [-3.0, 118543]), ('injured', [-3.0, 72515]), ('injury', [-4.0, 67790]), ('ensure', [-3.0, 60700]), ('century', [-3.0, 59441]), ('indian', [-3.0, 57355]), ('entire', [-3.0, 55031]), ('picture', [-3.0, 47704])]
+inturn	future	return	internet	injured	injury
+42: ****************** inly
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('they', [-1.0, 2242804]), ('will', [-1.0, 2187657]), ('into', [-2.0, 969249]), ('only', [-3.0, 721447]), ('many', [-1.0, 619785]), ('since', [-1.0, 576176]), ('any', [-1.0, 532764]), ('told', [-1.0, 495022]), ('city', [-1.0, 438721]), ('well', [-1.0, 417982])]
+inly	they	will	into	only	many
+43: ****************** everydays
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('everybody', [-5.0, 23564]), ('everyday', [-7.0, 10203]), ('everglades', [-5.0, 1269]), ('thursdays', [-5.0, 850]), ('everyman', [-5.0, 674]), ('overheads', [-5.0, 593]), ('everytime', [-5.0, 411]), ('overlays', [-5.0, 142]), ('overcoats', [-5.0, 141]), ('eversheds', [-5.0, 137])]
+everydays	everybody	everyday	everglades	thursdays	everyman
+44: ****************** specilaized
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('specialized', [-9.0, 4853]), ('specializes', [-8.0, 4301]), ('speculated', [-7.0, 3846]), ('specialises', [-7.0, 2071]), ('specialised', [-8.0, 1733]), ('specialize', [-7.0, 1122]), ('sterilized', [-7.0, 245]), ('secularized', [-7.0, 24]), ('special-ed', [-7.0, 19])]
+specilaized	specialized	specializes	speculated	specialises	specialised
+45: ****************** runned
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('running', [-3.0, 118430]), ('wanted', [-3.0, 116211]), ('turned', [-4.0, 111849]), ('raised', [-3.0, 90049]), ('warned', [-3.0, 80876]), ('returned', [-3.0, 79908]), ('planned', [-3.0, 79710]), ('opened', [-3.0, 77366]), ('signed', [-3.0, 73875]), ('joined', [-3.0, 61735])]
+runned	running	wanted	turned	raised	warned
+46: ****************** allive
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('million', [-2.0, 669787]), ('police', [-3.0, 585150]), ('billion', [-2.0, 358486]), ('office', [-2.0, 256288]), ('earlier', [-2.0, 211364]), ('almost', [-2.0, 175437]), ('policy', [-2.0, 158217]), ('believe', [-3.0, 156795]), ('always', [-2.0, 148648]), ('live', [-2.0, 142710])]
+allive	million	police	billion	office	earlier
+47: ****************** anylonger
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('announced', [-4.0, 198518]), ('stronger', [-4.0, 26463]), ('passenger', [-4.0, 25967]), ('alexander', [-4.0, 20007]), ('encounter', [-4.0, 11518]), ('unchanged', [-4.0, 10718]), ('prolonged', [-5.0, 7349]), ('challenger', [-4.0, 7287]), ('belonged', [-4.0, 6976]), ('announces', [-4.0, 5533])]
+anylonger	announced	stronger	passenger	alexander	encounter
+48: ****************** explantion
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('expansion', [-7.0, 27662]), ('exploration', [-7.0, 13487]), ('explanation', [-9.0, 12955]), ('expedition', [-7.0, 4335]), ('explanations', [-8.0, 2828]), ('expiration', [-7.0, 2722]), ('extraction', [-7.0, 1579]), ('exposition', [-7.0, 880]), ('exclamation', [-7.0, 535]), ('exultation', [-7.0, 94])]
+explantion	expansion	exploration	explanation	expedition	explanations
+49: ****************** insearch
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('research', [-6.0, 201240]), ('insurance', [-4.0, 115927]), ('search', [-4.0, 83185]), ('instance', [-5.0, 25307]), ('inspired', [-4.0, 22138]), ('researcher', [-4.0, 12423]), ('instances', [-4.0, 5577]), ('interact', [-4.0, 3882]), ('integral', [-4.0, 3647]), ('issuance', [-4.0, 3373])]
+insearch	research	insurance	search	instance	inspired
+50: ****************** advertisments
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('advertisements', [-12.0, 5316]), ('advertisment', [-11.0, 30]), ('advertisments', [-13.0, 18])]
+advertisments	advertisements	advertisment	advertisments
+51: ****************** referencial
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('residential', [-7.0, 18165]), ('references', [-7.0, 6395]), ('preferential', [-9.0, 1509]), ('referenced', [-7.0, 1148]), ('differential', [-7.0, 1108]), ('referendums', [-7.0, 889]), ('referencing', [-9.0, 726]), ('deferential', [-9.0, 330]), ('reverential', [-9.0, 188]), ('preferentially', [-7.0, 57])]
+referencial	residential	references	preferential	referenced	differential
+52: ****************** processure
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('pressure', [-6.0, 108004]), ('professor', [-6.0, 64476]), ('protesters', [-6.0, 36281]), ('procedures', [-6.0, 19591]), ('procedure', [-7.0, 15361]), ('processing', [-7.0, 13071]), ('processes', [-6.0, 9535]), ('progressive', [-6.0, 8857]), ('profession', [-6.0, 7309]), ('processed', [-6.0, 5649])]
+processure	pressure	professor	protesters	procedures	procedure
+53: ****************** whis
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('that', [-1.0, 6960157]), ('was', [-1.0, 4696797]), ('with', [-1.0, 4671305]), ('said', [-1.0, 4306425]), ('his', [-2.0, 3048518]), ('has', [-1.0, 3001796]), ('they', [-1.0, 2242804]), ('will', [-1.0, 2187657]), ('this', [-3.0, 2175742]), ('who', [-1.0, 2108824])]
+whis	that	was	with	said	his
+54: ****************** populization
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('population', [-8.0, 71143]), ('civilization', [-8.0, 2201]), ('globalization', [-8.0, 1976]), ('complication', [-8.0, 1351]), ('immunization', [-8.0, 1197]), ('legalization', [-8.0, 1133]), ('mobilization', [-9.0, 585]), ('polarization', [-9.0, 553]), ('normalization', [-8.0, 534]), ('visualization', [-8.0, 507])]
+populization	population	civilization	globalization	complication	immunization
+55: ****************** prodcut
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('program', [-3.0, 184415]), ('problem', [-3.0, 138465]), ('provide', [-3.0, 134668]), ('process', [-3.0, 123965]), ('products', [-4.0, 116826]), ('project', [-4.0, 113450]), ('brought', [-3.0, 102976]), ('property', [-3.0, 91023]), ('product', [-5.0, 70402]), ('profit', [-3.0, 68775])]
+prodcut	program	problem	provide	process	products
+56: ****************** beleived
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('received', [-6.0, 132089]), ('believed', [-6.0, 84783]), ('bereaved', [-6.0, 1323]), ('deceived', [-6.0, 1172]), ('beleive', [-6.0, 243]), ('belived', [-6.0, 25]), ('beleived', [-8.0, 17]), ('beleives', [-7.0, 17]), ('beseiged', [-6.0, 16])]
+beleived	received	believed	bereaved	deceived	beleive
+57: ****************** backgrounging
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('background', [-6.0, 21795]), ('backgrounds', [-7.0, 4764]), ('masterminding', [-6.0, 1265]), ('game-changing', [-6.0, 544]), ('bankrolling', [-6.0, 511]), ('hand-wringing', [-6.0, 473]), ('backtracking', [-7.0, 380]), ('bankrupting', [-6.0, 339]), ('book-running', [-7.0, 266]), ('fast-changing', [-6.0, 246])]
+backgrounging	background	backgrounds	masterminding	game-changing	bankrolling
+58: ****************** difinetly
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('definitely', [-6.0, 19926]), ('distinctly', [-6.0, 2241]), ('defiantly', [-6.0, 974]), ('diligently', [-6.0, 965]), ('definately', [-6.0, 184]), ('divinely', [-6.0, 125]), ('definetly', [-8.0, 31]), ('definitly', [-7.0, 25]), ('defintely', [-6.0, 17]), ('diffidently', [-6.0, 16])]
+difinetly	definitely	distinctly	defiantly	diligently	definately
+59: ****************** addtion
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('action', [-4.0, 130866]), ('station', [-4.0, 88552]), ('additional', [-4.0, 79878]), ('addition', [-6.0, 66873]), ('section', [-4.0, 44415]), ('auction', [-5.0, 27898]), ('edition', [-5.0, 27313]), ('mention', [-4.0, 25068]), ('abortion', [-4.0, 23802]), ('tradition', [-4.0, 18709])]
+addtion	action	station	additional	addition	section
+60: ****************** anyhting
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('anything', [-6.0, 96936]), ('fighting', [-5.0, 75667]), ('starting', [-4.0, 74070]), ('shooting', [-4.0, 57488]), ('allowing', [-4.0, 47966]), ('existing', [-4.0, 46645]), ('marketing', [-4.0, 46425]), ('creating', [-4.0, 38244]), ('visiting', [-4.0, 31473]), ('entering', [-4.0, 20876])]
+anyhting	anything	fighting	starting	shooting	allowing
+61: ****************** variatons
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('violations', [-5.0, 12948]), ('threatens', [-5.0, 8023]), ('variations', [-8.0, 5137]), ('varieties', [-6.0, 4066]), ('variation', [-6.0, 3373]), ('vacations', [-5.0, 3174]), ('valuations', [-6.0, 2443]), ('evacuations', [-5.0, 2145]), ('vaccinations', [-5.0, 2023]), ('evaluations', [-5.0, 1535])]
+variatons	violations	threatens	variations	varieties	variation
+62: ****************** interfer
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('interest', [-5.0, 153836]), ('internet', [-6.0, 118543]), ('interview', [-5.0, 82246]), ('intended', [-5.0, 37658]), ('internal', [-5.0, 34714]), ('interior', [-6.0, 27564]), ('intervene', [-5.0, 6963]), ('interfere', [-7.0, 4381]), ('interface', [-5.0, 4258]), ('interact', [-5.0, 3882])]
+interfer	interest	internet	interview	intended	internal
+63: ****************** eloctronics
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('electronic', [-8.0, 30483]), ('electronics', [-10.0, 19254]), ('electronica', [-9.0, 338]), ('flextronics', [-8.0, 148]), ('plantronics', [-8.0, 29]), ('plextronics', [-8.0, 21])]
+eloctronics	electronic	electronics	electronica	flextronics	plantronics
+64: ****************** undestanded
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('understanding', [-7.0, 26858]), ('understands', [-7.0, 8331]), ('undervalued', [-7.0, 2084]), ('understated', [-7.0, 1789]), ('underpinned', [-7.0, 1258]), ('underfunded', [-8.0, 940]), ('undisturbed', [-7.0, 532]), ('understaffed', [-8.0, 459]), ('unrestrained', [-7.0, 387]), ('undermanned', [-8.0, 271])]
+undestanded	understanding	understands	undervalued	understated	underpinned
+65: ****************** easially
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('especially', [-4.0, 95238]), ('actually', [-4.0, 91960]), ('usually', [-4.0, 54057]), ('easily', [-4.0, 38854]), ('generally', [-4.0, 38262]), ('initially', [-4.0, 37987]), ('typically', [-4.0, 27849]), ('entirely', [-4.0, 26659]), ('normally', [-4.0, 23249]), ('equally', [-4.0, 17950])]
+easially	especially	actually	usually	easily	generally
+66: ****************** assestments
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('investments', [-8.0, 35950]), ('assessment', [-8.0, 23384]), ('assessments', [-10.0, 5657]), ('adjustments', [-8.0, 5397]), ('assignments', [-8.0, 2636]), ('resentments', [-8.0, 515]), ('divestments', [-8.0, 218]), ('assortments', [-9.0, 77]), ('reassessments', [-8.0, 56])]
+assestments	investments	assessment	assessments	adjustments	assignments
+67: ****************** regared
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('reported', [-4.0, 299804]), ('released', [-4.0, 147270]), ('returned', [-4.0, 79908]), ('reached', [-4.0, 79617]), ('required', [-4.0, 64998]), ('remained', [-4.0, 58842]), ('refused', [-4.0, 55270]), ('related', [-5.0, 54828]), ('revealed', [-4.0, 53596]), ('prepared', [-5.0, 47385])]
+regared	reported	released	returned	reached	required
+68: ****************** knowlkedge
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('knowledge', [-8.0, 32726]), ('acknowledged', [-5.0, 30856]), ('acknowledge', [-6.0, 10818]), ('acknowledges', [-5.0, 4887]), ('trowbridge', [-5.0, 342]), ('knife-edge', [-6.0, 260]), ('knowledgable', [-5.0, 89]), ('adknowledge', [-6.0, 41]), ('knowlege', [-6.0, 26])]
+knowlkedge	knowledge	acknowledged	acknowledge	acknowledges	trowbridge
+69: ****************** successs
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('success', [-6.0, 81991]), ('successful', [-5.0, 59742]), ('suggests', [-5.0, 40133]), ('successor', [-6.0, 14734]), ('successive', [-5.0, 10441]), ('succession', [-5.0, 7671]), ('successes', [-7.0, 5366]), ('succeeds', [-6.0, 2984]), ('successors', [-6.0, 1621]), ('succumbs', [-5.0, 190])]
+successs	success	successful	suggests	successor	successive
+70: ****************** represant
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('represents', [-7.0, 32225]), ('represent', [-8.0, 25789]), ('represented', [-6.0, 22515]), ('reprisals', [-6.0, 1280]), ('reprimand', [-6.0, 899]), ('repressed', [-6.0, 773]), ('repugnant', [-6.0, 476]), ('reprising', [-6.0, 441]), ('repentant', [-6.0, 200]), ('repressing', [-6.0, 132])]
+represant	represents	represent	represented	reprisals	reprimand
+71: ****************** actractive
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('attractive', [-9.0, 17581]), ('interactive', [-7.0, 11553]), ('attraction', [-7.0, 7569]), ('attracting', [-7.0, 7104]), ('retroactive', [-7.0, 1235]), ('unattractive', [-7.0, 982]), ('overactive', [-7.0, 319]), ('attractively', [-7.0, 291]), ('refractive', [-7.0, 127]), ('extractive', [-8.0, 112])]
+actractive	attractive	interactive	attraction	attracting	retroactive
+72: ****************** nood
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('said', [-1.0, 4306425]), ('from', [-1.0, 3270570]), ('not', [-1.0, 2310462]), ('more', [-1.0, 1729941]), ('would', [-1.0, 1531631]), ('some', [-1.0, 946152]), ('could', [-1.0, 868808]), ('now', [-1.0, 713065]), ('most', [-1.0, 688710]), ('world', [-1.0, 663896])]
+nood	said	from	not	more	would
+73: ****************** focuss
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('forces', [-3.0, 147796]), ('process', [-3.0, 123965]), ('access', [-3.0, 97469]), ('focus', [-4.0, 81419]), ('discuss', [-3.0, 52796]), ('focused', [-4.0, 41856]), ('forest', [-3.0, 28163]), ('bonuses', [-3.0, 25285]), ('focusing', [-3.0, 15028]), ('excess', [-3.0, 14125])]
+focuss	forces	process	access	focus	discuss
+74: ****************** decreace
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('increase', [-5.0, 159575]), ('decrease', [-7.0, 15898]), ('decreased', [-6.0, 11680]), ('decreases', [-6.0, 2304]), ('recreate', [-6.0, 1703]), ('necklace', [-5.0, 1621]), ('terrence', [-5.0, 1434]), ('deference', [-5.0, 1135]), ('decorate', [-5.0, 997]), ('recreated', [-5.0, 812])]
+decreace	increase	decrease	decreased	decreases	recreate
+75: ****************** magagine
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('magazine', [-7.0, 47592]), ('managing', [-6.0, 28351]), ('damaging', [-5.0, 12815]), ('engaging', [-5.0, 9130]), ('magazines', [-6.0, 8807]), ('migraine', [-5.0, 3217]), ('melamine', [-5.0, 2879]), ('mainline', [-5.0, 1099]), ('madeline', [-5.0, 563]), ('ravaging', [-5.0, 363])]
+magagine	magazine	managing	damaging	engaging	magazines
+76: ****************** knowedge
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('knowledge', [-7.0, 32726]), ('acknowledge', [-5.0, 10818]), ('newedge', [-5.0, 144]), ('knowable', [-5.0, 62]), ('adknowledge', [-5.0, 41]), ('knowlege', [-6.0, 26]), ('knowhere', [-5.0, 22])]
+knowedge	knowledge	acknowledge	newedge	knowable	adknowledge
+77: ****************** relativley
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('relatively', [-8.0, 39165]), ('relatives', [-7.0, 27652]), ('relative', [-6.0, 20319]), ('negatively', [-6.0, 2653]), ('negativity', [-6.0, 874]), ('relativity', [-8.0, 616]), ('relativism', [-7.0, 229]), ('relatable', [-6.0, 185]), ('relational', [-6.0, 145]), ('relativist', [-7.0, 32])]
+relativley	relatively	relatives	relative	negatively	negativity
+78: ****************** wheter
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('where', [-3.0, 570946]), ('whether', [-5.0, 251914]), ('white', [-3.0, 234713]), ('better', [-3.0, 220640]), ('center', [-3.0, 175352]), ('water', [-3.0, 164661]), ('wanted', [-3.0, 116211]), ('western', [-3.0, 93756]), ('matter', [-3.0, 89982]), ('greater', [-3.0, 71068])]
+wheter	where	whether	white	better	center
+79: ****************** convience
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('conference', [-6.0, 157054]), ('continue', [-5.0, 132544]), ('confidence', [-7.0, 56928]), ('convicted', [-5.0, 50474]), ('convinced', [-6.0, 18967]), ('convince', [-7.0, 12005]), ('compliance', [-5.0, 11512]), ('convenience', [-7.0, 6484]), ('conferences', [-5.0, 6284]), ('consequence', [-5.0, 6219])]
+convience	conference	continue	confidence	convicted	convinced
+80: ****************** extremly
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('extremely', [-7.0, 33126]), ('extremes', [-6.0, 1897]), ('extremity', [-6.0, 198]), ('extremis', [-6.0, 155]), ('extremly', [-8.0, 18])]
+extremly	extremely	extremes	extremity	extremis	extremly
+81: ****************** espacilly
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('especially', [-7.0, 95238]), ('typically', [-5.0, 27849]), ('specially', [-5.0, 4570]), ('explicitly', [-5.0, 3906]), ('ethically', [-5.0, 867]), ('especial', [-5.0, 108]), ('topically', [-5.0, 61]), ('spatially', [-5.0, 54]), ('epically', [-5.0, 45]), ('espadrilles', [-5.0, 39])]
+espacilly	especially	typically	specially	explicitly	ethically
+82: ****************** becasuse
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('because', [-6.0, 652844]), ('measure', [-4.0, 59671]), ('newcastle', [-4.0, 19538]), ('decrease', [-4.0, 15898]), ('lebanese', [-4.0, 11144]), ('pleasure', [-4.0, 9458]), ('decisive', [-4.0, 9118]), ('reassure', [-4.0, 6176]), ('treasure', [-4.0, 5426]), ('syracuse', [-4.0, 4959])]
+becasuse	because	measure	newcastle	decrease	lebanese
+83: ****************** carrir
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('earlier', [-3.0, 211364]), ('career', [-4.0, 108330]), ('cancer', [-3.0, 99474]), ('carried', [-4.0, 63575]), ('martin', [-3.0, 62655]), ('carry', [-3.0, 51802]), ('carrying', [-3.0, 46993]), ('carbon', [-3.0, 46575]), ('married', [-3.0, 44139]), ('larger', [-3.0, 41928])]
+carrir	earlier	career	cancer	carried	martin
+84: ****************** actualy
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('actually', [-6.0, 91960]), ('actual', [-5.0, 29663]), ('factually', [-5.0, 381]), ('actuary', [-6.0, 367]), ('actuality', [-5.0, 243]), ('actorly', [-5.0, 53]), ('actualy', [-7.0, 35])]
+actualy	actually	actual	factually	actuary	actuality
+85: ****************** calaberating
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('celebrating', [-8.0, 11176]), ('collaboration', [-7.0, 10531]), ('cooperating', [-7.0, 4442]), ('deliberations', [-7.0, 3961]), ('accelerating', [-7.0, 3697]), ('collaborative', [-7.0, 2894]), ('calculating', [-7.0, 2271]), ('collaborating', [-9.0, 1959]), ('collaborations', [-7.0, 1292]), ('elaborating', [-8.0, 1043])]
+calaberating	celebrating	collaboration	cooperating	deliberations	accelerating
+86: ****************** simpley
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('similar', [-4.0, 105616]), ('simply', [-5.0, 76362]), ('complex', [-4.0, 47036]), ('simple', [-5.0, 45074]), ('display', [-4.0, 33804]), ('stanley', [-4.0, 25153]), ('simpson', [-4.0, 15002]), ('samples', [-5.0, 13913]), ('singles', [-4.0, 12593]), ('sample', [-4.0, 11499])]
+simpley	similar	simply	complex	simple	display
+87: ****************** remanticism
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('romanticism', [-10.0, 335]), ('romanticised', [-8.0, 81]), ('romanticize', [-8.0, 59]), ('romanticise', [-9.0, 29]), ('atlanticism', [-8.0, 16])]
+remanticism	romanticism	romanticised	romanticize	romanticise	atlanticism
+88: ****************** pannel
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('wanted', [-3.0, 116211]), ('cancer', [-3.0, 99474]), ('cannot', [-3.0, 85589]), ('warned', [-3.0, 80876]), ('planned', [-4.0, 79710]), ('passed', [-3.0, 69718]), ('winner', [-3.0, 59860]), ('partner', [-3.0, 55602]), ('panel', [-4.0, 50644]), ('earned', [-3.0, 43593])]
+pannel	wanted	cancer	cannot	warned	planned
+89: ****************** diferrent
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('different', [-7.0, 149327]), ('difference', [-5.0, 43545]), ('referring', [-5.0, 21194]), ('dependent', [-5.0, 10018]), ('defendant', [-5.0, 9593]), ('differently', [-5.0, 8380]), ('underwent', [-5.0, 7257]), ('deferred', [-5.0, 5609]), ('dissident', [-5.0, 4926]), ('deterrent', [-7.0, 2936])]
+diferrent	different	difference	referring	dependent	defendant
+90: ****************** reguire
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('receive', [-4.0, 65008]), ('required', [-5.0, 64998]), ('regular', [-4.0, 50409]), ('require', [-6.0, 43675]), ('regime', [-4.0, 34336]), ('requires', [-5.0, 27632]), ('restore', [-4.0, 20109]), ('realize', [-4.0, 15557]), ('genuine', [-4.0, 12059]), ('acquire', [-4.0, 11772])]
+reguire	receive	required	regular	require	regime
+91: ****************** sucject
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('project', [-4.0, 113450]), ('success', [-4.0, 81991]), ('subject', [-6.0, 58245]), ('suspect', [-5.0, 42946]), ('suggest', [-4.0, 42783]), ('suspects', [-4.0, 34372]), ('succeed', [-4.0, 16941]), ('subjects', [-5.0, 12991]), ('subjected', [-4.0, 7169]), ('secrecy', [-4.0, 5673])]
+sucject	project	success	subject	suspect	suggest
+92: ****************** diostract
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('district', [-6.0, 107832]), ('contract', [-5.0, 88971]), ('districts', [-5.0, 14191]), ('distinct', [-5.0, 6071]), ('distracted', [-5.0, 4321]), ('abstract', [-5.0, 3708]), ('construct', [-5.0, 3504]), ('disgrace', [-5.0, 2995]), ('distract', [-7.0, 2583]), ('distrust', [-5.0, 2331])]
+diostract	district	contract	districts	distinct	distracted
+93: ****************** tremeadous
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('tremendous', [-9.0, 9016]), ('tremendously', [-7.0, 1384]), ('troubadour', [-6.0, 260]), ('thereabouts', [-6.0, 172]), ('treasonous', [-6.0, 156]), ('tremulous', [-6.0, 112]), ('troubadours', [-6.0, 34])]
+tremeadous	tremendous	tremendously	troubadour	thereabouts	treasonous
+94: ****************** dirive
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('during', [-3.0, 477570]), ('drive', [-4.0, 82834]), ('strike', [-3.0, 65513]), ('arrived', [-3.0, 61941]), ('driver', [-3.0, 57042]), ('direct', [-3.0, 50054]), ('decide', [-3.0, 44011]), ('deliver', [-3.0, 38417]), ('airline', [-3.0, 37456]), ('active', [-3.0, 35043])]
+dirive	during	drive	strike	arrived	driver
+95: ****************** tecnologies
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('technologies', [-10.0, 29028]), ('technological', [-7.0, 7556]), ('technologists', [-8.0, 315]), ('technologist', [-8.0, 236]), ('anthologies', [-7.0, 146]), ('pathologies', [-7.0, 125]), ('mythologies', [-7.0, 69]), ('biotechnologies', [-7.0, 67]), ('psychologies', [-7.0, 25]), ('genealogies', [-7.0, 22])]
+tecnologies	technologies	technological	technologists	technologist	anthologies
+96: ****************** desappear
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('disappeared', [-6.0, 17300]), ('disappear', [-8.0, 6647]), ('disappears', [-7.0, 1426]), ('reappear', [-6.0, 760]), ('re-appear', [-7.0, 40])]
+desappear	disappeared	disappear	disappears	reappear	re-appear
+97: ****************** genarally
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('generally', [-8.0, 38262]), ('federally', [-6.0, 3317]), ('centrally', [-7.0, 1114]), ('generically', [-6.0, 437]), ('genially', [-6.0, 65]), ('neutrally', [-6.0, 46]), ('generality', [-6.0, 43]), ('severally', [-6.0, 43]), ('minerally', [-6.0, 40]), ('sensually', [-6.0, 34])]
+genarally	generally	federally	centrally	generically	genially
+98: ****************** profesor
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('professor', [-7.0, 64476]), ('protests', [-5.0, 44601]), ('profession', [-5.0, 7309]), ('professors', [-6.0, 4705]), ('processor', [-6.0, 3310]), ('protestors', [-5.0, 2648]), ('processors', [-5.0, 2331]), ('protester', [-5.0, 2174]), ('professed', [-5.0, 990]), ('projector', [-5.0, 853])]
+profesor	professor	protests	profession	professors	processor
+99: ****************** abandant
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('abandoned', [-5.0, 21286]), ('abandon', [-5.0, 10465]), ('attendant', [-5.0, 3537]), ('abundance', [-5.0, 2846]), ('abundant', [-7.0, 2828]), ('albanians', [-5.0, 1728]), ('abundantly', [-5.0, 600]), ('abandons', [-6.0, 433]), ('ascendant', [-5.0, 318]), ('ugandans', [-5.0, 276])]
+abandant	abandoned	abandon	attendant	abundance	abundant
+100: ****************** greatt
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('great', [-4.0, 193270]), ('credit', [-3.0, 165083]), ('growth', [-3.0, 144387]), ('create', [-4.0, 83270]), ('created', [-3.0, 73159]), ('greater', [-4.0, 71068]), ('pretty', [-3.0, 53176]), ('treated', [-3.0, 45614]), ('grant', [-3.0, 32150]), ('greatest', [-4.0, 30657])]
+greatt	great	credit	growth	create	created
+
+Total Time:
+4514.453169107437

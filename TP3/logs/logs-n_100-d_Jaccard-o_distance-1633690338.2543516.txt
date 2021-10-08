@@ -1,0 +1,406 @@
+['Jaccard']
+distance
+Correcting 100 words
+1: ****************** reccodmission
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('microseconds', [0.07692307692307687, 103]), ('microsecond', [0.15384615384615385, 47]), ('recommissioned', [0.19999999999999996, 30]), ('semiconductors', [0.19999999999999996, 731])]
+reccodmission	microseconds	microsecond	recommissioned	semiconductors
+2: ****************** unpair
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('purina', [0.0, 126]), ('nirupam', [0.1428571428571429, 17]), ('pianura', [0.1428571428571429, 57]), ('manipur', [0.1428571428571429, 160]), ('puritan', [0.1428571428571429, 268]), ('ruina', [0.16666666666666663, 17]), ('piran', [0.16666666666666663, 79]), ('nuria', [0.16666666666666663, 89]), ('pinar', [0.16666666666666663, 126])]
+unpair	purina	nirupam	pianura	manipur	puritan
+3: ****************** oconomic
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('economico', [0.11111111111111116, 28]), ('cominco', [0.125, 34]), ('coconino', [0.2222222222222222, 62]), ('economic', [0.2222222222222222, 253089])]
+oconomic	economico	cominco	coconino	economic
+4: ****************** accidnts
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('accidents', [0.11111111111111116, 11385]), ('sandcity', [0.2222222222222222, 22]), ('santucci', [0.2222222222222222, 52]), ('antacids', [0.2222222222222222, 61]), ('dynastic', [0.2222222222222222, 339]), ('distance', [0.2222222222222222, 22179]), ('accident', [0.2222222222222222, 42092]), ('sancti', [0.25, 18]), ('sindac', [0.25, 18]), ('sactic', [0.25, 19])]
+accidnts	accidents	sandcity	santucci	antacids	dynastic
+5: ****************** succes
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('succes', [0, 58]), ('accuses', [0.1428571428571429, 6406]), ('success', [0.1428571428571429, 81991]), ('scuse', [0.16666666666666663, 18])]
+succes	succes	accuses	success	scuse
+6: ****************** enthousiastic
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('enthusiastic', [0.07692307692307687, 6474]), ('unsophisticated', [0.1333333333333333, 330]), ('educationists', [0.1428571428571429, 39]), ('resuscitation', [0.1428571428571429, 928])]
+enthousiastic	enthusiastic	unsophisticated	educationists	resuscitation
+7: ****************** produse
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('purposed', [0.125, 16]), ('postured', [0.125, 36]), ('pounders', [0.125, 52]), ('proudest', [0.125, 518]), ('sprouted', [0.125, 668]), ('produces', [0.125, 11521]), ('predos', [0.1428571428571429, 18]), ('prudes', [0.1428571428571429, 38]), ('podres', [0.1428571428571429, 40]), ('poseur', [0.1428571428571429, 52])]
+produse	purposed	postured	pounders	proudest	sprouted
+8: ****************** tecnologycal
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('technologically', [0.19999999999999996, 1141]), ('gynecological', [0.2142857142857143, 137]), ('technological', [0.2142857142857143, 7556]), ('clean-technology', [0.25, 49]), ('colangelo', [0.25, 259])]
+tecnologycal	technologically	gynecological	technological	clean-technology	colangelo
+9: ****************** upto
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('oput', [0.0, 19]), ('upto', [0, 144]), ('pout', [0.0, 201]), ('stoup', [0.19999999999999996, 16]), ('toups', [0.19999999999999996, 16]), ('poust', [0.19999999999999996, 20]), ('topup', [0.19999999999999996, 28]), ('pottu', [0.19999999999999996, 30]), ('patou', [0.19999999999999996, 32]), ('pouts', [0.19999999999999996, 67])]
+upto	oput	upto	pout	stoup	toups
+10: ****************** poisioning
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('positioning', [0.09090909090909094, 3949]), ('poisoning', [0.09999999999999998, 4938]), ('provisioning', [0.16666666666666663, 496])]
+poisioning	positioning	poisoning	provisioning
+11: ****************** competitiors
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('protectionism', [0.07692307692307687, 2943]), ('competitors', [0.08333333333333337, 15421]), ('overoptimistic', [0.1428571428571429, 60])]
+competitiors	protectionism	competitors	overoptimistic
+12: ****************** riks
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('sirk', [0.0, 62]), ('irks', [0.0, 199]), ('kris', [0.0, 3867]), ('risk', [0.0, 147298]), ('krish', [0.19999999999999996, 16]), ('skirl', [0.19999999999999996, 16]), ('orkis', [0.19999999999999996, 18]), ('karis', [0.19999999999999996, 20]), ('kirst', [0.19999999999999996, 20]), ('kruis', [0.19999999999999996, 20])]
+riks	sirk	irks	kris	risk	krish
+13: ****************** definations
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('sinfonietta', [0.16666666666666663, 58]), ('confidantes', [0.16666666666666663, 118]), ('infestation', [0.16666666666666663, 697]), ('definitions', [0.16666666666666663, 1298]), ('designation', [0.16666666666666663, 3271]), ('destination', [0.16666666666666663, 14240]), ('defintion', [0.18181818181818177, 17]), ('distefano', [0.18181818181818177, 20]), ('stefanoni', [0.18181818181818177, 21]), ('indonesia', [0.18181818181818177, 19886])]
+definations	sinfonietta	confidantes	infestation	definitions	designation
+14: ****************** vivd
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('divvy', [0.19999999999999996, 229]), ('vivid', [0.19999999999999996, 4083]), ('vvd', [0.25, 32]), ('vdi', [0.25, 38]), ('div', [0.25, 54]), ('vid', [0.25, 59]), ('ivd', [0.25, 70]), ('dvi', [0.25, 71]), ('viv', [0.25, 203]), ('viavid', [0.33333333333333337, 16])]
+vivd	divvy	vivid	vvd	vdi	div
+15: ****************** tradind
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('trinidad', [0.125, 3598]), ('dinard', [0.1428571428571429, 20]), ('dritan', [0.1428571428571429, 77]), ('traded-in', [0.2222222222222222, 38]), ('tandridge', [0.2222222222222222, 78])]
+tradind	trinidad	dinard	dritan	traded-in	tandridge
+16: ****************** materail
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('armalite', [0.0, 26]), ('material', [0.0, 42907]), ('almirante', [0.11111111111111116, 29]), ('tularemia', [0.11111111111111116, 36]), ('carmelita', [0.11111111111111116, 116]), ('materials', [0.11111111111111116, 28469]), ('materia', [0.125, 19]), ('alierta', [0.125, 36]), ('mariela', [0.125, 80]), ('altmire', [0.125, 217])]
+materail	armalite	material	almirante	tularemia	carmelita
+17: ****************** useig
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('segui', [0.0, 83]), ('guise', [0.0, 1481]), ('genuis', [0.16666666666666663, 16]), ('sueing', [0.16666666666666663, 21]), ('uglies', [0.16666666666666663, 25]), ('gussie', [0.16666666666666663, 33]), ('regius', [0.16666666666666663, 52]), ('seguin', [0.16666666666666663, 56]), ('guises', [0.16666666666666663, 297]), ('guides', [0.16666666666666663, 5113])]
+useig	segui	guise	genuis	sueing	uglies
+18: ****************** thoese
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('eyeshot', [0.1428571428571429, 20]), ('loeseth', [0.1428571428571429, 20]), ('cheetos', [0.1428571428571429, 110]), ('southee', [0.1428571428571429, 188]), ('hoste', [0.16666666666666663, 30]), ('theos', [0.16666666666666663, 57]), ('ethos', [0.16666666666666663, 1979]), ('sheet', [0.16666666666666663, 15058]), ('these', [0.16666666666666663, 414456]), ('those', [0.16666666666666663, 526090])]
+thoese	eyeshot	loeseth	cheetos	southee	hoste
+19: ****************** concludsion
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('conclusion', [0.09090909090909094, 14539]), ('conclusions', [0.16666666666666663, 7289]), ('occlusion', [0.18181818181818177, 47])]
+concludsion	conclusion	conclusions	occlusion
+20: ****************** controll
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('controll', [0, 26]), ('control', [0.125, 160347]), ('carrollton', [0.19999999999999996, 374]), ('controller', [0.19999999999999996, 5417]), ('controlled', [0.19999999999999996, 23715])]
+controll	controll	control	carrollton	controller	controlled
+21: ****************** thise
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('shite', [0.0, 35]), ('thies', [0.0, 51]), ('theis', [0.0, 75]), ('sethi', [0.0, 176]), ('heist', [0.0, 1260]), ('nitesh', [0.16666666666666663, 18]), ('thetis', [0.16666666666666663, 20]), ('theiss', [0.16666666666666663, 21]), ('thiers', [0.16666666666666663, 23]), ('spieth', [0.16666666666666663, 25])]
+thise	shite	thies	theis	sethi	heist
+22: ****************** banefit
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('antebi', [0.1428571428571429, 16]), ('betina', [0.1428571428571429, 17]), ('febian', [0.1428571428571429, 18]), ('bianet', [0.1428571428571429, 27]), ('fabien', [0.1428571428571429, 237]), ('benita', [0.1428571428571429, 275]), ('feinblatt', [0.2222222222222222, 35]), ('farbstein', [0.2222222222222222, 148]), ('bazinet', [0.25, 17]), ('benfits', [0.25, 17])]
+banefit	antebi	betina	febian	bianet	fabien
+23: ****************** fatct
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('fatcat', [0.16666666666666663, 16]), ('fttc', [0.19999999999999996, 23]), ('tact', [0.19999999999999996, 440]), ('catt', [0.19999999999999996, 465]), ('taft', [0.19999999999999996, 525]), ('fact', [0.19999999999999996, 125152]), ('fatcats', [0.2857142857142857, 21]), ('factset', [0.2857142857142857, 50]), ('fat-cat', [0.2857142857142857, 132]), ('tactful', [0.2857142857142857, 170])]
+fatct	fatcat	fttc	tact	catt	taft
+24: ****************** condamnation
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('condemnation', [0.15384615384615385, 4690]), ('decontamination', [0.19999999999999996, 334]), ('once-dominant', [0.2142857142857143, 183]), ('condemnations', [0.2142857142857143, 282]), ('contamination', [0.2142857142857143, 4590])]
+condamnation	condemnation	decontamination	once-dominant	condemnations	contamination
+25: ****************** forula
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('olafur', [0.0, 245]), ('arnulfo', [0.1428571428571429, 19]), ('ruffalo', [0.1428571428571429, 278]), ('balfour', [0.1428571428571429, 1703]), ('flavour', [0.1428571428571429, 2035]), ('formula', [0.1428571428571429, 20438]), ('aurlo', [0.16666666666666663, 17]), ('furla', [0.16666666666666663, 17]), ('rulfo', [0.16666666666666663, 18]), ('alouf', [0.16666666666666663, 26])]
+forula	olafur	arnulfo	ruffalo	balfour	flavour
+26: ****************** thingh
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('hight', [0.16666666666666663, 64]), ('thigh', [0.16666666666666663, 3866]), ('thing', [0.16666666666666663, 120606]), ('night', [0.16666666666666663, 270053]), ('high-net', [0.25, 33]), ('hightown', [0.25, 36]), ('hitching', [0.25, 267]), ('hatching', [0.25, 372]), ('heighten', [0.25, 1083]), ('ahhing', [0.2857142857142857, 16])]
+thingh	hight	thigh	thing	night	high-net
+27: ****************** migth
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('might', [0.0, 264441]), ('mightn', [0.16666666666666663, 56]), ('mighty', [0.16666666666666663, 4350]), ('tigh', [0.19999999999999996, 38])]
+migth	might	mightn	mighty	tigh
+28: ****************** healtheir
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('healthier', [0.0, 5961]), ('thalheimer', [0.09999999999999998, 18]), ('hatherleigh', [0.18181818181818177, 18]), ('unhealthier', [0.18181818181818177, 34]), ('wherewithal', [0.18181818181818177, 479])]
+healtheir	healthier	thalheimer	hatherleigh	unhealthier	wherewithal
+29: ****************** everythingfor
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('everything', [0.23076923076923073, 80664]), ('do-everything', [0.2666666666666667, 32]), ('reforesting', [0.2857142857142857, 17]), ('frighteners', [0.2857142857142857, 27]), ('overhearing', [0.2857142857142857, 89]), ('firstenergy', [0.2857142857142857, 402]), ('eurofighter', [0.2857142857142857, 487]), ('overheating', [0.2857142857142857, 1059]), ('sovereignty', [0.2857142857142857, 7347])]
+everythingfor	everything	do-everything	reforesting	frighteners	overhearing
+30: ****************** beleif
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('belief', [0.0, 18792]), ('febrile', [0.1428571428571429, 381]), ('beliefs', [0.1428571428571429, 10005]), ('liebe', [0.16666666666666663, 19]), ('eifel', [0.16666666666666663, 21]), ('belie', [0.16666666666666663, 273])]
+beleif	belief	febrile	beliefs	liebe	eifel
+31: ****************** resourses
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('superstores', [0.18181818181818177, 285]), ('recourses', [0.19999999999999996, 21]), ('sorceress', [0.19999999999999996, 58]), ('reassures', [0.19999999999999996, 203]), ('pressures', [0.19999999999999996, 11586]), ('resources', [0.19999999999999996, 56432]), ('rousers', [0.2222222222222222, 19])]
+resourses	superstores	recourses	sorceress	reassures	pressures
+32: ****************** advantanges
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('advantages', [0.09090909090909094, 6006]), ('advantage', [0.18181818181818177, 52286]), ('advantageous', [0.23076923076923073, 665]), ('disadvantage', [0.23076923076923073, 3152])]
+advantanges	advantages	advantage	advantageous	disadvantage
+33: ****************** diguise
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('disguise', [0.125, 2786]), ('guides', [0.1428571428571429, 5113]), ('guidlines', [0.2222222222222222, 17]), ('disfigure', [0.2222222222222222, 66]), ('disguises', [0.2222222222222222, 446]), ('misguided', [0.2222222222222222, 2823]), ('disguised', [0.2222222222222222, 2855])]
+diguise	disguise	guides	guidlines	disfigure	disguises
+34: ****************** additionly
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('additionally', [0.16666666666666663, 6441]), ('additional', [0.18181818181818177, 79878]), ('daintily', [0.19999999999999996, 65]), ('dilation', [0.19999999999999996, 86]), ('addition', [0.19999999999999996, 66873])]
+additionly	additionally	additional	daintily	dilation	addition
+35: ****************** opportunnity
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('opportunity', [0.08333333333333337, 68288]), ('oportunity', [0.16666666666666663, 19]), ('oppurtunity', [0.23076923076923073, 23]), ('prototyping', [0.23076923076923073, 188]), ('inopportune', [0.23076923076923073, 190]), ('opportunist', [0.23076923076923073, 514])]
+opportunnity	opportunity	oportunity	oppurtunity	prototyping	inopportune
+36: ****************** urself
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('fleurs', [0.0, 35]), ('refuels', [0.1428571428571429, 22]), ('flusher', [0.1428571428571429, 28]), ('ourself', [0.1428571428571429, 34]), ('fullers', [0.1428571428571429, 35]), ('fluster', [0.1428571428571429, 48]), ('restful', [0.1428571428571429, 223]), ('ruffles', [0.1428571428571429, 405]), ('refusal', [0.1428571428571429, 9612]), ('resul', [0.16666666666666663, 21])]
+urself	fleurs	refuels	flusher	ourself	fullers
+37: ****************** rebelion
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('lieberson', [0.11111111111111116, 61]), ('rebellion', [0.11111111111111116, 4781]), ('berlino', [0.125, 28]), ('oberlin', [0.125, 202]), ('reponsible', [0.19999999999999996, 25]), ('neoliberal', [0.19999999999999996, 133]), ('rebellions', [0.19999999999999996, 315]), ('inoperable', [0.19999999999999996, 423]), ('inexorable', [0.19999999999999996, 568]), ('borderline', [0.19999999999999996, 971])]
+rebelion	lieberson	rebellion	berlino	oberlin	reponsible
+38: ****************** chioce
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('choice', [0.0, 63350]), ('cherico', [0.1428571428571429, 17]), ('cochise', [0.1428571428571429, 57]), ('becchio', [0.1428571428571429, 126]), ('vecchio', [0.1428571428571429, 134]), ('choices', [0.1428571428571429, 18385]), ('checo', [0.16666666666666663, 25]), ('chico', [0.16666666666666663, 636])]
+chioce	choice	cherico	cochise	becchio	vecchio
+39: ****************** consdiered
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('considered', [0.0, 75819]), ('discerned', [0.09999999999999998, 177]), ('rescinded', [0.09999999999999998, 1186]), ('unconsidered', [0.16666666666666663, 46]), ('disconcerted', [0.16666666666666663, 100]), ('reconsidered', [0.16666666666666663, 687]), ('undiscovered', [0.16666666666666663, 852])]
+consdiered	considered	discerned	rescinded	unconsidered	disconcerted
+40: ****************** travals
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('valastro', [0.125, 26]), ('travails', [0.125, 977]), ('satlav', [0.1428571428571429, 21]), ('astral', [0.1428571428571429, 148]), ('altars', [0.1428571428571429, 168]), ('travoltas', [0.2222222222222222, 17]), ('salvatori', [0.2222222222222222, 18]), ('valsartan', [0.2222222222222222, 44]), ('transvaal', [0.2222222222222222, 84]), ('varietals', [0.2222222222222222, 104])]
+travals	valastro	travails	satlav	astral	altars
+41: ****************** inturn
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('turnin', [0.0, 18]), ('unitrin', [0.1428571428571429, 19]), ('turning', [0.1428571428571429, 39560]), ('turin', [0.16666666666666663, 3159])]
+inturn	turnin	unitrin	turning	turin
+42: ****************** inly
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('lyin', [0.0, 24]), ('linzy', [0.19999999999999996, 16]), ('dilyn', [0.19999999999999996, 17]), ('yilan', [0.19999999999999996, 17]), ('yulin', [0.19999999999999996, 28]), ('flyin', [0.19999999999999996, 32]), ('nilly', [0.19999999999999996, 42]), ('layin', [0.19999999999999996, 51]), ('inlay', [0.19999999999999996, 54]), ('pliny', [0.19999999999999996, 77])]
+inly	lyin	linzy	dilyn	yilan	yulin
+43: ****************** everydays
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('everyday', [0.11111111111111116, 10203]), ('every-day', [0.19999999999999996, 51]), ('adversely', [0.19999999999999996, 2290]), ('yesterday', [0.19999999999999996, 115897]), ('dervaes', [0.2222222222222222, 19]), ('everday', [0.2222222222222222, 20]), ('evaders', [0.2222222222222222, 440]), ('adverse', [0.2222222222222222, 7979])]
+everydays	everyday	every-day	adversely	yesterday	dervaes
+44: ****************** specilaized
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('specialized', [0.0, 4853]), ('specialize', [0.09090909090909094, 1122]), ('specialised', [0.16666666666666663, 1733]), ('specializes', [0.16666666666666663, 4301])]
+specilaized	specialized	specialize	specialised	specializes
+45: ****************** runned
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('dunner', [0.0, 35]), ('end-run', [0.1428571428571429, 71]), ('drunken', [0.1428571428571429, 5059]), ('ndure', [0.16666666666666663, 19]), ('duren', [0.16666666666666663, 57]), ('dunne', [0.16666666666666663, 2340]), ('under', [0.16666666666666663, 443716])]
+runned	dunner	end-run	drunken	ndure	duren
+46: ****************** allive
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('elavil', [0.0, 31]), ('averill', [0.1428571428571429, 17]), ('vallier', [0.1428571428571429, 18]), ('alveoli', [0.1428571428571429, 21]), ('villeda', [0.1428571428571429, 21]), ('livable', [0.1428571428571429, 391]), ('saville', [0.1428571428571429, 459]), ('sevilla', [0.1428571428571429, 1550]), ('village', [0.1428571428571429, 50845]), ('lelia', [0.16666666666666663, 20])]
+allive	elavil	averill	vallier	alveoli	villeda
+47: ****************** anylonger
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('gorzelanny', [0.09999999999999998, 154]), ('algernon', [0.11111111111111116, 37]), ('lonergan', [0.11111111111111116, 185]), ('yearlong', [0.11111111111111116, 1558]), ('legionary', [0.19999999999999996, 20]), ('yearslong', [0.19999999999999996, 103]), ('nagourney', [0.19999999999999996, 136]), ('langhorne', [0.19999999999999996, 223]), ('glentoran', [0.19999999999999996, 494]), ('year-long', [0.19999999999999996, 2193])]
+anylonger	gorzelanny	algernon	lonergan	yearlong	legionary
+48: ****************** explantion
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('exponential', [0.09090909090909094, 436]), ('explanation', [0.09090909090909094, 12955]), ('explaination', [0.16666666666666663, 26]), ('explanations', [0.16666666666666663, 2828]), ('pixelation', [0.18181818181818177, 16]), ('pixantrone', [0.18181818181818177, 247]), ('neapolitan', [0.18181818181818177, 332])]
+explantion	exponential	explanation	explaination	explanations	pixelation
+49: ****************** insearch
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('scheringa', [0.11111111111111116, 31]), ('schierman', [0.11111111111111116, 36]), ('searching', [0.11111111111111116, 17292]), ('franchise', [0.11111111111111116, 19185]), ('cherian', [0.125, 16]), ('shanice', [0.125, 20]), ('siachen', [0.125, 26]), ('reinsch', [0.125, 34]), ('hernias', [0.125, 40]), ('carnesi', [0.125, 70])]
+insearch	scheringa	schierman	searching	franchise	cherian
+50: ****************** advertisments
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('advertisments', [0, 18]), ('advertisements', [0.0714285714285714, 5316]), ('advertisment', [0.07692307692307687, 30])]
+advertisments	advertisments	advertisements	advertisment
+51: ****************** referencial
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('freelancer', [0.09090909090909094, 210]), ('referential', [0.16666666666666663, 30]), ('freelancers', [0.16666666666666663, 381]), ('irrelevance', [0.16666666666666663, 590]), ('freelance', [0.18181818181818177, 3017])]
+referencial	freelancer	referential	freelancers	irrelevance	freelance
+52: ****************** processure
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('prosecuters', [0.09090909090909094, 17]), ('persecutors', [0.09090909090909094, 43]), ('recourses', [0.09999999999999998, 21]), ('reprocess', [0.09999999999999998, 152]), ('resources', [0.09999999999999998, 56432]), ('repercussion', [0.16666666666666663, 55])]
+processure	prosecuters	persecutors	recourses	reprocess	resources
+53: ****************** whis
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('wish', [0.0, 26045]), ('whirs', [0.19999999999999996, 21]), ('hnwis', [0.19999999999999996, 28]), ('wishy', [0.19999999999999996, 35]), ('whois', [0.19999999999999996, 49]), ('whist', [0.19999999999999996, 50]), ('whigs', [0.19999999999999996, 68]), ('swish', [0.19999999999999996, 372]), ('whims', [0.19999999999999996, 579]), ('whisk', [0.19999999999999996, 1041])]
+whis	wish	whirs	hnwis	wishy	whois
+54: ****************** populization
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('popularization', [0.1428571428571429, 40]), ('population', [0.16666666666666663, 71143]), ('populations', [0.23076923076923073, 9721])]
+populization	popularization	population	populations
+55: ****************** prodcut
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('product', [0.0, 70402]), ('products', [0.125, 116826]), ('duport', [0.1428571428571429, 30])]
+prodcut	product	products	duport
+56: ****************** beleived
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('beleived', [0, 17]), ('believed', [0.0, 84783]), ('belvidere', [0.11111111111111116, 125]), ('bedeviled', [0.11111111111111116, 414]), ('belived', [0.125, 25]), ('beveled', [0.125, 45]), ('bedevil', [0.125, 122]), ('beleive', [0.125, 243]), ('lebedev', [0.125, 768]), ('believe', [0.125, 156795])]
+beleived	beleived	believed	belvidere	bedeviled	belived
+57: ****************** backgrounging
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('gargunnock', [0.23076923076923073, 19]), ('encouraging', [0.2857142857142857, 19230]), ('uncorking', [0.3076923076923077, 58])]
+backgrounging	gargunnock	encouraging	uncorking
+58: ****************** difinetly
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('definitly', [0.0, 25]), ('infidelity', [0.09999999999999998, 1858]), ('definitely', [0.09999999999999998, 19926]), ('definity', [0.11111111111111116, 21]), ('fidelity', [0.11111111111111116, 2552]), ('identify', [0.11111111111111116, 28936])]
+difinetly	definitly	infidelity	definitely	definity	fidelity
+59: ****************** addtion
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('didonato', [0.125, 77]), ('addition', [0.125, 66873]), ('didato', [0.1428571428571429, 25]), ('donati', [0.1428571428571429, 298]), ('additonal', [0.2222222222222222, 25]), ('addaction', [0.2222222222222222, 40]), ('addington', [0.2222222222222222, 394]), ('additions', [0.2222222222222222, 2932]), ('addiction', [0.2222222222222222, 8712]), ('dominated', [0.2222222222222222, 20836])]
+addtion	didonato	addition	didato	donati	additonal
+60: ****************** anyhting
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('anything', [0.0, 96936]), ('anthing', [0.125, 17]), ('hannity', [0.125, 1199]), ('hauntingly', [0.19999999999999996, 208])]
+anyhting	anything	anthing	hannity	hauntingly
+61: ****************** variatons
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('navigators', [0.09999999999999998, 163]), ('starvation', [0.09999999999999998, 2169]), ('variations', [0.09999999999999998, 5137]), ('novastar', [0.11111111111111116, 64]), ('aviators', [0.11111111111111116, 221]), ('navistar', [0.11111111111111116, 334]), ('variants', [0.11111111111111116, 1397]), ('novartis', [0.11111111111111116, 2282]), ('vaccinators', [0.18181818181818177, 32]), ('vacationers', [0.18181818181818177, 616])]
+variatons	navigators	starvation	variations	novastar	aviators
+62: ****************** interfer
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('nefertari', [0.11111111111111116, 17]), ('frontiere', [0.11111111111111116, 87]), ('ferreting', [0.11111111111111116, 94]), ('interfere', [0.11111111111111116, 4381]), ('rentier', [0.125, 16]), ('reinert', [0.125, 66]), ('terrine', [0.125, 166]), ('refiner', [0.125, 519]), ('interferon', [0.19999999999999996, 332]), ('friendster', [0.19999999999999996, 372])]
+interfer	nefertari	frontiere	ferreting	interfere	rentier
+63: ****************** eloctronics
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('recollections', [0.15384615384615385, 766]), ('relocations', [0.16666666666666663, 230]), ('technicolor', [0.16666666666666663, 415]), ('corrections', [0.16666666666666663, 3900]), ('collections', [0.16666666666666663, 8325]), ('electronics', [0.16666666666666663, 19254]), ('solectron', [0.18181818181818177, 16]), ('concierto', [0.18181818181818177, 22]), ('sclerotic', [0.18181818181818177, 143]), ('concertos', [0.18181818181818177, 306])]
+eloctronics	recollections	relocations	technicolor	corrections	collections
+64: ****************** undestanded
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('sudetenland', [0.16666666666666663, 53]), ('undesignated', [0.23076923076923073, 27]), ('sudden-death', [0.23076923076923073, 274]), ('unfastened', [0.25, 24]), ('dentanurse', [0.25, 25]), ('dependants', [0.25, 224]), ('descendant', [0.25, 909]), ('unattended', [0.25, 985]), ('defendants', [0.25, 14540]), ('understand', [0.25, 57709])]
+undestanded	sudetenland	undesignated	sudden-death	unfastened	dentanurse
+65: ****************** easially
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('seilala', [0.125, 81]), ('salicylate', [0.19999999999999996, 60]), ('masilela', [0.2222222222222222, 17]), ('lisaraye', [0.2222222222222222, 19]), ('aerially', [0.2222222222222222, 24]), ('masillae', [0.2222222222222222, 28]), ('desailly', [0.2222222222222222, 52]), ('serially', [0.2222222222222222, 108]), ('wallasey', [0.2222222222222222, 141]), ('isabella', [0.2222222222222222, 957])]
+easially	seilala	salicylate	masilela	lisaraye	aerially
+66: ****************** assestments
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('assessment', [0.09090909090909094, 23384]), ('assessments', [0.16666666666666663, 5657]), ('assesment', [0.18181818181818177, 28]), ('statesmen', [0.18181818181818177, 630])]
+assestments	assessment	assessments	assesment	statesmen
+67: ****************** regared
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('draeger', [0.0, 36]), ('gardere', [0.0, 54]), ('daguerre', [0.125, 24]), ('freegard', [0.125, 26]), ('werdegar', [0.125, 35]), ('tredegar', [0.125, 191]), ('redgrave', [0.125, 1305]), ('gardener', [0.125, 1853]), ('garnered', [0.125, 3089]), ('regarded', [0.125, 16466])]
+regared	draeger	gardere	daguerre	freegard	werdegar
+68: ****************** knowlkedge
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('knowledge', [0.09999999999999998, 32726]), ('knowlege', [0.19999999999999996, 26]), ('weeklong', [0.19999999999999996, 2288]), ('acknowleged', [0.25, 37]), ('adknowledge', [0.25, 41]), ('acknowledge', [0.25, 10818])]
+knowlkedge	knowledge	knowlege	weeklong	acknowleged	adknowledge
+69: ****************** successs
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('successes', [0.11111111111111116, 5366]), ('success', [0.125, 81991]), ('successors', [0.19999999999999996, 1621])]
+successs	successes	success	successors
+70: ****************** represant
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('carpenters', [0.09999999999999998, 641]), ('santerre', [0.11111111111111116, 20]), ('parentes', [0.11111111111111116, 21]), ('partners', [0.11111111111111116, 45324]), ('ex-partners', [0.18181818181818177, 34]), ('paternoster', [0.18181818181818177, 157]), ('penetrators', [0.18181818181818177, 194]), ('prendergast', [0.18181818181818177, 288]), ('supertanker', [0.18181818181818177, 542])]
+represant	carpenters	santerre	parentes	partners	ex-partners
+71: ****************** actractive
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('reactivate', [0.18181818181818177, 209]), ('attractive', [0.18181818181818177, 17581]), ('activate', [0.19999999999999996, 1524]), ('rivett-carnac', [0.23076923076923073, 25])]
+actractive	reactivate	attractive	activate	rivett-carnac
+72: ****************** nood
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('ondo', [0.0, 43]), ('doon', [0.0, 187]), ('oando', [0.19999999999999996, 16]), ('dongo', [0.19999999999999996, 17]), ('donto', [0.19999999999999996, 19]), ('doone', [0.19999999999999996, 19]), ('ordon', [0.19999999999999996, 20]), ('ondoy', [0.19999999999999996, 23]), ('londo', [0.19999999999999996, 25]), ('dogon', [0.19999999999999996, 28])]
+nood	ondo	doon	oando	dongo	donto
+73: ****************** focuss
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('focuses', [0.1428571428571429, 8209]), ('fuoss', [0.16666666666666663, 37]), ('fusco', [0.16666666666666663, 72]), ('focus', [0.16666666666666663, 81419]), ('focusses', [0.25, 22]), ('confuses', [0.25, 325]), ('focussed', [0.25, 796])]
+focuss	focuses	fuoss	fusco	focus	focusses
+74: ****************** decreace
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('accreted', [0.2222222222222222, 29]), ('careened', [0.2222222222222222, 239]), ('careered', [0.2222222222222222, 336]), ('credence', [0.2222222222222222, 951]), ('decrease', [0.2222222222222222, 15898]), ('accede', [0.25, 284]), ('recede', [0.25, 804]), ('decree', [0.25, 4388]), ('accelerated', [0.2727272727272727, 6115])]
+decreace	accreted	careened	careered	credence	decrease
+75: ****************** magagine
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('imanage', [0.125, 48]), ('gigabeam', [0.2222222222222222, 17]), ('haeggman', [0.2222222222222222, 19]), ('e-gaming', [0.2222222222222222, 20]), ('gagnaire', [0.2222222222222222, 35]), ('germania', [0.2222222222222222, 39]), ('egomania', [0.2222222222222222, 42]), ('agyemang', [0.2222222222222222, 49]), ('maggiano', [0.2222222222222222, 55]), ('gleaming', [0.2222222222222222, 1945])]
+magagine	imanage	gigabeam	haeggman	e-gaming	gagnaire
+76: ****************** knowedge
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('knowledge', [0.11111111111111116, 32726]), ('knowlege', [0.2222222222222222, 26]), ('knotweed', [0.2222222222222222, 176]), ('weeklong', [0.2222222222222222, 2288]), ('gowned', [0.25, 16]), ('gondwe', [0.25, 18]), ('gedeon', [0.25, 29]), ('weedon', [0.25, 72])]
+knowedge	knowledge	knowlege	knotweed	weeklong	gowned
+77: ****************** relativley
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('relatively', [0.0, 39165]), ('reactively', [0.18181818181818177, 19]), ('relevantly', [0.18181818181818177, 23]), ('sayreville', [0.18181818181818177, 38]), ('waterville', [0.18181818181818177, 122]), ('creatively', [0.18181818181818177, 874]), ('vertically', [0.18181818181818177, 921]), ('valliere', [0.19999999999999996, 23]), ('relative', [0.19999999999999996, 20319])]
+relativley	relatively	reactively	relevantly	sayreville	waterville
+78: ****************** wheter
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('wether', [0.0, 83]), ('whetter', [0.1428571428571429, 16]), ('werneth', [0.1428571428571429, 18]), ('werther', [0.1428571428571429, 78]), ('wheater', [0.1428571428571429, 381]), ('weather', [0.1428571428571429, 59522]), ('whether', [0.1428571428571429, 251914]), ('ewert', [0.16666666666666663, 32]), ('hewer', [0.16666666666666663, 57]), ('ether', [0.16666666666666663, 375])]
+wheter	wether	whetter	werneth	werther	wheater
+79: ****************** convience
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('connective', [0.09999999999999998, 296]), ('conceive', [0.11111111111111116, 1343]), ('convince', [0.11111111111111116, 12005]), ('convenience', [0.18181818181818177, 6484])]
+convience	connective	conceive	convince	convenience
+80: ****************** extremly
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('extremly', [0, 18]), ('extremely', [0.11111111111111116, 33126]), ('altmeyer', [0.2222222222222222, 16]), ('trembley', [0.2222222222222222, 350]), ('expertly', [0.2222222222222222, 1012]), ('remotely', [0.2222222222222222, 3843])]
+extremly	extremly	extremely	altmeyer	trembley	expertly
+81: ****************** espacilly
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('specially', [0.0, 4570]), ('especially', [0.09999999999999998, 95238]), ('epically', [0.11111111111111116, 45]), ('allspice', [0.11111111111111116, 82])]
+espacilly	specially	especially	epically	allspice
+82: ****************** becasuse
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('sebaceous', [0.11111111111111116, 32]), ('cubases', [0.125, 20]), ('beacuse', [0.125, 21]), ('becasue', [0.125, 105]), ('becuase', [0.125, 202]), ('basescu', [0.125, 633]), ('because', [0.125, 652844]), ('userbase', [0.2222222222222222, 20]), ('subscale', [0.2222222222222222, 24]), ('sublease', [0.2222222222222222, 87])]
+becasuse	sebaceous	cubases	beacuse	becasue	becuase
+83: ****************** carrir
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('carrier', [0.1428571428571429, 17958]), ('carri', [0.16666666666666663, 28]), ('carreiro', [0.25, 18]), ('carriere', [0.25, 53]), ('carriker', [0.25, 53]), ('carriers', [0.25, 14875])]
+carrir	carrier	carri	carreiro	carriere	carriker
+84: ****************** actualy
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('actualy', [0, 35]), ('acutally', [0.125, 22]), ('casualty', [0.125, 5665]), ('actually', [0.125, 91960]), ('lucaya', [0.1428571428571429, 18]), ('actual', [0.1428571428571429, 29663])]
+actualy	actualy	acutally	casualty	actually	lucaya
+85: ****************** calaberating
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('lacerating', [0.16666666666666663, 117]), ('balenciaga', [0.16666666666666663, 519]), ('recalibrating', [0.2142857142857143, 82]), ('antibacterial', [0.2142857142857143, 373]), ('brancatelli', [0.23076923076923073, 73]), ('calibrating', [0.23076923076923073, 114]), ('egalitarian', [0.23076923076923073, 648]), ('rebalancing', [0.23076923076923073, 900]), ('elaborating', [0.23076923076923073, 1043]), ('intractable', [0.23076923076923073, 1115])]
+calaberating	lacerating	balenciaga	recalibrating	antibacterial	brancatelli
+86: ****************** simpley
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('impelsys', [0.125, 22]), ('slimey', [0.1428571428571429, 22]), ('simley', [0.1428571428571429, 28]), ('lemsip', [0.1428571428571429, 32]), ('impels', [0.1428571428571429, 33]), ('lipsey', [0.1428571428571429, 65]), ('smiley', [0.1428571428571429, 1229]), ('simple', [0.1428571428571429, 45074]), ('simply', [0.1428571428571429, 76362]), ('misplayed', [0.2222222222222222, 222])]
+simpley	impelsys	slimey	simley	lemsip	impels
+87: ****************** remanticism
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('mercantilism', [0.08333333333333337, 41]), ('commiseration', [0.15384615384615385, 28]), ('commiserating', [0.15384615384615385, 79]), ('romanticise', [0.16666666666666663, 29]), ('insectarium', [0.16666666666666663, 41]), ('americanism', [0.16666666666666663, 74]), ('romanticism', [0.16666666666666663, 335]), ('creationism', [0.16666666666666663, 669]), ('impairments', [0.16666666666666663, 1438])]
+remanticism	mercantilism	commiseration	commiserating	romanticise	insectarium
+88: ****************** pannel
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('penlan', [0.0, 19]), ('penland', [0.1428571428571429, 33]), ('pannell', [0.1428571428571429, 195]), ('planner', [0.1428571428571429, 2358]), ('planned', [0.1428571428571429, 79710]), ('alpen', [0.16666666666666663, 18]), ('naple', [0.16666666666666663, 18]), ('panne', [0.16666666666666663, 18]), ('palen', [0.16666666666666663, 22]), ('plean', [0.16666666666666663, 29])]
+pannel	penlan	penland	pannell	planner	planned
+89: ****************** diferrent
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('friendster', [0.09999999999999998, 372]), ('interfered', [0.09999999999999998, 1026]), ('diferent', [0.11111111111111116, 16]), ('trendier', [0.11111111111111116, 89]), ('interred', [0.11111111111111116, 378]), ('inferred', [0.11111111111111116, 433]), ('fredericton', [0.18181818181818177, 58])]
+diferrent	friendster	interfered	diferent	trendier	interred
+90: ****************** reguire
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('ruediger', [0.125, 30]), ('rougerie', [0.125, 102]), ('guerrier', [0.125, 134]), ('reiger', [0.1428571428571429, 26]), ('gerrie', [0.1428571428571429, 30]), ('rieger', [0.1428571428571429, 47]), ('rigeur', [0.1428571428571429, 54]), ('regier', [0.1428571428571429, 60]), ('guerre', [0.1428571428571429, 380]), ('burgmeier', [0.2222222222222222, 21])]
+reguire	ruediger	rougerie	guerrier	reiger	gerrie
+91: ****************** sucject
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('subject', [0.25, 58245]), ('justice', [0.25, 104922]), ('cetus', [0.2857142857142857, 18]), ('juste', [0.2857142857142857, 66]), ('stuccoed', [0.33333333333333337, 38]), ('cuticles', [0.33333333333333337, 68]), ('juiciest', [0.33333333333333337, 95]), ('cactuses', [0.33333333333333337, 110]), ('clutches', [0.33333333333333337, 781]), ('crutches', [0.33333333333333337, 1183])]
+sucject	subject	justice	cetus	juste	stuccoed
+92: ****************** diostract
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('dictators', [0.0, 1259]), ('distract', [0.11111111111111116, 2583]), ('dictator', [0.11111111111111116, 6235]), ('hydrostatic', [0.18181818181818177, 19]), ('contradicts', [0.18181818181818177, 900]), ('distraction', [0.18181818181818177, 4720])]
+diostract	dictators	distract	dictator	hydrostatic	contradicts
+93: ****************** tremeadous
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('moderates', [0.09999999999999998, 3437]), ('somersaulted', [0.16666666666666663, 50]), ('eodromaeus', [0.18181818181818177, 26]), ('democrates', [0.18181818181818177, 70]), ('outsmarted', [0.18181818181818177, 99]), ('stoudamire', [0.18181818181818177, 208]), ('desormeaux', [0.18181818181818177, 473]), ('stoudemire', [0.18181818181818177, 1746]), ('tremendous', [0.18181818181818177, 9016])]
+tremeadous	moderates	somersaulted	eodromaeus	democrates	outsmarted
+94: ****************** dirive
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('idrive', [0.0, 104]), ('diviner', [0.1428571428571429, 32]), ('trivedi', [0.1428571428571429, 65]), ('divider', [0.1428571428571429, 285]), ('virdi', [0.16666666666666663, 42]), ('vieri', [0.16666666666666663, 84]), ('dirie', [0.16666666666666663, 135]), ('verdi', [0.16666666666666663, 1036]), ('diver', [0.16666666666666663, 1476]), ('drive', [0.16666666666666663, 82834])]
+dirive	idrive	diviner	trivedi	divider	virdi
+95: ****************** tecnologies
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('technologies', [0.08333333333333337, 29028]), ('technologie', [0.16666666666666663, 16]), ('telescoping', [0.16666666666666663, 65]), ('scientology', [0.16666666666666663, 1735]), ('ecologies', [0.18181818181818177, 17]), ('gilestone', [0.18181818181818177, 34]), ('celestino', [0.18181818181818177, 60]), ('ecologist', [0.18181818181818177, 538]), ('selecting', [0.18181818181818177, 3268]), ('congolese', [0.18181818181818177, 3428])]
+tecnologies	technologies	technologie	telescoping	scientology	ecologies
+96: ****************** desappear
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('appeaser', [0.11111111111111116, 39]), ('appeased', [0.11111111111111116, 196]), ('appeared', [0.11111111111111116, 113365]), ('reappraised', [0.18181818181818177, 31]), ('paper-based', [0.18181818181818177, 193]), ('pear-shaped', [0.18181818181818177, 198]), ('disappeared', [0.18181818181818177, 17300]), ('appeasers', [0.19999999999999996, 44]), ('desparate', [0.19999999999999996, 81]), ('sandpaper', [0.19999999999999996, 108])]
+desappear	appeaser	appeased	appeared	reappraised	paper-based
+97: ****************** genarally
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('laryngeal', [0.0, 37]), ('allegany', [0.11111111111111116, 99]), ('allergan', [0.11111111111111116, 393]), ('aberglaslyn', [0.18181818181818177, 19])]
+genarally	laryngeal	allegany	allergan	aberglaslyn
+98: ****************** profesor
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('professor', [0.11111111111111116, 64476]), ('reproof', [0.125, 32]), ('roofers', [0.125, 54]), ('foreperson', [0.19999999999999996, 16]), ('professors', [0.19999999999999996, 4705])]
+profesor	professor	reproof	roofers	foreperson	professors
+99: ****************** abandant
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('bandana', [0.125, 176]), ('databahn', [0.2222222222222222, 33]), ('ntaganda', [0.2222222222222222, 58]), ('bandanas', [0.2222222222222222, 136]), ('bandanna', [0.2222222222222222, 136]), ('databank', [0.2222222222222222, 154]), ('abundant', [0.2222222222222222, 2828]), ('annaba', [0.25, 20]), ('abadan', [0.25, 37]), ('ananda', [0.25, 102])]
+abandant	bandana	databahn	ntaganda	bandanas	bandanna
+100: ****************** greatt
+Corrections using Jaccard distance :
+TOP 10 best candidates : [('gretta', [0.0, 20]), ('garett', [0.0, 41]), ('tergat', [0.0, 107]), ('target', [0.0, 67544]), ('garlett', [0.1428571428571429, 17]), ('gravett', [0.1428571428571429, 25]), ('targett', [0.1428571428571429, 26]), ('teggart', [0.1428571428571429, 31]), ('agutter', [0.1428571428571429, 40]), ('hargett', [0.1428571428571429, 49])]
+greatt	gretta	garett	tergat	target	garlett
+
+Total Time:
+380.29848551750183
