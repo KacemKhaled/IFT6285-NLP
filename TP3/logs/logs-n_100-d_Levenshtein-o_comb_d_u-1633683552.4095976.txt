@@ -206,3 +206,23 @@ Corrections using Levenshtein distance :
 TOP 10 best candidates : [('referential', [1, 30]), ('preferential', [2, 1509]), ('referencing', [2, 726]), ('deferential', [2, 330]), ('reverential', [2, 188]), ('reference', [3, 17385]), ('references', [3, 6395]), ('referenced', [3, 1148]), ('referenda', [3, 128])]
 referencial	referential	preferential	referencing	deferential	reverential
 52: ****************** processure
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('pressure', [2, 108004]), ('procedure', [2, 15361]), ('processor', [2, 3310]), ('processors', [2, 2331]), ('process', [3, 123965]), ('professor', [3, 64476]), ('procedures', [3, 19591]), ('processing', [3, 13071]), ('pressures', [3, 11586]), ('processes', [3, 9535])]
+processure	pressure	procedure	processor	processors	process
+53: ****************** whis
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('his', [1, 3048518]), ('this', [1, 2175742]), ('whip', [1, 5399]), ('wis', [1, 3577]), ('weis', [1, 1671]), ('whips', [1, 1268]), ('whisk', [1, 1041]), ('whim', [1, 928]), ('whiz', [1, 620]), ('whims', [1, 579])]
+whis	his	this	whip	wis	weis
+54: ****************** populization
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('population', [2, 71143]), ('popularization', [2, 40]), ('populations', [3, 9721]), ('mobilization', [3, 585]), ('polarization', [3, 553]), ('pollination', [3, 346]), ('localization', [3, 134]), ('copulation', [3, 131]), ('vocalization', [3, 31]), ('popularisation', [3, 20])]
+populization	population	popularization	populations	mobilization	polarization
+55: ****************** prodcut
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('product', [2, 70402]), ('prout', [2, 361]), ('produ', [2, 63]), ('woodcut', [2, 57]), ('prodrug', [2, 36]), ('pre-cut', [2, 30]), ('proact', [2, 28]), ('precut', [2, 18]), ('products', [3, 116826]), ('project', [3, 113450])]
+prodcut	product	prout	produ	woodcut	prodrug
+56: ****************** beleived
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('beleived', [0, 17]), ('beleive', [1, 243]), ('belived', [1, 25]), ('beleives', [1, 17]), ('received', [2, 132089]), ('believed', [2, 84783]), ('beloved', [2, 7586]), ('bereaved', [2, 1323]), ('deceived', [2, 1172]), ('belied', [2, 503])]
+beleived	beleived	beleive	belived	beleives	received
+57: ****************** backgrounging
