@@ -1,0 +1,172 @@
+['LCSS']
+unigram
+Correcting 100 words
+1: ****************** reccodmission
+Corrections using LCSS distance :
+TOP 10 best candidates : [('commission', [7, 113377]), ('mission', [7, 60382]), ('emissions', [7, 51733]), ('commissioner', [7, 30591]), ('permission', [7, 19482]), ('admission', [8, 11441]), ('missions', [7, 10008]), ('commissioned', [7, 9794]), ('transmission', [7, 8955]), ('admissions', [8, 6261])]
+reccodmission	commission	mission	emissions	commissioner	permission
+2: ****************** unpair
+Corrections using LCSS distance :
+TOP 10 best candidates : [('campaign', [3, 228336]), ('air', [3, 153442]), ('chairman', [3, 120177]), ('paid', [3, 109546]), ('airport', [3, 73706]), ('fair', [3, 52845]), ('spain', [3, 51765]), ('aircraft', [3, 47790]), ('pair', [4, 45687]), ('airlines', [3, 44725])]
+unpair	campaign	air	chairman	paid	airport
+3: ****************** oconomic
+Corrections using LCSS distance :
+TOP 10 best candidates : [('economic', [7, 253089]), ('economy', [5, 227089]), ('economists', [6, 29966]), ('economies', [6, 24906]), ('economist', [6, 23667]), ('economics', [7, 19320]), ('economically', [7, 6217]), ('astronomical', [6, 1732]), ('economical', [7, 1713]), ('macroeconomic', [7, 1592])]
+oconomic	economic	economy	economists	economies	economist
+4: ****************** accidnts
+Corrections using LCSS distance :
+TOP 10 best candidates : [('according', [3, 344241]), ('points', [3, 257865]), ('didn', [3, 162064]), ('students', [3, 135959]), ('parents', [3, 121813]), ('accused', [3, 108550]), ('patients', [3, 106436]), ('wants', [3, 100172]), ('access', [3, 97469]), ('residents', [3, 87203])]
+accidnts	according	points	didn	students	parents
+5: ****************** succes
+Corrections using LCSS distance :
+TOP 10 best candidates : [('access', [4, 97469]), ('success', [6, 81991]), ('successful', [6, 59742]), ('successfully', [6, 20560]), ('succeed', [5, 16941]), ('successor', [6, 14734]), ('successive', [6, 10441]), ('succeeded', [5, 9957]), ('accessible', [4, 9194]), ('succession', [6, 7671])]
+succes	access	success	successful	successfully	succeed
+6: ****************** enthousiastic
+Corrections using LCSS distance :
+TOP 10 best candidates : [('enthusiastic', [8, 6474]), ('enthusiasts', [6, 3893]), ('enthusiastically', [8, 1856]), ('enthusiast', [6, 1751]), ('penthouse', [7, 1725]), ('ecclesiastical', [7, 331]), ('unenthusiastic', [8, 206]), ('penthouses', [7, 189]), ('over-enthusiastic', [8, 75]), ('orgiastic', [6, 49])]
+enthousiastic	enthusiastic	enthusiasts	enthusiastically	enthusiast	penthouse
+7: ****************** produse
+Corrections using LCSS distance :
+TOP 10 best candidates : [('because', [3, 652844]), ('house', [3, 412470]), ('used', [3, 296737]), ('use', [3, 282280]), ('industry', [3, 198138]), ('program', [3, 184415]), ('problems', [3, 145369]), ('problem', [3, 138465]), ('provide', [3, 134668]), ('process', [3, 123965])]
+produse	because	house	used	use	industry
+8: ****************** tecnologycal
+Corrections using LCSS distance :
+TOP 10 best candidates : [('technology', [6, 131287]), ('technologies', [5, 29028]), ('psychological', [4, 11186]), ('apology', [5, 11111]), ('biological', [4, 9524]), ('technological', [5, 7556]), ('apologized', [4, 6865]), ('biology', [5, 6140]), ('psychology', [5, 6032]), ('apologised', [4, 5835])]
+tecnologycal	technology	technologies	psychological	apology	biological
+9: ****************** upto
+Corrections using LCSS distance :
+TOP 10 best candidates : [('into', [2, 969249]), ('told', [2, 495022]), ('group', [2, 430289]), ('too', [2, 311699]), ('washington', [2, 292043]), ('today', [2, 280126]), ('top', [2, 280087]), ('took', [2, 262400]), ('support', [2, 260309]), ('director', [2, 188510])]
+upto	into	told	group	too	washington
+10: ****************** poisioning
+Corrections using LCSS distance :
+TOP 10 best candidates : [('questioning', [6, 15705]), ('functioning', [6, 5362]), ('positioning', [6, 3949]), ('conditioning', [6, 3514]), ('mentioning', [6, 2669]), ('rationing', [6, 1985]), ('commissioning', [7, 1353]), ('air-conditioning', [6, 1268]), ('decommissioning', [7, 1109]), ('championing', [6, 1078])]
+poisioning	questioning	functioning	positioning	conditioning	mentioning
+11: ****************** competitiors
+Corrections using LCSS distance :
+TOP 10 best candidates : [('competition', [10, 72728]), ('competitive', [9, 30332]), ('competitors', [8, 15421]), ('competitor', [8, 6184]), ('competitions', [10, 5402]), ('competitiveness', [9, 3828]), ('competitively', [9, 911]), ('anti-competitive', [9, 649]), ('uncompetitive', [9, 447]), ('anticompetitive', [9, 314])]
+competitiors	competition	competitive	competitors	competitor	competitions
+12: ****************** riks
+Corrections using LCSS distance :
+TOP 10 best candidates : [('like', [2, 653907]), ('during', [2, 477570]), ('american', [2, 344959]), ('friday', [2, 314634]), ('security', [2, 287599]), ('right', [2, 284152]), ('british', [2, 241433]), ('likely', [2, 208998]), ('prices', [2, 203889]), ('america', [2, 199348])]
+riks	like	during	american	friday	security
+13: ****************** definations
+Corrections using LCSS distance :
+TOP 10 best candidates : [('national', [6, 376264]), ('international', [6, 306160]), ('nation', [6, 143516]), ('nations', [7, 104367]), ('operations', [6, 100158]), ('relationship', [6, 62868]), ('relations', [6, 60091]), ('negotiations', [6, 51032]), ('expectations', [6, 44646]), ('allegations', [6, 43485])]
+definations	national	international	nation	nations	operations
+14: ****************** vivd
+Corrections using LCSS distance :
+TOP 10 best candidates : [('and', [1, 16149834]), ('with', [1, 4671305]), ('said', [1, 4306425]), ('his', [1, 3048518]), ('have', [1, 3012093]), ('will', [1, 2187657]), ('this', [1, 2175742]), ('had', [1, 1990115]), ('their', [1, 1953337]), ('which', [1, 1662661])]
+vivd	and	with	said	his	have
+15: ****************** tradind
+Corrections using LCSS distance :
+TOP 10 best candidates : [('leading', [4, 145072]), ('trade', [4, 126459]), ('trading', [6, 94146]), ('radio', [4, 76687]), ('traditional', [5, 56656]), ('reading', [4, 49333]), ('heading', [4, 29287]), ('ahmadinejad', [4, 25264]), ('radical', [4, 21093]), ('traded', [4, 20597])]
+tradind	leading	trade	trading	radio	traditional
+16: ****************** materail
+Corrections using LCSS distance :
+TOP 10 best candidates : [('later', [4, 269899]), ('water', [4, 164661]), ('climate', [4, 94470]), ('greater', [4, 71068]), ('estimated', [4, 68853]), ('material', [5, 42907]), ('estimates', [4, 42570]), ('approximately', [4, 34235]), ('veteran', [4, 31337]), ('ultimately', [4, 29520])]
+materail	later	water	climate	greater	estimated
+17: ****************** useig
+Corrections using LCSS distance :
+TOP 10 best candidates : [('their', [2, 1953337]), ('just', [2, 700325]), ('because', [3, 652844]), ('being', [2, 579175]), ('those', [2, 526090]), ('these', [2, 414456]), ('house', [3, 412470]), ('second', [2, 395680]), ('see', [2, 326812]), ('business', [2, 322887])]
+useig	their	just	because	being	those
+18: ****************** thoese
+Corrections using LCSS distance :
+TOP 10 best candidates : [('the', [2, 41223601]), ('that', [2, 6960157]), ('with', [2, 4671305]), ('they', [2, 2242804]), ('this', [2, 2175742]), ('who', [2, 2108824]), ('their', [2, 1953337]), ('than', [2, 1250163]), ('there', [2, 1167647]), ('other', [2, 954829])]
+thoese	the	that	with	they	this
+19: ****************** concludsion
+Corrections using LCSS distance :
+TOP 10 best candidates : [('including', [5, 431259]), ('include', [5, 145270]), ('included', [5, 100397]), ('includes', [5, 80160]), ('concluded', [7, 25389]), ('conclusion', [6, 14539]), ('conclude', [7, 8081]), ('conclusions', [6, 7289]), ('concludes', [7, 4641]), ('concluding', [7, 3003])]
+concludsion	including	include	included	includes	concluded
+20: ****************** controll
+Corrections using LCSS distance :
+TOP 10 best candidates : [('control', [7, 160347]), ('controversial', [6, 34862]), ('controlled', [8, 23715]), ('controls', [7, 22306]), ('controversy', [6, 21629]), ('controlling', [8, 9725]), ('controller', [8, 5417]), ('controllers', [8, 4578]), ('state-controlled', [8, 2329]), ('controversies', [6, 1903])]
+controll	control	controversial	controlled	controls	controversy
+21: ****************** thise
+Corrections using LCSS distance :
+TOP 10 best candidates : [('his', [3, 3048518]), ('this', [4, 2175742]), ('think', [3, 303839]), ('third', [3, 242438]), ('something', [3, 171590]), ('within', [3, 165850]), ('things', [3, 158391]), ('history', [3, 143761]), ('thing', [3, 120606]), ('nothing', [3, 112871])]
+thise	his	this	think	third	something
+22: ****************** banefit
+Corrections using LCSS distance :
+TOP 10 best candidates : [('bank', [3, 311238]), ('banks', [3, 165882]), ('taliban', [3, 81806]), ('husband', [3, 77927]), ('benefits', [5, 70518]), ('profit', [3, 68775]), ('ban', [3, 64089]), ('banking', [3, 63676]), ('benefit', [5, 56481]), ('japanese', [3, 55963])]
+banefit	bank	banks	taliban	husband	benefits
+23: ****************** fatct
+Corrections using LCSS distance :
+TOP 10 best candidates : [('that', [2, 6960157]), ('what', [2, 849283]), ('state', [2, 549265]), ('states', [2, 381800]), ('national', [2, 376264]), ('international', [2, 306160]), ('family', [2, 292646]), ('expected', [2, 278214]), ('later', [2, 269899]), ('information', [2, 240644])]
+fatct	that	what	state	states	national
+24: ****************** condamnation
+Corrections using LCSS distance :
+TOP 10 best candidates : [('national', [6, 376264]), ('international', [6, 306160]), ('nation', [6, 143516]), ('nations', [6, 104367]), ('nationwide', [6, 32662]), ('nomination', [6, 30447]), ('combination', [6, 25076]), ('donations', [6, 16889]), ('resignation', [6, 15999]), ('destination', [6, 14240])]
+condamnation	national	international	nation	nations	nationwide
+25: ****************** forula
+Corrections using LCSS distance :
+TOP 10 best candidates : [('for', [3, 6763830]), ('more', [2, 1729941]), ('would', [2, 1531631]), ('last', [2, 1077656]), ('could', [2, 868808]), ('before', [3, 666773]), ('world', [2, 663896]), ('should', [2, 458188]), ('work', [2, 410152]), ('former', [3, 389414])]
+forula	for	more	would	last	could
+26: ****************** thingh
+Corrections using LCSS distance :
+TOP 10 best candidates : [('this', [3, 2175742]), ('being', [3, 579175]), ('during', [3, 477570]), ('including', [3, 431259]), ('according', [3, 344241]), ('going', [3, 317959]), ('think', [4, 303839]), ('washington', [4, 292043]), ('china', [3, 273798]), ('third', [3, 242438])]
+thingh	this	being	during	including	according
+27: ****************** migth
+Corrections using LCSS distance :
+TOP 10 best candidates : [('the', [2, 41223601]), ('that', [2, 6960157]), ('with', [2, 4671305]), ('said', [1, 4306425]), ('from', [1, 3270570]), ('his', [1, 3048518]), ('have', [1, 3012093]), ('has', [1, 3001796]), ('but', [1, 2773554]), ('not', [1, 2310462])]
+migth	the	that	with	said	from
+28: ****************** healtheir
+Corrections using LCSS distance :
+TOP 10 best candidates : [('their', [5, 1953337]), ('health', [6, 345821]), ('although', [4, 184617]), ('healthcare', [6, 44792]), ('healthy', [6, 37550]), ('wealth', [5, 26608]), ('wealthy', [5, 19026]), ('dealt', [4, 13137]), ('health-care', [6, 10149]), ('commonwealth', [5, 9858])]
+healtheir	their	health	although	healthcare	healthy
+29: ****************** everythingfor
+Corrections using LCSS distance :
+TOP 10 best candidates : [('anything', [6, 96936]), ('everything', [10, 80664]), ('everytime', [6, 411]), ('wallingford', [6, 224]), ('plaything', [6, 212]), ('playthings', [6, 200]), ('chingford', [7, 163]), ('anything-goes', [6, 152]), ('scything', [6, 103]), ('carlingford', [6, 35])]
+everythingfor	anything	everything	everytime	wallingford	plaything
+30: ****************** beleif
+Corrections using LCSS distance :
+TOP 10 best candidates : [('election', [3, 182758]), ('believe', [3, 156795]), ('released', [3, 147270]), ('angeles', [3, 124095]), ('television', [3, 120090]), ('release', [3, 113186]), ('believed', [3, 84783]), ('elections', [3, 80477]), ('below', [3, 65140]), ('believes', [3, 59554])]
+beleif	election	believe	released	angeles	television
+31: ****************** resourses
+Corrections using LCSS distance :
+TOP 10 best candidates : [('hours', [4, 166164]), ('course', [5, 134664]), ('source', [4, 65957]), ('sources', [4, 58857]), ('resources', [6, 56432]), ('resort', [4, 31215]), ('resolution', [4, 28458]), ('yourself', [5, 24751]), ('resolve', [4, 19863]), ('ourselves', [5, 15213])]
+resourses	hours	course	source	sources	resources
+32: ****************** advantanges
+Corrections using LCSS distance :
+TOP 10 best candidates : [('changes', [5, 95245]), ('advantage', [7, 52286]), ('advanced', [5, 37771]), ('advance', [5, 34581]), ('guantanamo', [5, 18323]), ('exchanges', [5, 10145]), ('advances', [5, 8615]), ('advancing', [5, 6472]), ('advantages', [7, 6006]), ('santana', [5, 4955])]
+advantanges	changes	advantage	advanced	advance	guantanamo
+33: ****************** diguise
+Corrections using LCSS distance :
+TOP 10 best candidates : [('rise', [3, 102367]), ('figures', [3, 95878]), ('raised', [3, 90049]), ('raise', [3, 77967]), ('disease', [3, 77275]), ('figure', [3, 68313]), ('guilty', [3, 66536]), ('digital', [3, 46313]), ('promised', [3, 41538]), ('surprise', [3, 38949])]
+diguise	rise	figures	raised	raise	disease
+34: ****************** additionly
+Corrections using LCSS distance :
+TOP 10 best candidates : [('opposition', [5, 105452]), ('position', [5, 101401]), ('conditions', [6, 93340]), ('additional', [8, 79878]), ('competition', [5, 72728]), ('condition', [6, 69324]), ('addition', [8, 66873]), ('traditional', [6, 56656]), ('coalition', [5, 49167]), ('positions', [5, 33842])]
+additionly	opposition	position	conditions	additional	competition
+35: ****************** opportunnity
+Corrections using LCSS distance :
+TOP 10 best candidates : [('support', [5, 260309]), ('supporters', [5, 72248]), ('opportunity', [8, 68288]), ('supported', [5, 36076]), ('opportunities', [8, 35367]), ('supporting', [5, 30564]), ('unfortunately', [5, 19112]), ('fortune', [5, 18181]), ('supports', [5, 17822]), ('portugal', [5, 13139])]
+opportunnity	support	supporters	opportunity	supported	opportunities
+36: ****************** urself
+Corrections using LCSS distance :
+TOP 10 best candidates : [('course', [4, 134664]), ('himself', [4, 125763]), ('itself', [4, 81854]), ('herself', [5, 34483]), ('myself', [4, 30201]), ('yourself', [6, 24751]), ('ourselves', [5, 15213]), ('courses', [4, 14164]), ('nurse', [4, 12266]), ('nurses', [4, 11408])]
+urself	course	himself	itself	herself	myself
+37: ****************** rebelion
+Corrections using LCSS distance :
+TOP 10 best candidates : [('million', [4, 669787]), ('national', [3, 376264]), ('billion', [4, 358486]), ('international', [3, 306160]), ('information', [3, 240644]), ('administration', [3, 187150]), ('election', [3, 182758]), ('decision', [3, 174848]), ('believe', [4, 156795]), ('nation', [3, 143516])]
+rebelion	million	national	billion	international	information
+38: ****************** chioce
+Corrections using LCSS distance :
+TOP 10 best candidates : [('his', [2, 3048518]), ('this', [2, 2175742]), ('which', [2, 1662661]), ('percent', [2, 703345]), ('million', [2, 669787]), ('him', [2, 638864]), ('while', [2, 625393]), ('police', [2, 585150]), ('since', [2, 576176]), ('such', [2, 509608])]
+chioce	his	this	which	percent	million
+39: ****************** consdiered
+Corrections using LCSS distance :
+TOP 10 best candidates : [('soldiers', [4, 89986]), ('consumer', [4, 86377]), ('offered', [4, 83141]), ('consumers', [4, 79407]), ('considered', [4, 75819]), ('conservative', [4, 73309]), ('suffered', [4, 70369]), ('consider', [4, 64035]), ('construction', [4, 62957]), ('ordered', [4, 58012])]
+consdiered	soldiers	consumer	offered	consumers	considered
+40: ****************** travals
+Corrections using LCSS distance :
+TOP 10 best candidates : [('travel', [4, 88020]), ('rivals', [4, 36150]), ('traveling', [4, 18039]), ('travelling', [4, 15480]), ('travelers', [4, 14439]), ('naval', [4, 14304]), ('traveled', [4, 13247]), ('travelled', [4, 9293]), ('travels', [4, 6830]), ('cavaliers', [4, 6207])]
+travals	travel	rivals	traveling	travelling	travelers
+41: ****************** inturn
+Corrections using LCSS distance :
+TOP 10 best candidates : [('into', [3, 969249]), ('international', [3, 306160]), ('points', [3, 257865]), ('saturday', [3, 233003]), ('point', [3, 191161]), ('future', [3, 178912]), ('clinton', [3, 165171]), ('return', [4, 164885]), ('interest', [3, 153836]), ('internet', [3, 118543])]
+inturn	into	international	points	saturday	point
+42: ****************** inly
+Corrections using LCSS distance :
+TOP 10 best candidates : [('into', [2, 969249]), ('only', [3, 721447]), ('being', [2, 579175]), ('since', [2, 576176]), ('against', [2, 575562]), ('during', [2, 477570]), ('including', [2, 431259]), ('according', [2, 344241]), ('financial', [2, 326817]), ('business', [2, 322887])]
+inly	into	only	being	since	against
+43: ****************** everydays

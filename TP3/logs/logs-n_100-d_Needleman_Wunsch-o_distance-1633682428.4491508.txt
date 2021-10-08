@@ -194,3 +194,23 @@ Corrections using Needleman_Wunsch distance :
 TOP 10 best candidates : [('explanation', [-9.0, 12955]), ('explaination', [-8.0, 26]), ('explanations', [-8.0, 2828]), ('expiation', [-7.0, 24]), ('explication', [-7.0, 58]), ('exaltation', [-7.0, 66]), ('exultation', [-7.0, 94]), ('exclamation', [-7.0, 535]), ('exposition', [-7.0, 880]), ('extraction', [-7.0, 1579])]
 explantion	explanation	explaination	explanations	expiation	explication
 49: ****************** insearch
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('iresearch', [-6.0, 33]), ('onesearch', [-6.0, 41]), ('research', [-6.0, 201240]), ('non-search', [-5.0, 16]), ('insource', [-5.0, 18]), ('reasearch', [-5.0, 19]), ('eresearch', [-5.0, 25]), ('hindmarch', [-5.0, 122]), ('citysearch', [-5.0, 172]), ('instance', [-5.0, 25307])]
+insearch	iresearch	onesearch	research	non-search	insource
+50: ****************** advertisments
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('advertisments', [-13.0, 18]), ('advertisements', [-12.0, 5316]), ('advertisment', [-11.0, 30])]
+advertisments	advertisments	advertisements	advertisment
+51: ****************** referencial
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('referential', [-10.0, 30]), ('reverential', [-9.0, 188]), ('deferential', [-9.0, 330]), ('referencing', [-9.0, 726]), ('preferential', [-9.0, 1509]), ('reverentially', [-7.0, 49]), ('preferentially', [-7.0, 57]), ('referendums', [-7.0, 889]), ('differential', [-7.0, 1108]), ('referenced', [-7.0, 1148])]
+referencial	referential	reverential	deferential	referencing	preferential
+52: ****************** processure
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('processors', [-8.0, 2331]), ('processor', [-7.0, 3310]), ('procession', [-7.0, 3826]), ('professors', [-7.0, 4705]), ('processing', [-7.0, 13071]), ('procedure', [-7.0, 15361]), ('precession', [-6.0, 28]), ('proteasome', [-6.0, 51]), ('promissory', [-6.0, 251]), ('professing', [-6.0, 281])]
+processure	processors	processor	procession	professors	processing
+53: ****************** whis
+Corrections using Needleman_Wunsch distance :
+TOP 10 best candidates : [('chis', [-3.0, 16]), ('whic', [-3.0, 16]), ('whirs', [-3.0, 21]), ('whif', [-3.0, 24]), ('whois', [-3.0, 49]), ('whist', [-3.0, 50]), ('whigs', [-3.0, 68]), ('whir', [-3.0, 87]), ('whig', [-3.0, 103]), ('whos', [-3.0, 103])]
+whis	chis	whic	whirs	whif	whois
+54: ****************** populization

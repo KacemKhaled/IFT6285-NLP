@@ -50,3 +50,357 @@ Corrections using LCSS distance :
 TOP 10 best candidates : [('didrikson', [4, 19]), ('fridriksson', [4, 19]), ('didriks', [4, 20]), ('henrikson', [4, 20]), ('hendriks', [4, 21]), ('fredrikson', [4, 23]), ('henriksson', [4, 23]), ('fredriksen', [4, 40]), ('henriksen', [4, 43]), ('frederiksen', [4, 48])]
 riks	didrikson	fridriksson	didriks	henrikson	hendriks
 13: ****************** definations
+Corrections using LCSS distance :
+TOP 10 best candidates : [('self-examinations', [8, 18]), ('contaminations', [8, 23]), ('peregrinations', [8, 25]), ('discriminations', [8, 26]), ('cross-examinations', [8, 28]), ('fulminations', [8, 36]), ('abominations', [8, 43]), ('fascinations', [8, 48]), ('ordinations', [8, 88]), ('ruminations', [8, 158])]
+definations	self-examinations	contaminations	peregrinations	discriminations	cross-examinations
+14: ****************** vivd
+Corrections using LCSS distance :
+TOP 10 best candidates : [('marc-vivien', [3, 16]), ('vivekananda', [3, 16]), ('revivifying', [3, 17]), ('vivakor', [3, 17]), ('vivir', [3, 18]), ('vivitar', [3, 19]), ('revivalism', [3, 20]), ('viveca', [3, 20]), ('vivitrol', [3, 20]), ('vivmag', [3, 20])]
+vivd	marc-vivien	vivekananda	revivifying	vivakor	vivir
+15: ****************** tradind
+Corrections using LCSS distance :
+TOP 10 best candidates : [('held-for-trading', [6, 19]), ('day-trading', [6, 21]), ('tradingscreen', [6, 25]), ('bond-trading', [6, 26]), ('oil-trading', [6, 26]), ('free-trading', [6, 31]), ('armatrading', [6, 32]), ('horsetrading', [6, 32]), ('stock-trading', [6, 32]), ('share-trading', [6, 33])]
+tradind	held-for-trading	day-trading	tradingscreen	bond-trading	oil-trading
+16: ****************** materail
+Corrections using LCSS distance :
+TOP 10 best candidates : [('matera', [6, 42]), ('wateraid', [6, 54]), ('materazzi', [6, 258]), ('over-collateralization', [5, 16]), ('serail', [5, 16]), ('non-material', [5, 17]), ('building-materials', [5, 18]), ('destinationmaternity.com', [5, 18]), ('lateraled', [5, 18]), ('materia', [5, 19])]
+materail	matera	wateraid	materazzi	over-collateralization	serail
+17: ****************** useig
+Corrections using LCSS distance :
+TOP 10 best candidates : [('beseiged', [4, 16]), ('passeig', [4, 16]), ('seigenthaler', [4, 20]), ('lasseigne', [4, 22]), ('seigel', [4, 27]), ('seige', [4, 55]), ('husein', [4, 78]), ('seigneur', [4, 80]), ('seigner', [4, 91]), ('acid-house', [3, 16])]
+useig	beseiged	passeig	seigenthaler	lasseigne	seigel
+18: ****************** thoese
+Corrections using LCSS distance :
+TOP 10 best candidates : [('boese', [4, 17]), ('boesendorfer', [4, 17]), ('gumshoes', [4, 19]), ('joesentme.com', [4, 19]), ('cohoes', [4, 20]), ('loeseth', [4, 20]), ('oeser', [4, 20]), ('tahoes', [4, 22]), ('roeser', [4, 25]), ('faroese', [4, 27])]
+thoese	boese	boesendorfer	gumshoes	joesentme.com	cohoes
+19: ****************** concludsion
+Corrections using LCSS distance :
+TOP 10 best candidates : [('just-concluded', [7, 78]), ('concluding', [7, 3003]), ('concludes', [7, 4641]), ('conclude', [7, 8081]), ('concluded', [7, 25389]), ('inconclusively', [6, 79]), ('conclusively', [6, 740]), ('conclusive', [6, 1266]), ('inconclusive', [6, 1765]), ('conclusions', [6, 7289])]
+concludsion	just-concluded	concluding	concludes	conclude	concluded
+20: ****************** controll
+Corrections using LCSS distance :
+TOP 10 best candidates : [('nazi-controlled', [8, 16]), ('auditor-controller', [8, 17]), ('remotely-controlled', [8, 17]), ('army-controlled', [8, 18]), ('soviet-controlled', [8, 18]), ('voice-controlled', [8, 18]), ('calorie-controlled', [8, 19]), ('democratically-controlled', [8, 19]), ('union-controlled', [8, 20]), ('us-controlled', [8, 20])]
+controll	nazi-controlled	auditor-controller	remotely-controlled	army-controlled	soviet-controlled
+21: ****************** thise
+Corrections using LCSS distance :
+TOP 10 best candidates : [('mathisen', [5, 17]), ('empathised', [5, 33]), ('sympathises', [5, 81]), ('sympathiser', [5, 126]), ('sympathised', [5, 238]), ('empathise', [5, 242]), ('sympathisers', [5, 471]), ('sympathise', [5, 497]), ('fetishised', [4, 16]), ('franchise-high', [4, 16])]
+thise	mathisen	empathised	sympathises	sympathiser	sympathised
+22: ****************** banefit
+Corrections using LCSS distance :
+TOP 10 best candidates : [('baneful', [5, 16]), ('benefit-risk', [5, 16]), ('smartbenefits', [5, 17]), ('probenefit', [5, 20]), ('risk-benefit', [5, 34]), ('defined-benefit', [5, 161]), ('cost-benefit', [5, 341]), ('benefitting', [5, 374]), ('benefitted', [5, 630]), ('benefiting', [5, 3825])]
+banefit	baneful	benefit-risk	smartbenefits	probenefit	risk-benefit
+23: ****************** fatct
+Corrections using LCSS distance :
+TOP 10 best candidates : [('fatcat', [4, 16]), ('fatcats', [4, 21]), ('atcher', [3, 16]), ('atchity', [3, 16]), ('batchelors', [3, 16]), ('case-fatality', [3, 16]), ('catcalling', [3, 16]), ('catchline', [3, 16]), ('coastwatch', [3, 16]), ('court-watchers', [3, 16])]
+fatct	fatcat	fatcats	atcher	atchity	batchelors
+24: ****************** condamnation
+Corrections using LCSS distance :
+TOP 10 best candidates : [('damnation', [9, 213]), ('condemnations', [7, 282]), ('condemnation', [7, 4690]), ('emanation', [6, 16]), ('home-nation', [6, 16]), ('host-nation', [6, 16]), ('multi-denominational', [6, 16]), ('nationally-known', [6, 16]), ('nationalsÃªÂ¼', [6, 16]), ('nation-best', [6, 16])]
+condamnation	damnation	condemnations	condemnation	emanation	home-nation
+25: ****************** forula
+Corrections using LCSS distance :
+TOP 10 best candidates : [('centreforum', [4, 16]), ('fedexforum', [4, 16]), ('glomerular', [4, 16]), ('rula', [4, 16]), ('sdforum', [4, 16]), ('verulam', [4, 16]), ('foruzandeh', [4, 18]), ('porulski', [4, 18]), ('arulanantham', [4, 21]), ('signatureforum', [4, 21])]
+forula	centreforum	fedexforum	glomerular	rula	sdforum
+26: ****************** thingh
+Corrections using LCSS distance :
+TOP 10 best candidates : [('fiftysomethings', [5, 16]), ('gething', [5, 16]), ('mouth-breathing', [5, 16]), ('withings', [5, 16]), ('anthing', [5, 17]), ('sure-thing', [5, 17]), ('forty-something', [5, 18]), ('swathing', [5, 18]), ('fifty-something', [5, 19]), ('allthingsdigital', [5, 20])]
+thingh	fiftysomethings	gething	mouth-breathing	withings	anthing
+27: ****************** migth
+Corrections using LCSS distance :
+TOP 10 best candidates : [('bone-strengthening', [3, 16]), ('illegal-immigration', [3, 16]), ('immigrationworks', [3, 16]), ('inmigrantes', [3, 16]), ('lumigan', [3, 16]), ('pigtail', [3, 16]), ('six-length', [3, 16]), ('unomig', [3, 16]), ('emigh', [3, 17]), ('fumigants', [3, 17])]
+migth	bone-strengthening	illegal-immigration	immigrationworks	inmigrantes	lumigan
+28: ****************** healtheir
+Corrections using LCSS distance :
+TOP 10 best candidates : [('cnnhealth', [6, 16]), ('ecohealth', [6, 16]), ('healthcheck', [6, 16]), ('health-check', [6, 16]), ('health-plan', [6, 16]), ('myhealth', [6, 16]), ('animal-health', [6, 17]), ('health-care-related', [6, 17]), ('healthcorps', [6, 17]), ('xlhealth', [6, 17])]
+healtheir	cnnhealth	ecohealth	healthcheck	health-check	health-plan
+29: ****************** everythingfor
+Corrections using LCSS distance :
+TOP 10 best candidates : [('do-everything', [10, 32]), ('everything', [10, 80664]), ('chingford', [7, 163]), ('savingforcollege.com', [6, 18]), ('eveything', [6, 22]), ('say-anything', [6, 26]), ('shillingford', [6, 26]), ('springform', [6, 26]), ('do-anything', [6, 29]), ('carlingford', [6, 35])]
+everythingfor	do-everything	everything	chingford	savingforcollege.com	eveything
+30: ****************** beleif
+Corrections using LCSS distance :
+TOP 10 best candidates : [('beleived', [5, 17]), ('beleives', [5, 17]), ('beleive', [5, 243]), ('belenenses', [4, 16]), ('madeleineÃªÂ¼s', [4, 16]), ('cybele', [4, 17]), ('shleifer', [4, 18]), ('cibeles', [4, 21]), ('mbele', [4, 21]), ('abeles', [4, 23])]
+beleif	beleived	beleives	beleive	belenenses	madeleineÃªÂ¼s
+31: ****************** resourses
+Corrections using LCSS distance :
+TOP 10 best candidates : [('resourcefully', [6, 16]), ('resource-linked', [6, 16]), ('recourses', [6, 21]), ('resource-efficient', [6, 21]), ('natural-resources', [6, 22]), ('natural-resource', [6, 23]), ('resource-based', [6, 28]), ('underresourced', [6, 36]), ('resourcehouse', [6, 37]), ('under-resourcing', [6, 43])]
+resourses	resourcefully	resource-linked	recourses	resource-efficient	natural-resources
+32: ****************** advantanges
+Corrections using LCSS distance :
+TOP 10 best candidates : [('beauty-disadvantaged', [7, 16]), ('advantageously', [7, 17]), ('collegeadvantage', [7, 23]), ('insideradvantage', [7, 28]), ('disadvantaging', [7, 36]), ('santangelo', [7, 61]), ('advanta', [7, 66]), ('disadvantageous', [7, 68]), ('tax-advantaged', [7, 96]), ('aadvantage', [7, 143])]
+advantanges	beauty-disadvantaged	advantageously	collegeadvantage	insideradvantage	disadvantaging
+33: ****************** diguise
+Corrections using LCSS distance :
+TOP 10 best candidates : [('diguido', [5, 16]), ('guiseley', [5, 18]), ('ill-disguised', [5, 19]), ('well-disguised', [5, 28]), ('guiseppe', [5, 68]), ('undisguised', [5, 107]), ('guises', [5, 297]), ('disguises', [5, 446]), ('guise', [5, 1481]), ('disguise', [5, 2786])]
+diguise	diguido	guiseley	ill-disguised	well-disguised	guiseppe
+34: ****************** additionly
+Corrections using LCSS distance :
+TOP 10 best candidates : [('additionality', [8, 32]), ('additions', [8, 2932]), ('additionally', [8, 6441]), ('addition', [8, 66873]), ('additional', [8, 79878]), ('un-air-conditioned', [6, 16]), ('unconditioned', [6, 18]), ('cask-conditioned', [6, 19]), ('additive-free', [6, 21]), ('auditioner', [6, 21])]
+additionly	additionality	additions	additionally	addition	additional
+35: ****************** opportunnity
+Corrections using LCSS distance :
+TOP 10 best candidates : [('photo-opportunities', [8, 20]), ('opportunites', [8, 34]), ('photo-opportunity', [8, 53]), ('equal-opportunity', [8, 77]), ('opportunistically', [8, 94]), ('inopportune', [8, 190]), ('opportunists', [8, 282]), ('opportune', [8, 348]), ('opportunism', [8, 471]), ('opportunist', [8, 514])]
+opportunnity	photo-opportunities	opportunites	photo-opportunity	equal-opportunity	opportunistically
+36: ****************** urself
+Corrections using LCSS distance :
+TOP 10 best candidates : [('help-yourself', [6, 18]), ('do-it-yourselfer', [6, 30]), ('ourself', [6, 34]), ('do-it-yourselfers', [6, 90]), ('do-it-yourself', [6, 748]), ('yourself', [6, 24751]), ('yerself', [5, 16]), ('oursel', [5, 18]), ('yourselves', [5, 1378]), ('ourselves', [5, 15213])]
+urself	help-yourself	do-it-yourselfer	ourself	do-it-yourselfers	do-it-yourself
+37: ****************** rebelion
+Corrections using LCSS distance :
+TOP 10 best candidates : [('rebel-affiliated', [5, 16]), ('evangelion', [5, 19]), ('ebeling', [5, 21]), ('rebello', [5, 21]), ('perihelion', [5, 24]), ('anti-rebel', [5, 28]), ('rebel-linked', [5, 46]), ('actelion', [5, 50]), ('rebelliousness', [5, 65]), ('rebelde', [5, 69])]
+rebelion	rebel-affiliated	evangelion	ebeling	rebello	perihelion
+38: ****************** chioce
+Corrections using LCSS distance :
+TOP 10 best candidates : [('chiofalo', [4, 18]), ('chiotis', [4, 18]), ('galschiot', [4, 18]), ('cacchione', [4, 20]), ('dichio', [4, 21]), ('perenchio', [4, 21]), ('verdicchio', [4, 21]), ('chioggia', [4, 25]), ('scapicchio', [4, 25]), ('chiodo', [4, 26])]
+chioce	chiofalo	chiotis	galschiot	cacchione	dichio
+39: ****************** consdiered
+Corrections using LCSS distance :
+TOP 10 best candidates : [('soldiered', [6, 155]), ('five-tiered', [5, 18]), ('chandeliered', [5, 23]), ('couriered', [5, 32]), ('multitiered', [5, 36]), ('cashiered', [5, 40]), ('multi-tiered', [5, 85]), ('three-tiered', [5, 116]), ('aliadiere', [5, 184]), ('two-tiered', [5, 268])]
+consdiered	soldiered	five-tiered	chandeliered	couriered	multitiered
+40: ****************** travals
+Corrections using LCSS distance :
+TOP 10 best candidates : [('travalena', [6, 24]), ('travagli', [5, 18]), ('sivakumaraval', [5, 23]), ('ravallion', [5, 24]), ('intravascular', [5, 26]), ('miraval', [5, 55]), ('raval', [5, 59]), ('travail', [5, 79]), ('extravagances', [5, 108]), ('ostrava', [5, 139])]
+travals	travalena	travagli	sivakumaraval	ravallion	intravascular
+41: ****************** inturn
+Corrections using LCSS distance :
+TOP 10 best candidates : [('sprinturf', [5, 17]), ('downturned', [5, 20]), ('mcinturff', [5, 142]), ('unturned', [5, 345]), ('downturns', [5, 1707]), ('downturn', [5, 33905]), ('century-fox', [4, 16]), ('laventure', [4, 16]), ('mintues', [4, 16]), ('outturns', [4, 16])]
+inturn	sprinturf	downturned	mcinturff	unturned	downturns
+42: ****************** inly
+Corrections using LCSS distance :
+TOP 10 best candidates : [('mainly-muslim', [4, 29]), ('thinly-veiled', [4, 116]), ('uncertainly', [4, 151]), ('vainly', [4, 207]), ('ungainly', [4, 267]), ('thinly', [4, 1453]), ('plainly', [4, 1854]), ('mainly', [4, 30036]), ('certainly', [4, 60684]), ('ainley', [3, 16])]
+inly	mainly-muslim	thinly-veiled	uncertainly	vainly	ungainly
+43: ****************** everydays
+Corrections using LCSS distance :
+TOP 10 best candidates : [('everyday', [8, 10203]), ('everyoneÃªÂ¼s', [5, 16]), ('everyscape', [5, 18]), ('everychild', [5, 20]), ('everyplace', [5, 22]), ('merryday', [5, 28]), ('do-everything', [5, 32]), ('everyblock', [5, 33]), ('lazydays', [5, 33]), ('every-down', [5, 34])]
+everydays	everyday	everyoneÃªÂ¼s	everyscape	everychild	everyplace
+44: ****************** specilaized
+Corrections using LCSS distance :
+TOP 10 best candidates : [('breed-specific', [5, 16]), ('case-specific', [5, 16]), ('high-specification', [5, 16]), ('multispecialty', [5, 16]), ('specially-constructed', [5, 16]), ('product-specific', [5, 17]), ('special-ops', [5, 17]), ('speciously', [5, 17]), ('china-specific', [5, 18]), ('specifiers', [5, 18])]
+specilaized	breed-specific	case-specific	high-specification	multispecialty	specially-constructed
+45: ****************** runned
+Corrections using LCSS distance :
+TOP 10 best candidates : [('pricerunner', [5, 16]), ('lauterbrunnen', [5, 21]), ('non-runner', [5, 22]), ('book-runners', [5, 26]), ('runnels', [5, 27]), ('gunrunners', [5, 28]), ('runneth', [5, 28]), ('runnerup', [5, 32]), ('runner-ups', [5, 34]), ('out-gunned', [5, 37])]
+runned	pricerunner	lauterbrunnen	non-runner	book-runners	runnels
+46: ****************** allive
+Corrections using LCSS distance :
+TOP 10 best candidates : [('gallivan', [5, 16]), ('gallivant', [5, 16]), ('colliver', [5, 24]), ('gullivers', [5, 24]), ('belliveau', [5, 40]), ('gallivanting', [5, 42]), ('tolliver', [5, 150]), ('gulliver', [5, 264]), ('ballinamallard', [4, 16]), ('callison', [4, 16])]
+allive	gallivan	gallivant	colliver	gullivers	belliveau
+47: ****************** anylonger
+Corrections using LCSS distance :
+TOP 10 best candidates : [('ever-longer', [6, 18]), ('longer-established', [6, 18]), ('longer-standing', [6, 19]), ('longer-distance', [6, 21]), ('longer-', [6, 24]), ('longer-than-usual', [6, 25]), ('longer-lived', [6, 27]), ('longer-than-expected', [6, 27]), ('longer-running', [6, 29]), ('longer-serving', [6, 31])]
+anylonger	ever-longer	longer-established	longer-standing	longer-distance	longer-
+48: ****************** explantion
+Corrections using LCSS distance :
+TOP 10 best candidates : [('antionette', [6, 16]), ('plantier', [6, 29]), ('duplantis', [6, 35]), ('self-explanatory', [6, 112]), ('tree-planting', [6, 128]), ('replanting', [6, 158]), ('transplanting', [6, 200]), ('supplanting', [6, 210]), ('implanting', [6, 277]), ('explanatory', [6, 408])]
+explantion	antionette	plantier	duplantis	self-explanatory	tree-planting
+49: ****************** insearch
+Corrections using LCSS distance :
+TOP 10 best candidates : [('non-search', [6, 16]), ('eresearchtechnology', [6, 17]), ('financial-research', [6, 17]), ('bioresearch', [6, 18]), ('search-and-seizure', [6, 18]), ('reasearch', [6, 19]), ('cellsearch', [6, 21]), ('internet-search', [6, 21]), ('most-researched', [6, 21]), ('partsearch', [6, 21])]
+insearch	non-search	eresearchtechnology	financial-research	bioresearch	search-and-seizure
+50: ****************** advertisments
+Corrections using LCSS distance :
+TOP 10 best candidates : [('advertisments', [13, 18]), ('advertisment', [12, 30]), ('self-advertising', [8, 16]), ('advertiser-supported', [8, 18]), ('advertising-driven', [8, 18]), ('advertising-free', [8, 18]), ('advertiser-friendly', [8, 23]), ('re-advertised', [8, 23]), ('well-advertised', [8, 23]), ('advertiser-funded', [8, 24])]
+advertisments	advertisments	advertisment	self-advertising	advertiser-supported	advertising-driven
+51: ****************** referencial
+Corrections using LCSS distance :
+TOP 10 best candidates : [('cross-referencing', [9, 65]), ('referencing', [9, 726]), ('first-preference', [8, 16]), ('self-reference', [8, 16]), ('suit-preference', [8, 24]), ('cross-references', [8, 27]), ('cross-reference', [8, 46]), ('cross-referenced', [8, 81]), ('referenced', [8, 1148]), ('preferences', [8, 3222])]
+referencial	cross-referencing	referencing	first-preference	self-reference	suit-preference
+52: ****************** processure
+Corrections using LCSS distance :
+TOP 10 best candidates : [('bioprocess', [7, 16]), ('bioprocessing', [7, 17]), ('chicken-processing', [7, 18]), ('processionary', [7, 18]), ('re-processing', [7, 18]), ('oil-processing', [7, 19]), ('business-process', [7, 21]), ('fish-processing', [7, 21]), ('post-processing', [7, 24]), ('process-oriented', [7, 25])]
+processure	bioprocess	bioprocessing	chicken-processing	processionary	re-processing
+53: ****************** whis
+Corrections using LCSS distance :
+TOP 10 best candidates : [('whistlers', [4, 19]), ('whisperings', [4, 20]), ('bewhiskered', [4, 21]), ('whistler-blackcomb', [4, 22]), ('dog-whistle', [4, 28]), ('whispernet', [4, 29]), ('haltwhistle', [4, 30]), ('whiskas', [4, 30]), ('whiskery', [4, 32]), ('whisnant', [4, 34])]
+whis	whistlers	whisperings	bewhiskered	whistler-blackcomb	dog-whistle
+54: ****************** populization
+Corrections using LCSS distance :
+TOP 10 best candidates : [('federalization', [8, 16]), ('medicalization', [8, 16]), ('moralization', [8, 16]), ('over-collateralization', [8, 16]), ('pro-legalization', [8, 16]), ('rehospitalization', [8, 16]), ('civilizational', [8, 18]), ('professionalization', [8, 18]), ('rent-stabilization', [8, 20]), ('small-capitalization', [8, 20])]
+populization	federalization	medicalization	moralization	over-collateralization	pro-legalization
+55: ****************** prodcut
+Corrections using LCSS distance :
+TOP 10 best candidates : [('woodcutters', [5, 23]), ('woodcutter', [5, 28]), ('woodcut', [5, 57]), ('woodcuts', [5, 64]), ('apatow-produced', [4, 16]), ('consumer-product', [4, 16]), ('diamond-producing', [4, 16]), ('factory-produced', [4, 16]), ('nonproductive', [4, 16]), ('professionally-produced', [4, 16])]
+prodcut	woodcutters	woodcutter	woodcut	woodcuts	apatow-produced
+56: ****************** beleived
+Corrections using LCSS distance :
+TOP 10 best candidates : [('beleived', [8, 17]), ('beleives', [7, 17]), ('beleive', [7, 243]), ('best-received', [5, 17]), ('ill-received', [5, 18]), ('misperceived', [5, 18]), ('poorly-received', [5, 20]), ('donor-conceived', [5, 27]), ('acheived', [5, 29]), ('pre-conceived', [5, 42])]
+beleived	beleived	beleives	beleive	best-received	ill-received
+57: ****************** backgrounging
+Corrections using LCSS distance :
+TOP 10 best candidates : [('background-check', [9, 20]), ('backgrounder', [9, 34]), ('backgrounds', [9, 4764]), ('background', [9, 21795]), ('scrounging', [8, 132]), ('lounging', [7, 629])]
+backgrounging	background-check	backgrounder	backgrounds	background	scrounging
+58: ****************** difinetly
+Corrections using LCSS distance :
+TOP 10 best candidates : [('definetly', [7, 31]), ('amerinet', [4, 16]), ('edified', [4, 16]), ('fine-boned', [4, 16]), ('finely-balanced', [4, 16]), ('humidified', [4, 16]), ('mainetti', [4, 16]), ('medinet', [4, 16]), ('quinet', [4, 16]), ('subcabinet', [4, 16])]
+difinetly	definetly	amerinet	edified	fine-boned	finely-balanced
+59: ****************** addtion
+Corrections using LCSS distance :
+TOP 10 best candidates : [('abstractionists', [4, 16]), ('acquistions', [4, 16]), ('acqusition', [4, 16]), ('administration-era', [4, 16]), ('administration-wide', [4, 16]), ('adult-education', [4, 16]), ('afghanization', [4, 16]), ('antionette', [4, 16]), ('asset-allocation', [4, 16]), ('attention-grabber', [4, 16])]
+addtion	abstractionists	acquistions	acqusition	administration-era	administration-wide
+60: ****************** anyhting
+Corrections using LCSS distance :
+TOP 10 best candidates : [('fat-fighting', [5, 16]), ('refighting', [5, 16]), ('bull-fighting', [5, 17]), ('flood-fighting', [5, 17]), ('fraud-fighting', [5, 17]), ('cock-fighting', [5, 18]), ('corruption-fighting', [5, 18]), ('overnighting', [5, 18]), ('play-fighting', [5, 18]), ('schlichting', [5, 18])]
+anyhting	fat-fighting	refighting	bull-fighting	flood-fighting	fraud-fighting
+61: ****************** variatons
+Corrections using LCSS distance :
+TOP 10 best candidates : [('multivariate', [6, 22]), ('variation', [6, 3373]), ('variations', [6, 5137]), ('diatonic', [5, 18]), ('multivariable', [5, 20]), ('shariat', [5, 20]), ('variably', [5, 20]), ('natonski', [5, 22]), ('tavaria', [5, 22]), ('commissariat', [5, 23])]
+variatons	multivariate	variation	variations	diatonic	multivariable
+62: ****************** interfer
+Corrections using LCSS distance :
+TOP 10 best candidates : [('interferometry', [8, 23]), ('interferons', [8, 25]), ('interferometer', [8, 30]), ('noninterference', [8, 33]), ('albinterferon', [8, 41]), ('interferences', [8, 45]), ('pass-interference', [8, 45]), ('peginterferon', [8, 89]), ('non-interference', [8, 134]), ('interferon', [8, 332])]
+interfer	interferometry	interferons	interferometer	noninterference	albinterferon
+63: ****************** eloctronics
+Corrections using LCSS distance :
+TOP 10 best candidates : [('nanoelectronics', [8, 16]), ('optoelectronics', [8, 49]), ('consumer-electronics', [8, 89]), ('stmicroelectronics', [8, 269]), ('microelectronics', [8, 336]), ('electronics', [8, 19254]), ('mechatronics', [7, 16]), ('monitronics', [7, 17]), ('dynatronics', [7, 19]), ('teltronics', [7, 19])]
+eloctronics	nanoelectronics	optoelectronics	consumer-electronics	stmicroelectronics	microelectronics
+64: ****************** undestanded
+Corrections using LCSS distance :
+TOP 10 best candidates : [('lundestad', [7, 85]), ('bundestag', [7, 302]), ('kordestan', [6, 23]), ('hiestand', [6, 24]), ('kordestani', [6, 29]), ('standen', [6, 29]), ('stander', [6, 42]), ('soundest', [6, 49]), ('freestanding', [6, 298]), ('homestand', [6, 887])]
+undestanded	lundestad	bundestag	kordestan	hiestand	kordestani
+65: ****************** easially
+Corrections using LCSS distance :
+TOP 10 best candidates : [('controversially', [6, 1285]), ('financially-struggling', [5, 16]), ('provincially', [5, 16]), ('specially-constructed', [5, 16]), ('commercially-available', [5, 17]), ('collegially', [5, 19]), ('consequentially', [5, 20]), ('differentially', [5, 20]), ('expecially', [5, 20]), ('specially-equipped', [5, 20])]
+easially	controversially	financially-struggling	provincially	specially-constructed	commercially-available
+66: ****************** assestments
+Corrections using LCSS distance :
+TOP 10 best candidates : [('co-investments', [8, 29]), ('vestments', [8, 170]), ('divestments', [8, 218]), ('investments', [8, 35950]), ('investment-', [7, 16]), ('malinvestment', [7, 16]), ('investment-led', [7, 17]), ('re-investment', [7, 20]), ('readjustments', [7, 28]), ('investment-management', [7, 31])]
+assestments	co-investments	vestments	divestments	investments	investment-
+67: ****************** regared
+Corrections using LCSS distance :
+TOP 10 best candidates : [('megaresort', [5, 16]), ('gregariousness', [5, 19]), ('siregar', [5, 19]), ('irregardless', [5, 25]), ('degarelix', [5, 31]), ('beggared', [5, 46]), ('tregaron', [5, 58]), ('beauregard', [5, 88]), ('self-regarding', [5, 121]), ('disregards', [5, 125])]
+regared	megaresort	gregariousness	siregar	irregardless	degarelix
+68: ****************** knowlkedge
+Corrections using LCSS distance :
+TOP 10 best candidates : [('knowledge-intensive', [5, 16]), ('knowling', [5, 16]), ('acknowlege', [5, 18]), ('press-knowledge', [5, 18]), ('knowles-samarraie', [5, 19]), ('kedgeree', [5, 23]), ('fowlkes', [5, 26]), ('knowlege', [5, 26]), ('knowledgebase', [5, 28]), ('acknowleged', [5, 37])]
+knowlkedge	knowledge-intensive	knowling	acknowlege	press-knowledge	knowles-samarraie
+69: ****************** successs
+Corrections using LCSS distance :
+TOP 10 best candidates : [('less-than-successful', [7, 16]), ('www.successfactors.com', [7, 19]), ('successfull', [7, 21]), ('successfuly', [7, 21]), ('super-successful', [7, 22]), ('successconnect', [7, 23]), ('success-starved', [7, 26]), ('highly-successful', [7, 33]), ('successions', [7, 35]), ('successtech', [7, 66])]
+successs	less-than-successful	www.successfactors.com	successfull	successfuly	super-successful
+70: ****************** represant
+Corrections using LCSS distance :
+TOP 10 best candidates : [('long-repressed', [6, 16]), ('underrepresentation', [6, 27]), ('self-representation', [6, 33]), ('represses', [6, 34]), ('over-representation', [6, 40]), ('under-representation', [6, 48]), ('repressions', [6, 57]), ('union-represented', [6, 60]), ('well-represented', [6, 60]), ('irrepressibly', [6, 70])]
+represant	long-repressed	underrepresentation	self-representation	represses	over-representation
+71: ****************** actractive
+Corrections using LCSS distance :
+TOP 10 best candidates : [('unattractiveness', [8, 19]), ('unattractively', [8, 22]), ('extractive', [8, 112]), ('attractively', [8, 291]), ('attractiveness', [8, 927]), ('unattractive', [8, 982]), ('attractive', [8, 17581]), ('hyperactively', [7, 16]), ('interactively', [7, 50]), ('underactive', [7, 54])]
+actractive	unattractiveness	unattractively	extractive	attractively	attractiveness
+72: ****************** nood
+Corrections using LCSS distance :
+TOP 10 best candidates : [('noodly', [4, 19]), ('farnood', [4, 21]), ('snoods', [4, 25]), ('canoodled', [4, 32]), ('snood', [4, 64]), ('noodling', [4, 69]), ('canoodling', [4, 131]), ('noodle', [4, 772]), ('noodles', [4, 1451]), ('bloodworth', [3, 16])]
+nood	noodly	farnood	snoods	canoodled	snood
+73: ****************** focuss
+Corrections using LCSS distance :
+TOP 10 best candidates : [('focusses', [6, 22]), ('focussing', [6, 362]), ('focussed', [6, 796]), ('child-focused', [5, 16]), ('security-focused', [5, 16]), ('future-focused', [5, 17]), ('russia-focused', [5, 17]), ('self-focused', [5, 17]), ('energy-focused', [5, 19]), ('india-focused', [5, 19])]
+focuss	focusses	focussing	focussed	child-focused	security-focused
+74: ****************** decreace
+Corrections using LCSS distance :
+TOP 10 best candidates : [('decreasingly', [6, 22]), ('ever-decreasing', [6, 36]), ('decreases', [6, 2304]), ('decreasing', [6, 2322]), ('decreased', [6, 11680]), ('decrease', [6, 15898]), ('decrem', [5, 17]), ('secrease', [5, 17]), ('decreeing', [5, 56]), ('recreationally', [5, 61])]
+decreace	decreasingly	ever-decreasing	decreases	decreasing	decreased
+75: ****************** magagine
+Corrections using LCSS distance :
+TOP 10 best candidates : [('reengaging', [5, 17]), ('emagine', [5, 19]), ('immagine', [5, 19]), ('re-imagines', [5, 20]), ('staginess', [5, 21]), ('unengaging', [5, 23]), ('reimagines', [5, 26]), ('re-mortgaging', [5, 33]), ('tagines', [5, 36]), ('imagineers', [5, 39])]
+magagine	reengaging	emagine	immagine	re-imagines	staginess
+76: ****************** knowedge
+Corrections using LCSS distance :
+TOP 10 best candidates : [('snowed-in', [5, 26]), ('wedgewood', [5, 50]), ('wedge-shaped', [5, 69]), ('newedge', [5, 144]), ('winnowed', [5, 161]), ('snowed', [5, 302]), ('wedges', [5, 518]), ('wedged', [5, 1044]), ('wedge', [5, 2823]), ('fledge', [4, 16])]
+knowedge	snowed-in	wedgewood	wedge-shaped	newedge	winnowed
+77: ****************** relativley
+Corrections using LCSS distance :
+TOP 10 best candidates : [('relativists', [7, 17]), ('correlative', [7, 26]), ('relativist', [7, 32]), ('relativistic', [7, 53]), ('relativism', [7, 229]), ('relativity', [7, 616]), ('relative', [7, 20319]), ('relatives', [7, 27652]), ('relatively', [7, 39165]), ('interrelationships', [6, 18])]
+relativley	relativists	correlative	relativist	relativistic	relativism
+78: ****************** wheter
+Corrections using LCSS distance :
+TOP 10 best candidates : [('non-heterosexual', [5, 16]), ('catheter-based', [5, 20]), ('heterozygous', [5, 20]), ('heterodox', [5, 38]), ('heterogeneity', [5, 41]), ('transcatheter', [5, 55]), ('hetero', [5, 63]), ('nyheter', [5, 106]), ('heterosexuality', [5, 112]), ('catheterization', [5, 166])]
+wheter	non-heterosexual	catheter-based	heterozygous	heterodox	heterogeneity
+79: ****************** convience
+Corrections using LCSS distance :
+TOP 10 best candidates : [('provience', [6, 33]), ('subservience', [6, 157]), ('emollience', [5, 16]), ('climate-science', [5, 17]), ('sciencedaily.com', [5, 17]), ('life-science', [5, 18]), ('genescience', [5, 19]), ('social-science', [5, 19]), ('political-science', [5, 21]), ('sciencenow', [5, 21])]
+convience	provience	subservience	emollience	climate-science	sciencedaily.com
+80: ****************** extremly
+Corrections using LCSS distance :
+TOP 10 best candidates : [('extremly', [8, 18]), ('extreme-sports', [6, 19]), ('anti-extremism', [6, 20]), ('extreme-left', [6, 21]), ('anti-extremist', [6, 25]), ('counter-extremism', [6, 27]), ('flextreme', [6, 40]), ('extreme-right', [6, 67]), ('extremadura', [6, 79]), ('extremis', [6, 155])]
+extremly	extremly	extreme-sports	anti-extremism	extreme-left	anti-extremist
+81: ****************** espacilly
+Corrections using LCSS distance :
+TOP 10 best candidates : [('vacillations', [5, 17]), ('freespace', [5, 28]), ('vacillates', [5, 28]), ('super-spacious', [5, 30]), ('battlespace', [5, 46]), ('vacillate', [5, 46]), ('fespaco', [5, 49]), ('vacillation', [5, 66]), ('spaciousness', [5, 76]), ('lactobacillus', [5, 80])]
+espacilly	vacillations	freespace	vacillates	super-spacious	battlespace
+82: ****************** becasuse
+Corrections using LCSS distance :
+TOP 10 best candidates : [('becasue', [6, 105]), ('becase', [5, 18]), ('casus', [5, 53]), ('acasuso', [5, 363]), ('caucasus', [5, 3190]), ('stronger-than-forecast', [4, 17]), ('forecast-busting', [4, 18]), ('telecasting', [4, 18]), ('senecas', [4, 19]), ('casual-dining', [4, 20])]
+becasuse	becasue	becase	casus	acasuso	caucasus
+83: ****************** carrir
+Corrections using LCSS distance :
+TOP 10 best candidates : [('carrie-anne', [5, 16]), ('flag-carriers', [5, 16]), ('carringer', [5, 17]), ('ballcarrier', [5, 18]), ('super-carriers', [5, 18]), ('carriÃ£Â³', [5, 19]), ('intercarrier', [5, 19]), ('carriÃ£Â¨re', [5, 20]), ('carribbean', [5, 20]), ('carrickmore', [5, 21])]
+carrir	carrie-anne	flag-carriers	carringer	ballcarrier	super-carriers
+84: ****************** actualy
+Corrections using LCSS distance :
+TOP 10 best candidates : [('actualy', [7, 35]), ('factuality', [6, 16]), ('counter-factual', [6, 17]), ('self-actualization', [6, 25]), ('counterfactual', [6, 42]), ('pactual', [6, 48]), ('actuality', [6, 243]), ('factually', [6, 381]), ('contractually', [6, 418]), ('factual', [6, 1737])]
+actualy	actualy	factuality	counter-factual	self-actualization	counterfactual
+85: ****************** calaberating
+Corrections using LCSS distance :
+TOP 10 best candidates : [('reverberating', [8, 259]), ('berating', [8, 326]), ('liberating', [8, 916]), ('deliberating', [8, 1003]), ('federating', [7, 16]), ('job-generating', [7, 17]), ('remunerating', [7, 17]), ('operating-system', [7, 21]), ('exasperatingly', [7, 22]), ('operating-room', [7, 22])]
+calaberating	reverberating	berating	liberating	deliberating	federating
+86: ****************** simpley
+Corrections using LCSS distance :
+TOP 10 best candidates : [('simples', [6, 24]), ('realsimple.com', [6, 39]), ('riversimple', [6, 43]), ('simple-to-use', [6, 43]), ('simpletons', [6, 57]), ('simpleton', [6, 83]), ('simplex', [6, 120]), ('simple-minded', [6, 147]), ('simplest', [6, 1464]), ('simpler', [6, 3160])]
+simpley	simples	realsimple.com	riversimple	simple-to-use	simpletons
+87: ****************** remanticism
+Corrections using LCSS distance :
+TOP 10 best candidates : [('romanticism', [9, 335]), ('atlanticism', [8, 16]), ('romanticise', [8, 29]), ('romanticising', [8, 29]), ('romanticised', [8, 81]), ('semantically', [7, 18]), ('romanticizing', [7, 40]), ('romanticize', [7, 59]), ('atlanticist', [7, 66]), ('romanticized', [7, 158])]
+remanticism	romanticism	atlanticism	romanticise	romanticising	romanticised
+88: ****************** pannel
+Corrections using LCSS distance :
+TOP 10 best candidates : [('pannell', [6, 195]), ('annelle', [5, 16]), ('two-channel', [5, 16]), ('channell', [5, 17]), ('dannel', [5, 18]), ('panne', [5, 18]), ('annelise', [5, 19]), ('channelÃªÂ¼s', [5, 22]), ('four-channel', [5, 23]), ('iannelli', [5, 23])]
+pannel	pannell	annelle	two-channel	channell	dannel
+89: ****************** diferrent
+Corrections using LCSS distance :
+TOP 10 best candidates : [('ferren', [6, 24]), ('piferrer', [6, 30]), ('deterrents', [6, 167]), ('deterrent', [6, 2936]), ('correnti', [5, 16]), ('diferent', [5, 16]), ('long-deferred', [5, 16]), ('preferred-stock', [5, 16]), ('noncurrent', [5, 17]), ('current.com', [5, 18])]
+diferrent	ferren	piferrer	deterrents	deterrent	correnti
+90: ****************** reguire
+Corrections using LCSS distance :
+TOP 10 best candidates : [('maguires', [5, 18]), ('arreguin', [5, 23]), ('jauregui', [5, 29]), ('mcguire', [5, 1609]), ('maguire', [5, 1996]), ('antiregulatory', [4, 16]), ('eyzaguirre', [4, 16]), ('less-regulated', [4, 16]), ('re-acquire', [4, 16]), ('regularisation', [4, 16])]
+reguire	maguires	arreguin	jauregui	mcguire	maguire
+91: ****************** sucject
+Corrections using LCSS distance :
+TOP 10 best candidates : [('direct-injected', [4, 16]), ('side-project', [4, 17]), ('subject-based', [4, 17]), ('re-injected', [4, 18]), ('megaproject', [4, 19]), ('reinjected', [4, 19]), ('ejects', [4, 21]), ('fuel-injected', [4, 21]), ('injectible', [4, 21]), ('megaprojects', [4, 21])]
+sucject	direct-injected	side-project	subject-based	re-injected	megaproject
+92: ****************** diostract
+Corrections using LCSS distance :
+TOP 10 best candidates : [('abstractionists', [6, 16]), ('distractible', [6, 17]), ('distracted-driving', [6, 18]), ('ostracods', [6, 20]), ('distractibility', [6, 21]), ('ostracise', [6, 23]), ('ostracizing', [6, 26]), ('abstracting', [6, 33]), ('distractedly', [6, 33]), ('undistracted', [6, 37])]
+diostract	abstractionists	distractible	distracted-driving	ostracods	distractibility
+93: ****************** tremeadous
+Corrections using LCSS distance :
+TOP 10 best candidates : [('meadowcroft', [5, 16]), ('extreme-sports', [5, 19]), ('meadowlark', [5, 19]), ('goldin-meadow', [5, 20]), ('extreme-left', [5, 21]), ('broadmeadow', [5, 22]), ('accoutrement', [5, 23]), ('meadors', [5, 24]), ('monotremes', [5, 24]), ('tremelling', [5, 28])]
+tremeadous	meadowcroft	extreme-sports	meadowlark	goldin-meadow	extreme-left
+94: ****************** dirive
+Corrections using LCSS distance :
+TOP 10 best candidates : [('iriver', [5, 25]), ('arrivederci', [4, 16]), ('curiosity-driven', [4, 16]), ('four-wheel-drives', [4, 16]), ('greed-driven', [4, 16]), ('motor-driven', [4, 16]), ('price-driven', [4, 16]), ('truck-driver', [4, 16]), ('business-driven', [4, 17]), ('fear-driven', [4, 17])]
+dirive	iriver	arrivederci	curiosity-driven	four-wheel-drives	greed-driven
+95: ****************** tecnologies
+Corrections using LCSS distance :
+TOP 10 best candidates : [('biotechnologies', [8, 67]), ('nanotechnologies', [8, 73]), ('technologies', [8, 29028]), ('technologie', [7, 16]), ('ecologies', [7, 17]), ('psychologies', [7, 25]), ('mythologies', [7, 69]), ('pathologies', [7, 125]), ('anthologies', [7, 146]), ('methodologies', [7, 539])]
+tecnologies	biotechnologies	nanotechnologies	technologies	technologie	ecologies
+96: ****************** desappear
+Corrections using LCSS distance :
+TOP 10 best candidates : [('fast-disappearing', [7, 26]), ('disappearances', [7, 752]), ('disappears', [7, 1426]), ('disappearing', [7, 3238]), ('disappear', [7, 6647]), ('disappearance', [7, 10288]), ('disappeared', [7, 17300]), ('appearence', [6, 26]), ('re-appeared', [6, 27]), ('re-appearance', [6, 35])]
+desappear	fast-disappearing	disappearances	disappears	disappearing	disappear
+97: ****************** genarally
+Corrections using LCSS distance :
+TOP 10 best candidates : [('bakurally', [5, 16]), ('centrally-imposed', [5, 16]), ('centrally-contracted', [5, 18]), ('rallycross', [5, 18]), ('non-generally', [5, 19]), ('federally-insured', [5, 20]), ('integrally', [5, 21]), ('parallel-group', [5, 21]), ('counter-rally', [5, 22]), ('immorally', [5, 23])]
+genarally	bakurally	centrally-imposed	centrally-contracted	rallycross	non-generally
+98: ****************** profesor
+Corrections using LCSS distance :
+TOP 10 best candidates : [('interprofessional', [6, 16]), ('professionally-produced', [6, 16]), ('professionalization', [6, 18]), ('ratemyprofessors.com', [6, 18]), ('profesional', [6, 19]), ('non-professionals', [6, 22]), ('professionalized', [6, 22]), ('professionnel', [6, 22]), ('paraprofessional', [6, 24]), ('professionalisation', [6, 26])]
+profesor	interprofessional	professionally-produced	professionalization	ratemyprofessors.com	profesional
+99: ****************** abandant
+Corrections using LCSS distance :
+TOP 10 best candidates : [('commandante', [6, 17]), ('bandannas', [6, 69]), ('comandante', [6, 100]), ('andante', [6, 110]), ('bandanas', [6, 136]), ('bandanna', [6, 136]), ('bandana', [6, 176]), ('commandant', [6, 652]), ('chandana', [5, 16]), ('pandanus', [5, 16])]
+abandant	commandante	bandannas	comandante	andante	bandanas
+100: ****************** greatt
+Corrections using LCSS distance :
+TOP 10 best candidates : [('greatcoats', [5, 16]), ('great-grandsons', [5, 16]), ('greatstone', [5, 16]), ('great-aunts', [5, 18]), ('greatrex', [5, 18]), ('great-grandmothers', [5, 19]), ('greatful', [5, 20]), ('great-great-uncle', [5, 20]), ('great-west', [5, 20]), ('great-granddaughters', [5, 21])]
+greatt	greatcoats	great-grandsons	greatstone	great-aunts	greatrex
+
+Total Time:
+215.2812774181366

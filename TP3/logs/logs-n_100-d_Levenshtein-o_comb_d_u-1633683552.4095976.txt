@@ -182,3 +182,27 @@ Corrections using Levenshtein distance :
 TOP 10 best candidates : [('runner', [1, 6946]), ('ruined', [1, 5116]), ('gunned', [1, 2704]), ('turned', [2, 111849]), ('ruled', [2, 48162]), ('banned', [2, 32657]), ('ranked', [2, 18221]), ('funded', [2, 17919]), ('rushed', [2, 15561]), ('burned', [2, 14681])]
 runned	runner	ruined	gunned	turned	ruled
 46: ****************** allive
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('alive', [1, 28335]), ('allie', [1, 251]), ('live', [2, 142710]), ('active', [2, 35043]), ('allies', [2, 31846]), ('arrive', [2, 19829]), ('allied', [2, 8640]), ('alike', [2, 8143]), ('alice', [2, 6616]), ('olive', [2, 5943])]
+allive	alive	allie	live	active	allies
+47: ****************** anylonger
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('anyone', [3, 100227]), ('longer', [3, 93112]), ('nylander', [3, 219]), ('anyones', [3, 72]), ('anlong', [3, 57]), ('keylogger', [3, 36]), ('antlfinger', [3, 29]), ('alonge', [3, 16]), ('another', [4, 394236]), ('along', [4, 165199])]
+anylonger	anyone	longer	nylander	anyones	anlong
+48: ****************** explantion
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('explanation', [1, 12955]), ('expansion', [2, 27662]), ('explanations', [2, 2828]), ('explaination', [2, 26]), ('expiation', [2, 24]), ('explain', [3, 31073]), ('explosion', [3, 24379]), ('exploration', [3, 13487]), ('expedition', [3, 4335]), ('expiration', [3, 2722])]
+explantion	explanation	expansion	explanations	explaination	expiation
+49: ****************** insearch
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('research', [2, 201240]), ('search', [2, 83185]), ('onesearch', [2, 41]), ('iresearch', [2, 33]), ('instance', [3, 25307]), ('insert', [3, 2091]), ('insect', [3, 2051]), ('impeach', [3, 906]), ('inserts', [3, 554]), ('unearth', [3, 547])]
+insearch	research	search	onesearch	iresearch	instance
+50: ****************** advertisments
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('advertisments', [0, 18]), ('advertisements', [1, 5316]), ('advertisment', [1, 30]), ('advertisement', [2, 3878])]
+advertisments	advertisments	advertisements	advertisment	advertisement
+51: ****************** referencial
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('referential', [1, 30]), ('preferential', [2, 1509]), ('referencing', [2, 726]), ('deferential', [2, 330]), ('reverential', [2, 188]), ('reference', [3, 17385]), ('references', [3, 6395]), ('referenced', [3, 1148]), ('referenda', [3, 128])]
+referencial	referential	preferential	referencing	deferential	reverential
+52: ****************** processure

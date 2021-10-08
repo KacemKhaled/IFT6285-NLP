@@ -68,7 +68,7 @@ def main():
     d2 = pd.DataFrame(evals_specs, columns = ['Distance', 'Ordre', 'Performance', "Metric"])
     resultat = pd.merge(d1, d2,  on=['Distance','Ordre'])
     print(resultat)
-
+    resultat.to_csv('resultat.csv')
 
 
 if __name__ == '__main__':

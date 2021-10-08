@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-LCSS-distance.txt
+reference file: devoir3-train.txt
+evaluation_measure:by_order
+score is = 3.60 %
+3.5999999999999996
