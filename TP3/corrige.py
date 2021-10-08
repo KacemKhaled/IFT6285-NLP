@@ -10,8 +10,9 @@ import argparse
 import os.path as osp
 from os.path import dirname, abspath
 import logging
+import time
 
-logging.basicConfig(format='%(message)s', level=logging.DEBUG)
+
 
 def get_frequency_table(file_name):
     frequency_table = {}
@@ -68,7 +69,11 @@ def process(dispatcher,distance_name,wrong_word,frequency_table,vocab,ordre):
         vocab = [ v for v in vocab if instance.compare(v, wrong_word) >= 0 ]
     distance_scores = { v: [dispatcher[distance_name][0](v, wrong_word), frequency_table[v]] for v in vocab }
     logging.info(f'Corrections using {distance_name} distance :')
-    find_best_candidates(wrong_word, distance_scores, 1, dispatcher[distance_name][1],10, order_by= ordre) # 'distance' , 'unigram' or 'comb_d_u' or 'comb_u_d'
+    nb_top_scores = 3 if distance_name != 'Soundex' else 1
+    nb_top_candidates = 5
+    find_best_candidates(wrong_word, distance_scores, nb_top_scores,
+                         dispatcher[distance_name][1],nb_top_candidates,
+                         order_by= ordre) # 'distance' , 'unigram' or 'comb_d_u' or 'comb_u_d'
 
 def corrige(wrong_words, n, lexique_file, distances=['Jaro_Winkler','Levenshtein'], order_by='unigram'):
 
@@ -150,10 +155,18 @@ parser.add_argument('-o', '--order', default='unigram',
 
 def main():
     args = parser.parse_args()
+    logfilename = f"logs/logs-n_{args.nb_of_lines}-d_{args.distance[0]}-o_{args.order}-{time.time()}.txt"
+    logging.basicConfig(filename=logfilename, format='%(message)s', level=logging.DEBUG)
+    logging.info(args.distance)
+    logging.info(args.order)
     vocab = osp.join(SRC_ROOT, args.vocab)
     wrong_words = osp.join(SRC_ROOT, args.wrong_words)
+
+    start_time = time.time()
     corrige(wrong_words, args.nb_of_lines, vocab, args.distance, args.order)
-    # corrige(wrong_words, 10, vocab, ['Soundex'], 'unigram')
+    #corrige(wrong_words, 10, vocab, ['Soundex'], 'unigram')
+    t = time.time() - start_time
+    logging.info(f"\nTotal Time:\n{t}")
 
 if __name__ == '__main__':
     main()
