@@ -34,32 +34,27 @@ def affichage(wrong_word, corrections):
     print(result)
     logging.info(result)
 
-def find_best_candidates(wrong_word, vocab_scores, nb_best_scores, largest, n=5, order_by= 'unigram'): 
+def find_best_candidates(wrong_word, vocab_scores, nb_best_scores, largest, n=5, order_by= 'unigram'):
     scores = list(set(a[0] for a in vocab_scores.values())) 
     if largest:
      # Find three biggest scores (sorted) --> three best possible corrections
         best_scores= hq.nlargest(nb_best_scores, scores)
     else:
-        best_scores=  hq.nsmallest(nb_best_scores, scores)
+        best_scores= hq.nsmallest(nb_best_scores, scores)
             
     best_candidates = {v:vocab_scores[v] for v in vocab_scores if vocab_scores[v][0] in best_scores}
-    
+    ordered_list=[]
     if order_by == 'distance':
-        best_candidates = sorted(best_candidates, key=lambda k: (best_candidates[k][0]), reverse=largest)
-        #print(best_candidates[:30])
-        corrections = [c for c in best_candidates][:n]
-    elif order_by == 'unigram':
-        best_candidates = sorted(best_candidates, key=lambda k: (best_candidates[k][1]), reverse=largest)
-        #print(best_candidates[:30])
-        corrections = [c for c in best_candidates][:n]
+        ordered_list = sorted(best_candidates, key=lambda k: (best_candidates[k][0]), reverse=largest)
+    elif order_by == 'unigram': # negative number in purpose to have descending order by frequency
+        ordered_list = sorted(best_candidates, key=lambda k: (-best_candidates[k][1]), reverse=False)
     elif order_by == 'comb_d_u':
-        best_candidates = sorted(best_candidates, key=lambda k: (best_candidates[k][0],best_candidates[k][1]), reverse=largest)
-        #print(best_candidates[:30])
-        corrections = [c for c in best_candidates][:n]
+        ordered_list = sorted(best_candidates, key=lambda k: (best_candidates[k][0],-best_candidates[k][1]), reverse=largest)
     elif order_by == 'comb_u_d':
-        best_candidates = sorted(best_candidates, key=lambda k: (best_candidates[k][1],best_candidates[k][0]), reverse=largest)
-        #print(best_candidates[:30])
-        corrections = [c for c in best_candidates][:n]
+        ordered_list = sorted(best_candidates, key=lambda k: (-best_candidates[k][1],best_candidates[k][0]), reverse=largest)
+    best_candidates_ordered = {candidate:best_candidates[candidate] for candidate in ordered_list}
+    logging.info(f'TOP 10 best candidates : {list(best_candidates_ordered.items())[:10]}')
+    corrections = [c for c in best_candidates_ordered][:n]
 
     affichage(wrong_word, corrections)
     
@@ -73,7 +68,7 @@ def process(dispatcher,distance_name,wrong_word,frequency_table,vocab,ordre):
         vocab = [ v for v in vocab if instance.compare(v, wrong_word) >= 0 ]
     distance_scores = { v: [dispatcher[distance_name][0](v, wrong_word), frequency_table[v]] for v in vocab }
     logging.info(f'Corrections using {distance_name} distance :')
-    find_best_candidates(wrong_word, distance_scores, 3, dispatcher[distance_name][1],5, order_by= ordre) # 'distance' , 'unigram' or 'comb_d_u' or 'comb_u_d'
+    find_best_candidates(wrong_word, distance_scores, 1, dispatcher[distance_name][1],10, order_by= ordre) # 'distance' , 'unigram' or 'comb_d_u' or 'comb_u_d'
 
 def corrige(wrong_words, n, lexique_file, distances=['Jaro_Winkler','Levenshtein'], order_by='unigram'):
 
@@ -134,11 +129,11 @@ parser = argparse.ArgumentParser(description='Words correction')
 parser.add_argument('-v','--vocab', default=VOCAB_ROOT,
                     help='Path to vocab file: (default: ./voc-1bwc.txt)')
 
-parser.add_argument('-n','--nb_of_lines', default=100,type=int,
-                    help='Nb of lines to read from file: (default: 100)')
+parser.add_argument('-n','--nb_of_lines', default=10,type=int,
+                    help='Nb of lines to read from file: (default: 10)')
 
 parser.add_argument('-w','--wrong_words', default=TRAIN_SHORT_ROOT,
-                    help='Path to wrong words file: (default: ./devoir3-train-short.txt)')
+                    help='Path to wrong words file: (default: ./devoir3-train.txt)')
 
 parser.add_argument('-d', '--distance', nargs='+', default=['Jaro_Winkler'],
                     choices=distances,
@@ -157,7 +152,8 @@ def main():
     args = parser.parse_args()
     vocab = osp.join(SRC_ROOT, args.vocab)
     wrong_words = osp.join(SRC_ROOT, args.wrong_words)
-    corrige(wrong_words, args.nb_of_lines, vocab, args.distance, args.order)
+    # corrige(wrong_words, args.nb_of_lines, vocab, args.distance, args.order)
+    corrige(wrong_words, 10, vocab, ['Soundex'], 'unigram')
 
 if __name__ == '__main__':
     main()
