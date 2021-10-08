@@ -152,8 +152,8 @@ def main():
     args = parser.parse_args()
     vocab = osp.join(SRC_ROOT, args.vocab)
     wrong_words = osp.join(SRC_ROOT, args.wrong_words)
-    # corrige(wrong_words, args.nb_of_lines, vocab, args.distance, args.order)
-    corrige(wrong_words, 10, vocab, ['Soundex'], 'unigram')
+    corrige(wrong_words, args.nb_of_lines, vocab, args.distance, args.order)
+    # corrige(wrong_words, 10, vocab, ['Soundex'], 'unigram')
 
 if __name__ == '__main__':
     main()
