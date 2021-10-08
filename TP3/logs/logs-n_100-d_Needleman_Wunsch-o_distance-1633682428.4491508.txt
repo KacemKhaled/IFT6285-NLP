@@ -1,0 +1,4 @@
+['Needleman_Wunsch']
+distance
+Correcting 100 words
+1: ****************** reccodmission

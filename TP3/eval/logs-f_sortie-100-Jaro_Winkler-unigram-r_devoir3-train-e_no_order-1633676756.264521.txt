@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Jaro_Winkler-unigram.txt
+reference file: devoir3-train.txt
+evaluation_measure:no_order
+score is = 75.00 %
+75.0

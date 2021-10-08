@@ -1,0 +1,332 @@
+['Soundex']
+distance
+Correcting 100 words
+1: ****************** reccodmission
+Corrections using Soundex distance :
+TOP 10 best candidates : [('cost-to-income', [1, 17]), ('tostenson', [1, 19]), ('boston.com', [1, 24]), ('hosting.com', [1, 24]), ('distension', [1, 28]), ('kkottongnae', [1, 30]), ('augustinussen', [1, 31]), ('highest-income', [1, 33]), ('lowest-income', [1, 45]), ('high-tension', [1, 57])]
+reccodmission	cost-to-income	tostenson	boston.com	hosting.com	distension
+2: ****************** unpair
+Corrections using Soundex distance :
+TOP 10 best candidates : [('combivir', [1, 16]), ('denber', [1, 16]), ('embrey', [1, 16]), ('en-pro', [1, 16]), ('infraero', [1, 16]), ('simper', [1, 16]), ('campero', [1, 17]), ('comfrey', [1, 17]), ('compper', [1, 17]), ('emporer', [1, 17])]
+unpair	combivir	denber	embrey	en-pro	infraero
+3: ****************** oconomic
+Corrections using Soundex distance :
+TOP 10 best candidates : [('agenc', [1, 16]), ('ausenco', [1, 16]), ('bushisms', [1, 16]), ('ccms', [1, 16]), ('cieszynski', [1, 16]), ('dae-sung', [1, 16]), ('dagenais', [1, 16]), ('dagnesses', [1, 16]), ('disneysea', [1, 16]), ('dyachenko', [1, 16])]
+oconomic	agenc	ausenco	bushisms	ccms	cieszynski
+4: ****************** accidnts
+Corrections using Soundex distance :
+TOP 10 best candidates : [('oxidants', [1, 16]), ('eight-months', [1, 17]), ('mis-statements', [1, 18]), ('news-stands', [1, 18]), ('systematics', [1, 20]), ('decedents', [1, 22]), ('ex-students', [1, 22]), ('guesstimates', [1, 22]), ('ex-teammates', [1, 24]), ('asthmatx', [1, 26])]
+accidnts	oxidants	eight-months	mis-statements	news-stands	systematics
+5: ****************** succes
+Corrections using Soundex distance :
+TOP 10 best candidates : [('succes', [0, 58])]
+succes	succes
+6: ****************** enthousiastic
+Corrections using Soundex distance :
+TOP 10 best candidates : [('anti-static', [1, 20]), ('amethysts', [1, 21]), ('ventastega', [1, 21]), ('non-autistic', [1, 22]), ('anti-scottish', [1, 28]), ('intestacy', [1, 31]), ('mind-sets', [1, 33]), ('fantastique', [1, 35]), ('indictees', [1, 38]), ('fantasticks', [1, 39])]
+enthousiastic	anti-static	amethysts	ventastega	non-autistic	anti-scottish
+7: ****************** produse
+Corrections using Soundex distance :
+TOP 10 best candidates : [('artuso', [1, 16]), ('barrettes', [1, 16]), ('birdcages', [1, 16]), ('bredius', [1, 16]), ('brodies', [1, 16]), ('cardoz', [1, 16]), ('corteges', [1, 16]), ('cridge', [1, 16]), ('droutsas', [1, 16]), ('druridge', [1, 16])]
+produse	artuso	barrettes	birdcages	bredius	brodies
+8: ****************** tecnologycal
+Corrections using Soundex distance :
+TOP 10 best candidates : [('cosmological', [1, 103]), ('seismological', [1, 170]), ('technologically', [1, 1141]), ('technological', [1, 7556])]
+tecnologycal	cosmological	seismological	technologically	technological
+9: ****************** upto
+Corrections using Soundex distance :
+TOP 10 best candidates : [('upto', [0, 144])]
+upto	upto
+10: ****************** poisioning
+Corrections using Soundex distance :
+TOP 10 best candidates : [('agenc', [1, 16]), ('ausenco', [1, 16]), ('bushisms', [1, 16]), ('ccms', [1, 16]), ('cieszynski', [1, 16]), ('dae-sung', [1, 16]), ('dagenais', [1, 16]), ('dagnesses', [1, 16]), ('disneysea', [1, 16]), ('dyachenko', [1, 16])]
+poisioning	agenc	ausenco	bushisms	ccms	cieszynski
+11: ****************** competitiors
+Corrections using Soundex distance :
+TOP 10 best candidates : [('benefit-risk', [1, 16]), ('nonvoters', [1, 16]), ('amphitheatres', [1, 19]), ('non-voters', [1, 26]), ('compadres', [1, 28]), ('computerise', [1, 28]), ('computerize', [1, 30]), ('renovators', [1, 36]), ('amphitheaters', [1, 51]), ('computrace', [1, 71])]
+competitiors	benefit-risk	nonvoters	amphitheatres	non-voters	compadres
+12: ****************** riks
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+riks	acass	acsa	aezs	age-y	ahas
+13: ****************** definations
+Corrections using Soundex distance :
+TOP 10 best candidates : [('opendns', [1, 16]), ('re-pointing', [1, 16]), ('dependancy', [1, 17]), ('repointing', [1, 17]), ('appending', [1, 20]), ('life-ending', [1, 23]), ('abundances', [1, 24]), ('sub-munitions', [1, 28]), ('co-funding', [1, 32]), ('defunding', [1, 33])]
+definations	opendns	re-pointing	dependancy	repointing	appending
+14: ****************** vivd
+Corrections using Soundex distance :
+TOP 10 best candidates : [('abotu', [1, 16]), ('abutu', [1, 16]), ('biffed', [1, 16]), ('cavitt', [1, 16]), ('davood', [1, 16]), ('debt-hit', [1, 16]), ('gaviota', [1, 16]), ('hovde', [1, 16]), ('ift', [1, 16]), ('japhet', [1, 16])]
+vivd	abotu	abutu	biffed	cavitt	davood
+15: ****************** tradind
+Corrections using Soundex distance :
+TOP 10 best candidates : [('bertinotti', [1, 19]), ('pardonnet', [1, 19]), ('portuondo', [1, 19]), ('three-diamond', [1, 19]), ('gradante', [1, 20]), ('foreordained', [1, 21]), ('broadmeadow', [1, 22]), ('credant', [1, 22]), ('short-hand', [1, 22]), ('treatement', [1, 22])]
+tradind	bertinotti	pardonnet	portuondo	three-diamond	gradante
+16: ****************** materail
+Corrections using Soundex distance :
+TOP 10 best candidates : [('chatterly', [1, 16]), ('ederle', [1, 16]), ('lotrel', [1, 16]), ('rtr.l', [1, 16]), ('hadrill', [1, 17]), ('strohal', [1, 17]), ('wetherall', [1, 17]), ('wetherill', [1, 17]), ('catherall', [1, 18]), ('cottrill', [1, 18])]
+materail	chatterly	ederle	lotrel	rtr.l	hadrill
+17: ****************** useig
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+useig	acass	acsa	aezs	age-y	ahas
+18: ****************** thoese
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+thoese	acass	acsa	aezs	age-y	ahas
+19: ****************** concludsion
+Corrections using Soundex distance :
+TOP 10 best candidates : [('aaaa', [2, 16]), ('aaa-rating', [2, 16]), ('aaoifi', [2, 16]), ('aarti', [2, 16]), ('abaca', [2, 16]), ('abasement', [2, 16]), ('abbas-ali', [2, 16]), ('abbawi', [2, 16]), ('abcarian', [2, 16]), ('abdelhamid', [2, 16])]
+concludsion	aaaa	aaa-rating	aaoifi	aarti	abaca
+20: ****************** controll
+Corrections using Soundex distance :
+TOP 10 best candidates : [('controll', [0, 26])]
+controll	controll
+21: ****************** thise
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+thise	acass	acsa	aezs	age-y	ahas
+22: ****************** banefit
+Corrections using Soundex distance :
+TOP 10 best candidates : [('ambady', [1, 16]), ('campout', [1, 16]), ('knapweed', [1, 16]), ('mohnhaupt', [1, 16]), ('nanavati', [1, 16]), ('one-fiftieth', [1, 16]), ('one-hopped', [1, 16]), ('one-putt', [1, 16]), ('one-putted', [1, 16]), ('remapped', [1, 16])]
+banefit	ambady	campout	knapweed	mohnhaupt	nanavati
+23: ****************** fatct
+Corrections using Soundex distance :
+TOP 10 best candidates : [('atchity', [1, 16]), ('buddist', [1, 16]), ('fatcat', [1, 16]), ('fetishised', [1, 16]), ('geotagged', [1, 16]), ('hattestad', [1, 16]), ('mdc-t', [1, 16]), ('ready-cooked', [1, 16]), ('stockwood', [1, 16]), ('stuckist', [1, 16])]
+fatct	atchity	buddist	fatcat	fetishised	geotagged
+24: ****************** condamnation
+Corrections using Soundex distance :
+TOP 10 best candidates : [('nematandani', [1, 21]), ('montandon', [1, 28]), ('indiantown', [1, 49]), ('handmaiden', [1, 61]), ('anti-indian', [1, 70]), ('indentation', [1, 84]), ('intimation', [1, 86]), ('hand-me-down', [1, 118]), ('intonation', [1, 230]), ('inattention', [1, 284])]
+condamnation	nematandani	montandon	indiantown	handmaiden	anti-indian
+25: ****************** forula
+Corrections using Soundex distance :
+TOP 10 best candidates : [('aurÃ£Â©lie', [1, 16]), ('berl', [1, 16]), ('bray-ali', [1, 16]), ('cerulli', [1, 16]), ('crowly', [1, 16]), ('de-rail', [1, 16]), ('ferrol', [1, 16]), ('hyrule', [1, 16]), ('irell', [1, 16]), ('kaarle', [1, 16])]
+forula	aurÃ£Â©lie	berl	bray-ali	cerulli	crowly
+26: ****************** thingh
+Corrections using Soundex distance :
+TOP 10 best candidates : [('ahhing', [1, 16]), ('aiims', [1, 16]), ('amezcua', [1, 16]), ('amnis', [1, 16]), ('amswa', [1, 16]), ('amusa', [1, 16]), ('annies', [1, 16]), ('anonymize', [1, 16]), ('anushka', [1, 16]), ('anz.ax', [1, 16])]
+thingh	ahhing	aiims	amezcua	amnis	amswa
+27: ****************** migth
+Corrections using Soundex distance :
+TOP 10 best candidates : [('aktau', [1, 16]), ('aquitted', [1, 16]), ('asadi', [1, 16]), ('aset', [1, 16]), ('assadi', [1, 16]), ('azzata', [1, 16]), ('bacchetti', [1, 16]), ('bastiat', [1, 16]), ('bayg.de', [1, 16]), ('beckitt', [1, 16])]
+migth	aktau	aquitted	asadi	aset	assadi
+28: ****************** healtheir
+Corrections using Soundex distance :
+TOP 10 best candidates : [('al-otari', [1, 16]), ('blitar', [1, 16]), ('e-letter', [1, 16]), ('ildar', [1, 16]), ('lilladher', [1, 16]), ('muldaur', [1, 16]), ('pelter', [1, 16]), ('sliter', [1, 16]), ('vaultier', [1, 16]), ('veltri', [1, 16])]
+healtheir	al-otari	blitar	e-letter	ildar	lilladher
+29: ****************** everythingfor
+Corrections using Soundex distance :
+TOP 10 best candidates : [('aaaa', [2, 16]), ('aaa-rating', [2, 16]), ('aaoifi', [2, 16]), ('aarti', [2, 16]), ('abaca', [2, 16]), ('abasement', [2, 16]), ('abbas-ali', [2, 16]), ('abbawi', [2, 16]), ('abcarian', [2, 16]), ('abdelhamid', [2, 16])]
+everythingfor	aaaa	aaa-rating	aaoifi	aarti	abaca
+30: ****************** beleif
+Corrections using Soundex distance :
+TOP 10 best candidates : [('alipay', [1, 16]), ('alvo', [1, 16]), ('balby', [1, 16]), ('chillwave', [1, 16]), ('clova', [1, 16]), ('goalby', [1, 16]), ('golba', [1, 16]), ('jalapao', [1, 16]), ('lllp', [1, 16]), ('lollypop', [1, 16])]
+beleif	alipay	alvo	balby	chillwave	clova
+31: ****************** resourses
+Corrections using Soundex distance :
+TOP 10 best candidates : [('bjorg', [1, 16]), ('bojorquez', [1, 16]), ('cockers', [1, 16]), ('decors', [1, 16]), ('deuchars', [1, 16]), ('hhgregg', [1, 16]), ('kasereka', [1, 16]), ('kozarsky', [1, 16]), ('mascaraque', [1, 16]), ('mazraq', [1, 16])]
+resourses	bjorg	bojorquez	cockers	decors	deuchars
+32: ****************** advantanges
+Corrections using Soundex distance :
+TOP 10 best candidates : [('outpointing', [1, 33]), ('co-dependency', [1, 36])]
+advantanges	outpointing	co-dependency
+33: ****************** diguise
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+diguise	acass	acsa	aezs	age-y	ahas
+34: ****************** additionly
+Corrections using Soundex distance :
+TOP 10 best candidates : [('howdenhall', [1, 17]), ('stanely', [1, 17]), ('steinle', [1, 17]), ('white-only', [1, 17]), ('ludmilla', [1, 18]), ('mutational', [1, 18]), ('stoneley', [1, 18]), ('duodenal', [1, 19]), ('ademola', [1, 20]), ('atml', [1, 20])]
+additionly	howdenhall	stanely	steinle	white-only	ludmilla
+35: ****************** opportunnity
+Corrections using Soundex distance :
+TOP 10 best candidates : [('spray-tanned', [1, 16]), ('departement', [1, 19]), ('oportunity', [1, 19]), ('cypriot-owned', [1, 21]), ('oppurtunity', [1, 23]), ('appartment', [1, 24]), ('dÃ£Â©partement', [1, 24]), ('labour-dominated', [1, 30]), ('debridement', [1, 36]), ('deportment', [1, 38])]
+opportunnity	spray-tanned	departement	oportunity	cypriot-owned	oppurtunity
+36: ****************** urself
+Corrections using Soundex distance :
+TOP 10 best candidates : [('berglof', [1, 16]), ('kruglov', [1, 16]), ('yerself', [1, 16]), ('miroslava', [1, 18]), ('nurgaliev', [1, 18]), ('jaroslava', [1, 19]), ('prosolv', [1, 22]), ('worklife', [1, 27]), ('froglife', [1, 29]), ('ourself', [1, 34])]
+urself	berglof	kruglov	yerself	miroslava	nurgaliev
+37: ****************** rebelion
+Corrections using Soundex distance :
+TOP 10 best candidates : [('abelman', [1, 16]), ('babylone', [1, 16]), ('cyflwyno', [1, 16]), ('ifilm', [1, 16]), ('kaplon', [1, 16]), ('kappelman', [1, 16]), ('spy-plane', [1, 16]), ('zabaleen', [1, 16]), ('avellan', [1, 17]), ('coplin', [1, 17])]
+rebelion	abelman	babylone	cyflwyno	ifilm	kaplon
+38: ****************** chioce
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+chioce	acass	acsa	aezs	age-y	ahas
+39: ****************** consdiered
+Corrections using Soundex distance :
+TOP 10 best candidates : [('young-at-heart', [1, 16]), ('longstreet', [1, 17]), ('long-shuttered', [1, 20]), ('quinstreet', [1, 20]), ('communist-rooted', [1, 21]), ('home-start', [1, 27]), ('menstruate', [1, 31]), ('mainstreet', [1, 40]), ('vansittart', [1, 46]), ('conjectured', [1, 56])]
+consdiered	young-at-heart	longstreet	long-shuttered	quinstreet	communist-rooted
+40: ****************** travals
+Corrections using Soundex distance :
+TOP 10 best candidates : [('cervelas', [1, 16]), ('four-hour-plus', [1, 16]), ('karavellas', [1, 16]), ('careplus', [1, 17]), ('trivialises', [1, 17]), ('giraffe-like', [1, 18]), ('maravillas', [1, 18]), ('paraplegia', [1, 18]), ('propolis', [1, 18]), ('triple-check', [1, 18])]
+travals	cervelas	four-hour-plus	karavellas	careplus	trivialises
+41: ****************** inturn
+Corrections using Soundex distance :
+TOP 10 best candidates : [('chandrayaan-i', [1, 16]), ('damodaran', [1, 16]), ('dundrean', [1, 16]), ('am-dram', [1, 17]), ('counterman', [1, 17]), ('internee', [1, 17]), ('mahendran', [1, 17]), ('ante-room', [1, 18]), ('conterno', [1, 18]), ('dunthorne', [1, 18])]
+inturn	chandrayaan-i	damodaran	dundrean	am-dram	counterman
+42: ****************** inly
+Corrections using Soundex distance :
+TOP 10 best candidates : [('ainley', [1, 16]), ('amahl', [1, 16]), ('annelle', [1, 16]), ('c-mail', [1, 16]), ('connel', [1, 16]), ('denley', [1, 16]), ('enyele', [1, 16]), ('finl', [1, 16]), ('ganlea', [1, 16]), ('janala', [1, 16])]
+inly	ainley	amahl	annelle	c-mail	connel
+43: ****************** everydays
+Corrections using Soundex distance :
+TOP 10 best candidates : [('sybarites', [1, 16]), ('cobridge', [1, 17]), ('japaridze', [1, 17]), ('overheats', [1, 17]), ('over-rates', [1, 17]), ('superheads', [1, 17]), ('tabards', [1, 17]), ('before-tax', [1, 18]), ('goovaerts', [1, 18]), ('overhits', [1, 18])]
+everydays	sybarites	cobridge	japaridze	overheats	over-rates
+44: ****************** specilaized
+Corrections using Soundex distance :
+TOP 10 best candidates : [('specialised', [1, 1733]), ('specialized', [1, 4853]), ('specialist', [1, 23068])]
+specilaized	specialised	specialized	specialist
+45: ****************** runned
+Corrections using Soundex distance :
+TOP 10 best candidates : [('ah-muh-dee', [1, 16]), ('amati', [1, 16]), ('amodeo', [1, 16]), ('anahita', [1, 16]), ('anto', [1, 16]), ('aymond', [1, 16]), ('bandito', [1, 16]), ('bandwith', [1, 16]), ('benyettou', [1, 16]), ('bindy', [1, 16])]
+runned	ah-muh-dee	amati	amodeo	anahita	anto
+46: ****************** allive
+Corrections using Soundex distance :
+TOP 10 best candidates : [('alipay', [1, 16]), ('alvo', [1, 16]), ('balby', [1, 16]), ('chillwave', [1, 16]), ('clova', [1, 16]), ('goalby', [1, 16]), ('golba', [1, 16]), ('jalapao', [1, 16]), ('lllp', [1, 16]), ('lollypop', [1, 16])]
+allive	alipay	alvo	balby	chillwave	clova
+47: ****************** anylonger
+Corrections using Soundex distance :
+TOP 10 best candidates : [('nanolauncher', [1, 16]), ('sunlounger', [1, 25])]
+anylonger	nanolauncher	sunlounger
+48: ****************** explantion
+Corrections using Soundex distance :
+TOP 10 best candidates : [('explaination', [1, 26]), ('explanation', [1, 12955])]
+explantion	explaination	explanation
+49: ****************** insearch
+Corrections using Soundex distance :
+TOP 10 best candidates : [('angrick', [1, 16]), ('comancheros', [1, 16]), ('fingerwork', [1, 16]), ('gen-xers', [1, 16]), ('jongrak', [1, 16]), ('knackers', [1, 16]), ('mini-cars', [1, 16]), ('non-search', [1, 16]), ('samasource', [1, 16]), ('ymgyrch', [1, 16])]
+insearch	angrick	comancheros	fingerwork	gen-xers	jongrak
+50: ****************** advertisments
+Corrections using Soundex distance :
+TOP 10 best candidates : [('advertisments', [0, 18])]
+advertisments	advertisments
+51: ****************** referencial
+Corrections using Soundex distance :
+TOP 10 best candidates : [('sprÃ£Â¼ngli', [1, 20]), ('sprengel', [1, 22]), ('springwell', [1, 22]), ('springle', [1, 57]), ('springhill', [1, 97]), ('tabernacle', [1, 229]), ('sparingly', [1, 741]), ('sprinkle', [1, 1083])]
+referencial	sprÃ£Â¼ngli	sprengel	springwell	springle	springhill
+52: ****************** processure
+Corrections using Soundex distance :
+TOP 10 best candidates : [('arzerra', [1, 16]), ('boy-racer', [1, 16]), ('corcyra', [1, 16]), ('crisis-weary', [1, 16]), ('crossgar', [1, 16]), ('friskier', [1, 16]), ('groser', [1, 16]), ('harger', [1, 16]), ('iraq-syria', [1, 16]), ('kracher', [1, 16])]
+processure	arzerra	boy-racer	corcyra	crisis-weary	crossgar
+53: ****************** whis
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+whis	acass	acsa	aezs	age-y	ahas
+54: ****************** populization
+Corrections using Soundex distance :
+TOP 10 best candidates : [('novelisation', [1, 29]), ('public-domain', [1, 35]), ('supplication', [1, 59]), ('splashdown', [1, 62]), ('republication', [1, 148]), ('mobilisation', [1, 214]), ('cobblestone', [1, 393]), ('replication', [1, 491]), ('affliction', [1, 523]), ('duplication', [1, 555])]
+populization	novelisation	public-domain	supplication	splashdown	republication
+55: ****************** prodcut
+Corrections using Soundex distance :
+TOP 10 best candidates : [('nerdiest', [1, 16]), ('third-quickest', [1, 16]), ('worthiest', [1, 17]), ('forthside', [1, 18]), ('hearthside', [1, 18]), ('parodist', [1, 18]), ('quart-sized', [1, 18]), ('shortgate', [1, 18]), ('nordquist', [1, 19]), ('crowdcast', [1, 20])]
+prodcut	nerdiest	third-quickest	worthiest	forthside	hearthside
+56: ****************** beleived
+Corrections using Soundex distance :
+TOP 10 best candidates : [('beleived', [0, 17])]
+beleived	beleived
+57: ****************** backgrounging
+Corrections using Soundex distance :
+TOP 10 best candidates : [('dose-ranging', [1, 17]), ('scrimmaging', [1, 18]), ('wickramasinghe', [1, 20]), ('scrunching', [1, 22]), ('wickremesinghe', [1, 28]), ('micro-managing', [1, 60]), ('higher-ranking', [1, 106]), ('micromanaging', [1, 124]), ('scrounging', [1, 132]), ('skirmishing', [1, 152])]
+backgrounging	dose-ranging	scrimmaging	wickramasinghe	scrunching	wickremesinghe
+58: ****************** difinetly
+Corrections using Soundex distance :
+TOP 10 best candidates : [('devondale', [1, 16]), ('rap-metal', [1, 16]), ('defintely', [1, 17]), ('heavy-handedly', [1, 17]), ('submittal', [1, 17]), ('levinthal', [1, 20]), ('evenhandedly', [1, 24]), ('definitly', [1, 25]), ('even-handedly', [1, 26]), ('spindel', [1, 28])]
+difinetly	devondale	rap-metal	defintely	heavy-handedly	submittal
+59: ****************** addtion
+Corrections using Soundex distance :
+TOP 10 best candidates : [('adon', [1, 16]), ('adwan', [1, 16]), ('aetn', [1, 16]), ('athina', [1, 16]), ('bidon', [1, 16]), ('cathinone', [1, 16]), ('catman', [1, 16]), ('cdyne', [1, 16]), ('codina', [1, 16]), ('ditan', [1, 16])]
+addtion	adon	adwan	aetn	athina	bidon
+60: ****************** anyhting
+Corrections using Soundex distance :
+TOP 10 best candidates : [('andong', [1, 16]), ('hematomas', [1, 16]), ('lanting', [1, 16]), ('non-ethnic', [1, 16]), ('pandanus', [1, 16]), ('randomize', [1, 16]), ('rhinemaidens', [1, 16]), ('suntans', [1, 16]), ('anatomies', [1, 17]), ('anthing', [1, 17])]
+anyhting	andong	hematomas	lanting	non-ethnic	pandanus
+61: ****************** variatons
+Corrections using Soundex distance :
+TOP 10 best candidates : [('aaa-rating', [1, 16]), ('arrhythmic', [1, 16]), ('artiness', [1, 16]), ('artnews', [1, 16]), ('jarding', [1, 16]), ('artemije', [1, 17]), ('artenius', [1, 17]), ('broadneck', [1, 17]), ('broadness', [1, 17]), ('brotons', [1, 17])]
+variatons	aaa-rating	arrhythmic	artiness	artnews	jarding
+62: ****************** interfer
+Corrections using Soundex distance :
+TOP 10 best candidates : [('interboro', [1, 17]), ('underfire', [1, 19]), ('round-tripper', [1, 29]), ('honeydripper', [1, 30]), ('andre-pierre', [1, 35]), ('wonderbra', [1, 43]), ('landrover', [1, 56]), ('interbrew', [1, 62]), ('gimeno-traver', [1, 89]), ('nine-under-par', [1, 108])]
+interfer	interboro	underfire	round-tripper	honeydripper	andre-pierre
+63: ****************** eloctronics
+Corrections using Soundex distance :
+TOP 10 best candidates : [('bluestring', [1, 20]), ('plextronics', [1, 21]), ('all-electronic', [1, 29]), ('placoderms', [1, 32]), ('soul-stirring', [1, 38]), ('hailstorms', [1, 40]), ('blustering', [1, 130]), ('flextronics', [1, 148]), ('plastering', [1, 213]), ('clustering', [1, 215])]
+eloctronics	bluestring	plextronics	all-electronic	placoderms	soul-stirring
+64: ****************** undestanded
+Corrections using Soundex distance :
+TOP 10 best candidates : [('bondage-themed', [1, 35]), ('handstand', [1, 56]), ('antecedent', [1, 58]), ('anti-oxidant', [1, 75]), ('bandstand', [1, 247]), ('antioxidant', [1, 717]), ('contestant', [1, 3696]), ('indictment', [1, 14024])]
+undestanded	bondage-themed	handstand	antecedent	anti-oxidant	bandstand
+65: ****************** easially
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acle', [1, 16]), ('aslo', [1, 16]), ('assal', [1, 16]), ('bashall', [1, 16]), ('bhosle', [1, 16]), ('buachaille', [1, 16]), ('cecilio', [1, 16]), ('cockily', [1, 16]), ('doxil', [1, 16]), ('e-cell', [1, 16])]
+easially	acle	aslo	assal	bashall	bhosle
+66: ****************** assestments
+Corrections using Soundex distance :
+TOP 10 best candidates : [('oxidants', [1, 16]), ('eight-months', [1, 17]), ('mis-statements', [1, 18]), ('news-stands', [1, 18]), ('systematics', [1, 20]), ('decedents', [1, 22]), ('ex-students', [1, 22]), ('guesstimates', [1, 22]), ('ex-teammates', [1, 24]), ('asthmatx', [1, 26])]
+assestments	oxidants	eight-months	mis-statements	news-stands	systematics
+67: ****************** regared
+Corrections using Soundex distance :
+TOP 10 best candidates : [('axworthy', [1, 16]), ('bogert', [1, 16]), ('bossard', [1, 16]), ('bouchacourt', [1, 16]), ('dixiecrat', [1, 16]), ('ecocert', [1, 16]), ('icrete', [1, 16]), ('jayackroyd', [1, 16]), ('maigret', [1, 16]), ('majorette', [1, 16])]
+regared	axworthy	bogert	bossard	bouchacourt	dixiecrat
+68: ****************** knowlkedge
+Corrections using Soundex distance :
+TOP 10 best candidates : [('analects', [1, 22]), ('immunologists', [1, 25]), ('final-stage', [1, 28]), ('minimalistic', [1, 29]), ('inelastic', [1, 36]), ('analogictech', [1, 37]), ('minimalists', [1, 50]), ('enlistees', [1, 52]), ('simulcasts', [1, 72]), ('animalistic', [1, 74])]
+knowlkedge	analects	immunologists	final-stage	minimalistic	inelastic
+69: ****************** successs
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+successs	acass	acsa	aezs	age-y	ahas
+70: ****************** represant
+Corrections using Soundex distance :
+TOP 10 best candidates : [('overcommitted', [1, 17]), ('subarachnoid', [1, 17]), ('over-committed', [1, 18]), ('super-smooth', [1, 19]), ('co-present', [1, 20]), ('diversinet', [1, 20]), ('sparxent', [1, 24]), ('five-percent', [1, 28]), ('super-agent', [1, 28]), ('two-percent', [1, 28])]
+represant	overcommitted	subarachnoid	over-committed	super-smooth	co-present
+71: ****************** actractive
+Corrections using Soundex distance :
+TOP 10 best candidates : [('extractive', [1, 112]), ('restrictive', [1, 2457]), ('destructive', [1, 4395])]
+actractive	extractive	restrictive	destructive
+72: ****************** nood
+Corrections using Soundex distance :
+TOP 10 best candidates : [('atiu', [1, 16]), ('atiyah', [1, 16]), ('atu', [1, 16]), ('auto-', [1, 16]), ('awadi', [1, 16]), ('baitha', [1, 16]), ('batha', [1, 16]), ('boda', [1, 16]), ('caudate', [1, 16]), ('cedia', [1, 16])]
+nood	atiu	atiyah	atu	auto-	awadi
+73: ****************** focuss
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+focuss	acass	acsa	aezs	age-y	ahas
+74: ****************** decreace
+Corrections using Soundex distance :
+TOP 10 best candidates : [('bjorg', [1, 16]), ('bojorquez', [1, 16]), ('cockers', [1, 16]), ('decors', [1, 16]), ('deuchars', [1, 16]), ('hhgregg', [1, 16]), ('kasereka', [1, 16]), ('kozarsky', [1, 16]), ('mascaraque', [1, 16]), ('mazraq', [1, 16])]
+decreace	bjorg	bojorquez	cockers	decors	deuchars
+75: ****************** magagine
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acn.n', [1, 16]), ('akim', [1, 16]), ('aschan', [1, 16]), ('askmen', [1, 16]), ('assinine', [1, 16]), ('axeon', [1, 16]), ('backen', [1, 16]), ('bakwin', [1, 16]), ('baussan', [1, 16]), ('begone', [1, 16])]
+magagine	acn.n	akim	aschan	askmen	assinine
+76: ****************** knowedge
+Corrections using Soundex distance :
+TOP 10 best candidates : [('anatsui', [1, 16]), ('antes', [1, 16]), ('anti-itch', [1, 16]), ('anti-sex', [1, 16]), ('biomimetics', [1, 16]), ('boontje', [1, 16]), ('dinowitz', [1, 16]), ('downtick', [1, 16]), ('fantz', [1, 16]), ('fundies', [1, 16])]
+knowedge	anatsui	antes	anti-itch	anti-sex	biomimetics
+77: ****************** relativley
+Corrections using Soundex distance :
+TOP 10 best candidates : [('bloodflow', [1, 19]), ('multi-play', [1, 21]), ('altobelli', [1, 22]), ('cultivable', [1, 22]), ('el-tablawy', [1, 24]), ('multiplay', [1, 25]), ('altavilla', [1, 26]), ('multi-fuel', [1, 26]), ('buildable', [1, 28]), ('reloadable', [1, 28])]
+relativley	bloodflow	multi-play	altobelli	cultivable	el-tablawy
+78: ****************** wheter
+Corrections using Soundex distance :
+TOP 10 best candidates : [('adwar', [1, 16]), ('atar', [1, 16]), ('ataur', [1, 16]), ('ather', [1, 16]), ('atyrau', [1, 16]), ('bedder', [1, 16]), ('cator', [1, 16]), ('chettri', [1, 16]), ('feodor', [1, 16]), ('ghadr', [1, 16])]
+wheter	adwar	atar	ataur	ather	atyrau
+79: ****************** convience
+Corrections using Soundex distance :
+TOP 10 best candidates : [('finbank', [1, 16]), ('home-opening', [1, 16]), ('infinis', [1, 16]), ('lumbango', [1, 16]), ('one-bounce', [1, 16]), ('comapnies', [1, 17]), ('junfeng', [1, 17]), ('kennebunk', [1, 17]), ('lumpiness', [1, 17]), ('maimbung', [1, 17])]
+convience	finbank	home-opening	infinis	lumbango	one-bounce
+80: ****************** extremly
+Corrections using Soundex distance :
+TOP 10 best candidates : [('extremly', [0, 18])]
+extremly	extremly
+81: ****************** espacilly
+Corrections using Soundex distance :
+TOP 10 best candidates : [('mega-pixel', [1, 16]), ('especialy', [1, 20]), ('expecially', [1, 20]), ('ex-special', [1, 23]), ('vasovagal', [1, 23]), ('ex-official', [1, 25]), ('quasi-official', [1, 28]), ('auspiciously', [1, 33]), ('lasciviously', [1, 34]), ('bcbsil', [1, 37])]
+espacilly	mega-pixel	especialy	expecially	ex-special	vasovagal
+82: ****************** becasuse
+Corrections using Soundex distance :
+TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
+becasuse	acass	acsa	aezs	age-y	ahas
+83: ****************** carrir

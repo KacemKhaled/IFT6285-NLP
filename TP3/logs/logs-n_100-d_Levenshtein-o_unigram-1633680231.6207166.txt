@@ -1,0 +1,228 @@
+['Levenshtein']
+unigram
+Correcting 100 words
+1: ****************** reccodmission
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('commission', [4, 113377]), ('recession', [5, 89627]), ('permission', [5, 19482]), ('recognition', [5, 16732]), ('admission', [5, 11441]), ('commissions', [5, 5492]), ('emission', [5, 3925]), ('omission', [5, 1391]), ('repossession', [5, 1286]), ('remission', [4, 871])]
+reccodmission	commission	recession	permission	recognition	admission
+2: ****************** unpair
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('under', [3, 443716]), ('until', [3, 256446]), ('near', [3, 184208]), ('air', [3, 153442]), ('upi', [3, 143940]), ('paid', [3, 109546]), ('unit', [3, 61322]), ('fair', [3, 52845]), ('spain', [3, 51765]), ('pair', [2, 45687])]
+unpair	under	until	near	air	upi
+3: ****************** oconomic
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('economic', [1, 253089]), ('economy', [3, 227089]), ('economies', [3, 24906]), ('economist', [3, 23667]), ('economics', [2, 19320]), ('comic', [3, 11157]), ('iconic', [3, 8785]), ('cosmic', [3, 2243]), ('economical', [3, 1713]), ('genomic', [3, 382])]
+oconomic	economic	economy	economies	economist	economics
+4: ****************** accidnts
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('account', [3, 67176]), ('accounts', [2, 46572]), ('actions', [3, 42577]), ('accident', [2, 42092]), ('clients', [3, 40157]), ('incidents', [3, 21787]), ('ancient', [3, 19457]), ('accidents', [1, 11385]), ('vaccines', [3, 8113]), ('accidental', [3, 4916])]
+accidnts	account	accounts	actions	accident	clients
+5: ****************** succes
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('success', [1, 81991]), ('sources', [2, 58857]), ('succeed', [2, 16941]), ('soccer', [2, 15281]), ('spaces', [2, 8804]), ('suites', [2, 3788]), ('ounces', [2, 3430]), ('succeeds', [2, 2984]), ('slices', [2, 2397]), ('sucked', [2, 2063])]
+succes	success	sources	succeed	soccer	spaces
+6: ****************** enthousiastic
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('enthusiasm', [4, 10634]), ('enthusiastic', [1, 6474]), ('enthusiasts', [3, 3893]), ('enthusiast', [3, 1751]), ('unenthusiastic', [3, 206]), ('enthusiasms', [4, 159])]
+enthousiastic	enthusiasm	enthusiastic	enthusiasts	enthusiast	unenthusiastic
+7: ****************** produse
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('house', [3, 412470]), ('rose', [3, 136457]), ('provide', [3, 134668]), ('process', [3, 123965]), ('products', [3, 116826]), ('reduce', [3, 73993]), ('product', [2, 70402]), ('proposed', [3, 65516]), ('produced', [2, 52312]), ('produce', [1, 50454])]
+produse	house	rose	provide	process	products
+8: ****************** tecnologycal
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('technology', [4, 131287]), ('technological', [2, 7556]), ('geological', [4, 5124]), ('ecological', [3, 2754]), ('neurological', [4, 2500]), ('theological', [4, 1611]), ('technologically', [4, 1141]), ('sociological', [4, 422]), ('gemological', [4, 25]), ('topological', [4, 24])]
+tecnologycal	technology	technological	geological	ecological	neurological
+9: ****************** upto
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('into', [2, 969249]), ('upi', [2, 143940]), ('upon', [2, 45559]), ('nato', [2, 44688]), ('onto', [2, 40832]), ('auto', [2, 35976]), ('pro', [2, 19135]), ('veto', [2, 9326]), ('opt', [2, 6960]), ('ups', [2, 4387])]
+upto	into	upi	upon	nato	onto
+10: ****************** poisioning
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('poisoning', [1, 4938]), ('positioning', [2, 3949]), ('postponing', [3, 1221]), ('provisioning', [2, 496]), ('petitioning', [3, 372]), ('envisioning', [3, 252]), ('poisonings', [2, 248]), ('consigning', [3, 173]), ('ossining', [3, 103]), ('motioning', [3, 101])]
+poisioning	poisoning	positioning	postponing	provisioning	petitioning
+11: ****************** competitiors
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('competition', [2, 72728]), ('competitive', [3, 30332]), ('competitors', [1, 15421]), ('competitor', [2, 6184]), ('competitions', [1, 5402]), ('compositions', [3, 1104]), ('computations', [3, 84]), ('competiton', [3, 37]), ('competizione', [3, 18])]
+competitiors	competition	competitive	competitors	competitor	competitions
+12: ****************** riks
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('was', [3, 4696797]), ('with', [3, 4671305]), ('his', [2, 3048518]), ('has', [3, 3001796]), ('will', [3, 2187657]), ('this', [3, 2175742]), ('its', [2, 1635951]), ('first', [3, 1033443]), ('time', [3, 851131]), ('like', [2, 653907])]
+riks	was	with	his	has	will
+13: ****************** definations
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('donations', [3, 16889]), ('destination', [3, 14240]), ('definition', [2, 10326]), ('nominations', [3, 8763]), ('medications', [3, 7955]), ('destinations', [2, 7657]), ('deflation', [3, 4632]), ('dedication', [3, 3975]), ('designation', [3, 3271]), ('domination', [3, 2589])]
+definations	donations	destination	definition	nominations	medications
+14: ****************** vivd
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('and', [3, 16149834]), ('with', [3, 4671305]), ('said', [3, 4306425]), ('his', [3, 3048518]), ('have', [3, 3012093]), ('will', [3, 2187657]), ('had', [3, 1990115]), ('its', [3, 1635951]), ('time', [3, 851131]), ('like', [3, 653907])]
+vivd	and	with	said	his	have
+15: ****************** tradind
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('taking', [3, 178014]), ('trying', [3, 164149]), ('leading', [3, 145072]), ('trade', [3, 126459]), ('tried', [3, 96605]), ('trading', [1, 94146]), ('training', [3, 93651]), ('radio', [3, 76687]), ('grand', [3, 61699]), ('train', [2, 52944])]
+tradind	taking	trying	leading	trade	tried
+16: ****************** materail
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('later', [4, 269899]), ('several', [4, 254961]), ('federal', [4, 241309]), ('general', [4, 222018]), ('water', [4, 164661]), ('april', [4, 155690]), ('average', [4, 137055]), ('matter', [4, 89982]), ('overall', [4, 73861]), ('natural', [3, 72473])]
+materail	later	several	federal	general	water
+17: ****************** useig
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('the', [4, 41223601]), ('said', [3, 4306425]), ('his', [4, 3048518]), ('are', [4, 2831102]), ('they', [4, 2242804]), ('this', [4, 2175742]), ('their', [3, 1953337]), ('were', [4, 1856428]), ('been', [4, 1744807]), ('new', [4, 1488011])]
+useig	the	said	his	are	they
+18: ****************** thoese
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('the', [3, 41223601]), ('they', [3, 2242804]), ('this', [3, 2175742]), ('their', [3, 1953337]), ('there', [2, 1167647]), ('them', [3, 739516]), ('three', [2, 630715]), ('where', [3, 570946]), ('those', [1, 526090]), ('home', [3, 509022])]
+thoese	the	they	this	their	there
+19: ****************** concludsion
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('conclusion', [1, 14539]), ('confusion', [3, 9903]), ('conclusions', [2, 7289]), ('inclusion', [3, 5309]), ('concession', [3, 3909]), ('concussion', [2, 3236]), ('concluding', [3, 3003]), ('collusion', [3, 1273]), ('conclusive', [3, 1266]), ('concussions', [3, 985])]
+concludsion	conclusion	confusion	conclusions	inclusion	concession
+20: ****************** controll
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('control', [1, 160347]), ('controlled', [2, 23715]), ('controls', [1, 22306]), ('controller', [2, 5417]), ('cottrell', [2, 287]), ('cantrell', [2, 271]), ('controled', [2, 44]), ('pointroll', [2, 44]), ('controll', [0, 26]), ('controlee', [2, 23])]
+controll	control	controlled	controls	controller	cottrell
+21: ****************** thise
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('the', [2, 41223601]), ('that', [3, 6960157]), ('his', [2, 3048518]), ('have', [3, 3012093]), ('has', [3, 3001796]), ('they', [3, 2242804]), ('this', [1, 2175742]), ('their', [3, 1953337]), ('which', [3, 1662661]), ('than', [3, 1250163])]
+thise	the	that	his	have	has
+22: ****************** banefit
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('benefits', [2, 70518]), ('benefit', [1, 56481]), ('benedict', [3, 12657]), ('benefited', [3, 9141]), ('janet', [3, 6950]), ('barnett', [3, 2318]), ('pandit', [3, 2148]), ('unfit', [3, 2026]), ('banquet', [3, 1973]), ('barefoot', [3, 1688])]
+banefit	benefits	benefit	benedict	benefited	janet
+23: ****************** fatct
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('last', [3, 1077656]), ('first', [3, 1033443]), ('back', [3, 528184]), ('part', [3, 364425]), ('later', [3, 269899]), ('want', [3, 264776]), ('each', [3, 260135]), ('past', [3, 257003]), ('far', [3, 236688]), ('march', [3, 203774])]
+fatct	last	first	back	part	later
+24: ****************** condamnation
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('condemnation', [1, 4690]), ('contamination', [2, 4590]), ('condensation', [3, 422]), ('consummation', [3, 381]), ('condemnations', [2, 282]), ('damnation', [3, 213]), ('concatenation', [3, 27]), ('contaminations', [3, 23])]
+condamnation	condemnation	contamination	condensation	consummation	condemnations
+25: ****************** forula
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('for', [3, 6763830]), ('would', [3, 1531631]), ('could', [3, 868808]), ('world', [3, 663896]), ('former', [3, 389414]), ('four', [3, 382015]), ('found', [3, 370657]), ('force', [3, 149485]), ('forces', [3, 147796]), ('full', [3, 145632])]
+forula	for	would	could	world	former
+26: ****************** thingh
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('this', [3, 2175742]), ('which', [3, 1662661]), ('than', [3, 1250163]), ('being', [3, 579175]), ('then', [3, 490001]), ('through', [3, 485031]), ('going', [3, 317959]), ('think', [2, 303839]), ('high', [2, 300791]), ('china', [3, 273798])]
+thingh	this	which	than	being	then
+27: ****************** migth
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('with', [2, 4671305]), ('its', [3, 1635951]), ('into', [3, 969249]), ('most', [3, 688710]), ('much', [3, 453522]), ('city', [3, 438721]), ('both', [3, 389651]), ('months', [3, 329215]), ('month', [2, 327414]), ('high', [2, 300791])]
+migth	with	its	into	most	much
+28: ****************** healtheir
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('their', [4, 1953337]), ('health', [3, 345821]), ('whether', [4, 251914]), ('rather', [4, 138603]), ('father', [4, 116409]), ('either', [4, 100469]), ('weather', [3, 59522]), ('healthcare', [3, 44792]), ('neither', [4, 40984]), ('healthy', [3, 37550])]
+healtheir	their	health	whether	rather	father
+29: ****************** everythingfor
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('everything', [3, 80664]), ('ever-higher', [5, 110]), ('everthing', [4, 69]), ('eveything', [4, 22])]
+everythingfor	everything	ever-higher	everthing	eveything
+30: ****************** beleif
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('their', [4, 1953337]), ('were', [4, 1856428]), ('been', [3, 1744807]), ('before', [4, 666773]), ('being', [4, 579175]), ('even', [4, 550983]), ('week', [4, 520674]), ('between', [4, 443920]), ('well', [4, 417982]), ('billion', [4, 358486])]
+beleif	their	were	been	before	being
+31: ****************** resourses
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('sources', [3, 58857]), ('resources', [1, 56432]), ('reserves', [3, 24065]), ('courses', [3, 14164]), ('pressures', [3, 11586]), ('resource', [2, 11414]), ('responses', [3, 8935]), ('resorts', [3, 7910]), ('refuses', [3, 5994]), ('gestures', [3, 3771])]
+resourses	sources	resources	reserves	courses	pressures
+32: ****************** advantanges
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('advantage', [2, 52286]), ('advantages', [1, 6006]), ('advantageous', [3, 665]), ('advantaged', [2, 201]), ('aadvantage', [3, 143])]
+advantanges	advantage	advantages	advantageous	advantaged	aadvantage
+33: ****************** diguise
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('disease', [3, 77275]), ('figure', [3, 68313]), ('guide', [3, 22939]), ('cruise', [3, 17200]), ('dioxide', [3, 13033]), ('diverse', [3, 12204]), ('divide', [3, 9474]), ('dismiss', [3, 6722]), ('dignity', [3, 6203]), ('demise', [3, 5561])]
+diguise	disease	figure	guide	cruise	dioxide
+34: ****************** additionly
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('additional', [2, 79878]), ('addition', [2, 66873]), ('edition', [4, 27313]), ('ambitions', [4, 11534]), ('adoption', [4, 10979]), ('addiction', [3, 8712]), ('ambition', [4, 8204]), ('additionally', [2, 6441]), ('editions', [4, 3406]), ('admittedly', [4, 3112])]
+additionly	additional	addition	edition	ambitions	adoption
+35: ****************** opportunnity
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('opportunity', [1, 68288]), ('opportunist', [3, 514]), ('opportunism', [3, 471]), ('opportunists', [3, 282]), ('opportunites', [3, 34]), ('oppurtunity', [2, 23]), ('oportunity', [2, 19])]
+opportunnity	opportunity	opportunist	opportunism	opportunists	opportunites
+36: ****************** urself
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('used', [3, 296737]), ('use', [3, 282280]), ('himself', [3, 125763]), ('sell', [3, 83005]), ('itself', [2, 81854]), ('users', [3, 58840]), ('urged', [3, 48879]), ('herself', [2, 34483]), ('uses', [3, 31384]), ('myself', [2, 30201])]
+urself	used	use	himself	sell	itself
+37: ****************** rebelion
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('region', [3, 129032]), ('recession', [3, 89627]), ('rebels', [3, 33932]), ('reaction', [3, 26114]), ('religion', [3, 21544]), ('rebel', [3, 19987]), ('reception', [3, 11307]), ('relation', [3, 7919]), ('rejection', [3, 5859]), ('revelation', [3, 5630])]
+rebelion	region	recession	rebels	reaction	religion
+38: ****************** chioce
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('the', [4, 41223601]), ('his', [4, 3048518]), ('have', [4, 3012093]), ('this', [4, 2175742]), ('who', [4, 2108824]), ('more', [4, 1729941]), ('which', [3, 1662661]), ('one', [4, 1461202]), ('she', [4, 1173359]), ('there', [4, 1167647])]
+chioce	the	his	have	this	who
+39: ****************** consdiered
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('consumer', [4, 86377]), ('continued', [4, 82250]), ('consumers', [4, 79407]), ('confirmed', [4, 76767]), ('considered', [2, 75819]), ('consider', [4, 64035]), ('ordered', [4, 58012]), ('concerned', [4, 57389]), ('convicted', [4, 50474]), ('conducted', [4, 37417])]
+consdiered	consumer	continued	consumers	confirmed	considered
+40: ****************** travals
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('trial', [3, 106002]), ('travel', [2, 88020]), ('rival', [3, 57063]), ('rivals', [2, 36150]), ('tribal', [3, 23003]), ('trials', [2, 22493]), ('trail', [3, 19555]), ('trains', [3, 19186]), ('tracks', [3, 19093]), ('traders', [3, 18209])]
+travals	trial	travel	rival	rivals	tribal
+41: ****************** inturn
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('into', [3, 969249]), ('future', [3, 178912]), ('return', [2, 164885]), ('internet', [3, 118543]), ('turn', [2, 107010]), ('injured', [3, 72515]), ('injury', [2, 67790]), ('ensure', [3, 60700]), ('century', [3, 59441]), ('indian', [3, 57355])]
+inturn	into	future	return	internet	turn
+42: ****************** inly
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('and', [3, 16149834]), ('not', [3, 2310462]), ('they', [3, 2242804]), ('will', [3, 2187657]), ('its', [3, 1635951]), ('new', [3, 1488011]), ('one', [3, 1461202]), ('all', [3, 1097198]), ('into', [2, 969249]), ('only', [1, 721447])]
+inly	and	not	they	will	its
+43: ****************** everydays
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('everyday', [1, 10203]), ('everyman', [3, 674]), ('overlays', [3, 142]), ('everyones', [3, 93]), ('every-day', [2, 51]), ('heydays', [3, 43]), ('entryways', [3, 37]), ('overpays', [3, 30]), ('overplays', [3, 27]), ('everday', [2, 20])]
+everydays	everyday	everyman	overlays	everyones	every-day
+44: ****************** specilaized
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('specialized', [2, 4853]), ('specializes', [3, 4301]), ('speculate', [4, 3942]), ('speculated', [3, 3846]), ('speculative', [4, 3454]), ('specified', [3, 2901]), ('specialises', [4, 2071]), ('specialised', [3, 1733]), ('stabilized', [4, 1699]), ('reclaimed', [4, 1603])]
+specilaized	specialized	specializes	speculate	speculated	speculative
+45: ****************** runned
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('under', [3, 443716]), ('united', [3, 400352]), ('used', [3, 296737]), ('need', [3, 276203]), ('run', [3, 215809]), ('june', [3, 165360]), ('running', [3, 118430]), ('wanted', [3, 116211]), ('red', [3, 114174]), ('turned', [2, 111849])]
+runned	under	united	used	need	run
+46: ****************** allive
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('all', [3, 1097198]), ('like', [3, 653907]), ('police', [3, 585150]), ('five', [3, 319011]), ('life', [3, 297156]), ('give', [3, 196643]), ('line', [3, 159193]), ('believe', [3, 156795]), ('able', [3, 156468]), ('live', [2, 142710])]
+allive	all	like	police	five	life
+47: ****************** anylonger
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('another', [4, 394236]), ('long', [5, 294919]), ('among', [5, 272879]), ('announced', [5, 198518]), ('along', [4, 165199]), ('online', [5, 124080]), ('manager', [5, 120109]), ('lower', [5, 110432]), ('allowed', [5, 102982]), ('anyone', [3, 100227])]
+anylonger	another	long	among	announced	along
+48: ****************** explantion
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('explain', [3, 31073]), ('expansion', [2, 27662]), ('explosion', [3, 24379]), ('exploration', [3, 13487]), ('explanation', [1, 12955]), ('expedition', [3, 4335]), ('explanations', [2, 2828]), ('expiration', [3, 2722]), ('extraction', [3, 1579]), ('exposition', [3, 880])]
+explantion	explain	expansion	explosion	exploration	explanation
+49: ****************** insearch
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('each', [4, 260135]), ('march', [4, 203774]), ('research', [2, 201240]), ('nearly', [4, 185638]), ('near', [4, 184208]), ('instead', [4, 124993]), ('insurance', [4, 115927]), ('search', [2, 83185]), ('reach', [4, 81672]), ('nearby', [4, 50105])]
+insearch	each	march	research	nearly	near
+50: ****************** advertisments
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('advertisements', [1, 5316]), ('advertisement', [2, 3878]), ('advertisment', [1, 30]), ('advertisments', [0, 18])]
+advertisments	advertisements	advertisement	advertisment	advertisments
+51: ****************** referencial
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('reference', [3, 17385]), ('references', [3, 6395]), ('preferential', [2, 1509]), ('referenced', [3, 1148]), ('referencing', [2, 726]), ('deferential', [2, 330]), ('reverential', [2, 188]), ('referenda', [3, 128]), ('referential', [1, 30])]
+referencial	reference	references	preferential	referenced	referencing
+52: ****************** processure
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('process', [3, 123965]), ('pressure', [2, 108004]), ('professor', [3, 64476]), ('protesters', [4, 36281]), ('procedures', [3, 19591]), ('procedure', [2, 15361]), ('processing', [3, 13071]), ('pressures', [3, 11586]), ('processes', [3, 9535]), ('pleasure', [4, 9458])]
+processure	process	pressure	professor	protesters	procedures
+53: ****************** whis
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('the', [3, 41223601]), ('that', [3, 6960157]), ('was', [2, 4696797]), ('with', [3, 4671305]), ('said', [3, 4306425]), ('his', [1, 3048518]), ('has', [2, 3001796]), ('they', [3, 2242804]), ('will', [3, 2187657]), ('this', [1, 2175742])]
+whis	the	that	was	with	said
+54: ****************** populization
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('population', [2, 71143]), ('application', [4, 30392]), ('publication', [4, 14590]), ('obligation', [4, 11195]), ('populations', [3, 9721]), ('civilization', [4, 2201]), ('implication', [4, 2080]), ('globalization', [4, 1976]), ('realization', [4, 1732]), ('utilization', [4, 1615])]
+populization	population	application	publication	obligation	populations
+55: ****************** prodcut
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('about', [4, 1511393]), ('out', [4, 1180906]), ('group', [4, 430289]), ('put', [4, 266604]), ('prices', [4, 203889]), ('point', [4, 191161]), ('program', [4, 184415]), ('cut', [4, 176295]), ('price', [4, 170565]), ('credit', [4, 165083])]
+prodcut	about	out	group	put	prices
+56: ****************** beleived
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('received', [2, 132089]), ('believed', [2, 84783]), ('beloved', [2, 7586]), ('bereaved', [2, 1323]), ('deceived', [2, 1172]), ('belied', [2, 503]), ('beleive', [1, 243]), ('belive', [2, 155]), ('relived', [2, 152]), ('bellied', [2, 37])]
+beleived	received	believed	beloved	bereaved	deceived
+57: ****************** backgrounging

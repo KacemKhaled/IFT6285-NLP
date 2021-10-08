@@ -1,0 +1,20 @@
+['Jaro_Winkler']
+distance
+Correcting 10 words
+1: ****************** reccodmission
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('recommissioned', [0.08589743589743593, 30]), ('comission', [0.10256410256410253, 24]), ('re-admission', [0.10598290598290594, 30])]
+reccodmission	recommissioned	comission	re-admission
+2: ****************** unpair
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('unpaid', [0.06666666666666665, 6260]), ('unfair', [0.0888888888888888, 13294]), ('unai', [0.0888888888888889, 44])]
+unpair	unpaid	unfair	unai
+3: ****************** oconomic
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('oconomowoc', [0.08499999999999996, 32]), ('oncologic', [0.14702380952380956, 27]), ('cnmi', [0.16666666666666663, 17]), ('oconee', [0.16666666666666663, 41]), ('zoonotic', [0.16666666666666663, 65])]
+oconomic	oconomowoc	oncologic	cnmi	oconee	zoonotic
+4: ****************** accidnts
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('accidents', [0.022222222222222254, 11385]), ('accident', [0.050000000000000044, 42092]), ('accidently', [0.08499999999999996, 154]), ('accidental', [0.08499999999999996, 4916])]
+accidnts	accidents	accident	accidently	accidental
+5: ****************** succes

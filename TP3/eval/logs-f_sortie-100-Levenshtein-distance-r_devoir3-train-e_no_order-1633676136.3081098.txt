@@ -1,0 +1,3 @@
+file_to_evaluate: out/sortie-100-Levenshtein-distance.txt
+reference file: devoir3-train.txt
+evaluation_measure:no_order

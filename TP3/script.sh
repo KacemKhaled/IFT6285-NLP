@@ -1,16 +1,19 @@
 #!/bin/bash
 
+#Jaro_Winkler Levenshtein Jaccard Cosine Hamming LCSS Needleman_Wunsch Soundex
 
-python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d Jaro_Winkler -o distance > out/devoir3-sortie-100-JW-u.txt
-python corrige.py -v voc-1bwc.txt -n 10 -w devoir3-train.txt -d Jaro_Winkler -o distance > out/devoir3-sortie-10-JW.txt
-python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d Levenshtein -o distance > out/devoir3-sortie-100-Lev.txt
-python corrige.py -v voc-1bwc.txt -n 10 -w devoir3-train.txt -d Levenshtein -o distance > out/devoir3-sortie-10-Lev.txt
-python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d Jaccard -o unigram > out/devoir3-sortie-100-Jc.txt
-python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d Cosine -o unigram > out/devoir3-sortie-100-Co.txt
-python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d Hamming -o unigram > out/devoir3-sortie-100-Hm.txt
-python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d LCSS -o unigram > out/devoir3-sortie-100-LCSS.txt
-python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d Needleman_Wunsch -o unigram > out/devoir3-sortie-100-NW.txt
-python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d Soundex -o unigram > out/devoir3-sortie-100-Sd.txt
-
+for DISTANCE in Jaro_Winkler Levenshtein Jaccard Cosine Hamming LCSS Needleman_Wunsch Soundex
+do
+  for ORDER in distance unigram comb_d_u comb_u_d
+  do
+    OUTFILENAME="out/sortie-100-${DISTANCE}-${ORDER}.txt"
+    echo "Spell checking voc-1bwc.txt -n 100 -w devoir3-train.txt -d $DISTANCE -o $ORDER > $OUTFILENAME"
+    python corrige.py -v voc-1bwc.txt -n 100 -w devoir3-train.txt -d $DISTANCE -o $ORDER > $OUTFILENAME
+    echo "Evaluating -f $OUTFILENAME -r devoir3-train.txt -e no_order"
+    python eval.py -f $OUTFILENAME -r devoir3-train.txt -e no_order
+    echo "Evaluating -f $OUTFILENAME -r devoir3-train.txt -e by_order"
+    python eval.py -f $OUTFILENAME -r devoir3-train.txt -e by_order
+  done
+done
 
 

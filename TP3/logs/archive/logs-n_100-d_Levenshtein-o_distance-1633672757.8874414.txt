@@ -1,0 +1,68 @@
+['Levenshtein']
+distance
+Correcting 100 words
+1: ****************** reccodmission
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('re-admission', [3, 30]), ('decommission', [3, 182]), ('readmission', [3, 200]), ('re-admissions', [4, 16]), ('recission', [4, 18]), ('comission', [4, 24]), ('recommissioned', [4, 30]), ('resubmission', [4, 46]), ('readmissions', [4, 97]), ('rescission', [4, 174])]
+reccodmission	re-admission	decommission	readmission	re-admissions	recission
+2: ****************** unpair
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('unpaid', [1, 6260]), ('unfair', [1, 13294]), ('usair', [2, 16]), ('in-air', [2, 28]), ('umair', [2, 36]), ('unai', [2, 44]), ('ungar', [2, 44]), ('onair', [2, 57]), ('funfair', [2, 137]), ('unsaid', [2, 234])]
+unpair	unpaid	unfair	usair	in-air	umair
+3: ****************** oconomic
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('economic', [1, 253089]), ('economico', [2, 28]), ('economix', [2, 30]), ('economics', [2, 19320]), ('bonomi', [3, 17]), ('economicus', [3, 17]), ('ekonomi', [3, 19]), ('c-nomis', [3, 23]), ('oncologic', [3, 27]), ('ecologic', [3, 29])]
+oconomic	economic	economico	economix	economics	bonomi
+4: ****************** accidnts
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('accidents', [1, 11385]), ('ancients', [2, 146]), ('accents', [2, 1696]), ('accident', [2, 42092]), ('accounts', [2, 46572]), ('accedes', [3, 19]), ('accosts', [3, 23]), ('aints', [3, 31]), ('anoints', [3, 41]), ('accion', [3, 82])]
+accidnts	accidents	ancients	accents	accident	accounts
+5: ****************** succes
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('succes', [0, 58]), ('success', [1, 81991]), ('suceed', [2, 27]), ('puces', [2, 29]), ('sucher', [2, 30]), ('scce', [2, 31]), ('luces', [2, 36]), ('sluices', [2, 42]), ('sucess', [2, 43]), ('dunces', [2, 45])]
+succes	succes	success	suceed	puces	sucher
+6: ****************** enthousiastic
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('enthusiastic', [1, 6474]), ('unenthusiastic', [3, 206]), ('enthusiast', [3, 1751]), ('enthusiasts', [3, 3893]), ('enthusiasms', [4, 159]), ('enthusiasm', [4, 10634])]
+enthousiastic	enthusiastic	unenthusiastic	enthusiast	enthusiasts	enthusiasms
+7: ****************** produse
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('profuse', [1, 104]), ('produce', [1, 50454]), ('prodisc', [2, 56]), ('sprouse', [2, 56]), ('produ', [2, 63]), ('promus', [2, 65]), ('pro-us', [2, 89]), ('crouse', [2, 115]), ('prods', [2, 298]), ('proust', [2, 327])]
+produse	profuse	produce	prodisc	sprouse	produ
+8: ****************** tecnologycal
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('technological', [2, 7556]), ('teleological', [3, 17]), ('ecological', [3, 2754]), ('ethnological', [4, 16]), ('selenological', [4, 19]), ('technology-', [4, 19]), ('phonological', [4, 22]), ('mycological', [4, 23]), ('topological', [4, 24]), ('gemological', [4, 25])]
+tecnologycal	technological	teleological	ecological	ethnological	selenological
+9: ****************** upto
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('upto', [0, 144]), ('updo', [1, 45]), ('pto', [1, 67]), ('uspto', [1, 67]), ('unto', [1, 866]), ('upton', [1, 3178]), ('anto', [2, 16]), ('nito', [2, 16]), ('oto', [2, 16]), ('ptg', [2, 16])]
+upto	upto	updo	pto	uspto	unto
+10: ****************** poisioning
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('poisoning', [1, 4938]), ('poisonings', [2, 248]), ('provisioning', [2, 496]), ('positioning', [2, 3949]), ('co-signing', [3, 17]), ('moistening', [3, 20]), ('optioning', [3, 22]), ('decisioning', [3, 29]), ('positing', [3, 74]), ('motioning', [3, 101])]
+poisioning	poisoning	poisonings	provisioning	positioning	co-signing
+11: ****************** competitiors
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('competitions', [1, 5402]), ('competitors', [1, 15421]), ('competitor', [2, 6184]), ('competition', [2, 72728]), ('competizione', [3, 18]), ('competiton', [3, 37]), ('computations', [3, 84]), ('compositions', [3, 1104]), ('competitive', [3, 30332])]
+competitiors	competitions	competitors	competitor	competition	competizione
+12: ****************** riks
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('rijs', [1, 19]), ('riss', [1, 27]), ('piks', [1, 32]), ('oiks', [1, 35]), ('rids', [1, 41]), ('rika', [1, 44]), ('rias', [1, 54]), ('ris', [1, 87]), ('ries', [1, 134]), ('rik', [1, 193])]
+riks	rijs	riss	piks	oiks	rids
+13: ****************** definations
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('definitions', [1, 1298]), ('defintion', [2, 17]), ('derivations', [2, 22]), ('dedications', [2, 50]), ('detonations', [2, 96]), ('deviations', [2, 227]), ('designations', [2, 368]), ('destinations', [2, 7657]), ('definition', [2, 10326]), ('declination', [3, 18])]
+definations	definitions	defintion	derivations	dedications	detonations
+14: ****************** vivd
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('vvd', [1, 32]), ('vid', [1, 59]), ('ivd', [1, 70]), ('vivi', [1, 88]), ('vive', [1, 104]), ('viv', [1, 203]), ('vivo', [1, 245]), ('vied', [1, 483]), ('viva', [1, 1280]), ('vivid', [1, 4083])]
+vivd	vvd	vid	ivd	vivi	vive
+15: ****************** tradind
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('trading', [1, 94146]), ('traina', [2, 18]), ('fradin', [2, 21]), ('brading', [2, 24]), ('radin', [2, 81]), ('aravind', [2, 130]), ('tracinda', [2, 276]), ('treading', [2, 747]), ('grading', [2, 951]), ('tracing', [2, 1673])]
+tradind	trading	traina	fradin	brading	radin
+16: ****************** materail
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('materia', [2, 19]), ('matera', [2, 42]), ('wateraid', [2, 54]), ('materiel', [2, 305]), ('lateral', [2, 987]), ('maternal', [2, 3005]), ('material', [2, 42907]), ('haberal', [3, 16]), ('matkal', [3, 16]), ('serail', [3, 16])]
+materail	materia	matera	wateraid	materiel	lateral
+17: ****************** useig

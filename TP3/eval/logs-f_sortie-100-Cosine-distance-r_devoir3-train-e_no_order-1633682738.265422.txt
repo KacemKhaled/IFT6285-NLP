@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Cosine-distance.txt
+reference file: devoir3-train.txt
+evaluation_measure:no_order
+score is = 52.00 %
+52.0

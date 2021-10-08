@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-LCSS-unigram.txt
+reference file: devoir3-train.txt
+evaluation_measure:no_order
+score is = 30.00 %
+30.0

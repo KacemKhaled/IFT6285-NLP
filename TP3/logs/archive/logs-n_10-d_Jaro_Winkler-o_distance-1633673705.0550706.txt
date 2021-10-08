@@ -1,0 +1,46 @@
+['Jaro_Winkler']
+distance
+Correcting 10 words
+1: ****************** reccodmission
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('recommissioned', [0.08589743589743593, 30]), ('comission', [0.10256410256410253, 24]), ('re-admission', [0.10598290598290594, 30])]
+reccodmission	recommissioned	comission	re-admission
+2: ****************** unpair
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('unpaid', [0.06666666666666665, 6260]), ('unfair', [0.0888888888888888, 13294]), ('unai', [0.0888888888888889, 44])]
+unpair	unpaid	unfair	unai
+3: ****************** oconomic
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('oconomowoc', [0.08499999999999996, 32]), ('oncologic', [0.14702380952380956, 27]), ('cnmi', [0.16666666666666663, 17]), ('oconee', [0.16666666666666663, 41]), ('zoonotic', [0.16666666666666663, 65])]
+oconomic	oconomowoc	oncologic	cnmi	oconee	zoonotic
+4: ****************** accidnts
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('accidents', [0.022222222222222254, 11385]), ('accident', [0.050000000000000044, 42092]), ('accidently', [0.08499999999999996, 154]), ('accidental', [0.08499999999999996, 4916])]
+accidnts	accidents	accident	accidently	accidental
+5: ****************** succes
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('succes', [0, 58]), ('success', [0.02857142857142858, 81991]), ('succeeds', [0.050000000000000044, 2984])]
+succes	succes	success	succeeds
+6: ****************** enthousiastic
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('enthusiastic', [0.01538461538461533, 6474]), ('enthusiast', [0.04615384615384621, 1751]), ('enthusiasts', [0.0643356643356644, 3893])]
+enthousiastic	enthusiastic	enthusiast	enthusiasts
+7: ****************** produse
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('produces', [0.0535714285714286, 11521]), ('produ', [0.05714285714285716, 63]), ('prods', [0.05714285714285716, 298]), ('produce', [0.05714285714285716, 50454]), ('profuse', [0.06666666666666665, 104]), ('prose', [0.06666666666666665, 2066])]
+produse	produces	produ	prods	produce	profuse
+8: ****************** tecnologycal
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('technological', [0.05534188034188037, 7556]), ('technology', [0.08166666666666667, 131287]), ('technologically', [0.0855555555555556, 1141])]
+tecnologycal	technological	technology	technologically
+9: ****************** upto
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('upto', [0, 144]), ('upton', [0.040000000000000036, 3178]), ('uspto', [0.06000000000000005, 67])]
+upto	upto	upton	uspto
+10: ****************** poisioning
+Corrections using Jaro_Winkler distance :
+TOP 10 best candidates : [('poisoning', [0.04222222222222227, 4938]), ('provisioning', [0.04999999999999993, 496]), ('positioning', [0.050909090909090904, 3949])]
+poisioning	poisoning	provisioning	positioning
+
+Total Time:
+24.09426760673523

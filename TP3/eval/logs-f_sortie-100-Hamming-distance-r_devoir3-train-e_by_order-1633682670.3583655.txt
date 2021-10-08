@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Hamming-distance.txt
+reference file: devoir3-train.txt
+evaluation_measure:by_order
+score is = 34.00 %
+34.0

@@ -5,7 +5,7 @@ import editdistance
 import soundex
 import textdistance
 from soundex import Soundex
-import pandas as pd
+#import pandas as pd
 import argparse
 import os.path as osp
 from os.path import dirname, abspath
