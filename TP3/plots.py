@@ -52,10 +52,21 @@ def plot_eval_per_time(df1,df2):
     #ax.grid(True)
     title = f"Performance (metric='{df1.name}' or '{df2.name}' ) / Temps d'exécution"
     fig.suptitle(title)
-    ax1.set_xlabel("Temps mis dans la correction (en secondes)")
-    ax1.set_ylabel(f"La performance du correcteur '{df1.name}'")
-    ax2.set_xlabel("Temps mis dans la correction (en secondes)")
-    ax2.set_ylabel(f"La performance du correcteur '{df2.name}'")
+    # Customize the major grid
+    ax1.grid(which='major', linestyle='--', linewidth='0.5', color='black')
+    ax2.grid(which='major', linestyle='--', linewidth='0.5', color='black')
+    # Customize the minor grid
+    ax1.grid(which='minor', linestyle=':', linewidth='0.5', color='black')
+    ax2.grid(which='minor', linestyle=':', linewidth='0.5', color='black')
+
+    ax1.set_ylim([0,90])
+    ax2.set_ylim([0,90])
+    ax1.set_xscale('log')
+    ax2.set_xscale('log')
+    ax1.set_xlabel("Temps de correction (en sec) - échelle logarithmique")
+    ax1.set_ylabel(f"La performance du correcteur '{df1.name}' (en %)")
+    ax2.set_xlabel("Temps de correction (en sec) - échelle logarithmique")
+    ax2.set_ylabel(f"La performance du correcteur '{df2.name}' (en %)")
     fig.tight_layout()
     sns.scatterplot(ax=ax1,data=df1, x="Temps", y="Performance", hue="Distance", style="Ordre",
                     sizes=[0.9 for n in range(len(df1))],
@@ -64,7 +75,7 @@ def plot_eval_per_time(df1,df2):
                     sizes=[0.9 for n in range(len(df1))],
                     markers=['o','X','P', 's'], legend="auto")
 
-    plt.subplots_adjust(right=0.75)
+    plt.subplots_adjust(right=0.78)
 
     # Put a legend to the right of the current axis
     ax2.legend(loc='center left', bbox_to_anchor=(1, 0.5))

@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Damerau_Levenshtein-comb_u_d.txt
+reference file: devoir3-train.txt
+evaluation_measure:by_order
+score is = 39.40 %
+39.4
