@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 from os import listdir
 import pandas as pd
+import seaborn as sns
 
 
 def read_times(logs_folder):
@@ -43,19 +44,23 @@ def read_evals(logs_folder): # Time or score
             f.close()
     return evals_specs
 
-def plot_eval_per_time(times,evals, corrections):
+def plot_eval_per_time(df):
     fig, ax = plt.subplots(figsize=(8,7))
-    for i in range(len(corrections)):
 
-        ax.scatter(times[i],evals[i],  label=corrections[i],
-                   alpha=1)
-
-    ax.legend()
-    ax.grid(True)
-    plt.title("Performance/Temps d'exécution")
+    #ax.legend()
+    #ax.grid(True)
+    title = f"Performance {str(df.name)} / Temps d'exécution"
+    plt.title(title)
     plt.xlabel("Temps mis dans la correction (en secondes)")
     plt.ylabel("La performance du correcteur")
-    fig.savefig("out/eval-time-"+str(len(corrections)-1)+" transformations.svg",format="svg")
+    #ax = df.plot.scatter(x="a", y="b", color="DarkBlue", label="Group 1")
+
+    #df.plot.scatter(x="c", y="d", color="DarkGreen", label="Group 2", ax=ax)
+    #df.plot.scatter(x="Temps", y="Performance", c="Distance", cmap="viridis", s=50)
+    sns.scatterplot(data=df, x="Temps", y="Performance", hue="Distance", style="Ordre")
+
+    fig.savefig(f"out/eval-Performance {df.name} - Temps d'exécution.svg",format="svg")
+    fig.savefig(f"out/eval-Performance {df.name} - Temps d'exécution.eps",format="eps")
     plt.show()
 
 def main():
@@ -65,8 +70,17 @@ def main():
     d1 = pd.DataFrame(times_specs, columns = ['Distance', 'Ordre', 'Temps'])
     d2 = pd.DataFrame(evals_specs, columns = ['Distance', 'Ordre', 'Performance', "Metric"])
     resultat = pd.merge(d1, d2,  on=['Distance','Ordre'])
-    print(resultat)
+    groups = resultat.groupby("Metric")
+    no_order = groups.get_group('no_order')
+    no_order.name = 'no_order'
+    by_order = groups.get_group('by_order')
+    by_order.name='by_order'
     resultat.to_csv('resultat.csv')
+    no_order.to_csv('no_order.csv')
+    by_order.to_csv('by_order.csv')
+    plot_eval_per_time(no_order)
+    plot_eval_per_time(by_order)
+
 
 
 if __name__ == '__main__':
