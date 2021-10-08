@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Cosine-comb_d_u.txt
+reference file: devoir3-train.txt
+evaluation_measure:by_order
+score is = 55.80 %
+55.800000000000004

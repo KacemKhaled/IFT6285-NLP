@@ -88,7 +88,7 @@ def corrige(wrong_words, n, lexique_file, distances=['Jaro_Winkler','Levenshtein
         'Jaccard': [textdistance.jaccard.distance,False],
         'Cosine': [textdistance.cosine.distance,False],
         'Hamming': [textdistance.hamming.distance,False],
-        'LCSS': [textdistance.lcsstr.distance,False],
+        'LCSS': [textdistance.lcsstr.similarity,True],
         'Damerau_Levenshtein': [textdistance.damerau_levenshtein.distance,False],
         'Needleman_Wunsch': [textdistance.needleman_wunsch.distance,False],
         'Soundex': [instance.compare,False]

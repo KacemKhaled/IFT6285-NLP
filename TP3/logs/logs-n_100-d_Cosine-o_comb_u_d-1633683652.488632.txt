@@ -1,5 +1,5 @@
 ['Cosine']
-unigram
+comb_u_d
 Correcting 100 words
 1: ****************** reccodmission
 Corrections using Cosine distance :
@@ -7,8 +7,8 @@ TOP 10 best candidates : [('semiconductors', [0.1105008200066786, 731]), ('micro
 reccodmission	semiconductors	microseconds	microsecond	recommissioned
 2: ****************** unpair
 Corrections using Cosine distance :
-TOP 10 best candidates : [('puritan', [0.07417990022744858, 268]), ('manipur', [0.07417990022744858, 160]), ('pinar', [0.0871290708247231, 126]), ('purina', [0.0, 126]), ('nuria', [0.0871290708247231, 89]), ('piran', [0.0871290708247231, 79]), ('pianura', [0.07417990022744858, 57]), ('nirupam', [0.07417990022744858, 17]), ('ruina', [0.0871290708247231, 17])]
-unpair	puritan	manipur	pinar	purina	nuria
+TOP 10 best candidates : [('puritan', [0.07417990022744858, 268]), ('manipur', [0.07417990022744858, 160]), ('purina', [0.0, 126]), ('pinar', [0.0871290708247231, 126]), ('nuria', [0.0871290708247231, 89]), ('piran', [0.0871290708247231, 79]), ('pianura', [0.07417990022744858, 57]), ('nirupam', [0.07417990022744858, 17]), ('ruina', [0.0871290708247231, 17])]
+unpair	puritan	manipur	purina	pinar	nuria
 3: ****************** oconomic
 Corrections using Cosine distance :
 TOP 10 best candidates : [('economic', [0.125, 253089]), ('coconino', [0.125, 62]), ('cominco', [0.06458565330651467, 34]), ('economico', [0.05719095841793653, 28])]
@@ -111,8 +111,8 @@ TOP 10 best candidates : [('might', [0.0, 264441]), ('mighty', [0.08712907082472
 migth	might	mighty	mightn	tigh
 28: ****************** healtheir
 Corrections using Cosine distance :
-TOP 10 best candidates : [('healthier', [0.0, 5961]), ('wherewithal', [0.09546596626670911, 479]), ('unhealthier', [0.09546596626670911, 34]), ('hatherleigh', [0.09546596626670911, 18]), ('thalheimer', [0.05131670194948623, 18])]
-healtheir	healthier	wherewithal	unhealthier	hatherleigh	thalheimer
+TOP 10 best candidates : [('healthier', [0.0, 5961]), ('wherewithal', [0.09546596626670911, 479]), ('unhealthier', [0.09546596626670911, 34]), ('thalheimer', [0.05131670194948623, 18]), ('hatherleigh', [0.09546596626670911, 18])]
+healtheir	healthier	wherewithal	unhealthier	thalheimer	hatherleigh
 29: ****************** everythingfor
 Corrections using Cosine distance :
 TOP 10 best candidates : [('everything', [0.12294198069297069, 80664]), ('sovereignty', [0.16375798999290925, 7347]), ('overheating', [0.16375798999290925, 1059]), ('eurofighter', [0.16375798999290925, 487]), ('firstenergy', [0.16375798999290925, 402]), ('overhearing', [0.16375798999290925, 89]), ('do-everything', [0.15384615384615385, 32]), ('frighteners', [0.16375798999290925, 27]), ('reforesting', [0.16375798999290925, 17])]
@@ -183,7 +183,7 @@ TOP 10 best candidates : [('under', [0.0871290708247231, 443716]), ('drunken', [
 runned	under	drunken	dunne	end-run	duren
 46: ****************** allive
 Corrections using Cosine distance :
-TOP 10 best candidates : [('village', [0.07417990022744858, 50845]), ('alive', [0.0871290708247231, 28335]), ('villa', [0.0871290708247231, 19638]), ('sevilla', [0.07417990022744858, 1550]), ('valle', [0.0871290708247231, 722]), ('saville', [0.07417990022744858, 459]), ('leila', [0.0871290708247231, 391]), ('livable', [0.07417990022744858, 391]), ('ville', [0.0871290708247231, 328]), ('leiva', [0.0871290708247231, 305])]
+TOP 10 best candidates : [('village', [0.07417990022744858, 50845]), ('alive', [0.0871290708247231, 28335]), ('villa', [0.0871290708247231, 19638]), ('sevilla', [0.07417990022744858, 1550]), ('valle', [0.0871290708247231, 722]), ('saville', [0.07417990022744858, 459]), ('livable', [0.07417990022744858, 391]), ('leila', [0.0871290708247231, 391]), ('ville', [0.0871290708247231, 328]), ('leiva', [0.0871290708247231, 305])]
 allive	village	alive	villa	sevilla	valle
 47: ****************** anylonger
 Corrections using Cosine distance :
@@ -235,7 +235,7 @@ TOP 10 best candidates : [('identify', [0.05719095841793653, 28936]), ('definite
 difinetly	identify	definitely	fidelity	infidelity	definitly
 59: ****************** addtion
 Corrections using Cosine distance :
-TOP 10 best candidates : [('addition', [0.06458565330651467, 66873]), ('dominated', [0.11808289631180313, 20836]), ('addiction', [0.11808289631180313, 8712]), ('additions', [0.11808289631180313, 2932]), ('addington', [0.11808289631180313, 394]), ('donati', [0.07417990022744858, 298]), ('didonato', [0.06458565330651467, 77]), ('addaction', [0.11808289631180313, 40]), ('additonal', [0.11808289631180313, 25]), ('didato', [0.07417990022744858, 25])]
+TOP 10 best candidates : [('addition', [0.06458565330651467, 66873]), ('dominated', [0.11808289631180313, 20836]), ('addiction', [0.11808289631180313, 8712]), ('additions', [0.11808289631180313, 2932]), ('addington', [0.11808289631180313, 394]), ('donati', [0.07417990022744858, 298]), ('didonato', [0.06458565330651467, 77]), ('addaction', [0.11808289631180313, 40]), ('didato', [0.07417990022744858, 25]), ('additonal', [0.11808289631180313, 25])]
 addtion	addition	dominated	addiction	additions	addington
 60: ****************** anyhting
 Corrections using Cosine distance :
@@ -347,7 +347,7 @@ TOP 10 best candidates : [('simply', [0.07417990022744858, 76362]), ('simple', [
 simpley	simply	simple	smiley	misplayed	lipsey
 87: ****************** remanticism
 Corrections using Cosine distance :
-TOP 10 best candidates : [('impairments', [0.09090909090909094, 1438]), ('creationism', [0.09090909090909094, 669]), ('romanticism', [0.09090909090909094, 335]), ('commiserating', [0.08013378899220014, 79]), ('americanism', [0.09090909090909094, 74]), ('insectarium', [0.09090909090909094, 41]), ('mercantilism', [0.0425728922436619, 41]), ('romanticise', [0.09090909090909094, 29]), ('commiseration', [0.08013378899220014, 28])]
+TOP 10 best candidates : [('impairments', [0.09090909090909094, 1438]), ('creationism', [0.09090909090909094, 669]), ('romanticism', [0.09090909090909094, 335]), ('commiserating', [0.08013378899220014, 79]), ('americanism', [0.09090909090909094, 74]), ('mercantilism', [0.0425728922436619, 41]), ('insectarium', [0.09090909090909094, 41]), ('romanticise', [0.09090909090909094, 29]), ('commiseration', [0.08013378899220014, 28])]
 remanticism	impairments	creationism	romanticism	commiserating	americanism
 88: ****************** pannel
 Corrections using Cosine distance :
@@ -403,4 +403,4 @@ TOP 10 best candidates : [('great', [0.0871290708247231, 193270]), ('target', [0
 greatt	great	target	targets	treat	garrett
 
 Total Time:
-454.5297062397003
+468.3923351764679

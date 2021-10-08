@@ -1,5 +1,5 @@
 ['Hamming']
-unigram
+comb_u_d
 Correcting 100 words
 1: ****************** reccodmission
 Corrections using Hamming distance :
@@ -403,4 +403,4 @@ TOP 10 best candidates : [('area', [3, 207448]), ('great', [1, 193270]), ('credi
 greatt	area	great	credit	growth	areas
 
 Total Time:
-298.36526703834534
+301.2351348400116

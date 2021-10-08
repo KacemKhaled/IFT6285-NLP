@@ -330,3 +330,77 @@ Corrections using Soundex distance :
 TOP 10 best candidates : [('acass', [1, 16]), ('acsa', [1, 16]), ('aezs', [1, 16]), ('age-y', [1, 16]), ('ahas', [1, 16]), ('ajaj', [1, 16]), ('ajayi', [1, 16]), ('asay', [1, 16]), ('asoka', [1, 16]), ('awak', [1, 16])]
 becasuse	acass	acsa	aezs	age-y	ahas
 83: ****************** carrir
+Corrections using Soundex distance :
+TOP 10 best candidates : [('ahari', [1, 16]), ('arh', [1, 16]), ('ayar', [1, 16]), ('ayora', [1, 16]), ('baehr', [1, 16]), ('barau', [1, 16]), ('baria', [1, 16]), ('biery', [1, 16]), ('borei', [1, 16]), ('borio', [1, 16])]
+carrir	ahari	arh	ayar	ayora	baehr
+84: ****************** actualy
+Corrections using Soundex distance :
+TOP 10 best candidates : [('actualy', [0, 35])]
+actualy	actualy
+85: ****************** calaberating
+Corrections using Soundex distance :
+TOP 10 best candidates : [('albertans', [1, 16]), ('deliberateness', [1, 20]), ('self-parodying', [1, 20]), ('elaborations', [1, 23]), ('teleporting', [1, 30]), ('calibrations', [1, 38]), ('calibrating', [1, 114]), ('deliberating', [1, 1003]), ('elaborating', [1, 1043]), ('collaborations', [1, 1292])]
+calaberating	albertans	deliberateness	self-parodying	elaborations	teleporting
+86: ****************** simpley
+Corrections using Soundex distance :
+TOP 10 best candidates : [('baneful', [1, 16]), ('campell', [1, 16]), ('kumpel', [1, 16]), ('lampley', [1, 16]), ('nambla', [1, 16]), ('tin-foil', [1, 16]), ('cambell', [1, 17]), ('canabal', [1, 17]), ('damnably', [1, 17]), ('ginobli', [1, 17])]
+simpley	baneful	campell	kumpel	lampley	nambla
+87: ****************** remanticism
+Corrections using Soundex distance :
+TOP 10 best candidates : [('andijon', [1, 16]), ('emedicine', [1, 16]), ('hamantaschen', [1, 16]), ('hindson', [1, 16]), ('indeed.com', [1, 16]), ('montchanin', [1, 16]), ('shmotkin', [1, 16]), ('venn-watson', [1, 16]), ('bandsmen', [1, 17]), ('enthusiam', [1, 18])]
+remanticism	andijon	emedicine	hamantaschen	hindson	indeed.com
+88: ****************** pannel
+Corrections using Soundex distance :
+TOP 10 best candidates : [('ainley', [1, 16]), ('amahl', [1, 16]), ('annelle', [1, 16]), ('c-mail', [1, 16]), ('connel', [1, 16]), ('denley', [1, 16]), ('enyele', [1, 16]), ('finl', [1, 16]), ('ganlea', [1, 16]), ('janala', [1, 16])]
+pannel	ainley	amahl	annelle	c-mail	connel
+89: ****************** diferrent
+Corrections using Soundex distance :
+TOP 10 best candidates : [('diferent', [1, 16]), ('differnt', [1, 16]), ('gouvernement', [1, 16]), ('mypyramid', [1, 16]), ('governent', [1, 17]), ('governmentwide', [1, 17]), ('governnment', [1, 17]), ('supermoto', [1, 17]), ('diffrent', [1, 18]), ('shoeprint', [1, 18])]
+diferrent	diferent	differnt	gouvernement	mypyramid	governent
+90: ****************** reguire
+Corrections using Soundex distance :
+TOP 10 best candidates : [('akker', [1, 16]), ('akureyri', [1, 16]), ('asara', [1, 16]), ('baqr', [1, 16]), ('beizer', [1, 16]), ('bexxar', [1, 16]), ('boecker', [1, 16]), ('boger', [1, 16]), ('boissiere', [1, 16]), ('bokar', [1, 16])]
+reguire	akker	akureyri	asara	baqr	beizer
+91: ****************** sucject
+Corrections using Soundex distance :
+TOP 10 best candidates : [('aktau', [1, 16]), ('aquitted', [1, 16]), ('asadi', [1, 16]), ('aset', [1, 16]), ('assadi', [1, 16]), ('azzata', [1, 16]), ('bacchetti', [1, 16]), ('bastiat', [1, 16]), ('bayg.de', [1, 16]), ('beckitt', [1, 16])]
+sucject	aktau	aquitted	asadi	aset	assadi
+92: ****************** diostract
+Corrections using Soundex distance :
+TOP 10 best candidates : [('sister-city', [1, 16]), ('moisturized', [1, 18]), ('moisturised', [1, 19]), ('fighter-jet', [1, 20]), ('eastwood-directed', [1, 23]), ('exacttarget', [1, 23]), ('historicity', [1, 23]), ('techtarget', [1, 24]), ('pasture-raised', [1, 25]), ('post-watershed', [1, 25])]
+diostract	sister-city	moisturized	moisturised	fighter-jet	eastwood-directed
+93: ****************** tremeadous
+Corrections using Soundex distance :
+TOP 10 best candidates : [('baramidze', [1, 16]), ('granddads', [1, 16]), ('grundig', [1, 16]), ('hermeneutics', [1, 16]), ('verandahs', [1, 16]), ('barnidge', [1, 17]), ('brandweek', [1, 17]), ('farmwatch', [1, 17]), ('hermitages', [1, 17]), ('horndog', [1, 17])]
+tremeadous	baramidze	granddads	grundig	hermeneutics	verandahs
+94: ****************** dirive
+Corrections using Soundex distance :
+TOP 10 best candidates : [('ariva', [1, 16]), ('barab', [1, 16]), ('crov', [1, 16]), ('deerhoof', [1, 16]), ('dref', [1, 16]), ('erap', [1, 16]), ('europop', [1, 16]), ('harboe', [1, 16]), ('hrv', [1, 16]), ('jaroff', [1, 16])]
+dirive	ariva	barab	crov	deerhoof	dref
+95: ****************** tecnologies
+Corrections using Soundex distance :
+TOP 10 best candidates : [('osmolski', [1, 16]), ('recession-like', [1, 16]), ('technologie', [1, 16]), ('vaccinology', [1, 16]), ('eichenholz', [1, 17]), ('acknowlege', [1, 18]), ('technology-', [1, 19]), ('machinelike', [1, 20]), ('regionalize', [1, 21]), ('ocmulgee', [1, 22])]
+tecnologies	osmolski	recession-like	technologie	vaccinology	eichenholz
+96: ****************** desappear
+Corrections using Soundex distance :
+TOP 10 best candidates : [('co-skipper', [1, 16]), ('esaver', [1, 16]), ('fxpro', [1, 16]), ('gazipur', [1, 16]), ('lacavera', [1, 16]), ('schaper', [1, 16]), ('szapary', [1, 16]), ('wispry', [1, 16]), ('bag-free', [1, 17]), ('bigbury', [1, 17])]
+desappear	co-skipper	esaver	fxpro	gazipur	lacavera
+97: ****************** genarally
+Corrections using Soundex distance :
+TOP 10 best candidates : [('demurral', [1, 16]), ('monaural', [1, 16]), ('demarlo', [1, 17]), ('snarly', [1, 17]), ('anwarullah', [1, 18]), ('conrail', [1, 18]), ('kennerly', [1, 18]), ('non-royal', [1, 18]), ('anwarul', [1, 19]), ('home-rule', [1, 19])]
+genarally	demurral	monaural	demarlo	snarly	anwarullah
+98: ****************** profesor
+Corrections using Soundex distance :
+TOP 10 best candidates : [('bruppacher', [1, 16]), ('verbiscer', [1, 18]), ('krabacher', [1, 19]), ('gurubacharya', [1, 23]), ('prefigure', [1, 25]), ('kerry-boxer', [1, 29]), ('carabajo-jara', [1, 31]), ('cherry-picker', [1, 35]), ('courvoisier', [1, 35]), ('travesser', [1, 46])]
+profesor	bruppacher	verbiscer	krabacher	gurubacharya	prefigure
+99: ****************** abandant
+Corrections using Soundex distance :
+TOP 10 best candidates : [('obama-themed', [1, 18]), ('seventh-minute', [1, 39]), ('now-abandoned', [1, 49]), ('re-appointment', [1, 65]), ('above-mentioned', [1, 113]), ('seventeenth', [1, 156]), ('repentant', [1, 200]), ('reappointment', [1, 419]), ('dependant', [1, 431]), ('spontaneity', [1, 532])]
+abandant	obama-themed	seventh-minute	now-abandoned	re-appointment	above-mentioned
+100: ****************** greatt
+Corrections using Soundex distance :
+TOP 10 best candidates : [('aarti', [1, 16]), ('ardee', [1, 16]), ('arwady', [1, 16]), ('beartooth', [1, 16]), ('bharathi', [1, 16]), ('braudy', [1, 16]), ('bridi', [1, 16]), ('broudie', [1, 16]), ('browde', [1, 16]), ('certiid', [1, 16])]
+greatt	aarti	ardee	arwady	beartooth	bharathi
+
+Total Time:
+535.4341187477112

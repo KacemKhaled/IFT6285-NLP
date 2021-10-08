@@ -1,10 +1,12 @@
 import matplotlib.pyplot as plt
 from os import listdir
+import pandas as pd
 
 
 def read_times(logs_folder):
     files = listdir(logs_folder)
     times_specs = []
+
     for fn in files:
         # read file, the time is recorded at the line -1
         if fn.startswith('logs'):
@@ -22,7 +24,7 @@ def read_times(logs_folder):
             f.close()
     return times_specs
 
-def read_evals(logs_folder, keyword="score",pos1=3,pos2=4 ): # Time or score
+def read_evals(logs_folder): # Time or score
     files = listdir(logs_folder)
     evals_specs = []
     for fn in files:
@@ -32,11 +34,12 @@ def read_evals(logs_folder, keyword="score",pos1=3,pos2=4 ): # Time or score
                 lines = f.readlines()
                 specs = fn.split('-')
                 print(specs)
-                if keyword in lines[-2]:
+                if "score" in lines[-2]:
                     print(fn)
                     score = float(lines[-1])
-                    print(f"{keyword}: {score:.2f} %")
-                    evals_specs.append((specs[pos1],specs[pos2],score))
+                    print(f"Score: {score:.2f} %")
+                    evaluation_metric = "by_order" if "by_order" in lines[2] else "no_order"
+                    evals_specs.append((specs[3],specs[4],score,evaluation_metric))
                 else:
                     print(f"File {fn} is incomplete")
             f.close()
@@ -60,14 +63,13 @@ def plot_eval_per_time(times,evals, corrections):
 def main():
     times_specs = read_times('logs/')
     evals_specs = read_evals('eval/')
-    print(times_specs)
-    print(t[1:2])
-    times = []
-    evals = []
-    if len(times_specs)==len(evals_specs):
-        for t in times_specs:
-            if t[1:2] in evals_specs:
-                plot_eval_per_time([t[2] for t in times_specs],[e[2] for e in evals_specs],t[1:2])
+
+    d1 = pd.DataFrame(times_specs, columns = ['Distance', 'Ordre', 'Temps'])
+    d2 = pd.DataFrame(evals_specs, columns = ['Distance', 'Ordre', 'Performance', "Metric"])
+    resultat = pd.merge(d1, d2,  on=['Distance','Ordre'])
+    print(resultat)
+
+
 
 if __name__ == '__main__':
     main()

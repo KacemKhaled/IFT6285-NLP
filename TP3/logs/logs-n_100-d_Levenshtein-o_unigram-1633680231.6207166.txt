@@ -226,3 +226,181 @@ Corrections using Levenshtein distance :
 TOP 10 best candidates : [('received', [2, 132089]), ('believed', [2, 84783]), ('beloved', [2, 7586]), ('bereaved', [2, 1323]), ('deceived', [2, 1172]), ('belied', [2, 503]), ('beleive', [1, 243]), ('belive', [2, 155]), ('relived', [2, 152]), ('bellied', [2, 37])]
 beleived	received	believed	beloved	bereaved	deceived
 57: ****************** backgrounging
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('bringing', [6, 39864]), ('surrounding', [6, 27171]), ('backing', [6, 25542]), ('accounting', [5, 22295]), ('background', [4, 21795]), ('announcing', [6, 14654]), ('counting', [6, 10196]), ('belonging', [6, 7353]), ('packaging', [6, 6684]), ('bargaining', [6, 5154])]
+backgrounging	bringing	surrounding	backing	accounting	background
+58: ****************** difinetly
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('definitely', [3, 19926]), ('distinctly', [3, 2241]), ('finely', [3, 1581]), ('defiantly', [3, 974]), ('diligently', [3, 965]), ('divinity', [3, 484]), ('definately', [3, 184]), ('divinely', [2, 125]), ('definetly', [1, 31]), ('definitly', [2, 25])]
+difinetly	definitely	distinctly	finely	defiantly	diligently
+59: ****************** addtion
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('nation', [3, 143516]), ('action', [2, 130866]), ('station', [3, 88552]), ('additional', [3, 79878]), ('addition', [1, 66873]), ('adding', [3, 59969]), ('option', [3, 49702]), ('section', [3, 44415]), ('actions', [3, 42577]), ('auction', [2, 27898])]
+addtion	nation	action	station	additional	addition
+60: ****************** anyhting
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('meeting', [4, 173826]), ('saying', [4, 173542]), ('trying', [4, 164149]), ('getting', [4, 139105]), ('thing', [4, 120606]), ('nothing', [4, 112871]), ('anyone', [4, 100227]), ('anything', [2, 96936]), ('fighting', [3, 75667]), ('starting', [4, 74070])]
+anyhting	meeting	saying	trying	getting	thing
+61: ****************** variatons
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('various', [3, 51012]), ('britons', [3, 8479]), ('variations', [1, 5137]), ('varieties', [3, 4066]), ('variation', [2, 3373]), ('vacations', [3, 3174]), ('valuations', [3, 2443]), ('variant', [3, 1812]), ('variants', [3, 1397]), ('variables', [3, 1377])]
+variatons	various	britons	variations	varieties	variation
+62: ****************** interfer
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('interest', [3, 153836]), ('internet', [2, 118543]), ('interview', [3, 82246]), ('intended', [3, 37658]), ('entered', [3, 37386]), ('internal', [3, 34714]), ('interior', [2, 27564]), ('intense', [3, 22853]), ('interim', [3, 17072]), ('insurer', [3, 10706])]
+interfer	interest	internet	interview	intended	entered
+63: ****************** eloctronics
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('electronic', [2, 30483]), ('electronics', [1, 19254]), ('electrons', [3, 687]), ('electronica', [2, 338]), ('electrics', [3, 251]), ('optronics', [3, 156]), ('flextronics', [3, 148]), ('plantronics', [3, 29]), ('plextronics', [3, 21]), ('teltronics', [3, 19])]
+eloctronics	electronic	electronics	electrons	electronica	electrics
+64: ****************** undestanded
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('understand', [3, 57709]), ('understanding', [4, 26858]), ('demanded', [4, 21740]), ('understands', [3, 8331]), ('undermined', [4, 6078]), ('destined', [4, 4841]), ('undertaken', [4, 4739]), ('undertake', [4, 4587]), ('descended', [4, 4466]), ('undecided', [4, 3867])]
+undestanded	understand	understanding	demanded	understands	undermined
+65: ****************** easially
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('family', [4, 292646]), ('early', [4, 272031]), ('small', [4, 191713]), ('really', [4, 185984]), ('especially', [4, 95238]), ('actually', [4, 91960]), ('daily', [4, 87531]), ('simply', [4, 76362]), ('finally', [4, 69625]), ('easy', [4, 63604])]
+easially	family	early	small	really	especially
+66: ****************** assestments
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('investments', [3, 35950]), ('assessment', [2, 23384]), ('assessments', [1, 5657]), ('adjustments', [3, 5397]), ('assistants', [3, 3737]), ('assignments', [3, 2636]), ('assortment', [3, 1638]), ('resentments', [3, 515]), ('divestments', [3, 218]), ('vestments', [3, 170])]
+assestments	investments	assessment	assessments	adjustments	assistants
+67: ****************** regared
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('reported', [3, 299804]), ('record', [3, 180285]), ('released', [3, 147270]), ('heard', [3, 92828]), ('read', [3, 80399]), ('returned', [3, 79908]), ('reached', [3, 79617]), ('created', [3, 73159]), ('required', [3, 64998]), ('remained', [3, 58842])]
+regared	reported	record	released	heard	read
+68: ****************** knowlkedge
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('knowledge', [1, 32726]), ('acknowledge', [3, 10818]), ('adknowledge', [3, 41]), ('knowlege', [2, 26])]
+knowlkedge	knowledge	acknowledge	adknowledge	knowlege
+69: ****************** successs
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('access', [3, 97469]), ('success', [1, 81991]), ('successful', [3, 59742]), ('suggests', [3, 40133]), ('succeed', [3, 16941]), ('successor', [2, 14734]), ('successive', [3, 10441]), ('succession', [3, 7671]), ('successes', [1, 5366]), ('succeeds', [2, 2984])]
+successs	access	success	successful	suggests	succeed
+70: ****************** represant
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('present', [3, 61188]), ('represents', [2, 32225]), ('represent', [1, 25789]), ('represented', [3, 22515]), ('relevant', [3, 16963]), ('repeat', [3, 15617]), ('retreat', [3, 9221]), ('reprisals', [3, 1280]), ('reprimand', [3, 899]), ('repressed', [3, 773])]
+represant	present	represents	represent	represented	relevant
+71: ****************** actractive
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('attractive', [1, 17581]), ('interactive', [3, 11553]), ('attraction', [3, 7569]), ('attracting', [3, 7104]), ('retroactive', [3, 1235]), ('unattractive', [3, 982]), ('accretive', [3, 346]), ('overactive', [3, 319]), ('attractively', [3, 291]), ('c-reactive', [3, 211])]
+actractive	attractive	interactive	attraction	attracting	retroactive
+72: ****************** nood
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('and', [3, 16149834]), ('for', [3, 6763830]), ('said', [3, 4306425]), ('from', [3, 3270570]), ('not', [2, 2310462]), ('who', [3, 2108824]), ('had', [3, 1990115]), ('more', [3, 1729941]), ('would', [3, 1531631]), ('new', [3, 1488011])]
+nood	and	for	said	from	not
+73: ****************** focuss
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('house', [3, 412470]), ('four', [3, 382015]), ('found', [3, 370657]), ('hours', [3, 166164]), ('forces', [3, 147796]), ('loss', [3, 127560]), ('process', [3, 123965]), ('access', [3, 97469]), ('focus', [1, 81419]), ('cuts', [3, 77356])]
+focuss	house	four	found	hours	forces
+74: ****************** decreace
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('increase', [3, 159575]), ('create', [3, 83270]), ('decade', [3, 61944]), ('defence', [3, 52572]), ('degree', [3, 32441]), ('decrease', [1, 15898]), ('decreased', [2, 11680]), ('declare', [3, 10113]), ('secrecy', [3, 5673]), ('terrace', [3, 4771])]
+decreace	increase	create	decade	defence	degree
+75: ****************** magagine
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('again', [3, 200028]), ('magazine', [1, 47592]), ('marine', [3, 28873]), ('machine', [3, 28466]), ('managing', [2, 28351]), ('manage', [3, 25841]), ('margin', [3, 25647]), ('imagine', [3, 25022]), ('margins', [3, 12942]), ('damaging', [3, 12815])]
+magagine	again	magazine	marine	machine	managing
+76: ****************** knowedge
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('knowledge', [1, 32726]), ('knowing', [3, 18451]), ('acknowledge', [3, 10818]), ('wedge', [3, 2823]), ('snowed', [3, 302]), ('knowle', [3, 197]), ('newedge', [2, 144]), ('knowable', [3, 62]), ('adknowledge', [3, 41]), ('knowlege', [2, 26])]
+knowedge	knowledge	knowing	acknowledge	wedge	snowed
+77: ****************** relativley
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('relations', [4, 60091]), ('related', [4, 54828]), ('relatively', [2, 39165]), ('negative', [4, 34315]), ('relatives', [2, 27652]), ('relative', [2, 20319]), ('creative', [4, 20048]), ('retailer', [4, 17242]), ('volatile', [4, 12400]), ('relating', [4, 11725])]
+relativley	relations	related	relatively	negative	relatives
+78: ****************** wheter
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('their', [3, 1953337]), ('were', [3, 1856428]), ('after', [3, 1506661]), ('when', [3, 1295835]), ('her', [3, 1223357]), ('there', [3, 1167647]), ('what', [3, 849283]), ('while', [3, 625393]), ('where', [2, 570946]), ('week', [3, 520674])]
+wheter	their	were	after	when	her
+79: ****************** convience
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('conference', [3, 157054]), ('continue', [3, 132544]), ('confidence', [2, 56928]), ('convinced', [2, 18967]), ('convince', [1, 12005]), ('convenience', [2, 6484]), ('conscience', [2, 4261]), ('coincidence', [3, 3739]), ('convened', [3, 3253]), ('convict', [3, 2245])]
+convience	conference	continue	confidence	convinced	convince
+80: ****************** extremly
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('extremely', [1, 33126]), ('extreme', [2, 21892]), ('extremes', [2, 1897]), ('extremity', [2, 198]), ('extremis', [2, 155]), ('extremly', [0, 18])]
+extremly	extremely	extreme	extremes	extremity	extremis
+81: ****************** espacilly
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('special', [4, 112313]), ('especially', [2, 95238]), ('usually', [4, 54057]), ('exactly', [4, 43812]), ('easily', [4, 38854]), ('capacity', [4, 37828]), ('typically', [4, 27849]), ('equally', [4, 17950]), ('specialty', [4, 7388]), ('silly', [4, 6725])]
+espacilly	special	especially	usually	exactly	easily
+82: ****************** becasuse
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('because', [1, 652844]), ('became', [3, 127979]), ('cause', [3, 93979]), ('measure', [3, 59671]), ('belarus', [3, 4834]), ('beasts', [3, 1299]), ('recluse', [3, 419]), ('pegasus', [3, 389]), ('acasuso', [3, 363]), ('ducasse', [3, 316])]
+becasuse	because	became	cause	measure	belarus
+83: ****************** carrir
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('care', [3, 212106]), ('earlier', [3, 211364]), ('car', [3, 199795]), ('april', [3, 155690]), ('air', [3, 153442]), ('career', [2, 108330]), ('cancer', [3, 99474]), ('cars', [3, 83647]), ('carried', [2, 63575]), ('martin', [3, 62655])]
+carrir	care	earlier	car	april	air
+84: ****************** actualy
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('actually', [1, 91960]), ('actual', [1, 29663]), ('factual', [2, 1737]), ('factually', [2, 381]), ('actuary', [1, 367]), ('actuality', [2, 243]), ('actorly', [2, 53]), ('pactual', [2, 48]), ('actualy', [0, 35]), ('acteal', [2, 21])]
+actualy	actually	actual	factual	factually	actuary
+85: ****************** calaberating
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('celebrating', [3, 11176]), ('cooperating', [4, 4442]), ('calculating', [4, 2271]), ('collaborating', [3, 1959]), ('alienating', [4, 1699]), ('alerting', [4, 1159]), ('elaborating', [3, 1043]), ('deliberating', [3, 1003]), ('liberating', [3, 916]), ('co-operating', [4, 901])]
+calaberating	celebrating	cooperating	calculating	collaborating	alienating
+86: ****************** simpley
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('similar', [3, 105616]), ('single', [3, 101844]), ('simply', [1, 76362]), ('supply', [3, 54846]), ('complex', [3, 47036]), ('simple', [1, 45074]), ('display', [3, 33804]), ('stanley', [3, 25153]), ('simpson', [3, 15002]), ('samples', [2, 13913])]
+simpley	similar	single	simply	supply	complex
+87: ****************** remanticism
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('romantics', [3, 336]), ('romanticism', [1, 335]), ('semantics', [3, 245]), ('relativism', [3, 229]), ('romanticised', [3, 81]), ('romanticize', [3, 59]), ('romanticise', [2, 29]), ('atlanticism', [3, 16])]
+remanticism	romantics	romanticism	semantics	relativism	romanticised
+88: ****************** pannel
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('wanted', [3, 116211]), ('annual', [3, 104304]), ('cancer', [3, 99474]), ('phone', [3, 96203]), ('paul', [3, 90047]), ('cannot', [3, 85589]), ('warned', [3, 80876]), ('planned', [2, 79710]), ('range', [3, 79406]), ('passed', [3, 69718])]
+pannel	wanted	annual	cancer	phone	paul
+89: ****************** diferrent
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('different', [2, 149327]), ('deferred', [3, 5609]), ('deterrent', [2, 2936]), ('fervent', [3, 1273]), ('detergent', [3, 887]), ('divergent', [2, 735]), ('deferring', [3, 734]), ('ferret', [3, 537]), ('derwent', [3, 432]), ('ferment', [3, 334])]
+diferrent	different	deferred	deterrent	fervent	detergent
+90: ****************** reguire
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('return', [3, 164885]), ('region', [3, 129032]), ('reduce', [3, 73993]), ('figure', [3, 68313]), ('receive', [3, 65008]), ('required', [2, 64998]), ('entire', [3, 55031]), ('regular', [3, 50409]), ('require', [1, 43675]), ('secure', [3, 42887])]
+reguire	return	region	reduce	figure	receive
+91: ****************** sucject
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('project', [3, 113450]), ('success', [3, 81991]), ('subject', [1, 58245]), ('secret', [3, 46517]), ('suspect', [2, 42946]), ('suggest', [3, 42783]), ('suspects', [3, 34372]), ('succeed', [3, 16941]), ('select', [3, 16060]), ('subjects', [2, 12991])]
+sucject	project	success	subject	secret	suspect
+92: ****************** diostract
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('district', [2, 107832]), ('contract', [3, 88971]), ('districts', [3, 14191]), ('distant', [3, 9105]), ('distinct', [3, 6071]), ('distracted', [3, 4321]), ('abstract', [3, 3708]), ('disgrace', [3, 2995]), ('distract', [1, 2583]), ('distrust', [3, 2331])]
+diostract	district	contract	districts	distant	distinct
+93: ****************** tremeadous
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('tremendous', [1, 9016]), ('freedoms', [4, 4201]), ('meadows', [4, 2975]), ('remedies', [4, 2866]), ('tremendously', [3, 1384]), ('tremors', [4, 1299]), ('demeanour', [4, 733]), ('treehouse', [4, 358]), ('treads', [4, 328]), ('troubadour', [4, 260])]
+tremeadous	tremendous	freedoms	meadows	remedies	tremendously
+94: ****************** dirive
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('during', [3, 477570]), ('five', [3, 319011]), ('give', [3, 196643]), ('price', [3, 170565]), ('prime', [3, 158775]), ('fire', [3, 144700]), ('live', [3, 142710]), ('rise', [3, 102367]), ('drive', [1, 82834]), ('crime', [3, 72817])]
+dirive	during	five	give	price	prime
+95: ****************** tecnologies
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('technologies', [1, 29028]), ('technologists', [3, 315]), ('technologist', [3, 236]), ('ecologie', [3, 32]), ('technologizer', [3, 18]), ('ecologies', [2, 17]), ('technologie', [2, 16])]
+tecnologies	technologies	technologists	technologist	ecologie	technologizer
+96: ****************** desappear
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('appear', [3, 67670]), ('disappeared', [3, 17300]), ('disappear', [1, 6647]), ('disappears', [2, 1426]), ('reappear', [2, 760]), ('dapper', [3, 552]), ('sapper', [3, 266]), ('reappears', [3, 156]), ('re-appear', [2, 40])]
+desappear	appear	disappeared	disappear	disappears	reappear
+97: ****************** genarally
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('general', [3, 222018]), ('generally', [1, 38262]), ('mentally', [3, 7956]), ('generals', [3, 6885]), ('federally', [3, 3317]), ('generale', [3, 1962]), ('centrally', [2, 1114]), ('generically', [3, 437]), ('generali', [3, 224]), ('gnarly', [3, 183])]
+genarally	general	generally	mentally	generals	federally
+98: ****************** profesor
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('process', [3, 123965]), ('professor', [1, 64476]), ('protests', [3, 44601]), ('protest', [3, 41707]), ('proper', [3, 20651]), ('prefer', [3, 15583]), ('profession', [3, 7309]), ('proves', [3, 5819]), ('professors', [2, 4705]), ('processor', [2, 3310])]
+profesor	process	professor	protests	protest	proper
+99: ****************** abandant
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('abandoned', [3, 21286]), ('abandon', [2, 10465]), ('amanda', [3, 5952]), ('attendant', [3, 3537]), ('adamant', [3, 3194]), ('banana', [3, 3149]), ('abundance', [3, 2846]), ('abundant', [1, 2828]), ('albanian', [3, 2818]), ('rwandan', [3, 2703])]
+abandant	abandoned	abandon	amanda	attendant	adamant
+100: ****************** greatt
+Corrections using Levenshtein distance :
+TOP 10 best candidates : [('get', [3, 505293]), ('least', [3, 263836]), ('area', [3, 207448]), ('death', [3, 201704]), ('great', [1, 193270]), ('real', [3, 173566]), ('credit', [3, 165083]), ('rate', [3, 158036]), ('east', [3, 150991]), ('growth', [3, 144387])]
+greatt	get	least	area	death	great
+
+Total Time:
+3320.488574028015

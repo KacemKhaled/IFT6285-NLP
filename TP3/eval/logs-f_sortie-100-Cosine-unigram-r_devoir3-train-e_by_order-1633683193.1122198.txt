@@ -1,0 +1,5 @@
+file_to_evaluate: out/sortie-100-Cosine-unigram.txt
+reference file: devoir3-train.txt
+evaluation_measure:by_order
+score is = 61.60 %
+61.6
