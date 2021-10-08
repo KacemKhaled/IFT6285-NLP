@@ -70,10 +70,10 @@ def plot_eval_per_time(df1,df2):
     fig.tight_layout()
     sns.scatterplot(ax=ax1,data=df1, x="Temps", y="Performance", hue="Distance", style="Ordre",
                     sizes=[0.9 for n in range(len(df1))],
-                    markers=['o','X','P', 's'], legend=False)
+                    markers=['^','X','P', '>'], legend=False)
     sns.scatterplot(ax=ax2,data=df2, x="Temps", y="Performance", hue="Distance", style="Ordre",
                     sizes=[0.9 for n in range(len(df1))],
-                    markers=['o','X','P', 's'], legend="auto")
+                    markers=['^','X','P', '>'], legend="full")
 
     plt.subplots_adjust(right=0.78)
 
