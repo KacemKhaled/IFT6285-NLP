@@ -61,6 +61,8 @@ def plot_eval_per_time(df1,df2):
 
     ax1.set_ylim([0,90])
     ax2.set_ylim([0,90])
+    ax1.set_xlim([100,10000])
+    ax2.set_xlim([100,10000])
     ax1.set_xscale('log')
     ax2.set_xscale('log')
     ax1.set_xlabel("Temps de correction (en sec) - échelle logarithmique")
