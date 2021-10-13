@@ -99,6 +99,8 @@ def corrige(wrong_words, n, lexique_file, distances=['Jaro_Winkler','Levenshtein
     with open(wrong_words, 'r',encoding="utf8") as f:
         i=0
         a = len(list(f))
+        if n<0:
+            n = a
         logging.info(f'Correcting {min(n,a)} words')
         f.seek(0)
         for line in f:
@@ -131,14 +133,14 @@ distances = ['Jaro_Winkler', 'Levenshtein', 'Jaccard', 'Cosine', 'Hamming', 'LCS
 order_by = ['distance','unigram','comb_d_u','comb_u_d']
 
 parser = argparse.ArgumentParser(description='Words correction')
-parser.add_argument('-v','--vocab', default=VOCAB_ROOT,
-                    help='Path to vocab file: (default: ./voc-1bwc.txt)')
+parser.add_argument('-v','--vocab', required=True,
+                    help='Path to vocab file')
 
 parser.add_argument('-n','--nb_of_lines', default=10,type=int,
-                    help='Nb of lines to read from file: (default: 10)')
+                    help='Nb of lines to read from file: (default: 10), -1 to read the whole file')
 
-parser.add_argument('-w','--wrong_words', default=TRAIN_SHORT_ROOT,
-                    help='Path to wrong words file: (default: ./devoir3-train.txt)')
+parser.add_argument('-w','--wrong_words', required=True,
+                    help='Path to wrong words file: (ex: devoir3-train.txt')
 
 parser.add_argument('-d', '--distance', nargs='+', default=['Jaro_Winkler'],
                     choices=distances,

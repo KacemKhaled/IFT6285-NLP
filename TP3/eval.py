@@ -83,3 +83,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+#  python eval.py -f devoir3-sortie.txt -r devoir3-train.txt -e no_order
