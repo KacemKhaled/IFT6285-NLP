@@ -1,8 +1,6 @@
 import gensim
-from gensim.test.utils import datapath
 from gensim.models import KeyedVectors, Word2Vec
 from gensim.models.phrases import Phrases, Phraser
-from gensim.models.word2vec import  PathLineSentences
 import argparse
 import multiprocessing
 from time import time
@@ -13,7 +11,9 @@ import matplotlib.pyplot as plt
 folder = 'training-monolingual.tokenized.shuffled/'
 short_folder = 'training-monolingual.tokenized.shuffled_short/'
 
+
 times = []
+
 
 def get_args():
 
@@ -28,20 +28,22 @@ def get_args():
     parser.add_argument("-w", '--window', type=int, help="window size", default=2)
     return parser.parse_args()
 
-def plot():
+
+def plot(nb_of_tranches = 100):
     print('Creating the figure')
-    tranches = list(range(1, 100))
+    tranches = list(range(1, nb_of_tranches))
+
     plt.figure(figsize=(9, 6))
     plt.plot(tranches, times, 'r--')
     plt.title("Le temps mis pour entrainer les modeles en fonction du nombre de tranches considérées")
     plt.xlabel("Nombre de tranches considérées")
     plt.ylabel("Le temps mis pour entrainer les modeles (en secondes)")
     plt.savefig("courbe.svg",format="svg")
+    plt.savefig("courbe.png", format="png")
 
 
 def train(args,  save_model = False , data = folder):
-    # Utilisez gensim pour entrainer des representations vectorielles sur tout
-    # ou partie du 1BWC.
+    # Utilisez gensim pour entrainer des representations vectorielles sur tout ou partie du 1BWC.
     #train by tranche + save the time for each tranche
     print('Starting the training')
     files = listdir(data)
@@ -76,8 +78,8 @@ def train(args,  save_model = False , data = folder):
 
 def main():
     args = get_args()
-    train(args, data = short_folder)  # remove the data argument for 99 tranches
-    plot()
+    train(args, data = folder)  # remove the data argument for all tranches
+    plot() # remove the data argument for all  tranches  nb_of_tranches = 11
 
 if __name__ == '__main__':
     main()
