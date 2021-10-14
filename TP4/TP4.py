@@ -30,6 +30,7 @@ def get_args():
 
 
 def plot(nb_of_tranches = 100):
+
     print('Creating the figure')
     tranches = list(range(1, nb_of_tranches))
 
