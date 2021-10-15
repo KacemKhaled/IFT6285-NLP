@@ -115,7 +115,7 @@ def checkpoint(ext,save_model,w2v_model,times,sizes,sent_len):
     logging.info(f"saved {csv_times_sizes}")
     
 
-def train(args,  save_model = True , data = folder,nb_tranches=10,option=1):
+def train(args,  save_model = True , data = folder,nb_tranches=10,option=2):
     # Utilisez gensim pour entrainer des representations vectorielles sur tout ou partie du 1BWC.
     #train by tranche + save the time for each tranche
     print('Starting the training ',option)
