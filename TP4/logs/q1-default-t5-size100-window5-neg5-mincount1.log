@@ -1,0 +1,50 @@
+
+#-#-#-#-#-#-#-#-#-#--Files 1..1:
+- Temps de lecture de sentences (en secondes): 11.54758620262146
+
+Senetences found  306068 phrases
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+PROGRESS: at sentence #10000, processed 212854 words, keeping 22933 word types
+PROGRESS: at sentence #20000, processed 425423 words, keeping 32717 word types
+PROGRESS: at sentence #30000, processed 637937 words, keeping 39828 word types
+PROGRESS: at sentence #40000, processed 849077 words, keeping 45777 word types
+PROGRESS: at sentence #50000, processed 1061556 words, keeping 50929 word types
+PROGRESS: at sentence #60000, processed 1274067 words, keeping 55638 word types
+PROGRESS: at sentence #70000, processed 1487304 words, keeping 59768 word types
+PROGRESS: at sentence #80000, processed 1701131 words, keeping 63663 word types
+PROGRESS: at sentence #90000, processed 1915910 words, keeping 67272 word types
+PROGRESS: at sentence #100000, processed 2128764 words, keeping 70537 word types
+PROGRESS: at sentence #110000, processed 2341675 words, keeping 73778 word types
+PROGRESS: at sentence #120000, processed 2555119 words, keeping 76911 word types
+PROGRESS: at sentence #130000, processed 2768605 words, keeping 79760 word types
+PROGRESS: at sentence #140000, processed 2982566 words, keeping 82630 word types
+PROGRESS: at sentence #150000, processed 3193896 words, keeping 85412 word types
+PROGRESS: at sentence #160000, processed 3406628 words, keeping 88093 word types
+PROGRESS: at sentence #170000, processed 3618139 words, keeping 90562 word types
+PROGRESS: at sentence #180000, processed 3831555 words, keeping 92956 word types
+PROGRESS: at sentence #190000, processed 4045446 words, keeping 95365 word types
+PROGRESS: at sentence #200000, processed 4260656 words, keeping 97642 word types
+PROGRESS: at sentence #210000, processed 4475363 words, keeping 99956 word types
+PROGRESS: at sentence #220000, processed 4688695 words, keeping 102075 word types
+PROGRESS: at sentence #230000, processed 4902759 words, keeping 104211 word types
+PROGRESS: at sentence #240000, processed 5115722 words, keeping 106240 word types
+PROGRESS: at sentence #250000, processed 5326712 words, keeping 108307 word types
+PROGRESS: at sentence #260000, processed 5539802 words, keeping 110323 word types
+PROGRESS: at sentence #270000, processed 5753268 words, keeping 112296 word types
+PROGRESS: at sentence #280000, processed 5965738 words, keeping 114211 word types
+PROGRESS: at sentence #290000, processed 6180093 words, keeping 116072 word types
+PROGRESS: at sentence #300000, processed 6392850 words, keeping 117937 word types
+collected 118962 word types from a corpus of 6522722 raw words and 306068 sentences
+Creating a fresh vocabulary
+starting a new internal lifecycle event log for Word2Vec
+Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 118962 unique words (100.0%% of original 118962, drops 0)', 'datetime': '2021-10-15T13:14:51.493184', 'gensim': '4.1.2', 'python': '3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'prepare_vocab'}
+Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 6522722 word corpus (100.0%% of original 6522722, drops 0)', 'datetime': '2021-10-15T13:14:51.493184', 'gensim': '4.1.2', 'python': '3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'prepare_vocab'}
+deleting the raw counts dictionary of 118962 items
+sample=0.01 downsamples 3 most-common words
+Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 6321517.216030235 word corpus (96.9%% of prior 6522722)', 'datetime': '2021-10-15T13:14:52.404607', 'gensim': '4.1.2', 'python': '3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'prepare_vocab'}
+estimated required memory for 118962 words and 100 dimensions: 154650600 bytes
+resetting layer weights
+Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2021-10-15T13:14:53.919872', 'gensim': '4.1.2', 'python': '3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'build_vocab'}
+Word2Vec lifecycle event {'msg': 'training model with 23 workers on 118962 vocabulary and 100 features, using sg=0 hs=0 sample=0.01 negative=5 window=5 shrink_windows=True', 'datetime': '2021-10-15T13:14:53.919872', 'gensim': '4.1.2', 'python': '3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'train'}
+EPOCH 1 - PROGRESS: at 23.50% examples, 1479379 words/s, in_qsize 44, out_qsize 1

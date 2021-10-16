@@ -13,3 +13,4 @@ for size in 100 200 300; do
     done
   done
 done
+python plot_metaparams_impacts.py
