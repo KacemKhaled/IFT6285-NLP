@@ -26,7 +26,7 @@ def wrong_sentences(file):
 
 
 def main():
-    # install_treebank()  # first time only
+    #install_treebank()  # first time only
 
     # Question 5.B
 
@@ -39,10 +39,15 @@ def main():
 
     # longeur moyenne Treebank
     sentences_lengths_PTB = []
+    print(len(treebank.fileids())) # 199 file
+
     for item in treebank.fileids():
         for tree in treebank.parsed_sents(item):
             # print(tree.leaves())
             sentences_lengths_PTB.append(len(tree.leaves()))
+
+    print(len(sentences_lengths_PTB)) #  3914 phrases in PTB
+
     average_length_PTB = mean(sentences_lengths_PTB)
     print("%.2f" % average_length_PTB )
     print(round(average_length_PTB))  # round it to have exact nb of words
@@ -54,6 +59,10 @@ def main():
      #   for tree in treebank.parsed_sents(item):
       #      print(tree)
 
+    # see a tree
+    print ( treebank.parsed_sents(treebank.fileids()[0]) )
+    t = treebank.parsed_sents(treebank.fileids()[0])[0]
+    t.draw()
 
 if __name__ == '__main__':
     main()
