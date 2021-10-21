@@ -42,6 +42,15 @@ def main():
             tree.chomsky_normal_form(horzMarkov=2)  # Remove A->(B,C,D) into A->B,C+D->D
             productions += tree.productions()
 
+    print('*** productions:')
+    print(len(productions))  # 115
+    print(productions)
+
+    #filter the grammar, before learning the probabilities : from 115 to 20 regle >1 why do we do it ?
+    d = {i: productions.count(i) for i in set(productions)} # regles , frequencies
+    productions_filtered = [item[0] for item in d.items() if int(item[1]) > 1]
+    print(len(productions_filtered)) # 20 regles
+
     S = Nonterminal('S')
     grammar = induce_pcfg(S, productions)  # different from the one in the doc
     print(grammar)
