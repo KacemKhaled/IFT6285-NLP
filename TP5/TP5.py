@@ -10,7 +10,7 @@ def install_treebank():
     nltk.download('treebank')
 
 
-CoLA_train_file = 'CoLA_data/train.tsv'
+CoLa_train_file = 'CoLA_data/train.tsv'
 Cola_dev_file = 'CoLA_data/dev.tsv'
 Cola_test_file = 'CoLA_data/test.tsv'
 
@@ -51,7 +51,7 @@ def main():
     parser = ViterbiParser(grammar)
     parser.trace(0) # put 3 for a verbose output
 
-    sents_cola = wrong_sentences(CoLA_train_file)
+    sents_cola = wrong_sentences(Cola_dev_file)
     for sent in sents_cola:
         print(sent)
         tokens = sent.split()  # tokenize the sentence
@@ -72,7 +72,7 @@ def main():
     # Question 5.B
 
         # longeur moyenne Cola
-    sents_cola = wrong_sentences(CoLA_train_file)
+    sents_cola = wrong_sentences(Cola_dev_file)
     average_length_cola = mean([len(sent.split()) for sent in sents_cola]) #todo: should we count punctuation '.' , ','as words ?  the leaves() does
     print("%.2f" % average_length_cola)
     print(round(average_length_cola))  # round it to have exact nb of words
