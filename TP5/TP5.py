@@ -78,12 +78,10 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = False):
     return grammar
 
 
-def parse_sentences(sents, grammar):
+def parse_sentences(phrases, grammar, parser):
     print('Parsing sentences ')
-    parser = ViterbiParser(grammar)
-    parser.trace(0)  # put 3 for a verbose output
 
-    for sent in sents:
+    for sent in phrases:
         print(sent)
         tokens = sent.split()  # tokenize the sentence
         print(tokens)
@@ -108,8 +106,12 @@ def main():
     grammar = train_PCFG_grammar_using_PTB(filter_by_frequency=False )
 
     # Question 4 : use the grammar to parse grammatically wrong sentences from Cola using ViterbiParser
-    sents_cola = wrong_sentences(Cola_dev_file)
-    parse_sentences(sents_cola, grammar)
+    wrong_sents_cola = wrong_sentences(Cola_dev_file)
+
+    parser = ViterbiParser(grammar)
+    parser.trace(0)  # put 3 for a verbose output
+
+    parse_sentences(wrong_sents_cola, grammar, parser)
 
 
     # Question 5.B
