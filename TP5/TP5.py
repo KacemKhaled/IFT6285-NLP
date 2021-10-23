@@ -4,6 +4,10 @@ from nltk import Nonterminal, Production
 from nltk.corpus import treebank
 from nltk import induce_pcfg
 from nltk.parse import ViterbiParser
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+
 
 def install_treebank():
     import nltk
@@ -81,9 +85,15 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = False):
 def parse_sentences(phrases, grammar, parser):
     print('Parsing sentences ')
 
+    times = []
+    num_parses = []
+    lengthes = []  # nb of words
+
+
     for sent in phrases:
         print(sent)
         tokens = sent.split()  # tokenize the sentence
+        lengthes.append(len(tokens))
         print(tokens)
 
         # Handle UNK words 2/2, todo prb: too many UNK ?
@@ -95,8 +105,30 @@ def parse_sentences(phrases, grammar, parser):
                 tokens[index] = 'UNK'
         print(tokens)
 
-        parses_of_a_phrase = parser.parse_all(tokens)  # todo: do something with the parses later ?
+        t = time.time()
+        parses_of_a_phrase = parser.parse_all(tokens)
+        times.append(time.time() - t)
+        num_parses.append(len(parses_of_a_phrase))
+
         print(parses_of_a_phrase)
+
+    return times, num_parses, lengthes
+
+
+def plot_figure(x, y1, y2, label1, label2, xlabel, ylabel, name, title ):
+
+    plt.plot(x, y1, label=label1)
+    plt.plot(x, y2, label=label2)
+    plt.title(title)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+
+    plt.legend()
+    plt.savefig(f"plots/courbe-{name}.svg", format="svg")
+    plt.savefig(f"plots/courbe-{name}.png", format="png")
+    plt.savefig(f"plots/courbe-{name}.eps", format="eps")
+    plt.show()
+
 
 
 def main():
@@ -111,8 +143,28 @@ def main():
     parser = ViterbiParser(grammar)
     parser.trace(0)  # put 3 for a verbose output
 
-    parse_sentences(wrong_sents_cola, grammar, parser)
+    # parse_sentences(wrong_sents_cola, grammar, parser)
 
+    # Question 5.C Analyse
+    times, num_parses, lengthes = parse_sentences(wrong_sents_cola, grammar, parser)
+    print('Analyse***')
+    print(times, num_parses, lengthes)
+    grammar_filtered = train_PCFG_grammar_using_PTB(filter_by_frequency=True)
+    times_filtered, num_parses_filtered, lengthes_filtered = parse_sentences(wrong_sents_cola, grammar_filtered, parser)
+    assert lengthes == lengthes_filtered
+    plot_figure(lengthes, times, times_filtered, "pas de filtrage", "avec filtrage", "Longeurs de phrases considérées",
+                "Le temps d'analyse (en sec)", 'time-length',
+                "Le temps d'analyse en\nfonction des longeurs des phrases considérées")
+
+        #todo: the figure is funny, I think there is a mistake
+
+    print(num_parses)
+    print( num_parses_filtered )
+
+    print('nb of pharses non_reconnus', num_parses.count(0) )
+    print('nb of pharses non_reconnus apres filtrage', num_parses_filtered.count(0) )
+
+    print('Done Analyse')
 
     # Question 5.B
 
@@ -137,6 +189,7 @@ def main():
     average_length_PTB = mean(sentences_lengths_PTB)
     print("%.2f" % average_length_PTB )
     print(round(average_length_PTB))  # round it to have exact nb of words
+
 
     # Vous pouvez obtenir les arbres de ces phrases comme suit :
     #for item in treebank.fileids():
