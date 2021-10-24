@@ -28,12 +28,14 @@ def wrong_sentences(file):
             if line.split('\t')[1] == '0':
                 sentences.append(line.rstrip().split('\t')[3])
     f.close()
+    print('Cola dev set has ', len(sentences), ' wrong sentences')
     return sentences
 
 
 def filter_rules(productions):
+    print('start filtering .. only keeping productions that appear > 1 ')
     d = {i: productions.count(i) for i in set(productions)}  # regles , frequencies
-    productions_filtered = [item[0] for item in d.items() if int(item[1]) > 1] # rules that appear > 1 time
+    productions_filtered = [item[0] for item in d.items() if int(item[1]) > 1 ] # rules that appear > 1 time
     return productions_filtered
 
 
@@ -42,25 +44,29 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = False):
     print("Induce PCFG grammar from treebank data:")
 
     productions = []
-    for item in treebank.fileids()[:2]:
+    for item in treebank.fileids()[:2]:  #todo put all files and save the productions in a file,
         for tree in treebank.parsed_sents(item):
             # perform optional tree transformations, e.g.:
             tree.collapse_unary(collapsePOS=False)  # Remove branches A-B-C into A-B+C
             tree.chomsky_normal_form(horzMarkov=2)  # Remove A->(B,C,D) into A->B,C+D->D
             productions += tree.productions()
 
-    print('*** productions:')
-    print(len(productions))  # 115
-    print(productions)
+    print('*** productions before filtering:')
+    print(len(productions))  # 211968
+    # print(productions)
 
     grammar_rules = productions
 
     # FILTER THE GRAMMAR
     if filter_by_frequency:
-        # filter the grammar, before learning the probabilities : from 115 to 20 regle >1 why do we do it ?
+        # filter the grammar, before learning the probabilities
         productions_filtered = filter_rules(productions)
-        print(len(productions_filtered))  # 20 regles
         grammar_rules = productions_filtered
+
+        print('*** productions after filtering:')
+        print(len(productions_filtered))
+        #print(productions_filtered)
+
 
     # Handle UNK words 1/2
     productions_with_UNK = grammar_rules.copy()
@@ -73,6 +79,11 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = False):
     for t in non_terminals_in_lexical_rules:
         new_rule = Production(t, ['UNK'])  # create a new rule
         productions_with_UNK.append(new_rule)
+
+    print('*** productions after handling UNK words:')
+    print(len(productions_with_UNK))  # 212014 (filtrage) regles
+    # print(productions_with_UNK)
+
 
     # induce the grammar
     S = Nonterminal('S')
@@ -96,7 +107,7 @@ def parse_sentences(phrases, grammar, parser):
         lengthes.append(len(tokens))
         print(tokens)
 
-        # Handle UNK words 2/2, todo prb: too many UNK ?
+        # Handle UNK words 2/2
         print('Checking coverage')
         for index, token in enumerate(tokens):
             try:
@@ -143,63 +154,68 @@ def main():
     parser = ViterbiParser(grammar)
     parser.trace(0)  # put 3 for a verbose output
 
-    # parse_sentences(wrong_sents_cola, grammar, parser)
+    #parse_sentences(wrong_sents_cola, grammar, parser)
 
     # Question 5.C Analyse
     times, num_parses, lengthes = parse_sentences(wrong_sents_cola, grammar, parser)
     print('Analyse***')
     print(times, num_parses, lengthes)
+    lengthes_sorted, times_sorted = zip(*sorted(zip(lengthes, times)))
+
     grammar_filtered = train_PCFG_grammar_using_PTB(filter_by_frequency=True)
     times_filtered, num_parses_filtered, lengthes_filtered = parse_sentences(wrong_sents_cola, grammar_filtered, parser)
     assert lengthes == lengthes_filtered
-    plot_figure(lengthes, times, times_filtered, "pas de filtrage", "avec filtrage", "Longeurs de phrases considérées",
+
+    lengthes_filtered_sorted, times_filtered_sorted = zip(*sorted(zip(lengthes_filtered, times_filtered)))
+    assert lengthes_sorted == lengthes_filtered_sorted
+
+    plot_figure(lengthes_sorted, times_sorted, times_filtered_sorted, "pas de filtrage", "avec filtrage", "Longeurs de phrases considérées",
                 "Le temps d'analyse (en sec)", 'time-length',
                 "Le temps d'analyse en\nfonction des longeurs des phrases considérées")
 
-        #todo: the figure is funny, I think there is a mistake
 
     print(num_parses)
     print( num_parses_filtered )
 
     print('nb of pharses non_reconnus', num_parses.count(0) )
-    print('nb of pharses non_reconnus apres filtrage', num_parses_filtered.count(0) )
+    print('nb of pharses non_reconnus apres filtrage des regles', num_parses_filtered.count(0) )
 
     print('Done Analyse')
-
-    # Question 5.B
-
-        # longeur moyenne Cola
-    sents_cola = wrong_sentences(Cola_dev_file)
-    average_length_cola = mean([len(sent.split()) for sent in sents_cola]) #todo: should we count punctuation '.' , ','as words ?  the leaves() does
-    print("%.2f" % average_length_cola)
-    print(round(average_length_cola))  # round it to have exact nb of words
-
-
-         # longeur moyenne Treebank
-    sentences_lengths_PTB = []
-    print(len(treebank.fileids())) # 199 file
-
-    for item in treebank.fileids():
-        for tree in treebank.parsed_sents(item):
-            # print(tree.leaves())
-            sentences_lengths_PTB.append(len(tree.leaves()))
-
-    print(len(sentences_lengths_PTB)) #  3914 phrases in PTB
-
-    average_length_PTB = mean(sentences_lengths_PTB)
-    print("%.2f" % average_length_PTB )
-    print(round(average_length_PTB))  # round it to have exact nb of words
-
-
-    # Vous pouvez obtenir les arbres de ces phrases comme suit :
-    #for item in treebank.fileids():
-     #   for tree in treebank.parsed_sents(item):
-      #      print(tree)
-
-    # see a tree
-    print ( treebank.parsed_sents(treebank.fileids()[0]) )
-    t = treebank.parsed_sents(treebank.fileids()[0])[0]
-    t.draw()
+    #
+    # # Question 5.B
+    #
+    #     # longeur moyenne Cola
+    # sents_cola = wrong_sentences(Cola_dev_file)
+    # average_length_cola = mean([len(sent.split()) for sent in sents_cola]) #todo: should we count punctuation '.' , ','as words ?  the leaves() does
+    # print("%.2f" % average_length_cola)
+    # print(round(average_length_cola))  # round it to have exact nb of words
+    #
+    #
+    #      # longeur moyenne Treebank
+    # sentences_lengths_PTB = []
+    # print(len(treebank.fileids())) # 199 file
+    #
+    # for item in treebank.fileids():
+    #     for tree in treebank.parsed_sents(item):
+    #         # print(tree.leaves())
+    #         sentences_lengths_PTB.append(len(tree.leaves()))
+    #
+    # print(len(sentences_lengths_PTB)) #  3914 phrases in PTB
+    #
+    # average_length_PTB = mean(sentences_lengths_PTB)
+    # print("%.2f" % average_length_PTB )
+    # print(round(average_length_PTB))  # round it to have exact nb of words
+    #
+    #
+    # # Vous pouvez obtenir les arbres de ces phrases comme suit :
+    # #for item in treebank.fileids():
+    #  #   for tree in treebank.parsed_sents(item):
+    #   #      print(tree)
+    #
+    # # see a tree
+    # print ( treebank.parsed_sents(treebank.fileids()[0]) )
+    # t = treebank.parsed_sents(treebank.fileids()[0])[0]
+    # t.draw()
 
 if __name__ == '__main__':
     main()
