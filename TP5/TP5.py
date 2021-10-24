@@ -33,19 +33,18 @@ def wrong_sentences(file):
     return sentences
 
 
-def filter_rules(productions):
+def filter_rules(productions, seuil):  # On garde les repetitions + l'ordre
     print('start filtering .. only keeping productions that appear > 1 ')
-    d = {i: productions.count(i) for i in set(productions)}  # regles , frequencies
-    productions_filtered = [item[0] for item in d.items() if int(item[1]) > 1 ] # rules that appear > 1 time
+    productions_filtered = [x for x in productions if productions.count(x) > seuil] # rules that appear > seuil time
     return productions_filtered
 
 
-def train_PCFG_grammar_using_PTB( filter_by_frequency = False):
+def train_PCFG_grammar_using_PTB( filter_by_frequency = 0):
     # extract productions from treebank phrase trees and induce the PCFG grammar
     print("Induce PCFG grammar from treebank data:")
 
     productions = []
-    for item in treebank.fileids()[:5]:  #todo put all files
+    for item in treebank.fileids()[:1]:
         for tree in treebank.parsed_sents(item):
             # perform optional tree transformations, e.g.:
             tree.collapse_unary(collapsePOS=False)  # Remove branches A-B-C into A-B+C
@@ -59,9 +58,9 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = False):
     grammar_rules = productions
 
     # FILTER THE GRAMMAR
-    if filter_by_frequency:
+    if filter_by_frequency > 0 :
         # filter the grammar, before learning the probabilities
-        productions_filtered = filter_rules(productions)
+        productions_filtered = filter_rules(productions, filter_by_frequency )
         grammar_rules = productions_filtered
 
         print('*** productions after filtering:')
@@ -139,20 +138,53 @@ def plot_figure(x, y1, y2, label1, label2, xlabel, ylabel, name, title ):
     plt.show()
 
 
-def main():
-    #install_treebank()  # first time only
-
-    # Question 3 : train a PCFG grammar using the phrase trees from the PTB corpus
-    grammar = train_PCFG_grammar_using_PTB(filter_by_frequency=False )
-    print(grammar)
-
+def save_grammar(name, grammar):
     # save the grammar:
     print('saving the grammar')
-    with open("grammar.pcfg", "w") as grammar_file:
+    with open(name+".pcfg", "w") as grammar_file:
         for i in range(len(grammar.productions())):
             grammar_file.write(str(grammar.productions()[i]))
             grammar_file.write('\n')
     grammar_file.close()
+
+
+def analysis_question5_c(nb_of_cola_phrases, grammar, parser, sentences):
+    print('Analyse***')
+
+    times, num_parses, lengths = parse_sentences(sentences[:nb_of_cola_phrases], grammar, parser)
+    print(times, num_parses, lengths)
+    lengthes_sorted, times_sorted = zip(*sorted(zip(lengths, times)))
+
+    grammar_filtered = train_PCFG_grammar_using_PTB(filter_by_frequency=1)
+    save_grammar('grammar_filtered', grammar_filtered)
+    times_filtered, num_parses_filtered, lengths_filtered = parse_sentences(sentences[:nb_of_cola_phrases], grammar_filtered,
+                                                                            parser)
+    assert lengths == lengths_filtered
+
+    lengthes_filtered_sorted, times_filtered_sorted = zip(*sorted(zip(lengths_filtered, times_filtered)))
+    assert lengthes_sorted == lengthes_filtered_sorted
+
+    plot_figure(lengthes_sorted, times_sorted, times_filtered_sorted, "pas de filtrage", "avec filtrage",
+                "Longeurs de phrases considérées",
+                "Le temps d'analyse (en sec)", 'time-length',
+                "Le temps d'analyse en\nfonction des longeurs des phrases considérées")
+
+    print(num_parses)
+    print(num_parses_filtered)
+
+    print('nb of pharses non_reconnus', num_parses.count(0))
+    print('nb of pharses non_reconnus apres filtrage des regles', num_parses_filtered.count(0))
+
+    print('Done Analyse')
+
+
+def main():
+    #install_treebank()  # first time only
+
+    # Question 3 : train a PCFG grammar using the phrase trees from the PTB corpus
+    grammar = train_PCFG_grammar_using_PTB() # no filtering
+    print(grammar)
+    save_grammar('grammar', grammar)
 
     # # load the grammar    #todo: loading the grammar did not work
     # print('loading the grammar .. ')
@@ -174,30 +206,7 @@ def main():
     #parse_sentences(wrong_sents_cola, grammar, parser)
 
     # Question 5.C Analyse
-    times, num_parses, lengthes = parse_sentences(wrong_sents_cola, grammar, parser)
-    print('Analyse***')
-    print(times, num_parses, lengthes)
-    lengthes_sorted, times_sorted = zip(*sorted(zip(lengthes, times)))
-
-    grammar_filtered = train_PCFG_grammar_using_PTB(filter_by_frequency=True)
-    times_filtered, num_parses_filtered, lengthes_filtered = parse_sentences(wrong_sents_cola, grammar_filtered, parser)
-    assert lengthes == lengthes_filtered
-
-    lengthes_filtered_sorted, times_filtered_sorted = zip(*sorted(zip(lengthes_filtered, times_filtered)))
-    assert lengthes_sorted == lengthes_filtered_sorted
-
-    plot_figure(lengthes_sorted, times_sorted, times_filtered_sorted, "pas de filtrage", "avec filtrage", "Longeurs de phrases considérées",
-                "Le temps d'analyse (en sec)", 'time-length',
-                "Le temps d'analyse en\nfonction des longeurs des phrases considérées")
-
-
-    print(num_parses)
-    print( num_parses_filtered )
-
-    print('nb of pharses non_reconnus', num_parses.count(0) )
-    print('nb of pharses non_reconnus apres filtrage des regles', num_parses_filtered.count(0) )
-
-    print('Done Analyse')
+    analysis_question5_c(50, grammar, parser, wrong_sents_cola)
 
     # # Question 5.B
     #
