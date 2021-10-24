@@ -33,8 +33,8 @@ def wrong_sentences(file):
     return sentences
 
 
-def filter_rules(productions, seuil):  # On garde les repetitions + l'ordre
-    print('start filtering .. only keeping productions that appear > 1 ')
+def filter_rules(productions, seuil):  # On garde les repetitions + l'ordre #todo : make efficient + try Counter again / dataframe
+    print('start filtering .. only keeping productions that appear >  ', seuil)
     productions_filtered = [x for x in productions if productions.count(x) > seuil] # rules that appear > seuil time
     return productions_filtered
 
@@ -44,7 +44,7 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = 0):
     print("Induce PCFG grammar from treebank data:")
 
     productions = []
-    for item in treebank.fileids()[:1]:
+    for item in treebank.fileids()[:10]:  #todo: train on all the data
         for tree in treebank.parsed_sents(item):
             # perform optional tree transformations, e.g.:
             tree.collapse_unary(collapsePOS=False)  # Remove branches A-B-C into A-B+C
@@ -123,21 +123,6 @@ def parse_sentences(phrases, grammar, parser):
     return times, num_parses, lengthes
 
 
-def plot_figure(x, y1, y2, label1, label2, xlabel, ylabel, name, title ):
-
-    plt.plot(x, y1, label=label1)
-    plt.plot(x, y2, label=label2)
-    plt.title(title)
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
-
-    plt.legend()
-    plt.savefig(f"plots/courbe-{name}.svg", format="svg")
-    plt.savefig(f"plots/courbe-{name}.png", format="png")
-    plt.savefig(f"plots/courbe-{name}.eps", format="eps")
-    plt.show()
-
-
 def save_grammar(name, grammar):
     # save the grammar:
     print('saving the grammar')
@@ -148,33 +133,99 @@ def save_grammar(name, grammar):
     grammar_file.close()
 
 
+def plot_figures(lengthes_sorted, times_sorted, all_times_filtered_sorted, num_failed_parses, seuil_filtrage, nb_rules_after_filtrage, initial_nb_of_non_recognized_pharses, initial_nb_of_rules):
+
+    #first plot : nb of failed parses in fonction of seuil de filtrage
+    plt.plot([0]+seuil_filtrage,[initial_nb_of_non_recognized_pharses]+ num_failed_parses)
+    plt.title('Impact du filtrage sur le nombre de phrases non reconnues par la grammaire.')
+    plt.xlabel('Frequence minimale pour les regles de la grammaire')
+    plt.ylabel('Le nombre de phrases non reconnues par la grammaire.')
+
+    plt.legend()
+    plt.savefig(f"plots/courbe-failed_parses.svg", format="svg")
+    plt.savefig(f"plots/courbe-failed_parses.png", format="png")
+    plt.savefig(f"plots/courbe-failed_parses.eps", format="eps")
+    plt.show()
+
+
+    # second plot : nb of failed parses + nb of remaninig rules in fonction of seuil de filtrage
+    fig, ax1 = plt.subplots()
+
+    ax1.plot([0]+seuil_filtrage, [initial_nb_of_rules] + nb_rules_after_filtrage)
+    ax1.set_ylabel('Nombre des regles', color='C0')
+    ax1.tick_params(axis='y', color='C0', labelcolor='C0')
+
+    ax1.set_title('Impact du filtrage sur le nombre des regles et des phrases \n non reconnues par la grammaire.')
+
+    ax2 = ax1.twinx()
+    ax2.plot([0]+seuil_filtrage, [initial_nb_of_non_recognized_pharses] + num_failed_parses, 'C1')
+    ax2.set_ylabel('Le nombre de phrases non reconnues par la grammaire.', color='C1')
+    ax2.tick_params(axis='y', color='C1', labelcolor='C1')
+    ax2.spines['right'].set_color('C1')
+    ax2.spines['left'].set_color('C0')
+
+    fig.legend(['Nombre des regles apres le filtrage', 'Le nombre de phrases non reconnues par la grammaire'], bbox_to_anchor=(0.6, 0.2))
+    fig.text(0.2, 0.05, 'Frequence minimale pour les regles de la grammaire', va='center', rotation='horizontal')
+    plt.savefig(f"plots/courbe-failed_parses-nb_rules.svg", format="svg")
+    plt.savefig(f"plots/courbe-failed_parses-nb_rules.png", format="png")
+    plt.savefig(f"plots/courbe-failed_parses-nb_rules.eps", format="eps")
+
+    plt.show()
+
+
+    #third plot : parsing times in foction of length of the phrases + filtering impact
+    plt.plot(lengthes_sorted, times_sorted, label="pas de filtrage")
+    for i in range(len(seuil_filtrage)):
+        plt.plot(lengthes_sorted, all_times_filtered_sorted[i], label="avec filtrage - seuil = " + str(seuil_filtrage[i]))
+    plt.title("Le temps d'analyse en\nfonction des longeurs des phrases considérées")
+    plt.xlabel('Longeurs de phrases considérées')
+    plt.ylabel("Le temps d'analyse")
+
+    plt.legend()
+    plt.savefig(f"plots/courbe-time-length.svg", format="svg")
+    plt.savefig(f"plots/courbe-time-length.png", format="png")
+    plt.savefig(f"plots/courbe-time-length.eps", format="eps")
+    plt.show()
+
+
 def analysis_question5_c(nb_of_cola_phrases, grammar, parser, sentences):
     print('Analyse***')
 
     times, num_parses, lengths = parse_sentences(sentences[:nb_of_cola_phrases], grammar, parser)
-    print(times, num_parses, lengths)
+    print(times, 'num', num_parses, lengths)
+    initial_nb_of_non_recognized_pharses = num_parses.count(0)
+    print('nb of phrases non_reconnues', num_parses.count(0))
     lengthes_sorted, times_sorted = zip(*sorted(zip(lengths, times)))
+    initial_nb_of_rules = len(grammar.productions())
 
-    grammar_filtered = train_PCFG_grammar_using_PTB(filter_by_frequency=1)
-    save_grammar('grammar_filtered', grammar_filtered)
-    times_filtered, num_parses_filtered, lengths_filtered = parse_sentences(sentences[:nb_of_cola_phrases], grammar_filtered,
-                                                                            parser)
-    assert lengths == lengths_filtered
+    print('Studying filtrage impact..')
+    all_times_filtered_sorted=[] #list of lists
+    all_num_parses_filtered = [] #list of lists
+    num_failed_parses = []
+    nb_rules_after_filtrage = []
 
-    lengthes_filtered_sorted, times_filtered_sorted = zip(*sorted(zip(lengths_filtered, times_filtered)))
-    assert lengthes_sorted == lengthes_filtered_sorted
+    seuil_filtrage = [1, 2 ,3 ]  #todo: add more filtrage later
+    for i in seuil_filtrage:
+        grammar_filtered = train_PCFG_grammar_using_PTB(filter_by_frequency=i)
+        name = 'grammar_filtered_seuil_' + str(i)
+        save_grammar(name, grammar_filtered)
+        nb_rules_after_filtrage.append(len(grammar_filtered.productions()))
 
-    plot_figure(lengthes_sorted, times_sorted, times_filtered_sorted, "pas de filtrage", "avec filtrage",
-                "Longeurs de phrases considérées",
-                "Le temps d'analyse (en sec)", 'time-length',
-                "Le temps d'analyse en\nfonction des longeurs des phrases considérées")
+        times_filtered, num_parses_filtered, lengths_filtered = parse_sentences(sentences[:nb_of_cola_phrases],
+                                                                                grammar_filtered, parser)
+        assert lengths == lengths_filtered
 
-    print(num_parses)
-    print(num_parses_filtered)
+        lengthes_filtered_sorted, times_filtered_sorted = zip(*sorted(zip(lengths_filtered, times_filtered)))
+        assert lengthes_sorted == lengthes_filtered_sorted
+        print('num', num_parses_filtered)
 
-    print('nb of pharses non_reconnus', num_parses.count(0))
-    print('nb of pharses non_reconnus apres filtrage des regles', num_parses_filtered.count(0))
+        all_times_filtered_sorted.append(times_filtered_sorted)
+        all_num_parses_filtered.append(num_parses_filtered)
+        print('nb of pharses non_reconnus apres filtrage des regles', num_parses_filtered.count(0))
+        num_failed_parses.append(num_parses_filtered.count(0))
 
+
+    plot_figures(lengthes_sorted, times_sorted, all_times_filtered_sorted, num_failed_parses, seuil_filtrage, nb_rules_after_filtrage, initial_nb_of_non_recognized_pharses, initial_nb_of_rules)
     print('Done Analyse')
 
 
