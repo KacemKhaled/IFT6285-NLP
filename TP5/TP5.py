@@ -1,5 +1,6 @@
 from nltk.corpus import treebank
 from statistics import mean
+import nltk
 from nltk import Nonterminal, Production
 from nltk.corpus import treebank
 from nltk import induce_pcfg
@@ -44,7 +45,7 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = False):
     print("Induce PCFG grammar from treebank data:")
 
     productions = []
-    for item in treebank.fileids()[:2]:  #todo put all files and save the productions in a file,
+    for item in treebank.fileids()[:5]:  #todo put all files
         for tree in treebank.parsed_sents(item):
             # perform optional tree transformations, e.g.:
             tree.collapse_unary(collapsePOS=False)  # Remove branches A-B-C into A-B+C
@@ -84,11 +85,9 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = False):
     print(len(productions_with_UNK))  # 212014 (filtrage) regles
     # print(productions_with_UNK)
 
-
     # induce the grammar
     S = Nonterminal('S')
     grammar = induce_pcfg(S, productions_with_UNK)  # different from the one in the doc
-    print(grammar)
 
     return grammar
 
@@ -99,7 +98,6 @@ def parse_sentences(phrases, grammar, parser):
     times = []
     num_parses = []
     lengthes = []  # nb of words
-
 
     for sent in phrases:
         print(sent)
@@ -141,12 +139,31 @@ def plot_figure(x, y1, y2, label1, label2, xlabel, ylabel, name, title ):
     plt.show()
 
 
-
 def main():
     #install_treebank()  # first time only
 
     # Question 3 : train a PCFG grammar using the phrase trees from the PTB corpus
     grammar = train_PCFG_grammar_using_PTB(filter_by_frequency=False )
+    print(grammar)
+
+    # save the grammar:
+    print('saving the grammar')
+    with open("grammar.pcfg", "w") as grammar_file:
+        for i in range(len(grammar.productions())):
+            grammar_file.write(str(grammar.productions()[i]))
+            grammar_file.write('\n')
+    grammar_file.close()
+
+    # # load the grammar    #todo: loading the grammar did not work
+    # print('loading the grammar .. ')
+    # with open("grammar.pcfg", "r") as grammar_file:
+    #     S = grammar_file.read()
+    # grammar_file.close()
+    # print(S)
+    # #pcfg = nltk.PCFG.fromstring(S)
+    #
+    # feat0 = nltk.data.load('grammar.pcfg', verbose=True)
+    # print(feat0)
 
     # Question 4 : use the grammar to parse grammatically wrong sentences from Cola using ViterbiParser
     wrong_sents_cola = wrong_sentences(Cola_dev_file)
@@ -181,7 +198,7 @@ def main():
     print('nb of pharses non_reconnus apres filtrage des regles', num_parses_filtered.count(0) )
 
     print('Done Analyse')
-    #
+
     # # Question 5.B
     #
     #     # longeur moyenne Cola
