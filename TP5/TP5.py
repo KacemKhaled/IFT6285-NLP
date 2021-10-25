@@ -1,6 +1,7 @@
 from nltk.corpus import treebank
 from statistics import mean
 import nltk
+import pandas as pd
 from nltk import Nonterminal, Production
 from nltk.corpus import treebank
 from nltk import induce_pcfg
@@ -33,9 +34,14 @@ def wrong_sentences(file):
     return sentences
 
 
-def filter_rules(productions, seuil):  # On garde les repetitions + l'ordre #todo : make efficient + try Counter again / dataframe
+def filter_rules(productions, seuil):  # On garde les repetitions + l'ordre
     print('start filtering .. only keeping productions that appear >  ', seuil)
-    productions_filtered = [x for x in productions if productions.count(x) > seuil] # rules that appear > seuil time
+    #productions_filtered = [x for x in productions if productions.count(x) > seuil] # rules that appear > seuil time
+
+    df = pd.DataFrame(productions, columns=['rule'])
+    df2 = df[df['rule'].map(df['rule'].value_counts()) > seuil]
+    productions_filtered = list(df2['rule'])
+
     return productions_filtered
 
 
@@ -44,7 +50,7 @@ def train_PCFG_grammar_using_PTB( filter_by_frequency = 0):
     print("Induce PCFG grammar from treebank data:")
 
     productions = []
-    for item in treebank.fileids()[:10]:  #todo: train on all the data
+    for item in treebank.fileids():
         for tree in treebank.parsed_sents(item):
             # perform optional tree transformations, e.g.:
             tree.collapse_unary(collapsePOS=False)  # Remove branches A-B-C into A-B+C
@@ -148,7 +154,7 @@ def plot_figures(lengthes_sorted, times_sorted, all_times_filtered_sorted, num_f
     plt.show()
 
 
-    # second plot : nb of failed parses + nb of remaninig rules in fonction of seuil de filtrage
+    # second plot : nb of failed parses + nb of remaninig rules in fonction of seuil de filtrage #todo: check this picture
     fig, ax1 = plt.subplots()
 
     ax1.plot([0]+seuil_filtrage, [initial_nb_of_rules] + nb_rules_after_filtrage)
@@ -188,6 +194,43 @@ def plot_figures(lengthes_sorted, times_sorted, all_times_filtered_sorted, num_f
     plt.show()
 
 
+def analysis_question5_d(max_length, grammar, parser, wrong_sents_cola):
+    # sentences with less than 15 words
+    sentences = [sent for sent in wrong_sents_cola if len(sent.split())>= max_length ]
+    # parse them all
+    print('Parsing sentences ... ')
+
+    num_parses = []
+    lengthes = []  # nb of words
+
+    for sent in sentences:
+        print(sent)
+        tokens = sent.split()  # tokenize the sentence
+        lengthes.append(len(tokens))
+        print(tokens)
+
+        # Handle UNK words 2/2
+        print('Checking coverage')
+        for index, token in enumerate(tokens):
+            try:
+                grammar.check_coverage([token])  # takes a list !!
+            except:
+                tokens[index] = 'UNK'
+        print(tokens)
+
+        parses_of_a_phrase = parser.parse_all(tokens)
+        num_parses.append(len(parses_of_a_phrase))
+
+    #  Mentionnez le nombre de phrases pour lesquelles une analyse est retourn´ee,
+    print('nb de phrases ayant une analyse valide', num_parses.count(1) )
+     #  en fonction de la longueur des phrases et des mots inconnus de votre grammaire.
+    print(lengthes)
+    # Montrez deux analyses de phrases agrammaticales. Vous pouvez utiliser la fonction NLTK draw trees pour cela.
+
+        #todo: finish this analysis Question 5.d
+
+
+
 def analysis_question5_c(nb_of_cola_phrases, grammar, parser, sentences):
     print('Analyse***')
 
@@ -204,7 +247,7 @@ def analysis_question5_c(nb_of_cola_phrases, grammar, parser, sentences):
     num_failed_parses = []
     nb_rules_after_filtrage = []
 
-    seuil_filtrage = [1, 2 ,3 ]  #todo: add more filtrage later
+    seuil_filtrage = [1, 2 ,3 ]  #todo: add more filtrage later, maybe bigger order, 20, 100 ?
     for i in seuil_filtrage:
         grammar_filtered = train_PCFG_grammar_using_PTB(filter_by_frequency=i)
         name = 'grammar_filtered_seuil_' + str(i)
@@ -223,6 +266,8 @@ def analysis_question5_c(nb_of_cola_phrases, grammar, parser, sentences):
         all_num_parses_filtered.append(num_parses_filtered)
         print('nb of pharses non_reconnus apres filtrage des regles', num_parses_filtered.count(0))
         num_failed_parses.append(num_parses_filtered.count(0))
+
+        #todo: fix error when num_failed parses/
 
 
     plot_figures(lengthes_sorted, times_sorted, all_times_filtered_sorted, num_failed_parses, seuil_filtrage, nb_rules_after_filtrage, initial_nb_of_non_recognized_pharses, initial_nb_of_rules)
@@ -258,6 +303,9 @@ def main():
 
     # Question 5.C Analyse
     analysis_question5_c(50, grammar, parser, wrong_sents_cola)
+
+    max_length=15
+    analysis_question5_d(max_length, grammar, parser, wrong_sents_cola)
 
     # # Question 5.B
     #
