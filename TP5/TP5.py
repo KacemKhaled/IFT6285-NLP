@@ -170,7 +170,7 @@ def plot_figures(lengthes_sorted, times_sorted, all_times_filtered_sorted, num_f
     ax2.spines['right'].set_color('C1')
     ax2.spines['left'].set_color('C0')
 
-    fig.legend(['Nombre des regles apres le filtrage', 'Le nombre de phrases non reconnues par la grammaire'], bbox_to_anchor=(0.6, 0.2))
+    fig.legend(['Nombre des regles apres le filtrage', 'Le nombre de phrases non reconnues par la grammaire'], loc='lower left', bbox_to_anchor=(0.2, 0.3))
     fig.text(0.2, 0.05, 'Frequence minimale pour les regles de la grammaire', va='center', rotation='horizontal')
     plt.savefig(f"plots/courbe-failed_parses-nb_rules.svg", format="svg")
     plt.savefig(f"plots/courbe-failed_parses-nb_rules.png", format="png")
@@ -247,7 +247,7 @@ def analysis_question5_c(nb_of_cola_phrases, grammar, parser, sentences):
     num_failed_parses = []
     nb_rules_after_filtrage = []
 
-    seuil_filtrage = [1, 2 ,3 ]  #todo: add more filtrage later, maybe bigger order, 20, 100 ?
+    seuil_filtrage = [1,3 , 5 ,7,9, 11 ]  #todo: add more filtrage later, maybe bigger order, 20, 100 ?
     for i in seuil_filtrage:
         grammar_filtered = train_PCFG_grammar_using_PTB(filter_by_frequency=i)
         name = 'grammar_filtered_seuil_' + str(i)
@@ -266,9 +266,6 @@ def analysis_question5_c(nb_of_cola_phrases, grammar, parser, sentences):
         all_num_parses_filtered.append(num_parses_filtered)
         print('nb of pharses non_reconnus apres filtrage des regles', num_parses_filtered.count(0))
         num_failed_parses.append(num_parses_filtered.count(0))
-
-        #todo: fix error when num_failed parses/
-
 
     plot_figures(lengthes_sorted, times_sorted, all_times_filtered_sorted, num_failed_parses, seuil_filtrage, nb_rules_after_filtrage, initial_nb_of_non_recognized_pharses, initial_nb_of_rules)
     print('Done Analyse')
