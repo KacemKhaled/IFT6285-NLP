@@ -9,7 +9,7 @@ from nltk.parse import ViterbiParser
 import time
 import numpy as np
 import matplotlib.pyplot as plt
-
+from nltk import draw_trees
 
 def install_treebank():
     import nltk
@@ -155,7 +155,7 @@ def plot_figures(lengthes_sorted, times_sorted, all_times_filtered_sorted, num_f
 
 
     # second plot : nb of failed parses + nb of remaninig rules in fonction of seuil de filtrage #todo: check this picture
-    fig, ax1 = plt.subplots()
+    fig, ax1 = plt.subplots(figsize=(8,4))
 
     ax1.plot([0]+seuil_filtrage, [initial_nb_of_rules] + nb_rules_after_filtrage)
     ax1.set_ylabel('Nombre des regles', color='C0')
@@ -275,9 +275,9 @@ def main():
     #install_treebank()  # first time only
 
     # Question 3 : train a PCFG grammar using the phrase trees from the PTB corpus
-    grammar = train_PCFG_grammar_using_PTB() # no filtering
-    print(grammar)
-    save_grammar('grammar', grammar)
+    # grammar = train_PCFG_grammar_using_PTB() # no filtering
+    # print(grammar)
+    # save_grammar('grammar', grammar)
 
     # # load the grammar    #todo: loading the grammar did not work
     # print('loading the grammar .. ')
@@ -290,21 +290,21 @@ def main():
     # feat0 = nltk.data.load('grammar.pcfg', verbose=True)
     # print(feat0)
 
-    # Question 4 : use the grammar to parse grammatically wrong sentences from Cola using ViterbiParser
-    wrong_sents_cola = wrong_sentences(Cola_dev_file)
-
-    parser = ViterbiParser(grammar)
-    parser.trace(0)  # put 3 for a verbose output
+    # # Question 4 : use the grammar to parse grammatically wrong sentences from Cola using ViterbiParser
+    # wrong_sents_cola = wrong_sentences(Cola_dev_file)
+    #
+    # parser = ViterbiParser(grammar)
+    # parser.trace(0)  # put 3 for a verbose output
 
     #parse_sentences(wrong_sents_cola, grammar, parser)
 
-    # Question 5.C Analyse
-    analysis_question5_c(50, grammar, parser, wrong_sents_cola)
-
-    max_length=15
-    analysis_question5_d(max_length, grammar, parser, wrong_sents_cola)
-
-    # # Question 5.B
+    # # Question 5.C Analyse
+    # analysis_question5_c(50, grammar, parser, wrong_sents_cola)
+    #
+    # max_length=15
+    # analysis_question5_d(max_length, grammar, parser, wrong_sents_cola)
+    #
+    # # # Question 5.B
     #
     #     # longeur moyenne Cola
     # sents_cola = wrong_sentences(Cola_dev_file)
@@ -335,9 +335,10 @@ def main():
     #   #      print(tree)
     #
     # # see a tree
-    # print ( treebank.parsed_sents(treebank.fileids()[0]) )
-    # t = treebank.parsed_sents(treebank.fileids()[0])[0]
-    # t.draw()
+    print ( treebank.parsed_sents(treebank.fileids()[0]) )
+    t = treebank.parsed_sents(treebank.fileids()[0])[0]
+    draw_trees()
+
 
 if __name__ == '__main__':
     main()
