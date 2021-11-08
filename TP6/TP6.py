@@ -4,19 +4,54 @@ import os
 import time
 import matplotlib.pyplot as plt
 import random
+from pathlib import Path
+from svglib.svglib import svg2rlg
+from reportlab.graphics import renderPDF, renderPM
 
 # pip install -U spacy
 # python -m spacy download en_core_web_sm
 #  python -m spacy download en_core_web_md
 # python -m spacy download en_core_web_lg
 
+# pip install svglib
+
 BNC_folder = '1bshort/'
 
 
-def random_sentences_question2(min_length, max_length, nb_phrases):
+def render_and_save_parses_pictures_question2(sentences):
+
+    # for each sentence , we parsed with the 2 models and we save it as PDF
+    for sentence in sentences:
+        nlp = spacy.load('en_core_web_sm') # <------ MODEL 1
+        doc = nlp(sentence)
+
+        print('doc', str(doc))
+        # spacy.displacy.serve(doc, style='dep', host='localhost', port=5000) <---on the web
+        svg = displacy.render(doc, style="dep")
+        output_path = Path("./parses/" + str(doc) + "_sm.svg")
+        output_path.open("w", encoding="utf-8").write(svg)
+        # make it pdf to use in report
+        drawing = svg2rlg("./parses/" + str(doc) + "_sm.svg")
+        renderPDF.drawToFile(drawing, "./parses/" + str(doc) + "_sm.pdf")
+
+
+        nlp2 = spacy.load('en_core_web_lg')   # <------ MODEL2
+        doc2 = nlp2(sentence)
+        print('doc2', doc2)
+
+        # spacy.displacy.serve(doc2, style='dep', host='localhost', port=5001)
+
+        svg = displacy.render(doc2, style="dep")
+        output_path = Path("./parses/" + str(doc2) + "_lg.svg")
+        output_path.open("w", encoding="utf-8").write(svg)
+
+        drawing = svg2rlg("./parses/" + str(doc2) + "_lg.svg")
+        renderPDF.drawToFile(drawing, "./parses/" + str(doc2) + "_lg.pdf")
+
+def random_sentences_question2(min_length, max_length, nb_phrases ):
     rand_sentences = []
 
-    filename = os.listdir(BNC_folder)[0] #filrst file
+    filename = os.listdir(BNC_folder)[0] #first file
     print(filename)
 
     with open(BNC_folder + filename, 'r', encoding="utf8") as f:
@@ -108,19 +143,30 @@ def main():
 
 
             ###### Question 2
-    random_sentences = random_sentences_question2(min_length=5, max_length=30, nb_phrases=5 )
+    random_sentences = random_sentences_question2(min_length=5, max_length=8, nb_phrases=5 )
     print(len(random_sentences))
     print(random_sentences)
-    # test these on displacy and see
-    # some potential wrong sentences #todo: I need  5
+
     problematic_sentences = [
-         'We mourn his loss and our thoughts and prayers are with his family and friends at this very sad time .'
-          'We soon discovered that Quest was no Fred Astaire .',
-            ]
+         'We mourn his loss and our thoughts and prayers are with his family and friends at this very sad time .', #cNot correctd in lg _ mourn _ are
+            'During the study , 478 people developed dementia and 376 people developed cancer .', #corrected in lg
+            'America has endured many such false hopes in Pakistan.' , #  <--- corrected in lg
+           'They then forced open the main gates to make their escape .',# <--- corrected in lg
+           'The key point came early in the afternoon.' # <--- corrected in lg
+
+    ]
+
+    render_and_save_parses_pictures_question2(problematic_sentences)
+
+            ###### Question 3
+
 
     print( spacy.explain('NP') )
-    # doc = nlp(s)
-    # spacy.displacy.serve(doc, style='dep')
+
+
+
+
+
 
 
 if __name__ == '__main__':
