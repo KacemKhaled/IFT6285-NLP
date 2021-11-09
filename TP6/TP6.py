@@ -8,6 +8,8 @@ from pathlib import Path
 from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPDF, renderPM
 import textacy
+from collections import Counter
+
 
 # pip install -U spacy
 # python -m spacy download en_core_web_sm
@@ -15,6 +17,8 @@ import textacy
 # python -m spacy download en_core_web_lg
 
 # pip install svglib
+#pip install wordcloud
+from wordcloud import WordCloud
 
 BNC_folder = '1bshort/'
 
@@ -176,6 +180,18 @@ def plot(times_sm, times_md, times_lg, nb_phrases, title, xlabel, ylabel, name_f
     plt.savefig(f"plots/"+name_fig+".eps", format="eps")
 
 
+def create_word_cloud(text , figure_name):
+
+    # Create and generate a word cloud image:
+    wordcloud = WordCloud(background_color="white").generate(text)
+
+    # Display the generated image:
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis("off")
+    plt.savefig(f"plots/cloud_"+figure_name+".png", format='png')
+    plt.savefig(f"plots/cloud_"+figure_name+".eps", format='eps')
+
+
 def main():
             ###### Question 1
     # times_sm , nb_phrases_sm = analysis_question1('en_core_web_sm')
@@ -213,66 +229,109 @@ def main():
 
             ###### Question 3
 
-    nb_tuples_sm , nb_phrases_sm , all_tuples_sm = analysis_question3('en_core_web_sm')
-    nb_tuples_md , nb_phrases_md , all_tuples_md = analysis_question3('en_core_web_md')
-    nb_tuples_lg , nb_phrases_lg , all_tuples_lg = analysis_question3('en_core_web_lg')
+    # nb_tuples_sm , nb_phrases_sm , all_tuples_sm = analysis_question3('en_core_web_sm')
+    # nb_tuples_md , nb_phrases_md , all_tuples_md = analysis_question3('en_core_web_md')
+    # nb_tuples_lg , nb_phrases_lg , all_tuples_lg = analysis_question3('en_core_web_lg')
+    #
+    # assert nb_phrases_md == nb_phrases_lg
+    # assert nb_phrases_sm == nb_phrases_md
+    #
+    # assert len(nb_tuples_sm) == len(nb_tuples_md)
+    # assert len(nb_tuples_md) == len(nb_tuples_lg)
+    #
+    # assert nb_phrases_sm + 1 == len(nb_tuples_sm)
+    #
+    # plot(nb_tuples_sm, nb_tuples_md, nb_tuples_lg, nb_phrases_sm, "Le nombre de triplets acquis en fonction du nombre de phrases considérées", \
+    #          "Nombre de phrases considérées" , "Le nombre de triplets acquis" , "courbe-analyse_triplets" )
+    #
+    #
+    #
+    # print('length of the tuples list:')
+    # print(len(all_tuples_sm))
+    # print(len(all_tuples_md))
+    # print(len(all_tuples_lg))
+    #
+    # print('Is all_tuples_sm inclus in all_tuples_md ?' )
+    # print( all(x in all_tuples_md for x in all_tuples_sm)  )
+    #
+    # print('Is all_tuples_md inclus in all_tuples_lg ?')
+    # print(all(x in all_tuples_lg for x in all_tuples_md))
+    #
+    # print('Intersection between all_tuples_sm and all_tuples_md :')
+    # print( len( [x for x in all_tuples_sm if x in all_tuples_md ]) )
+    #
+    # print('Intersection between all_tuples_md and all_tuples_lg :')
+    # print(  len([x for x in all_tuples_md if x in all_tuples_lg ]))
+    #
+    # print('Intersection between all_tuples_sm and all_tuples_lg :')
+    # print(len([ x for x in all_tuples_sm if x in all_tuples_lg ]))
+    #
+    # print('Intersection between 3 models :')
+    # print(len([ x  for x in all_tuples_sm if ( x in all_tuples_lg and x in all_tuples_md ) ] ))
+    #
+    # # save the tuples in a files:
+    # with open('tuples_sm.txt', 'w', encoding='utf-8') as f1:
+    #         for tuple in all_tuples_sm:
+    #             f1.write('%s\n' % str(tuple))
+    # f1.close()
+    #
+    # with open('tuples_md.txt', 'w', encoding='utf-8') as f2:
+    #     for tuple in all_tuples_md:
+    #         f2.write('%s\n' % str(tuple))
+    # f2.close()
+    #
+    # with open('tuples_lg.txt', 'w', encoding='utf-8') as f3:
+    #     for tuple in all_tuples_lg:
+    #         f3.write('%s\n' % str(tuple))
+    # f3.close()
 
-    assert nb_phrases_md == nb_phrases_lg
-    assert nb_phrases_sm == nb_phrases_md
 
-    assert len(nb_tuples_sm) == len(nb_tuples_md)
-    assert len(nb_tuples_md) == len(nb_tuples_lg)
+            ####### Question4 : file md
 
-    assert nb_phrases_sm + 1 == len(nb_tuples_sm)
-
-    plot(nb_tuples_sm, nb_tuples_md, nb_tuples_lg, nb_phrases_sm, "Le nombre de triplets acquis en fonction du nombre de phrases considérées", \
-             "Nombre de phrases considérées" , "Le nombre de triplets acquis" , "courbe-analyse_triplets" )
-
-
-                ####### Question4
-    print('length of the tuples list:')
-    print(len(all_tuples_sm))
-    print(len(all_tuples_md))
-    print(len(all_tuples_lg))
-
-    print('Is all_tuples_sm inclus in all_tuples_md ?' )
-    print( all(x in all_tuples_md for x in all_tuples_sm)  )
-
-    print('Is all_tuples_md inclus in all_tuples_lg ?')
-    print(all(x in all_tuples_lg for x in all_tuples_md))
-
-    print('Intersection between all_tuples_sm and all_tuples_md :')
-    print( len( [x for x in all_tuples_sm if x in all_tuples_md ]) )
-
-    print('Intersection between all_tuples_md and all_tuples_lg :')
-    print(  len([x for x in all_tuples_md if x in all_tuples_lg ]))
-
-    print('Intersection between all_tuples_sm and all_tuples_lg :')
-    print(len([ x for x in all_tuples_sm if x in all_tuples_lg ]))
-
-    print('Intersection between 3 models :')
-    print(len([ x  for x in all_tuples_sm if ( x in all_tuples_lg and x in all_tuples_md ) ] ))
-
-    # save the tuples in a files:
-    with open('tuples_sm.txt', 'w', encoding='utf-8') as f1:
-            for tuple in all_tuples_sm:
-                f1.write('%s\n' % str(tuple))
+   # load les triplets md
+    with open('tuples_md.txt', 'r', encoding='utf-8') as f1:
+        sentences = f1.readlines()
     f1.close()
 
-    with open('tuples_md.txt', 'w', encoding='utf-8') as f2:
-        for tuple in all_tuples_md:
-            f2.write('%s\n' % str(tuple))
-    f2.close()
+    #extract some informations
+    infos = {'man':[], 'woman':[], 'teacher':[], 'student':[]}
+    for s in sentences:
+        s = s.replace('(', '').replace(')', '').replace(',', '').replace("'","").replace('\n', '')
+        print(s)
+        if s.split(' ')[0] == 'man':
+            infos['man'].append(s.split(' ')[1] + " " + s.split(' ')[2])
 
-    with open('tuples_lg.txt', 'w', encoding='utf-8') as f3:
-        for tuple in all_tuples_lg:
-            f3.write('%s\n' % str(tuple))
-    f3.close()
+        if s.split(' ')[0] == 'woman':
+                infos['woman'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+
+        if s.split(' ')[0] == 'teacher':
+            infos['teacher'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+
+        if s.split(' ')[0] == 'student':
+            infos['student'].append(s.split(' ')[1] + " " + s.split(' ')[2])
 
 
-    #todo: maybe a viz,
-            # https://towardsdatascience.com/mining-an-economic-news-article-using-pre-trained-language-models-f75af041ecf0
-            #
+    print(infos)
+    print( 'Man:', Counter(infos['man']) )
+    print( 'Woman:', Counter(infos['woman']))
+    print('teacher:', Counter(infos['teacher']))
+    print('Student:', Counter(infos['student']))
+
+    #### create word clouds
+
+    text_man = " ".join(infos['man']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_man, 'man')
+
+    text_woman = " ".join(infos['woman']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_woman, 'woman')
+
+    text_teacher = " ".join(infos['teacher']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_teacher, 'teacher')
+
+    text_student = " ".join(infos['student']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_student, 'student')
+
+
                  ####### Others
 
     # nlp = spacy.load('en_core_web_sm')
