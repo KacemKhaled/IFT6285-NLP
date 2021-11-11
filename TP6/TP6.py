@@ -10,6 +10,11 @@ from reportlab.graphics import renderPDF, renderPM
 import textacy
 from collections import Counter
 
+# work done by:
+# # kacem khaled
+# # Mouna Dhaouadi
+
+
 
 # pip install -U spacy
 # python -m spacy download en_core_web_sm
@@ -18,6 +23,8 @@ from collections import Counter
 
 # pip install svglib
 #pip install wordcloud
+
+
 from wordcloud import WordCloud
 
 BNC_folder = '1bshort/'
@@ -289,49 +296,63 @@ def main():
 
             ####### Question4 : file md
 
-   # # load les triplets md
-   #  with open('tuples_md.txt', 'r', encoding='utf-8') as f1:
-   #      sentences = f1.readlines()
-   #  f1.close()
-   #
-   #  #extract some informations
-   #  infos = {'man':[], 'woman':[], 'teacher':[], 'student':[]}
-   #  for s in sentences:
-   #      s = s.replace('(', '').replace(')', '').replace(',', '').replace("'","").replace('\n', '')
-   #      print(s)
-   #      if s.split(' ')[0] == 'man':
-   #          infos['man'].append(s.split(' ')[1] + " " + s.split(' ')[2])
-   #
-   #      if s.split(' ')[0] == 'woman':
-   #              infos['woman'].append(s.split(' ')[1] + " " + s.split(' ')[2])
-   #
-   #      if s.split(' ')[0] == 'teacher':
-   #          infos['teacher'].append(s.split(' ')[1] + " " + s.split(' ')[2])
-   #
-   #      if s.split(' ')[0] == 'student':
-   #          infos['student'].append(s.split(' ')[1] + " " + s.split(' ')[2])
-   #
-   #
-   #  print(infos)
-   #  print( 'Man:', Counter(infos['man']) )
-   #  print( 'Woman:', Counter(infos['woman']))
-   #  print('teacher:', Counter(infos['teacher']))
-   #  print('Student:', Counter(infos['student']))
-   #
-   #  #### create word clouds
-   #
-   #  text_man = " ".join(infos['man']).replace('PROPN', '')  # remove PROPN
-   #  create_word_cloud(text_man, 'man')
-   #
-   #  text_woman = " ".join(infos['woman']).replace('PROPN', '')  # remove PROPN
-   #  create_word_cloud(text_woman, 'woman')
-   #
-   #  text_teacher = " ".join(infos['teacher']).replace('PROPN', '')  # remove PROPN
-   #  create_word_cloud(text_teacher, 'teacher')
-   #
-   #  text_student = " ".join(infos['student']).replace('PROPN', '')  # remove PROPN
-   #  create_word_cloud(text_student, 'student')
+   # load les triplets md
+    with open('tuples_md.txt', 'r', encoding='utf-8') as f1:
+        sentences = f1.readlines()
+    f1.close()
 
+    #extract some informations
+    infos = {'man':[], 'woman':[], 'teacher':[], 'student':[], 'girl':[], 'boy':[]}
+    for s in sentences:
+        s = s.replace('(', '').replace(')', '').replace(',', '').replace("'","").replace('\n', '')
+        print(s)
+        if s.split(' ')[0] == 'man':
+            infos['man'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+
+        if s.split(' ')[0] == 'woman':
+                infos['woman'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+
+        if s.split(' ')[0] == 'teacher':
+            infos['teacher'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+
+        if s.split(' ')[0] == 'student':
+            infos['student'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+
+        if s.split(' ')[0] == 'girl':
+           infos['girl'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+
+        if s.split(' ')[0] == 'boy':
+           infos['boy'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+
+
+
+    print(infos)
+    print( 'Man:', Counter(infos['man']) )
+    print( 'Woman:', Counter(infos['woman']))
+    print('teacher:', Counter(infos['teacher']))
+    print('Student:', Counter(infos['student']))
+    print('Girl:', Counter(infos['girl']))
+    print('Boy:', Counter(infos['boy']))
+
+    #### create word clouds
+
+    text_man = " ".join(infos['man']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_man, 'man')
+
+    text_woman = " ".join(infos['woman']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_woman, 'woman')
+
+    text_teacher = " ".join(infos['teacher']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_teacher, 'teacher')
+
+    text_student = " ".join(infos['student']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_student, 'student')
+
+    text_girl = " ".join(infos['girl']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_girl, 'girl')
+
+    text_boy = " ".join(infos['boy']).replace('PROPN', '')  # remove PROPN
+    create_word_cloud(text_boy, 'boy')
 
                  ####### Others
 
