@@ -302,7 +302,7 @@ def main():
     f1.close()
 
     #extract some informations
-    infos = {'man':[], 'woman':[], 'teacher':[], 'student':[], 'girl':[], 'boy':[]}
+    infos = {'man':[], 'woman':[], 'teacher':[], 'student':[], 'girl':[], 'boy':[], 'police':[]}
     for s in sentences:
         s = s.replace('(', '').replace(')', '').replace(',', '').replace("'","").replace('\n', '')
         print(s)
@@ -324,6 +324,8 @@ def main():
         if s.split(' ')[0] == 'boy':
            infos['boy'].append(s.split(' ')[1] + " " + s.split(' ')[2])
 
+        if s.split(' ')[0] == 'police':
+            infos['police'].append(s.split(' ')[1] + "_" + s.split(' ')[2])  #police, consider bigrams
 
 
     print(infos)
@@ -333,6 +335,7 @@ def main():
     print('Student:', Counter(infos['student']))
     print('Girl:', Counter(infos['girl']))
     print('Boy:', Counter(infos['boy']))
+    print('Police:', Counter(infos['police']))
 
     #### create word clouds
 
@@ -353,6 +356,15 @@ def main():
 
     text_boy = " ".join(infos['boy']).replace('PROPN', '')  # remove PROPN
     create_word_cloud(text_boy, 'boy')
+
+    text_police = " ".join(infos['police']).replace('PROPN', '')  # remove PROPN
+    print( text_police.__contains__('help') )
+    print(text_police.__contains__('rescue'))
+    print(text_police.__contains__('first aid'))
+    print(text_police.__contains__('CPR'))
+    print(text_police.__contains__('suspect'))
+
+    create_word_cloud(text_police, 'police')
 
                  ####### Others
 
