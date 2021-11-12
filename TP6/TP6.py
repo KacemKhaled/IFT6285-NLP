@@ -11,15 +11,16 @@ import textacy
 from collections import Counter
 
 # work done by:
-# # kacem khaled
+# # Kacem Khaled
 # # Mouna Dhaouadi
 
 
 
 # pip install -U spacy
 # python -m spacy download en_core_web_sm
-#  python -m spacy download en_core_web_md
+# python -m spacy download en_core_web_md
 # python -m spacy download en_core_web_lg
+# python -m spacy download en_core_web_trf
 
 # pip install svglib
 #pip install wordcloud
@@ -125,7 +126,7 @@ def random_sentences_question2(min_length, max_length, nb_phrases ):
         while( len(rand_sentences) < nb_phrases) :
 
             s = random.choice(sentences)
-            while (len ( s.split() ) < min_length or  len(s.split()) > max_length   ):
+            while (len ( s.split() ) < min_length or  len(s.split()) > max_length  or " 's " not in s or " in " not in s ) :
                 s = random.choice(sentences)
 
             rand_sentences.append(s)
@@ -153,7 +154,7 @@ def analysis_question1(model_name):
             corpus = f.read()  # TRANCHE
             sentences = corpus.split('\n')  # phrases in the tranche
 
-            print(len(sentences))
+            if i%500 ==0 : print(len(sentences))
 
             for s in sentences:
                 i = i +1
@@ -161,7 +162,7 @@ def analysis_question1(model_name):
                 doc = nlp(s)
                 t = time.time() - start_time
                 times.append( times[i-1] + t )
-                print(i)
+                if i%500 ==0 : print(i)
 
                 if i== 50000: break  # stop at 50000 phrases 2/2
 
@@ -199,118 +200,113 @@ def create_word_cloud(text , figure_name):
     plt.savefig(f"plots/cloud_"+figure_name+".png", format='png')
     plt.savefig(f"plots/cloud_"+figure_name+".eps", format='eps')
 
+def q1():
+    times_sm , nb_phrases_sm = analysis_question1('en_core_web_sm')
+    times_md , nb_phrases_md = analysis_question1('en_core_web_md')
+    times_lg , nb_phrases_lg = analysis_question1('en_core_web_lg')
 
-def main():
-            ###### Question 1
-    # times_sm , nb_phrases_sm = analysis_question1('en_core_web_sm')
-    # times_md , nb_phrases_md = analysis_question1('en_core_web_md')
-    # times_lg , nb_phrases_lg = analysis_question1('en_core_web_lg')
-    #
-    # assert nb_phrases_md == nb_phrases_lg
-    # assert nb_phrases_sm == nb_phrases_md
-    #
-    # assert len(times_sm) == len(times_lg)
-    # assert len(times_lg) == len(times_md)
-    #
-    # assert nb_phrases_sm + 1 == len(times_sm)
-    #
-    # plot(times_sm, times_md, times_lg, nb_phrases_sm, "Le temps d'amalyse en fonction du nombre de phrases considérées", \
-            # "Nombre de phrases considérées" , "Le temps d'analyse (en sec)" , "courbe-analyse_temps" )
+    assert nb_phrases_md == nb_phrases_lg
+    assert nb_phrases_sm == nb_phrases_md
 
+    assert len(times_sm) == len(times_lg)
+    assert len(times_lg) == len(times_md)
 
-            ###### Question 2
-    # random_sentences = random_sentences_question2(min_length=5, max_length=8, nb_phrases=5 )
-    # print(len(random_sentences))
-    # print(random_sentences)
-    #
-    # problematic_sentences = [
-    #      'We mourn his loss and our thoughts and prayers are with his family and friends at this very sad time .', #cNot correctd in lg _ mourn _ are
-    #         'During the study , 478 people developed dementia and 376 people developed cancer .', #corrected in lg
-    #         'America has endured many such false hopes in Pakistan.' , #  <--- corrected in lg
-    #        'They then forced open the main gates to make their escape .',# <--- corrected in lg
-    #        'The key point came early in the afternoon.' # <--- corrected in lg
-    #
-    # ]
-    #
-    # render_and_save_parses_pictures_question2(problematic_sentences)
+    assert nb_phrases_sm + 1 == len(times_sm)
 
+    plot(times_sm, times_md, times_lg, nb_phrases_sm, "Le temps d'amalyse en fonction du nombre de phrases considérées", \
+    "Nombre de phrases considérées" , "Le temps d'analyse (en sec)" , "courbe-analyse_temps" )
 
-            ###### Question 3
+def q2():
+    random_sentences = random_sentences_question2(min_length=5, max_length=8, nb_phrases=5)
+    print(len(random_sentences))
+    print(random_sentences)
 
-    # nb_tuples_sm , nb_phrases_sm , all_tuples_sm = analysis_question3('en_core_web_sm')
-    # nb_tuples_md , nb_phrases_md , all_tuples_md = analysis_question3('en_core_web_md')
-    # nb_tuples_lg , nb_phrases_lg , all_tuples_lg = analysis_question3('en_core_web_lg')
-    #
-    # assert nb_phrases_md == nb_phrases_lg
-    # assert nb_phrases_sm == nb_phrases_md
-    #
-    # assert len(nb_tuples_sm) == len(nb_tuples_md)
-    # assert len(nb_tuples_md) == len(nb_tuples_lg)
-    #
-    # assert nb_phrases_sm + 1 == len(nb_tuples_sm)
-    #
-    # plot(nb_tuples_sm, nb_tuples_md, nb_tuples_lg, nb_phrases_sm, "Le nombre de triplets acquis en fonction du nombre de phrases considérées", \
-    #          "Nombre de phrases considérées" , "Le nombre de triplets acquis" , "courbe-analyse_triplets" )
-    #
-    #
-    #
-    # print('length of the tuples list:')
-    # print(len(all_tuples_sm))
-    # print(len(all_tuples_md))
-    # print(len(all_tuples_lg))
-    #
-    # print('Is all_tuples_sm inclus in all_tuples_md ?' )
-    # print( all(x in all_tuples_md for x in all_tuples_sm)  )
-    #
-    # print('Is all_tuples_md inclus in all_tuples_lg ?')
-    # print(all(x in all_tuples_lg for x in all_tuples_md))
-    #
-    # print('Intersection between all_tuples_sm and all_tuples_md :')
-    # print( len( [x for x in all_tuples_sm if x in all_tuples_md ]) )
-    #
-    # print('Intersection between all_tuples_md and all_tuples_lg :')
-    # print(  len([x for x in all_tuples_md if x in all_tuples_lg ]))
-    #
-    # print('Intersection between all_tuples_sm and all_tuples_lg :')
-    # print(len([ x for x in all_tuples_sm if x in all_tuples_lg ]))
-    #
-    # print('Intersection between 3 models :')
-    # print(len([ x  for x in all_tuples_sm if ( x in all_tuples_lg and x in all_tuples_md ) ] ))
-    #
-    # # save the tuples in a files:
-    # with open('tuples_sm.txt', 'w', encoding='utf-8') as f1:
-    #         for tuple in all_tuples_sm:
-    #             f1.write('%s\n' % str(tuple))
-    # f1.close()
-    #
-    # with open('tuples_md.txt', 'w', encoding='utf-8') as f2:
-    #     for tuple in all_tuples_md:
-    #         f2.write('%s\n' % str(tuple))
-    # f2.close()
-    #
-    # with open('tuples_lg.txt', 'w', encoding='utf-8') as f3:
-    #     for tuple in all_tuples_lg:
-    #         f3.write('%s\n' % str(tuple))
-    # f3.close()
+    problematic_sentences = [
+        "LeBron 's can go in summer storage .", "That 's what people come in for .",
+        "It 's in it 's fifth printing .",
+        'We mourn his loss and our thoughts and prayers are with his family and friends at this very sad time .',
+        # cNot correctd in lg _ mourn _ are
+        'During the study , 478 people developed dementia and 376 people developed cancer .',  # corrected in lg
+        'America has endured many such false hopes in Pakistan.',  # <--- corrected in lg
+        'They then forced open the main gates to make their escape .',  # <--- corrected in lg
+        'The key point came early in the afternoon.'  # <--- corrected in lg
 
+    ]
 
-            ####### Question4 : file md
+    render_and_save_parses_pictures_question2(problematic_sentences)
 
-   # load les triplets md
+def q3():
+    nb_tuples_sm, nb_phrases_sm, all_tuples_sm = analysis_question3('en_core_web_sm')
+    nb_tuples_md, nb_phrases_md, all_tuples_md = analysis_question3('en_core_web_md')
+    nb_tuples_lg, nb_phrases_lg, all_tuples_lg = analysis_question3('en_core_web_lg')
+
+    assert nb_phrases_md == nb_phrases_lg
+    assert nb_phrases_sm == nb_phrases_md
+
+    assert len(nb_tuples_sm) == len(nb_tuples_md)
+    assert len(nb_tuples_md) == len(nb_tuples_lg)
+
+    assert nb_phrases_sm + 1 == len(nb_tuples_sm)
+
+    plot(nb_tuples_sm, nb_tuples_md, nb_tuples_lg, nb_phrases_sm,
+         "Le nombre de triplets acquis en fonction du nombre de phrases considérées", \
+         "Nombre de phrases considérées", "Le nombre de triplets acquis", "courbe-analyse_triplets")
+
+    print('length of the tuples list:')
+    print(len(all_tuples_sm))
+    print(len(all_tuples_md))
+    print(len(all_tuples_lg))
+
+    print('Is all_tuples_sm inclus in all_tuples_md ?')
+    print(all(x in all_tuples_md for x in all_tuples_sm))
+
+    print('Is all_tuples_md inclus in all_tuples_lg ?')
+    print(all(x in all_tuples_lg for x in all_tuples_md))
+
+    print('Intersection between all_tuples_sm and all_tuples_md :')
+    print(len([x for x in all_tuples_sm if x in all_tuples_md]))
+
+    print('Intersection between all_tuples_md and all_tuples_lg :')
+    print(len([x for x in all_tuples_md if x in all_tuples_lg]))
+
+    print('Intersection between all_tuples_sm and all_tuples_lg :')
+    print(len([x for x in all_tuples_sm if x in all_tuples_lg]))
+
+    print('Intersection between 3 models :')
+    print(len([x for x in all_tuples_sm if (x in all_tuples_lg and x in all_tuples_md)]))
+
+    # save the tuples in a files:
+    with open('tuples_sm.txt', 'w', encoding='utf-8') as f1:
+        for tuple in all_tuples_sm:
+            f1.write('%s\n' % str(tuple))
+    f1.close()
+
+    with open('tuples_md.txt', 'w', encoding='utf-8') as f2:
+        for tuple in all_tuples_md:
+            f2.write('%s\n' % str(tuple))
+    f2.close()
+
+    with open('tuples_lg.txt', 'w', encoding='utf-8') as f3:
+        for tuple in all_tuples_lg:
+            f3.write('%s\n' % str(tuple))
+    f3.close()
+
+def q4():
+    # load les triplets md
     with open('tuples_md.txt', 'r', encoding='utf-8') as f1:
         sentences = f1.readlines()
     f1.close()
 
-    #extract some informations
-    infos = {'man':[], 'woman':[], 'teacher':[], 'student':[], 'girl':[], 'boy':[], 'police':[]}
+    # extract some informations
+    infos = {'man': [], 'woman': [], 'teacher': [], 'student': [], 'girl': [], 'boy': [], 'police': []}
     for s in sentences:
-        s = s.replace('(', '').replace(')', '').replace(',', '').replace("'","").replace('\n', '')
+        s = s.replace('(', '').replace(')', '').replace(',', '').replace("'", "").replace('\n', '')
         print(s)
         if s.split(' ')[0] == 'man':
             infos['man'].append(s.split(' ')[1] + " " + s.split(' ')[2])
 
         if s.split(' ')[0] == 'woman':
-                infos['woman'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+            infos['woman'].append(s.split(' ')[1] + " " + s.split(' ')[2])
 
         if s.split(' ')[0] == 'teacher':
             infos['teacher'].append(s.split(' ')[1] + " " + s.split(' ')[2])
@@ -319,18 +315,17 @@ def main():
             infos['student'].append(s.split(' ')[1] + " " + s.split(' ')[2])
 
         if s.split(' ')[0] == 'girl':
-           infos['girl'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+            infos['girl'].append(s.split(' ')[1] + " " + s.split(' ')[2])
 
         if s.split(' ')[0] == 'boy':
-           infos['boy'].append(s.split(' ')[1] + " " + s.split(' ')[2])
+            infos['boy'].append(s.split(' ')[1] + " " + s.split(' ')[2])
 
         if s.split(' ')[0] == 'police':
-            infos['police'].append(s.split(' ')[1] + "_" + s.split(' ')[2])  #police, consider bigrams
-
+            infos['police'].append(s.split(' ')[1] + "_" + s.split(' ')[2])  # police, consider bigrams
 
     print(infos)
-    print( 'Man:', Counter(infos['man']) )
-    print( 'Woman:', Counter(infos['woman']))
+    print('Man:', Counter(infos['man']))
+    print('Woman:', Counter(infos['woman']))
     print('teacher:', Counter(infos['teacher']))
     print('Student:', Counter(infos['student']))
     print('Girl:', Counter(infos['girl']))
@@ -358,7 +353,7 @@ def main():
     create_word_cloud(text_boy, 'boy')
 
     text_police = " ".join(infos['police']).replace('PROPN', '')  # remove PROPN
-    print( text_police.__contains__('help') )
+    print(text_police.__contains__('help'))
     print(text_police.__contains__('rescue'))
     print(text_police.__contains__('first aid'))
     print(text_police.__contains__('CPR'))
@@ -366,7 +361,7 @@ def main():
 
     create_word_cloud(text_police, 'police')
 
-                 ####### Others
+    ####### Others
 
     # nlp = spacy.load('en_core_web_sm')
     #
@@ -406,12 +401,33 @@ def main():
 
     # print('selected_tuples: ', selected_tupes)
 
+def explain(word):
+    print(word, spacy.explain(word))
 
-    print('NP:', spacy.explain('NP'))
-    print('NNP:', spacy.explain('NNP'))
-    print('PRP:', spacy.explain('PRP'))
-    print('PROPN', spacy.explain('PROPN'))
-    print('ADP', spacy.explain('ADP'))
+def main():
+    ###### Question 1
+    # q1()
+    ###### Question 2
+    # q2()
+
+
+    ###### Question 3
+    # q3()
+    ####### Question4 : file md
+    # q4()
+    # print('conj', spacy.explain('conj'))
+    explain('AUX')
+    explain('NP')
+    explain('NNP')
+    explain('PRP')
+    explain('PROPN')
+    explain('ADP')
+    explain('AUX')
+    explain('parataxis')
+    explain('ccomp')
+    explain('advmod')
+    explain('prt')
+
 
 
 if __name__ == '__main__':
