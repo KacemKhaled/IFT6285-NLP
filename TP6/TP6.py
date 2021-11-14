@@ -9,7 +9,8 @@ from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPDF, renderPM
 import textacy
 from collections import Counter
-
+from tqdm import tqdm
+import torch
 # work done by:
 # # Kacem Khaled
 # # Mouna Dhaouadi
@@ -39,6 +40,7 @@ def analysis_question3(model_name):
     all_tuples = [] # <--- need this for Q4
 
     # load the model
+    spacy.prefer_gpu()
     nlp = spacy.load(model_name)
 
     # go through all 1bshort folder
@@ -54,7 +56,7 @@ def analysis_question3(model_name):
 
             print(len(sentences))
 
-            for s in sentences:
+            for s in tqdm(sentences):
                 i = i + 1
                 selected_tuples = []
 
@@ -72,7 +74,7 @@ def analysis_question3(model_name):
 
                 all_tuples.extend(selected_tuples)
                 nb_triplets_acquis.append(nb_triplets_acquis[i - 1] + len(selected_tuples))
-                print(i)
+                # print(i)
 
                 if i == 50000: break  # stop at 50000 phrases 2/2
 
@@ -135,17 +137,18 @@ def random_sentences_question2(min_length, max_length, nb_phrases ):
 
 
 def analysis_question1(model_name):
-
+    max_sentences = 50000
     times = []
     i = 0 #  nombre des phrases analysees
     times.append(0) # when analyse 0 phrases, time is 0
 
     #load the model
+    spacy.prefer_gpu()
     nlp = spacy.load(model_name)
 
     #go through all 1bshort folder
     for filename in os.listdir(BNC_folder):
-        if i == 50000: break  # stop at 50000 phrases 1/2
+        if i == max_sentences: break  # stop at 50000 phrases 1/2
 
         print(filename)
 
@@ -155,14 +158,15 @@ def analysis_question1(model_name):
             sentences = corpus.split('\n')  # phrases in the tranche
 
             if i%500 ==0 : print(len(sentences))
+            if len(sentences) > max_sentences: sentences=sentences[:max_sentences]
 
-            for s in sentences:
+            for s in tqdm(sentences):
                 i = i +1
                 start_time = time.time()
                 doc = nlp(s)
                 t = time.time() - start_time
                 times.append( times[i-1] + t )
-                if i%500 ==0 : print(i)
+                # if i%500 ==0 : print(i)
 
                 if i== 50000: break  # stop at 50000 phrases 2/2
 
@@ -412,7 +416,7 @@ def main():
 
 
     ###### Question 3
-    # q3()
+    q3()
     ####### Question4 : file md
     # q4()
     # print('conj', spacy.explain('conj'))

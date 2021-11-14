@@ -25,12 +25,12 @@
 </text>
 
 <text class="displacy-token" fill="currentColor" text-anchor="middle" font-size="40px" y="309.5">
-    <tspan class="displacy-word" fill="currentColor" x="925">developed</tspan>
+    <tspan class="displacy-word" fill="currentColor" x="920">developed</tspan>
     <tspan class="displacy-tag" dy="2em" fill="currentColor" x="925">VERB</tspan>
 </text>
 
 <text class="displacy-token" fill="currentColor" text-anchor="middle" font-size="40px" y="309.5">
-    <tspan class="displacy-word" fill="currentColor" x="1100">dementia</tspan>
+    <tspan class="displacy-word" fill="currentColor" x="1110">dementia</tspan>
     <tspan class="displacy-tag" dy="2em" fill="currentColor" x="1100">NOUN</tspan>
 </text>
 
