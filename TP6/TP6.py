@@ -1,3 +1,29 @@
+"""
+Readme:
+Installation:
+
+pip install -U pip setuptools wheel
+
+# GPU 
+pip install -U spacy[cuda101]
+
+# CPU
+pip install -U spacy
+
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_md
+python -m spacy download en_core_web_lg
+python -m spacy download en_core_web_trf
+
+pip install svglib
+pip install wordcloud
+pip install textacy
+
+"""
+
+__author__ = "Kacem Khaled and Mouna Dhaouadi"
+__status__ = "Development"
+
 import spacy
 from spacy import displacy
 import os
@@ -6,25 +32,17 @@ import matplotlib.pyplot as plt
 import random
 from pathlib import Path
 from svglib.svglib import svg2rlg
-from reportlab.graphics import renderPDF, renderPM
+# from reportlab.graphics import renderPDF, renderPM
 import textacy
 from collections import Counter
 from tqdm import tqdm
 import torch
-# work done by:
-# # Kacem Khaled
-# # Mouna Dhaouadi
+import pandas as pd
 
+MAX_SENTENCES = 100000
 
+print(f"GPU Available: {torch.cuda.is_available()}")
 
-# pip install -U spacy
-# python -m spacy download en_core_web_sm
-# python -m spacy download en_core_web_md
-# python -m spacy download en_core_web_lg
-# python -m spacy download en_core_web_trf
-
-# pip install svglib
-#pip install wordcloud
 
 
 from wordcloud import WordCloud
@@ -32,7 +50,7 @@ from wordcloud import WordCloud
 BNC_folder = '1bshort/'
 
 
-def analysis_question3(model_name):
+def analysis_question3(model_name,gpu=False):
     nb_triplets_acquis = []
     i = 0  # nombre des phrases analysees
     nb_triplets_acquis.append(0)  # when analyse 0 phrases, nb_triplets_acquis is 0
@@ -40,12 +58,18 @@ def analysis_question3(model_name):
     all_tuples = [] # <--- need this for Q4
 
     # load the model
-    spacy.prefer_gpu()
+    
+    activated = False
+    if gpu: activated =  spacy.prefer_gpu()
+    print(f"GPU Used: {activated}")
+    # spacy.require_gpu()
+
     nlp = spacy.load(model_name)
 
     # go through all 1bshort folder
     for filename in os.listdir(BNC_folder):
-        if i == 50000: break  # stop at 50000 phrases 1/2
+        max_sentences = MAX_SENTENCES
+        if i == max_sentences: break  # stop at 50000 phrases 1/2
 
         print(filename)
 
@@ -54,7 +78,8 @@ def analysis_question3(model_name):
             corpus = f.read()  # TRANCHE
             sentences = corpus.split('\n')  # phrases in the tranche
 
-            print(len(sentences))
+            print(f"File: {filename}\thas: {len(sentences)} sentences")
+            if len(sentences) > max_sentences-i: sentences=sentences[:max_sentences-i]
 
             for s in tqdm(sentences):
                 i = i + 1
@@ -76,7 +101,7 @@ def analysis_question3(model_name):
                 nb_triplets_acquis.append(nb_triplets_acquis[i - 1] + len(selected_tuples))
                 # print(i)
 
-                if i == 50000: break  # stop at 50000 phrases 2/2
+                if i == max_sentences: break  # stop at 50000 phrases 2/2
 
     print(f"nb des tuples in {i} phrases analysee for model {model_name}")
     return nb_triplets_acquis, i , all_tuples
@@ -96,7 +121,7 @@ def render_and_save_parses_pictures_question2(sentences):
         output_path.open("w", encoding="utf-8").write(svg)
         # make it pdf to use in report
         drawing = svg2rlg("./parses/" + str(doc) + "_sm.svg")
-        renderPDF.drawToFile(drawing, "./parses/" + str(doc) + "_sm.pdf")
+        # renderPDF.drawToFile(drawing, "./parses/" + str(doc) + "_sm.pdf")
 
 
         nlp2 = spacy.load('en_core_web_lg')   # <------ MODEL2
@@ -136,14 +161,19 @@ def random_sentences_question2(min_length, max_length, nb_phrases ):
     return rand_sentences
 
 
-def analysis_question1(model_name):
-    max_sentences = 50000
+
+def analysis_question1(model_name, gpu=False):
+    max_sentences = MAX_SENTENCES
     times = []
     i = 0 #  nombre des phrases analysees
     times.append(0) # when analyse 0 phrases, time is 0
 
-    #load the model
-    spacy.prefer_gpu()
+    # load the model
+    activated = False
+    if gpu: activated =  spacy.prefer_gpu()
+    print(f"GPU Used: {activated}")
+    # spacy.require_gpu()
+
     nlp = spacy.load(model_name)
 
     #go through all 1bshort folder
@@ -157,8 +187,8 @@ def analysis_question1(model_name):
             corpus = f.read()  # TRANCHE
             sentences = corpus.split('\n')  # phrases in the tranche
 
-            if i%500 ==0 : print(len(sentences))
-            if len(sentences) > max_sentences: sentences=sentences[:max_sentences]
+            print(f"File: {filename}\thas: {len(sentences)} sentences")
+            if len(sentences) > max_sentences-i: sentences=sentences[:max_sentences-i]
 
             for s in tqdm(sentences):
                 i = i +1
@@ -167,20 +197,23 @@ def analysis_question1(model_name):
                 t = time.time() - start_time
                 times.append( times[i-1] + t )
                 # if i%500 ==0 : print(i)
+                if i%1000 ==0: pd.DataFrame(times, columns=[f"times_{model_name[11:]}"]).to_csv(f"times_{model_name[11:]}.csv",encoding='utf-8')
+                
 
-                if i== 50000: break  # stop at 50000 phrases 2/2
-
+                if i== max_sentences: break  # stop at 50000 phrases 2/2
+    pd.DataFrame(times, columns=[f"times_{model_name[11:]}"]).to_csv(f"times_{model_name[11:]}.csv",encoding='utf-8')
     print(f"nb des phrases analysee : { i }  for model {model_name}" )
     return times, i
 
 
-def plot(times_sm, times_md, times_lg, nb_phrases, title, xlabel, ylabel, name_fig):
+def plot(times_sm, times_md, times_lg, times_trf, nb_phrases, title, xlabel, ylabel, name_fig):
     print('Creating the figure')
 
     plt.figure(figsize=(9, 6))
     plt.plot(range(nb_phrases +1 ), times_sm, label='en_core_web_sm')
     plt.plot(range(nb_phrases + 1), times_md, label='en_core_web_md')
     plt.plot(range(nb_phrases + 1), times_lg, label='en_core_web_lg')
+    plt.plot(range(nb_phrases + 1), times_trf, label='en_core_web_trf')
 
 
     plt.title(title)
@@ -208,6 +241,7 @@ def q1():
     times_sm , nb_phrases_sm = analysis_question1('en_core_web_sm')
     times_md , nb_phrases_md = analysis_question1('en_core_web_md')
     times_lg , nb_phrases_lg = analysis_question1('en_core_web_lg')
+    times_trf, nb_phrases_lg = analysis_question1('en_core_web_trf',gpu=False)
 
     assert nb_phrases_md == nb_phrases_lg
     assert nb_phrases_sm == nb_phrases_md
@@ -217,7 +251,7 @@ def q1():
 
     assert nb_phrases_sm + 1 == len(times_sm)
 
-    plot(times_sm, times_md, times_lg, nb_phrases_sm, "Le temps d'amalyse en fonction du nombre de phrases considérées", \
+    plot(times_sm, times_md, times_lg,times_trf, nb_phrases_sm, "Le temps d'amalyse en fonction du nombre de phrases considérées", \
     "Nombre de phrases considérées" , "Le temps d'analyse (en sec)" , "courbe-analyse_temps" )
 
 def q2():
@@ -243,6 +277,7 @@ def q3():
     nb_tuples_sm, nb_phrases_sm, all_tuples_sm = analysis_question3('en_core_web_sm')
     nb_tuples_md, nb_phrases_md, all_tuples_md = analysis_question3('en_core_web_md')
     nb_tuples_lg, nb_phrases_lg, all_tuples_lg = analysis_question3('en_core_web_lg')
+    nb_tuples_trf, nb_phrases_trf, all_tuples_trf = analysis_question3('en_core_web_trf',gpu=True)
 
     assert nb_phrases_md == nb_phrases_lg
     assert nb_phrases_sm == nb_phrases_md
@@ -260,6 +295,7 @@ def q3():
     print(len(all_tuples_sm))
     print(len(all_tuples_md))
     print(len(all_tuples_lg))
+    print(len(all_tuples_trf))
 
     print('Is all_tuples_sm inclus in all_tuples_md ?')
     print(all(x in all_tuples_md for x in all_tuples_sm))
@@ -279,6 +315,11 @@ def q3():
     print('Intersection between 3 models :')
     print(len([x for x in all_tuples_sm if (x in all_tuples_lg and x in all_tuples_md)]))
 
+    pd.DataFrame(all_tuples_sm, columns=['all_tuples_sm']).to_csv('tuples_sm.csv',encoding='utf-8')
+    pd.DataFrame(all_tuples_md, columns=['all_tuples_md']).to_csv('tuples_md.csv',encoding='utf-8')
+    pd.DataFrame(all_tuples_lg, columns=['all_tuples_lg']).to_csv('tuples_lg.csv',encoding='utf-8')
+    pd.DataFrame(all_tuples_trf, columns=['all_tuples_trf']).to_csv('tuples_trf.csv',encoding='utf-8')
+
     # save the tuples in a files:
     with open('tuples_sm.txt', 'w', encoding='utf-8') as f1:
         for tuple in all_tuples_sm:
@@ -294,6 +335,10 @@ def q3():
         for tuple in all_tuples_lg:
             f3.write('%s\n' % str(tuple))
     f3.close()
+    with open('tuples_trf.txt', 'w', encoding='utf-8') as f4:
+        for tuple in all_tuples_trf:
+            f4.write('%s\n' % str(tuple))
+    f4.close()
 
 def q4():
     # load les triplets md
@@ -410,13 +455,13 @@ def explain(word):
 
 def main():
     ###### Question 1
-    # q1()
+    q1()
     ###### Question 2
     # q2()
 
 
     ###### Question 3
-    q3()
+    # q3()
     ####### Question4 : file md
     # q4()
     # print('conj', spacy.explain('conj'))
