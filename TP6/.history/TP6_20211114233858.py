@@ -412,12 +412,12 @@ def q3():
         for tuple in all_tuples_lg:
             f3.write('%s\n' % str(tuple))
     f3.close()
-    nb_tuples_trf, nb_phrases_trf, all_tuples_trf = analysis_question3('en_core_web_trf',gpu=True)
+    # nb_tuples_trf, nb_phrases_trf, all_tuples_trf = analysis_question3('en_core_web_trf',gpu=True)
 
-    with open('tuples_trf.txt', 'w', encoding='utf-8') as f4:
-        for tuple in all_tuples_trf:
-            f4.write('%s\n' % str(tuple))
-    f4.close()
+    # with open('tuples_trf.txt', 'w', encoding='utf-8') as f4:
+    #     for tuple in all_tuples_trf:
+    #         f4.write('%s\n' % str(tuple))
+    # f4.close()
 
     assert nb_phrases_md == nb_phrases_lg
     assert nb_phrases_sm == nb_phrases_md
@@ -582,27 +582,27 @@ def explain(word):
 
 def main():
     ###### Question 1
-    q1()
+    # q1()
     ###### Question 2
-    q2()
+    # q2()
 
 
     ###### Question 3
-    q3()
+    # q3()
     ####### Question4 : file md
     q4()
     # print('conj', spacy.explain('conj'))
-    # explain('AUX')
-    # explain('NP')
-    # explain('NNP')
-    # explain('PRP')
-    # explain('PROPN')
-    # explain('ADP')
-    # explain('AUX')
-    # explain('parataxis')
-    # explain('ccomp')
-    # explain('advmod')
-    # explain('prt')
+    explain('AUX')
+    explain('NP')
+    explain('NNP')
+    explain('PRP')
+    explain('PROPN')
+    explain('ADP')
+    explain('AUX')
+    explain('parataxis')
+    explain('ccomp')
+    explain('advmod')
+    explain('prt')
 
 
 

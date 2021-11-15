@@ -38,11 +38,6 @@ from collections import Counter
 from tqdm import tqdm
 import torch
 import pandas as pd
-from wordcloud import WordCloud
-import pandas as pd
-import seaborn as sns
-from venn import venn
-
 
 MAX_SENTENCES = 100000
 
@@ -50,8 +45,10 @@ print(f"GPU Available: {torch.cuda.is_available()}")
 
 
 
+from wordcloud import WordCloud
 
 BNC_folder = '1bshort/'
+
 
 def analysis_question3(model_name,gpu=False):
     nb_triplets_acquis = []
@@ -70,7 +67,7 @@ def analysis_question3(model_name,gpu=False):
     nlp = spacy.load(model_name)
 
     # go through all 1bshort folder
-    for filename in sorted(os.listdir(BNC_folder)):
+    for filename in os.listdir(BNC_folder):
         max_sentences = MAX_SENTENCES
         if i == max_sentences: break  # stop at 50000 phrases 1/2
 
@@ -103,15 +100,10 @@ def analysis_question3(model_name,gpu=False):
                 all_tuples.extend(selected_tuples)
                 nb_triplets_acquis.append(nb_triplets_acquis[i - 1] + len(selected_tuples))
                 # print(i)
-                if i%1000==0 : pd.DataFrame(all_tuples, columns=['subject_lemma', 'verb_lemma', 'object_lemma']).to_csv(f'all_tuples{model_name[11:]}_3.csv',encoding='utf-8',index=False)
-                if i%1000==0 : pd.DataFrame(nb_triplets_acquis, columns=['nb_triplets']).to_csv(f'nb_triplet_{model_name[11:]}_3.csv',encoding='utf-8',index=False)
-                
+
                 if i == max_sentences: break  # stop at 50000 phrases 2/2
 
-    pd.DataFrame(all_tuples, columns=['subject_lemma', 'verb_lemma', 'object_lemma']).to_csv(f'all_tuples{model_name[11:]}_3.csv',encoding='utf-8',index=False)
-    pd.DataFrame(nb_triplets_acquis, columns=['nb_triplets']).to_csv(f'nb_triplet_{model_name[11:]}_3.csv',encoding='utf-8',index=False)
     print(f"nb des tuples in {i} phrases analysee for model {model_name}")
-
     return nb_triplets_acquis, i , all_tuples
 
 
@@ -234,116 +226,6 @@ def plot(times_sm, times_md, times_lg, times_trf, nb_phrases, title, xlabel, yla
     plt.savefig(f"plots/"+name_fig+".eps", format="eps")
 
 
-def plot_from_csv(nb_phrases,title, xlabel, ylabel, name_fig):
-    print('Creating the figure')
-    times_sm = list(pd.read_csv('times__sm.csv'))
-    times_md = list(pd.read_csv('times__md.csv'))
-    times_lg = list(pd.read_csv('times__lg.csv'))
-    times_trf = list(pd.read_csv('times__trf.csv'))
-    plt.figure(figsize=(9, 6))
-    plt.plot(range(nb_phrases +1 ), times_sm, label='en_core_web_sm')
-    plt.plot(range(nb_phrases + 1), times_md, label='en_core_web_md')
-    plt.plot(range(nb_phrases + 1), times_lg, label='en_core_web_lg')
-    plt.plot(range(nb_phrases + 1), times_trf, label='en_core_web_trf')
-
-
-    plt.title(title)
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
-    plt.legend()
-
-    plt.savefig(f"plots/"+name_fig+".svg", format="svg")
-    plt.savefig(f"plots/"+name_fig+".png", format="png")
-    plt.savefig(f"plots/"+name_fig+".eps", format="eps")
-
-
-def plot1():
-    sns.set(rc={'figure.figsize':(10,4)})
-
-    files = ('times__sm','times__md','times__lg','times__trf')
-    def plot_from_csv(args):
-        sns.set_theme(style="darkgrid")
-
-        fig, ax = plt.subplots()
-        
-        for y in args:
-            df = pd.read_csv(f'{y}.csv')
-            sns.lineplot(x='Unnamed: 0',y=y, label = f'en_core_web{y[6:]}', ax=ax,data=df)
-
-        ax.set_xlabel('Nb. de phrases considerées')
-        ax.set_ylabel("Temps d'analyse (en s)")
-        ax.set_title("Le temps d’analyse (en secondes) en fonction du nombre de phrases analysées")
-        ax2 = plt.axes([0.4, 0.65, .15, .15], facecolor='w')
-        for y in args:
-            df = pd.read_csv(f'{y}.csv')
-            sns.lineplot(x='Unnamed: 0',y=y, ax=ax2,data=df)
-
-        ax2.set_xlabel('')
-        ax2.set_ylabel('')
-        ax2.set_title('zoom')
-        ax2.set_ylim([575,590])
-        ax2.set_xlim([99000,100000])
-        plt.savefig('plots/times.png')
-        plt.savefig('plots/times.eps')
-    plot_from_csv(files)
-
-
-def plot3():
-    sns.set(rc={'figure.figsize':(8,4)})
-
-    files = ('nb_triplet__sm','nb_triplet__md','nb_triplet__lg','nb_triplet__trf')
-    def plot_from_csv(args):
-        sns.set_theme(style="darkgrid")
-
-        fig, ax = plt.subplots()
-        
-        for y in args:
-            df = pd.read_csv(f'{y}_3.csv').reset_index()
-            sns.lineplot(x='index',y='nb_triplets', label = f'en_core_web{y[11:]}', ax=ax,data=df)
-
-        ax.set_xlabel('Nb. de phrases considerées')
-        ax.set_ylabel("Le nombre des triplets acquis")
-        ax.set_title("Le nombre des triplets acquis en fonction du nombre de phrases analysées.")
-        ax2 = plt.axes([0.7, 0.2, .2, .4], facecolor='w')
-        for y in args:
-            df = pd.read_csv(f'{y}_3.csv').reset_index()
-            print(len(df))
-            sns.lineplot(x='index',y='nb_triplets', ax=ax2,data=df)
-
-        ax2.set_xlabel('')
-        ax2.set_ylabel('')
-        ax2.set_title('zoom')
-        ax2.set_ylim([24930,25040])
-        ax2.set_xlim([99970,99999])
-        plt.savefig('plots/triplets.png')
-        plt.savefig('plots/triplets.eps')
-    plot_from_csv(files)
-
-def plot3_1():
-    files = ('all_tuples_sm','all_tuples_md','all_tuples_lg','all_tuples_trf')#,'all_tuples_lg','tuples_trf')
-    names= ('sm','md','lg','trf')
-    def plot_from_csv_venn(args):
-        # sns.set_theme(style="darkgrid")
-
-        # fig, ax = plt.subplots()
-        sets = {}
-        for y in args:
-            df = pd.read_csv(f'{y}_3.csv')
-            print('all: ',len(df))
-            tuples = set(zip(df['subject_lemma'],df['verb_lemma'],df['object_lemma']))
-            print('unique: ',len(tuples))
-            sets.update({f"Triplets générés par le modèle: {names[files.index(y)]}":tuples})
-            # df['len tuples'] = tuples
-            # sns.lineplot(x='index',y=y, label = f'en_core_web{y[6:]}', ax=ax,data=df)
-        # print(sets)
-        fig, ax = plt.subplots(1, figsize=(7,7))
-        venn(sets, ax=ax)
-        
-        plt.savefig('plots/tuples4.png',transparent=True)
-        plt.savefig('plots/tuples4.eps',transparent=True)
-    plot_from_csv_venn(files)
-
-
 def create_word_cloud(text , figure_name):
 
     # Create and generate a word cloud image:
@@ -352,14 +234,14 @@ def create_word_cloud(text , figure_name):
     # Display the generated image:
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis("off")
-    plt.savefig(f"plots/cloud_"+figure_name+".png", format='png',transparent=True)
-    plt.savefig(f"plots/cloud_"+figure_name+".eps", format='eps',transparent=True)
+    plt.savefig(f"plots/cloud_"+figure_name+".png", format='png')
+    plt.savefig(f"plots/cloud_"+figure_name+".eps", format='eps')
 
 def q1():
     times_sm , nb_phrases_sm = analysis_question1('en_core_web_sm')
     times_md , nb_phrases_md = analysis_question1('en_core_web_md')
     times_lg , nb_phrases_lg = analysis_question1('en_core_web_lg')
-    times_trf, nb_phrases_lg = analysis_question1('en_core_web_trf',gpu=True)
+    times_trf, nb_phrases_lg = analysis_question1('en_core_web_trf',gpu=False)
 
     assert nb_phrases_md == nb_phrases_lg
     assert nb_phrases_sm == nb_phrases_md
@@ -370,8 +252,6 @@ def q1():
     assert nb_phrases_sm + 1 == len(times_sm)
 
     plot(times_sm, times_md, times_lg,times_trf, nb_phrases_sm, "Le temps d'amalyse en fonction du nombre de phrases considérées", \
-    "Nombre de phrases considérées" , "Le temps d'analyse (en sec)" , "courbe-analyse_temps" )
-    plot_from_csv(nb_phrases_sm, "Le temps d'amalyse en fonction du nombre de phrases considérées", \
     "Nombre de phrases considérées" , "Le temps d'analyse (en sec)" , "courbe-analyse_temps" )
 
 def q2():
@@ -395,29 +275,9 @@ def q2():
 
 def q3():
     nb_tuples_sm, nb_phrases_sm, all_tuples_sm = analysis_question3('en_core_web_sm')
-    # save the tuples in a files:
-    with open('tuples_sm.txt', 'w', encoding='utf-8') as f1:
-        for tuple in all_tuples_sm:
-            f1.write('%s\n' % str(tuple))
-    f1.close()
-
     nb_tuples_md, nb_phrases_md, all_tuples_md = analysis_question3('en_core_web_md')
-    with open('tuples_md.txt', 'w', encoding='utf-8') as f2:
-        for tuple in all_tuples_md:
-            f2.write('%s\n' % str(tuple))
-    f2.close()
-
     nb_tuples_lg, nb_phrases_lg, all_tuples_lg = analysis_question3('en_core_web_lg')
-    with open('tuples_lg.txt', 'w', encoding='utf-8') as f3:
-        for tuple in all_tuples_lg:
-            f3.write('%s\n' % str(tuple))
-    f3.close()
     nb_tuples_trf, nb_phrases_trf, all_tuples_trf = analysis_question3('en_core_web_trf',gpu=True)
-
-    with open('tuples_trf.txt', 'w', encoding='utf-8') as f4:
-        for tuple in all_tuples_trf:
-            f4.write('%s\n' % str(tuple))
-    f4.close()
 
     assert nb_phrases_md == nb_phrases_lg
     assert nb_phrases_sm == nb_phrases_md
@@ -427,7 +287,7 @@ def q3():
 
     assert nb_phrases_sm + 1 == len(nb_tuples_sm)
 
-    plot(nb_tuples_sm, nb_tuples_md, nb_tuples_lg,nb_tuples_trf, nb_phrases_sm,
+    plot(nb_tuples_sm, nb_tuples_md, nb_tuples_lg, nb_phrases_sm,
          "Le nombre de triplets acquis en fonction du nombre de phrases considérées", \
          "Nombre de phrases considérées", "Le nombre de triplets acquis", "courbe-analyse_triplets")
 
@@ -455,19 +315,36 @@ def q3():
     print('Intersection between 3 models :')
     print(len([x for x in all_tuples_sm if (x in all_tuples_lg and x in all_tuples_md)]))
 
-    
+    pd.DataFrame(all_tuples_sm, columns=['all_tuples_sm']).to_csv('tuples_sm.csv',encoding='utf-8')
+    pd.DataFrame(all_tuples_md, columns=['all_tuples_md']).to_csv('tuples_md.csv',encoding='utf-8')
+    pd.DataFrame(all_tuples_lg, columns=['all_tuples_lg']).to_csv('tuples_lg.csv',encoding='utf-8')
+    pd.DataFrame(all_tuples_trf, columns=['all_tuples_trf']).to_csv('tuples_trf.csv',encoding='utf-8')
 
-    
+    # save the tuples in a files:
+    with open('tuples_sm.txt', 'w', encoding='utf-8') as f1:
+        for tuple in all_tuples_sm:
+            f1.write('%s\n' % str(tuple))
+    f1.close()
 
-    
-    
+    with open('tuples_md.txt', 'w', encoding='utf-8') as f2:
+        for tuple in all_tuples_md:
+            f2.write('%s\n' % str(tuple))
+    f2.close()
+
+    with open('tuples_lg.txt', 'w', encoding='utf-8') as f3:
+        for tuple in all_tuples_lg:
+            f3.write('%s\n' % str(tuple))
+    f3.close()
+    with open('tuples_trf.txt', 'w', encoding='utf-8') as f4:
+        for tuple in all_tuples_trf:
+            f4.write('%s\n' % str(tuple))
+    f4.close()
 
 def q4():
     # load les triplets md
     with open('tuples_md.txt', 'r', encoding='utf-8') as f1:
         sentences = f1.readlines()
     f1.close()
-    print(len(sentences))
 
     # extract some informations
     infos = {'man': [], 'woman': [], 'teacher': [], 'student': [], 'girl': [], 'boy': [], 'police': []}
@@ -488,8 +365,6 @@ def q4():
 
         if s.split(' ')[0] == 'girl':
             infos['girl'].append(s.split(' ')[1] + " " + s.split(' ')[2])
-
-
 
         if s.split(' ')[0] == 'boy':
             infos['boy'].append(s.split(' ')[1] + " " + s.split(' ')[2])
@@ -525,8 +400,6 @@ def q4():
 
     text_boy = " ".join(infos['boy']).replace('PROPN', '')  # remove PROPN
     create_word_cloud(text_boy, 'boy')
-
-
 
     text_police = " ".join(infos['police']).replace('PROPN', '')  # remove PROPN
     print(text_police.__contains__('help'))
@@ -584,25 +457,25 @@ def main():
     ###### Question 1
     q1()
     ###### Question 2
-    q2()
+    # q2()
 
 
     ###### Question 3
-    q3()
+    # q3()
     ####### Question4 : file md
-    q4()
+    # q4()
     # print('conj', spacy.explain('conj'))
-    # explain('AUX')
-    # explain('NP')
-    # explain('NNP')
-    # explain('PRP')
-    # explain('PROPN')
-    # explain('ADP')
-    # explain('AUX')
-    # explain('parataxis')
-    # explain('ccomp')
-    # explain('advmod')
-    # explain('prt')
+    explain('AUX')
+    explain('NP')
+    explain('NNP')
+    explain('PRP')
+    explain('PROPN')
+    explain('ADP')
+    explain('AUX')
+    explain('parataxis')
+    explain('ccomp')
+    explain('advmod')
+    explain('prt')
 
 
 

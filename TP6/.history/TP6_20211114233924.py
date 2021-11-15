@@ -592,17 +592,17 @@ def main():
     ####### Question4 : file md
     q4()
     # print('conj', spacy.explain('conj'))
-    # explain('AUX')
-    # explain('NP')
-    # explain('NNP')
-    # explain('PRP')
-    # explain('PROPN')
-    # explain('ADP')
-    # explain('AUX')
-    # explain('parataxis')
-    # explain('ccomp')
-    # explain('advmod')
-    # explain('prt')
+    explain('AUX')
+    explain('NP')
+    explain('NNP')
+    explain('PRP')
+    explain('PROPN')
+    explain('ADP')
+    explain('AUX')
+    explain('parataxis')
+    explain('ccomp')
+    explain('advmod')
+    explain('prt')
 
 
 
