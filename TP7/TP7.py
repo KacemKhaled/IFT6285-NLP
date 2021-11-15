@@ -3,6 +3,7 @@ import nltk
 from nltk.corpus import treebank
 from nltk.tag import CRFTagger
 from new_crf_module import CRFTagger_v2
+from new_crf_module_v3 import CRFTagger_v3
 from tqdm import tqdm
 from nltk.tag import untag, RegexpTagger, BrillTaggerTrainer
 
@@ -18,15 +19,15 @@ def question4(train_data, test_data, test_gold_data):
     # https://www.nltk.org/_modules/nltk/tag/brill_trainer.html
 
     regex_tagger = RegexpTagger([
-        ...(r'^-?[0-9]+(.[0-9]+)?$', 'CD'),  # cardinal numbers
-        ...(r'(The|the|A|a|An|an)$', 'AT'),  # articles
-        ...(r'.*able$', 'JJ'),  # adjectives
-        ...(r'.*ness$', 'NN'),  # nouns formed from adjectives
-        ...(r'.*ly$', 'RB'),  # adverbs
-        ...(r'.*s$', 'NNS'),  # plural nouns
-        ...(r'.*ing$', 'VBG'),  # gerunds
-        ...(r'.*ed$', 'VBD'),  # past tense verbs
-        ...(r'.*', 'NN')  # nouns (default)
+        (r'^-?[0-9]+(.[0-9]+)?$', 'CD'),  # cardinal numbers
+        (r'(The|the|A|a|An|an)$', 'AT'),  # articles
+        (r'.*able$', 'JJ'),  # adjectives
+        (r'.*ness$', 'NN'),  # nouns formed from adjectives
+        (r'.*ly$', 'RB'),  # adverbs
+        (r'.*s$', 'NNS'),  # plural nouns
+        (r'.*ing$', 'VBG'),  # gerunds
+        (r'.*ed$', 'VBD'),  # past tense verbs
+        (r'.*', 'NN')  # nouns (default)
         ])
 
     brill_tagger = BrillTaggerTrainer(regex_tagger,  trace=3) #todo: what is trace ?
@@ -79,7 +80,7 @@ def question3(crt, model_file):
      #   print(i, treebank.tagged_sents()[i])
         test_gold_data.append(treebank.tagged_sents()[i])
     #print('test gold data', test_gold_data)
-    print('len golad data', len(test_gold_data))
+    print('len gold data', len(test_gold_data))
 
     res = crt.evaluate(test_gold_data) # evaluate the data
     return res
@@ -87,19 +88,24 @@ def question3(crt, model_file):
 
 def main():
 
-    print(f'len PTB {len(treebank.tagged_sents())}')
-    print( len( treebank.sents() ) )
+    # print(f'len PTB {len(treebank.tagged_sents())}')
+    # print( len( treebank.sents() ) )
+    #
+    # crt = CRFTagger()
+    # res1 = question3(crt, 'model.crf.tagger')
+    # print('res1', res1)
+    #
+    # print('adding context before :')
+    # crt_v2 = CRFTagger_v2()
+    # res2 = question3(crt_v2, 'model_v2.crf.tagger')
+    # print('res2', res2)
+    #
+    # print(res1, res2)
 
-    crt = CRFTagger()
-    res1 = question3(crt, 'model.crf.tagger')
-    print('res1', res1)
-
-    print('adding context :')
-    crt_v2 = CRFTagger_v2()
-    res2 = question3(crt_v2, 'model_v2.crf.tagger')
-    print('res2', res2)
-
-    print(res1, res2)
+    print('adding context before + after :')
+    crt_v3 = CRFTagger_v3()
+    res3 = question3(crt_v3, 'model_v3.crf.tagger')
+    print('res3', res3)
 
 
 if __name__ == '__main__':
