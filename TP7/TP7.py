@@ -78,10 +78,12 @@ def question4_templates(train_data, test_data, test_gold_data, tem_categories_li
 
 
 def plot_templates(res_crf_tmp, res_regex_tmp,  tem_categories_names, name_fig):
+
     X_axis = np.arange(len(tem_categories_names))
 
-    plt.bar(X_axis , res_regex_tmp,  label='Regex tagger')
-    plt.bar(X_axis , res_crf_tmp,  label='CRF Tagger')
+    plt.figure(figsize=(8,4))
+    plt.bar(X_axis +0.2 , res_regex_tmp, 0.4,  label='Regex tagger')
+    plt.bar(X_axis -0.2 , res_crf_tmp,  0.4, label='CRF Tagger')
 
     plt.xticks(X_axis, tem_categories_names)
     plt.xlabel("Templates utilisees")
@@ -256,14 +258,20 @@ def main():
             ## impact of templates
 
     #todo: what does pos,  word templates mean ? ...
-    templates = nltk.tag.brill.brill24()
-    templates_pos_only = templates[:11]
-    templates_word_only = templates[11:20]
-    templates_word_pos = templates[20:]
-    tem_categories = [templates, templates_pos_only, templates_word_only, templates_word_pos]
-    res_crf_tmp, res_regex_tmp = question4_templates(train_data, test_data, test_gold_data, tem_categories)
-    print('res crf temp ', res_crf_tmp)
-    print('res regex temp ', res_regex_tmp)
+    # templates = nltk.tag.brill.brill24()
+    # templates_pos_only = templates[:11]
+    # templates_word_only = templates[11:20]
+    # templates_word_pos = templates[20:]
+    # tem_categories = [templates, templates_pos_only, templates_word_only, templates_word_pos]
+    # res_crf_tmp, res_regex_tmp = question4_templates(train_data, test_data, test_gold_data, tem_categories)
+    # print('res crf temp ', res_crf_tmp)
+    # print('res regex temp ', res_regex_tmp)
+    # res cr temp[0.9501834664364343, 0.9476365206129937, 0.9498812864234837, 0.9504424778761061]
+    # res regex temp[0.7788905676667386, 0.44131232462767106, 0.7929635225555796, 0.5038635873084395]
+
+    res_crf_tmp = [0.9501834664364343, 0.9476365206129937, 0.9498812864234837, 0.9504424778761061]
+    res_regex_tmp = [0.7788905676667386, 0.44131232462767106, 0.7929635225555796, 0.5038635873084395]
+
     tem_categories_names = ['All templates', 'POS-only templates', 'Word-only templates', 'Word-Pos templates']
     plot_templates(res_crf_tmp, res_regex_tmp,  tem_categories_names, 'templates_cat' )
 
