@@ -81,11 +81,11 @@ def plot_templates(res_crf_tmp, res_regex_tmp,  tem_categories_names, name_fig):
 
     X_axis = np.arange(len(tem_categories_names))
 
-    plt.figure(figsize=(8,4))
-    plt.bar(X_axis +0.2 , res_regex_tmp, 0.4,  label='Regex tagger')
-    plt.bar(X_axis -0.2 , res_crf_tmp,  0.4, label='CRF Tagger')
+    plt.figure(figsize=(6,3))
+    plt.bar(X_axis +0.1 , res_regex_tmp, 0.2,  label='Regex tagger')
+    plt.bar(X_axis -0.1 , res_crf_tmp,  0.2, label='CRF Tagger')
 
-    plt.xticks(X_axis, tem_categories_names)
+    plt.xticks(X_axis, tem_categories_names, rotation=5)
     plt.xlabel("Templates utilisees")
     plt.ylabel("Evaluation")
     plt.title("Impact du filtrage des templates sur la performance des modeles.")
@@ -137,10 +137,10 @@ def question4_nb_rules(train_data, test_data, test_gold_data, nb_max_rules_list)
     return res_crf_nb_rules, res_regex_nb_rules
 
 
-def plot(x, y_crf, y_regex, name_fig, title, x_label):
+def plot(x, y_crf, y_regex, name_fig, title, x_label, fig_size):
     print('Creating the figure')
 
-    plt.figure(figsize=(9, 6))
+    plt.figure(figsize=fig_size)
     plt.plot( x , y_crf, label='CRF Tagger')
     plt.plot(x,  y_regex, label='Regex Tagger')
 
@@ -235,29 +235,33 @@ def main():
 
             ## impact of nb of rules
 
-    # nb_max_rules = [0, 10, 50, 100, 150, 200]
+    #nb_max_rules = [0, 10, 50, 100, 150, 200]
     # res_crf_nb_rules, res_regex_nb_rules = question4_nb_rules(train_data, test_data, test_gold_data, nb_max_rules)
     # print('res regex', res_regex_nb_rules)
     # print('res crf', res_crf_nb_rules)
     # # res regex [0.26324195985322685, 0.5313619684869415, 0.6762357004101014, 0.7275199654651414, 0.7589035182387223, 0.7788905676667386]
     # # res crf [0.9474638463198791, 0.9480682063457803, 0.9488884092380747, 0.9497086121303691, 0.9502266350097129, 0.9501834664364343]
-    # plot(nb_max_rules, res_crf_nb_rules, res_regex_nb_rules, name_fig='max_rules', title='Impact du nombre de règles a retenir sur la performance des modèles.', x_label='Nombre des regles maximales a retenir')
+    ##res_crf_nb_rules = [0.9474638463198791, 0.9480682063457803, 0.9488884092380747, 0.9497086121303691, 0.9502266350097129, 0.9501834664364343]
+    ##res_regex_nb_rules = [0.26324195985322685, 0.5313619684869415, 0.6762357004101014, 0.7275199654651414, 0.7589035182387223, 0.7788905676667386]
+    #plot(nb_max_rules, res_crf_nb_rules, res_regex_nb_rules, name_fig='max_rules', title='Impact du nombre de règles a retenir \n sur la performance des modèles.', x_label='Nombre des regles maximales a retenir', fig_size=(5, 4))
 
             ## impact of accuracies
 
-    # min_accuracies_list = [0.8 , 0.85, 0.9, 0.95, 0.99, 1]
+    min_accuracies_list = [0.8 , 0.85, 0.9, 0.95, 0.99, 1]
     # res_crf_min_acc, res_regex_min_acc = question4_min_accuracies(train_data, test_data, test_gold_data, min_accuracies_list)
     # print('res regex min acc ', res_regex_min_acc)
     # print('res crf min acc ', res_crf_min_acc)
     # # res regex min acc  [0.8039715087416361, 0.8039715087416361, 0.8010360457586877, 0.7972372113101662, 0.793524714008202, 0.7660263328297]
     # # res crf min acc  [0.9501834664364343, 0.9493200949708612, 0.9493200949708612, 0.9493200949708612, 0.9493200949708612, 0.9493200949708612]
+    ##res_crf_min_acc = [0.9501834664364343, 0.9493200949708612, 0.9493200949708612, 0.9493200949708612, 0.9493200949708612, 0.9493200949708612]
+    ##res_regex_min_acc = [0.8039715087416361, 0.8039715087416361, 0.8010360457586877, 0.7972372113101662, 0.793524714008202, 0.7660263328297]
     # plot(min_accuracies_list, y_crf=res_crf_min_acc, y_regex=res_regex_min_acc, name_fig='min_accu',
-    #      title='Impact du accuracy minimale sur la performance des modèles.',
-    #      x_label='Accuracy minimale')
+    #      title='Impact du accuracy minimale sur la \n performance des modèles.',
+    #       x_label='Accuracy minimale', fig_size = (6, 4))
 
             ## impact of templates
 
-    #todo: what does pos,  word templates mean ? ...
+    # todo: what does pos,  word templates mean ? ...
     # templates = nltk.tag.brill.brill24()
     # templates_pos_only = templates[:11]
     # templates_word_only = templates[11:20]
@@ -266,14 +270,59 @@ def main():
     # res_crf_tmp, res_regex_tmp = question4_templates(train_data, test_data, test_gold_data, tem_categories)
     # print('res crf temp ', res_crf_tmp)
     # print('res regex temp ', res_regex_tmp)
-    # res cr temp[0.9501834664364343, 0.9476365206129937, 0.9498812864234837, 0.9504424778761061]
-    # res regex temp[0.7788905676667386, 0.44131232462767106, 0.7929635225555796, 0.5038635873084395]
+    # #res cr temp[0.9501834664364343, 0.9476365206129937, 0.9498812864234837, 0.9504424778761061]
+    # #res regex temp[0.7788905676667386, 0.44131232462767106, 0.7929635225555796, 0.5038635873084395]
+    ##res_regex_tmp = [0.7788905676667386, 0.44131232462767106, 0.7929635225555796, 0.5038635873084395]
+    ##res_crf_tmp = [0.9501834664364343, 0.9476365206129937, 0.9498812864234837, 0.9504424778761061]
+    #tem_categories_names = ['All templates', 'POS-only templates', 'Word-only templates', 'Word-Pos templates']
+    #plot_templates(res_crf_tmp, res_regex_tmp,  tem_categories_names, 'templates_cat' )
 
-    res_crf_tmp = [0.9501834664364343, 0.9476365206129937, 0.9498812864234837, 0.9504424778761061]
-    res_regex_tmp = [0.7788905676667386, 0.44131232462767106, 0.7929635225555796, 0.5038635873084395]
 
-    tem_categories_names = ['All templates', 'POS-only templates', 'Word-only templates', 'Word-Pos templates']
-    plot_templates(res_crf_tmp, res_regex_tmp,  tem_categories_names, 'templates_cat' )
+                ## analyse des types des regles apprises:
+    # regex_tagger = RegexpTagger([
+    #     (r'^-?[0-9]+(.[0-9]+)?$', 'CD'),  # cardinal numbers
+    #     (r'(The|the|A|a|An|an)$', 'AT'),  # articles
+    #     (r'.*able$', 'JJ'),  # adjectives
+    #     (r'.*ness$', 'NN'),  # nouns formed from adjectives
+    #     (r'.*ly$', 'RB'),  # adverbs
+    #     (r'.*s$', 'NNS'),  # plural nouns
+    #     (r'.*ing$', 'VBG'),  # gerunds
+    #     (r'.*ed$', 'VBD'),  # past tense verbs
+    #     (r'.*', 'NN')  # nouns (default)
+    # ])
+    # templates = nltk.tag.brill.brill24()
+    # crt_tagger = CRFTagger()
+    # crt_tagger.set_model_file('model.crf.tagger')
+    #
+    # brill_tagger1 = BrillTaggerTrainer(regex_tagger, templates, trace=3)
+    # tagger1 = brill_tagger1.train(train_data)
+    # print('Rules')
+    # print( tagger1.rules() )
+    # print('Train stats')
+    # print( tagger1.train_stats())
+    # print('Train stats: rules scores')
+    # print(tagger1.train_stats()['rulescores'])
+    # print('Templatest Stats')
+    # print(tagger1.print_template_statistics())
+    #
+    # brill_tagger2 = BrillTaggerTrainer(crt_tagger, templates, trace=3)
+    # tagger2 = brill_tagger2.train(train_data)
+    # print('Rules')
+    # print(tagger2.rules())
+    # print('Train stats')
+    # print(tagger2.train_stats())
+    # print('Train stats: rules scores')
+    # print(tagger2.train_stats()['rulescores'])
+    # print('Templatest Stats')
+    # print(tagger2.print_template_statistics())
+
+
+            ### taggers chain
+
+    #todo:
+
+    ###### QUESTION 5
+    #todo
 
 
 if __name__ == '__main__':
