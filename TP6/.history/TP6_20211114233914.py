@@ -582,27 +582,27 @@ def explain(word):
 
 def main():
     ###### Question 1
-    q1()
+    # q1()
     ###### Question 2
-    q2()
+    # q2()
 
 
     ###### Question 3
-    q3()
+    # q3()
     ####### Question4 : file md
     q4()
     # print('conj', spacy.explain('conj'))
-    # explain('AUX')
-    # explain('NP')
-    # explain('NNP')
-    # explain('PRP')
-    # explain('PROPN')
-    # explain('ADP')
-    # explain('AUX')
-    # explain('parataxis')
-    # explain('ccomp')
-    # explain('advmod')
-    # explain('prt')
+    explain('AUX')
+    explain('NP')
+    explain('NNP')
+    explain('PRP')
+    explain('PROPN')
+    explain('ADP')
+    explain('AUX')
+    explain('parataxis')
+    explain('ccomp')
+    explain('advmod')
+    explain('prt')
 
 
 
