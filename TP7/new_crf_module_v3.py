@@ -116,8 +116,8 @@ class CRFTagger_v3(TaggerI):
         if not token:
             return feature_list
 
-        #Context
-        if tokens[idx-1]:
+        # Context
+        if idx and tokens[idx-1]: # pour que idx-1 soit toujours >= 0
             feature_list.append(tokens[idx-1]) # mot avant
 
         if idx+1 < len(tokens) and tokens[idx+1]:

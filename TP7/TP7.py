@@ -221,7 +221,7 @@ def main():
     # print('res2', res2)
     #
     # print(res1, res2)
-
+    #
     # print('adding context before + after :')
     # crt_v3 = CRFTagger_v3()
     # res3 = question3(crt_v3, 'model_v3.crf.tagger')
@@ -229,9 +229,9 @@ def main():
 
     ############################  QUESTION 4
 
-    train_data = treebank.tagged_sents()[:3000]
-    test_data = treebank.sents()[3000:3914]
-    test_gold_data = treebank.tagged_sents()[3000:3914]
+    # train_data = treebank.tagged_sents()[:3000]
+    # test_data = treebank.sents()[3000:3914]
+    # test_gold_data = treebank.tagged_sents()[3000:3914]
 
             ## impact of nb of rules
 
@@ -247,7 +247,7 @@ def main():
 
             ## impact of accuracies
 
-    min_accuracies_list = [0.8 , 0.85, 0.9, 0.95, 0.99, 1]
+    # min_accuracies_list = [0.8 , 0.85, 0.9, 0.95, 0.99, 1]
     # res_crf_min_acc, res_regex_min_acc = question4_min_accuracies(train_data, test_data, test_gold_data, min_accuracies_list)
     # print('res regex min acc ', res_regex_min_acc)
     # print('res crf min acc ', res_crf_min_acc)

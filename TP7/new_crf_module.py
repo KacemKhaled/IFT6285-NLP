@@ -117,7 +117,7 @@ class CRFTagger_v2(TaggerI):
             return feature_list
 
         #Context
-        if tokens[idx-1]:
+        if idx and tokens[idx-1]: # pour que idx-1 soit toujours >= 0
             feature_list.append(tokens[idx-1]) # mot avant
 
         # Capitalization
