@@ -174,30 +174,20 @@ def question3(crt, model_file):
 
     #  3000 premi`eres phrases pour entraˆıner vos mod`eles, et les suivantes pour r´ealiser des tests
     print('training ... ')
-    train_data = []
-    for i in tqdm(range(3000)):
-        train_data.append(treebank.tagged_sents()[i])
+    train_data = treebank.tagged_sents()[:3000]
+    # for i in tqdm(range(3000)):
+    #     #     train_data.append(treebank.tagged_sents()[i])
         #print(i, treebank.tagged_sents()[i])
     #print('train data', train_data)
     print('len train data', len(train_data))
 
     crt.train(train_data, model_file)  # the model will be saved in 'model.crf.tagger" file
 
-    print('testing ... ')
-    test_data = []
-    for i in tqdm(range(3000, 3914)):
-        #print(i, treebank.sents()[i] )
-        test_data.append(treebank.sents()[i])
-    #print('test data', test_data)
-    print('len test data', len(test_data))
-
-    crt.tag_sents(test_data) # test the data
-
     print('evaluating ... ')
-    test_gold_data = []
-    for i in tqdm(range(3000, 3914)):
-     #   print(i, treebank.tagged_sents()[i])
-        test_gold_data.append(treebank.tagged_sents()[i])
+    test_gold_data = treebank.tagged_sents()[3000:]
+    # for i in tqdm(range(3000, 3914)):
+    #  #   print(i, treebank.tagged_sents()[i])
+    #     test_gold_data.append(treebank.tagged_sents()[i])
     #print('test gold data', test_gold_data)
     print('len gold data', len(test_gold_data))
 
@@ -216,7 +206,7 @@ def main():
     # print('res1', res1)
     #
     # print('adding context before :')
-    # crt_v2 = CRFTagger_v2()
+    # crt_v2 = CRFTagger_v2(extra_features=-1)
     # res2 = question3(crt_v2, 'model_v2.crf.tagger')
     # print('res2', res2)
     #
@@ -229,21 +219,21 @@ def main():
 
     ############################  QUESTION 4
 
-    # train_data = treebank.tagged_sents()[:3000]
-    # test_data = treebank.sents()[3000:3914]
-    # test_gold_data = treebank.tagged_sents()[3000:3914]
+    train_data = treebank.tagged_sents()[:3000]
+    test_data = treebank.sents()[3000:3914]
+    test_gold_data = treebank.tagged_sents()[3000:3914]
 
-            ## impact of nb of rules
+            # impact of nb of rules
 
-    #nb_max_rules = [0, 10, 50, 100, 150, 200]
-    # res_crf_nb_rules, res_regex_nb_rules = question4_nb_rules(train_data, test_data, test_gold_data, nb_max_rules)
-    # print('res regex', res_regex_nb_rules)
-    # print('res crf', res_crf_nb_rules)
-    # # res regex [0.26324195985322685, 0.5313619684869415, 0.6762357004101014, 0.7275199654651414, 0.7589035182387223, 0.7788905676667386]
-    # # res crf [0.9474638463198791, 0.9480682063457803, 0.9488884092380747, 0.9497086121303691, 0.9502266350097129, 0.9501834664364343]
-    ##res_crf_nb_rules = [0.9474638463198791, 0.9480682063457803, 0.9488884092380747, 0.9497086121303691, 0.9502266350097129, 0.9501834664364343]
-    ##res_regex_nb_rules = [0.26324195985322685, 0.5313619684869415, 0.6762357004101014, 0.7275199654651414, 0.7589035182387223, 0.7788905676667386]
-    #plot(nb_max_rules, res_crf_nb_rules, res_regex_nb_rules, name_fig='max_rules', title='Impact du nombre de règles a retenir \n sur la performance des modèles.', x_label='Nombre des regles maximales a retenir', fig_size=(5, 4))
+    nb_max_rules = [0, 10, 50, 100, 150, 200]
+    res_crf_nb_rules, res_regex_nb_rules = question4_nb_rules(train_data, test_data, test_gold_data, nb_max_rules)
+    print('res regex', res_regex_nb_rules)
+    print('res crf', res_crf_nb_rules)
+    # res regex [0.26324195985322685, 0.5313619684869415, 0.6762357004101014, 0.7275199654651414, 0.7589035182387223, 0.7788905676667386]
+    # res crf [0.9474638463198791, 0.9480682063457803, 0.9488884092380747, 0.9497086121303691, 0.9502266350097129, 0.9501834664364343]
+    #res_crf_nb_rules = [0.9474638463198791, 0.9480682063457803, 0.9488884092380747, 0.9497086121303691, 0.9502266350097129, 0.9501834664364343]
+    #res_regex_nb_rules = [0.26324195985322685, 0.5313619684869415, 0.6762357004101014, 0.7275199654651414, 0.7589035182387223, 0.7788905676667386]
+    plot(nb_max_rules, res_crf_nb_rules, res_regex_nb_rules, name_fig='max_rules', title='Impact du nombre de règles a retenir \n sur la performance des modèles.', x_label='Nombre des regles maximales a retenir', fig_size=(5, 4))
 
             ## impact of accuracies
 

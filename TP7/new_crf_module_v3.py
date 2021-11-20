@@ -118,10 +118,10 @@ class CRFTagger_v3(TaggerI):
 
         # Context
         if idx and tokens[idx-1]: # pour que idx-1 soit toujours >= 0
-            feature_list.append(tokens[idx-1]) # mot avant
+            feature_list.append("PREV_WORD_" + tokens[idx-1]) # mot avant
 
         if idx+1 < len(tokens) and tokens[idx+1]:
-            feature_list.append(tokens[idx+1]) # mot apres
+            feature_list.append("NEXT_WORD_" + tokens[idx+1]) # mot apres
 
         # Capitalization
         if token[0].isupper():

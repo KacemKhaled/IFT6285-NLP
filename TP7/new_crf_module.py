@@ -11,6 +11,7 @@ A module for POS tagging using CRFSuite
 
 import re
 import unicodedata
+from tqdm import tqdm
 
 from nltk.tag.api import TaggerI
 
@@ -45,7 +46,7 @@ class CRFTagger_v2(TaggerI):
     1.0
     """
 
-    def __init__(self, feature_func=None, verbose=False, training_opt={}):
+    def __init__(self, feature_func=None, verbose=False, training_opt={},extra_features=0,context=None):
         """
         Initialize the CRFSuite tagger
 
@@ -75,6 +76,10 @@ class CRFTagger_v2(TaggerI):
                 - 'Backtracking': Backtracking method with regular Wolfe condition,
                 - 'StrongBacktracking': Backtracking method with strong Wolfe condition
             :'max_linesearch':  The maximum number of trials for the line search algorithm.
+        :param extra_features: extras features to take into consideration
+                0: no extra features, -1: previous word, 1: next word, 2 or higher: previous and next word
+        :type int
+
         """
 
         self._model_file = ""
@@ -88,6 +93,8 @@ class CRFTagger_v2(TaggerI):
         self._verbose = verbose
         self._training_options = training_opt
         self._pattern = re.compile(r"\d")
+        self.extra_features = extra_features
+        self.context = context
 
 
     def set_model_file(self, model_file):
@@ -95,7 +102,7 @@ class CRFTagger_v2(TaggerI):
         self._tagger.open(self._model_file)
 
 
-    def _get_features(self, tokens, idx):
+    def _get_features(self, tokens, idx, context=None):
         """
         Extract basic features about this word including
             - Current word
@@ -116,9 +123,6 @@ class CRFTagger_v2(TaggerI):
         if not token:
             return feature_list
 
-        #Context
-        if idx and tokens[idx-1]: # pour que idx-1 soit toujours >= 0
-            feature_list.append(tokens[idx-1]) # mot avant
 
         # Capitalization
         if token[0].isupper():
@@ -142,6 +146,23 @@ class CRFTagger_v2(TaggerI):
             feature_list.append("SUF_" + token[-3:])
 
         feature_list.append("WORD_" + token)
+
+        if context != "": context= self.context
+        # Context
+        if self.extra_features == -1 or self.extra_features > 1:
+            if idx > 0 and tokens[idx - 1]:  # pour que idx-1 soit toujours >= 0
+                if context=='features':
+                    feature_list.extend(
+                        ["PREV_WORD_"+feature for feature in self._get_features(tokens,idx - 1, context="")])
+                elif context=='word':
+                    feature_list.append("PREV_WORD_" + tokens[idx - 1])  # previous word
+        if self.extra_features > 0:
+            if idx + 1 < len(tokens) and tokens[idx + 1]:
+                if context == 'features':
+                    feature_list.extend(
+                        ["NEXT_WORD_" + feature for feature in self._get_features(tokens, idx + 1, context="")])
+                elif context=='word':
+                    feature_list.append("NEXT_WORD_" + tokens[idx + 1])  # next word
 
         return feature_list
 
@@ -188,7 +209,7 @@ class CRFTagger_v2(TaggerI):
         trainer = pycrfsuite.Trainer(verbose=self._verbose)
         trainer.set_params(self._training_options)
 
-        for sent in train_data:
+        for sent in tqdm(train_data):
             tokens, labels = zip(*sent)
             features = [self._feature_func(tokens, i) for i in range(len(tokens))]
             trainer.append(features, labels)
