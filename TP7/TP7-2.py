@@ -88,13 +88,13 @@ def q3():
         train_tagger(ct, save_name='models/' + model_name + '_f.crf.tagger')
         test_tagger(ct, model='models/' + model_name + '_f.crf.tagger')
 
-def q5(b=False,it=1):
+def q5(iterations=1):
     train_data = treebank.tagged_sents()[:3000]
     test_data = treebank.tagged_sents()[3000:]
     tagger = SpacyTagger()
 
     print(f"Spacy: {tagger.evaluate(test_data)}")
-    if b:
+    if iterations:
         start_time = time()
         recursive_tagger: BrillTagger = None
 
@@ -102,7 +102,7 @@ def q5(b=False,it=1):
         Template._cleartemplates()
         templates = brill24()
 
-        for i in range(int(it)):
+        for i in range(iterations):
             if i == 0:
                 trainer = BrillTaggerTrainer(SpacyTagger(), templates)
             else:
@@ -118,7 +118,7 @@ def main():
     test_data = treebank.tagged_sents()[3000:]
     print(f'len PTB {len(treebank.tagged_sents())}')
     print(len(treebank.sents()))
-    q5(True,10)
+    q5(iterations=4) # converges at 3 acc test ~4 acc train
 
 
 
