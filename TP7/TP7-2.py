@@ -44,7 +44,7 @@ def test_all_CRF(model=None):
 
 class SpacyTagger(TaggerI):
     def __init__(self):
-        model = "en_core_web_sm"  # try also the _lg one
+        model = "en_core_web_lg"  # try also the _lg one
         self.nlp = spacy.load(model, disable=["parser", "ner"])  # to go faster
 
     def tag(self, tokens):
@@ -125,7 +125,7 @@ def q5_2(iterations=1):
     train_data = treebank.tagged_sents()[:3000]
     test_data = treebank.tagged_sents()[3000:]
     base_tagger = SpacyTagger()
-    Template._cleartemplates()
+    # Template._cleartemplates()
     templates = brill24()
 
     print(f"Spacy: {base_tagger.evaluate(test_data)}")
@@ -136,7 +136,7 @@ def main():
     test_data = treebank.tagged_sents()[3000:]
     print(f'len PTB {len(treebank.tagged_sents())}')
     print(len(treebank.sents()))
-    q4_1() # converges at 2 acc test
+    # q4_1() # converges at 2 acc test
     # q4_2(iterations=4) # converges at 2 acc test
     # q5(iterations=5) # converges at 3 acc test
     # q5_2(iterations=4) # converges at 3 acc test
