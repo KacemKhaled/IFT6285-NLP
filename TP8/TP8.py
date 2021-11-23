@@ -4,6 +4,9 @@ import spacy
 # pip install transformers
 # pip install sacrebleu
 
+# sacrebleu -t wmt14 -l en-fr --echo src
+# sacrebleu -t wmt14 -l en-fr --echo ref
+
 def main():
     #todo:
    # utilll.liser transformers ( un code similaire a https://huggingface.co/transformers/task_summary.html#translation
