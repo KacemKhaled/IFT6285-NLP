@@ -19,7 +19,7 @@ translations_file = 'translations.txt'
 def translate(file):
     # utiliser transformers ( un code similaire a https://huggingface.co/transformers/task_summary.html#translation
     # pour traduire EN---> FR au moins 1000 phrases du corpus WMT.
-    translator = pipeline("translation_en_to_fr")
+    translator = pipeline("translation_en_to_fr",device=0)
     translations = []
     total_translation_time = 0
     with open(src_data, 'r', encoding='utf-8') as f:
@@ -27,15 +27,15 @@ def translate(file):
         print('nb of sentences, ', len(lines))
 
         for i in tqdm(range(len(lines))):
-            print('source: ', lines[i].rstrip())
+            # print('source: ', lines[i].rstrip())
 
             start_time = time.time()
             translation = translator(lines[i])
             finish_time = time.time() - start_time
             total_translation_time += finish_time
 
-            print(f'translation: {translation} \n')
-            print(f'time for the translation: {finish_time} \n')
+            # print(f'translation: {translation} \n')
+            # print(f'time for the translation: {finish_time} \n')
             translations.extend(translation)
 
         assert len(translations) == len(lines)
@@ -108,6 +108,9 @@ def variability(refs, sys):
 
 
 def main():
+    #todo: try this on GPU
+    translate(translations_file)
+    # evaluate(translations_file)
     #translate(translations_file) #todo: try this on GPU
     #evaluate(translations_file)
 
