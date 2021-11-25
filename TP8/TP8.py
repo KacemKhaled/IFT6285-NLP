@@ -54,7 +54,16 @@ def evaluate(file):
     # # Vous evaluerez avec  BLEU -- > use library scra bleu
     # refs = [['The dog bit the man.', 'It was not unexpected.', 'The man bit him first.' ,'My name is Mouna']] # list of a list
     # sys = ['The dog bit the man.'  , "It wasn't surprising.", 'The man had just bitten him.']
+    refs, sys = get_data_for_eval(file)
 
+    bleu = BLEU()
+    print(bleu.corpus_score(sys, refs))
+    print(bleu.get_signature())
+    print(bleu.get_signature().format(short=True))
+   # print(bleu.sentence_score("my name is mona", ['my name is mouna'])) #todo: confidence score
+
+
+def get_data_for_eval(file):
     # read the translations file into a list
     sys = []
     with open(file, "r") as f:
@@ -69,20 +78,29 @@ def evaluate(file):
         assert len(fr_sentences) == 3003
         refs.append([s.rstrip() for s in fr_sentences])
 
-    #print(sys)
-    #print(refs)
+    # print(sys)
+    # print(refs)
+
+    return refs, sys
+
+
+def variability(refs, sys):
+    nb_phrases = [0, 500, 1000, 1500, 2000, 2500, 3000]
+    blue_scores = []
 
     bleu = BLEU()
     print(bleu.corpus_score(sys, refs))
     print(bleu.get_signature())
     print(bleu.get_signature().format(short=True))
-   # print(bleu.sentence_score("my name is mona", ['my name is mouna'])) #todo: confidence score
+    pass
 
 
 def main():
-    #todo: try this on GPU
-    # translate(translations_file)
-    evaluate(translations_file)
+    #translate(translations_file) #todo: try this on GPU
+    #evaluate(translations_file)
+
+    refs, sys = get_data_for_eval(translations_file)
+    variability(refs, sys)
 
 
 if __name__ == '__main__':
