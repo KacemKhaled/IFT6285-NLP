@@ -3,7 +3,7 @@ import spacy
 import time
 from tqdm import tqdm
 from sacrebleu.metrics import BLEU
-
+import matplotlib.pyplot as plt
 
 # pip install transformers
 # pip install sacrebleu
@@ -85,14 +85,26 @@ def get_data_for_eval(file):
 
 
 def variability(refs, sys):
-    nb_phrases = [0, 500, 1000, 1500, 2000, 2500, 3000]
+    nb_phrases = [500, 1000, 1500, 2000, 2500, 3000]
     blue_scores = []
 
     bleu = BLEU()
-    print(bleu.corpus_score(sys, refs))
-    print(bleu.get_signature())
-    print(bleu.get_signature().format(short=True))
-    pass
+
+    for nb in nb_phrases:
+        s = bleu.corpus_score(sys[:nb], [refs[0][:nb]])
+        print(s)
+        print(s.score)
+        blue_scores.append(s.score)
+
+    plt.figure(figsize=(5,5))
+    plt.plot( nb_phrases, blue_scores, marker='.')
+    plt.xlabel('Nombre des phrases utilisées')
+    plt.ylabel('Les scores Bleu')
+    plt.title("Impact du nombre de phrases utilisées \n sur les scores Bleu")
+    #plt.show()
+    plt.savefig('plots/nb_sentences_impact.png')
+    plt.savefig('plots/nb_sentences_impact.eps')
+    plt.savefig('plots/nb_sentences_impact.pdf')
 
 
 def main():
