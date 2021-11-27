@@ -4,6 +4,10 @@ import time
 from tqdm import tqdm
 from sacrebleu.metrics import BLEU
 import matplotlib.pyplot as plt
+from statistics import mean
+import plotly.express as px
+import pandas as pd
+
 
 # pip install transformers
 # pip install sacrebleu
@@ -92,9 +96,10 @@ def variability(refs, sys):
 
     for nb in nb_phrases:
         s = bleu.corpus_score(sys[:nb], [refs[0][:nb]])
-        print(s)
-        print(s.score)
+        #print(s)
+        #print(s.score)
         blue_scores.append(s.score)
+        print(bleu.get_signature().format(short=True))
 
     plt.figure(figsize=(5,5))
     plt.plot( nb_phrases, blue_scores, marker='.')
@@ -107,15 +112,57 @@ def variability(refs, sys):
     plt.savefig('plots/nb_sentences_impact.pdf')
 
 
+def make_image_distribution(scores_list):
+    df = pd.DataFrame(scores_list, columns=['bleu score'])
+
+    fig = px.violin(df, x='bleu score' ,box=True,violinmode='overlay',points='all',  orientation='h') #opacity=1,#barmode='group',facet_col='set',
+    fig.update_xaxes(title_text="Les scores bleu",row=1,col=1)
+    title={     'text':'Distribution des scores BLEU par phrase' ,
+               'x':0.5,
+                'xanchor': 'center'
+            }
+    fig.update_layout( title=title, height=400, width=800 )
+    #fig.show()
+    fig.write_image("plots/distribution_des_scores_par_phrases.pdf")
+    fig.write_image("plots/distribution_des_scores_par_phrases.png")
+    fig.write_image('plots/distribution_des_scores_par_phrases.eps')
+
+
+def q5_6_sentence_level_bleu(file):
+    sentence_bleu_scores = []
+    bad_translations = []
+
+    refs, sys = get_data_for_eval(file)
+    references = refs[0]
+    bleu = BLEU()
+    for i, s in enumerate(sys):
+        bleu_score = bleu.sentence_score(s, [references[i]])
+
+        if bleu_score.score == 0 : # question 6
+            bad_translations.append( (s, [references[i]] ) )
+
+        sentence_bleu_scores.append(bleu_score.score)
+
+    make_image_distribution(sentence_bleu_scores)
+    print(len(sentence_bleu_scores))
+    print(f'min = {min(sentence_bleu_scores)}')
+    print(f'max = {max(sentence_bleu_scores)}')
+    print(f'moy = {mean(sentence_bleu_scores)}')
+
+    print(f'len of bad translation {len(bad_translations)}')
+    print('bad traduction. bleu == 0', ) # question 6
+    for t in bad_translations:
+        print(t)
+
+
 def main():
-    #todo: try this on GPU
-    translate(translations_file)
-    # evaluate(translations_file)
     #translate(translations_file) #todo: try this on GPU
     #evaluate(translations_file)
 
-    refs, sys = get_data_for_eval(translations_file)
-    variability(refs, sys)
+    # refs, sys = get_data_for_eval(translations_file)
+    # variability(refs, sys)
+
+    q5_6_sentence_level_bleu(translations_file)
 
 
 if __name__ == '__main__':
