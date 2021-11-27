@@ -132,14 +132,18 @@ def q5_6_sentence_level_bleu(file):
     sentence_bleu_scores = []
     bad_translations = []
 
+    lines = []
+    with open(src_data, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
     refs, sys = get_data_for_eval(file)
     references = refs[0]
-    bleu = BLEU()
+    bleu = BLEU(effective_order=True)
     for i, s in enumerate(sys):
         bleu_score = bleu.sentence_score(s, [references[i]])
 
         if bleu_score.score == 0 : # question 6
-            bad_translations.append( (s, [references[i]] ) )
+            bad_translations.append( (lines[i].rstrip(), s, [references[i]] ) )
 
         sentence_bleu_scores.append(bleu_score.score)
 
@@ -150,9 +154,9 @@ def q5_6_sentence_level_bleu(file):
     print(f'moy = {mean(sentence_bleu_scores)}')
 
     print(f'len of bad translation {len(bad_translations)}')
-    print('bad traduction. bleu == 0', ) # question 6
-    for t in bad_translations:
-        print(t)
+    print('bad traductions. bleu == 0', )
+    for i in range(len(bad_translations)):
+        print(bad_translations[i])
 
 
 def main():
