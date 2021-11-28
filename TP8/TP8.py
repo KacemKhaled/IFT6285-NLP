@@ -166,7 +166,27 @@ def main():
     # refs, sys = get_data_for_eval(translations_file)
     # variability(refs, sys)
 
-    q5_6_sentence_level_bleu(translations_file)
+    #q5_6_sentence_level_bleu(translations_file)
+    test_q6()
+
+
+def test_q6():
+    bleu = BLEU(effective_order=True)
+    bleu_score = bleu.sentence_score("États-Unis habillés pour l'Halloween", ["Les États-Unis aux couleurs d'Halloween"])
+    print(bleu_score)
+    print(bleu.get_signature())
+    print(bleu_score.score)
+
+    # sent = "China plea paper 'to be overhauled'"
+    # translator = pipeline("translation_en_to_fr")
+    #
+    # translation = translator(sent)
+    # print(translation)
+    #
+    # bleu = BLEU()
+    # bleu_score = bleu.sentence_score(sent, [translation[0]['translation_text']])
+    # print(bleu.get_signature())
+    # print(bleu_score.score)
 
 
 if __name__ == '__main__':
