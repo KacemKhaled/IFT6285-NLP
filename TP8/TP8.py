@@ -6,6 +6,12 @@ from sacrebleu.metrics import BLEU
 import matplotlib.pyplot as plt
 import numpy as np
 import math
+
+from statistics import mean
+import plotly.express as px
+import pandas as pd
+
+
 # pip install transformers
 # pip install sacrebleu
 
@@ -96,8 +102,8 @@ def variability_nb_sentences(refs, sys):
 
     for nb in nb_phrases:
         s = bleu.corpus_score(sys[:nb], [refs[0][:nb]])
-        print(s)
-        print(s.score)
+        #print(s)
+        #print(s.score)
         blue_scores.append(s.score)
     width = 100
     plt.figure(figsize=(8,5))
@@ -107,6 +113,7 @@ def variability_nb_sentences(refs, sys):
 
     for i, j in zip(nb_phrases, blue_scores):
         plt.text(i-width, j+0.01 , f'{j:.1f}',color='C0')
+    # print(bleu.get_signature().format(short=True))
 
     plt.xlabel('Nombre des phrases utilisées')
     plt.ylabel('Les scores Bleu')
@@ -116,6 +123,7 @@ def variability_nb_sentences(refs, sys):
     plt.savefig('plots/nb_sentences_impact.png')
     plt.savefig('plots/nb_sentences_impact.eps')
     plt.savefig('plots/nb_sentences_impact.pdf')
+
 
 
 def variability_len_sentences(refs, sys):
@@ -174,9 +182,6 @@ def variability_len_sentences(refs, sys):
     ax2.tick_params(axis='y', labelcolor=color,colors=color)
     ax2.set_ylabel('Le nombre de phrases par groupe',color=color)
 
-
-
-
     fig.tight_layout()
     # plt.show()
     plt.grid()
@@ -186,17 +191,85 @@ def variability_len_sentences(refs, sys):
     plt.savefig('plots/len_sentences_impact.pdf')
 
 
+
+
+def make_image_distribution(scores_list):
+    df = pd.DataFrame(scores_list, columns=['bleu score'])
+
+    fig = px.violin(df, x='bleu score' ,box=True,violinmode='overlay',points='all',  orientation='h') #opacity=1,#barmode='group',facet_col='set',
+    fig.update_xaxes(title_text="Les scores bleu",row=1,col=1)
+    title={     'text':'Distribution des scores BLEU par phrase' ,
+               'x':0.5,
+                'xanchor': 'center'
+            }
+    fig.update_layout( title=title, height=400, width=800 )
+    #fig.show()
+    fig.write_image("plots/distribution_des_scores_par_phrases.pdf")
+    fig.write_image("plots/distribution_des_scores_par_phrases.png")
+    fig.write_image('plots/distribution_des_scores_par_phrases.eps')
+
+
+def q5_6_sentence_level_bleu(file):
+    sentence_bleu_scores = []
+    bad_translations = []
+
+    lines = []
+    with open(src_data, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    refs, sys = get_data_for_eval(file)
+    references = refs[0]
+    bleu = BLEU(effective_order=True)
+    for i, s in enumerate(sys):
+        bleu_score = bleu.sentence_score(s, [references[i]])
+
+        if bleu_score.score == 0 : # question 6
+            bad_translations.append( (lines[i].rstrip(), s, [references[i]] ) )
+
+        sentence_bleu_scores.append(bleu_score.score)
+
+    make_image_distribution(sentence_bleu_scores)
+    print(len(sentence_bleu_scores))
+    print(f'min = {min(sentence_bleu_scores)}')
+    print(f'max = {max(sentence_bleu_scores)}')
+    print(f'moy = {mean(sentence_bleu_scores)}')
+
+    print(f'len of bad translation {len(bad_translations)}')
+    print('bad traductions. bleu == 0', )
+    for i in range(len(bad_translations)):
+        print(bad_translations[i])
+
+
+
+def test_q6():
+    bleu = BLEU(effective_order=True)
+    bleu_score = bleu.sentence_score("États-Unis habillés pour l'Halloween", ["Les États-Unis aux couleurs d'Halloween"])
+    print(bleu_score)
+    print(bleu.get_signature())
+    print(bleu_score.score)
+
+    # sent = "China plea paper 'to be overhauled'"
+    # translator = pipeline("translation_en_to_fr")
+    #
+    # translation = translator(sent)
+    # print(translation)
+    #
+    # bleu = BLEU()
+    # bleu_score = bleu.sentence_score(sent, [translation[0]['translation_text']])
+    # print(bleu.get_signature())
+    # print(bleu_score.score)
+
+
 def main():
-    #todo: try this on GPU
-    # translate(translations_file)
-    evaluate(translations_file)
-    #translate(translations_file) #todo: try this on GPU
-    #evaluate(translations_file)
+    # translate(translations_file) #todo: try this on GPU
+    # evaluate(translations_file)
 
-    refs, sys = get_data_for_eval(translations_file)
-    variability_nb_sentences(refs, sys)
-    variability_len_sentences(refs, sys)
+    # refs, sys = get_data_for_eval(translations_file)
+    # variability_nb_sentences(refs, sys)
+    # variability_len_sentences(refs, sys)
 
+    # q5_6_sentence_level_bleu(translations_file)
+    # test_q6()
 
 if __name__ == '__main__':
     main()
