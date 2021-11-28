@@ -264,9 +264,9 @@ def main():
     # translate(translations_file) #todo: try this on GPU
     # evaluate(translations_file)
 
-    # refs, sys = get_data_for_eval(translations_file)
-    # variability_nb_sentences(refs, sys)
-    # variability_len_sentences(refs, sys)
+    refs, sys = get_data_for_eval(translations_file)
+    variability_nb_sentences(refs, sys)
+    variability_len_sentences(refs, sys)
 
     # q5_6_sentence_level_bleu(translations_file)
     # test_q6()
