@@ -4,7 +4,8 @@ import time
 from tqdm import tqdm
 from sacrebleu.metrics import BLEU
 import matplotlib.pyplot as plt
-
+import numpy as np
+import math
 # pip install transformers
 # pip install sacrebleu
 
@@ -19,7 +20,7 @@ translations_file = 'translations.txt'
 def translate(file):
     # utiliser transformers ( un code similaire a https://huggingface.co/transformers/task_summary.html#translation
     # pour traduire EN---> FR au moins 1000 phrases du corpus WMT.
-    translator = pipeline("translation_en_to_fr",device=0)
+    translator = pipeline("translation_en_to_fr")#,device=0)
     translations = []
     total_translation_time = 0
     with open(src_data, 'r', encoding='utf-8') as f:
@@ -45,7 +46,7 @@ def translate(file):
     translations_text = [t['translation_text'] for t in translations]
     # print(translations_text)
 
-    with open(file, 'w') as f:
+    with open(file, 'w',encoding='utf-8') as f:
         for tr in translations_text:
             f.write('%s\n' % tr)
 
@@ -66,7 +67,7 @@ def evaluate(file):
 def get_data_for_eval(file):
     # read the translations file into a list
     sys = []
-    with open(file, "r") as f:
+    with open(file, "r",encoding='utf-8') as f:
         translations = f.readlines()
         assert len(translations) == 3003
         sys = [t.rstrip() for t in translations]
@@ -78,14 +79,17 @@ def get_data_for_eval(file):
         assert len(fr_sentences) == 3003
         refs.append([s.rstrip() for s in fr_sentences])
 
-    # print(sys)
-    # print(refs)
+    # print(sys[:2])
+    # print(refs[0][:2])
 
     return refs, sys
 
 
-def variability(refs, sys):
-    nb_phrases = [500, 1000, 1500, 2000, 2500, 3000]
+def variability_nb_sentences(refs, sys):
+    """
+    sacrebleu -t wmt14 -l en-fr -i translations.txt -m bleu --confidence -f json --short
+    """
+    nb_phrases = list(range(200, 3001,200)) #[500, 1000, 1500, 2000, 2500, 3000]
     blue_scores = []
 
     bleu = BLEU()
@@ -95,27 +99,103 @@ def variability(refs, sys):
         print(s)
         print(s.score)
         blue_scores.append(s.score)
+    width = 100
+    plt.figure(figsize=(8,5))
+    plt.bar( nb_phrases, blue_scores,width)
+    plt.xticks(nb_phrases[::2])
+    plt.ylim(37,39)
 
-    plt.figure(figsize=(5,5))
-    plt.plot( nb_phrases, blue_scores, marker='.')
+    for i, j in zip(nb_phrases, blue_scores):
+        plt.text(i-width, j+0.01 , f'{j:.1f}',color='C0')
+
     plt.xlabel('Nombre des phrases utilisées')
     plt.ylabel('Les scores Bleu')
-    plt.title("Impact du nombre de phrases utilisées \n sur les scores Bleu")
-    #plt.show()
+    plt.title("Impact du nombre de phrases utilisées sur les scores Bleu")
+    plt.tight_layout()
+    # plt.show()
     plt.savefig('plots/nb_sentences_impact.png')
     plt.savefig('plots/nb_sentences_impact.eps')
     plt.savefig('plots/nb_sentences_impact.pdf')
 
 
+def variability_len_sentences(refs, sys):
+    """
+    sacrebleu -t wmt14 -l en-fr -i translations.txt -m bleu --confidence -f json --short
+    """
+    blue_scores = []
+
+    bleu = BLEU()
+    idxs_ceiled = {}
+    idxs = {}
+    for i, sent in enumerate(sys):
+        len_sent = len(sent.split(' '))
+        ceiled = 5 * math.ceil(len_sent/5)
+        # print(ceiled)
+        if ceiled not in idxs_ceiled:
+            idxs_ceiled[ceiled] = [i]
+        else:
+            idxs_ceiled[ceiled] += [i]
+
+        if len_sent not in idxs:
+            idxs[len_sent] = [i]
+        else:
+            idxs[len_sent] += [i]
+
+    # print(idxs)
+    print(len(sum(idxs.values(), [])))
+    for sent_len,idx in idxs_ceiled.items():
+        # print(sent_len, idx)
+        sys_mapping = list(map(sys.__getitem__, idx))
+        refs_mapping = list(map(refs[0].__getitem__, idx))
+        # print(sys_mapping[:2])
+        # print(refs_mapping[:2])
+        s = bleu.corpus_score(sys_mapping, [refs_mapping])
+        print(sent_len, s)
+        # print(s.score)
+        blue_scores.append(s.score)
+
+    fig, ax1 = plt.subplots(figsize=(8,5))
+    width = 5  # the width of the bars
+    # plt.figure(figsize=(5,5))
+    color = 'C0'
+    x_axis = np.array(list(idxs_ceiled.keys()))-width/2
+    ax1.bar(x_axis, blue_scores,width, color=color)
+    plt.ylim(22,42)
+    ax1.set_xticks(sorted([0]+list(idxs_ceiled.keys())))
+    ax1.set_xlabel('Longueur des phrases utilisées (nb. mots)')
+    ax1.set_ylabel('Les scores Bleu', color=color)
+    for i, j in zip(x_axis, blue_scores):
+        plt.text(i-width/2, j+0.1 , f'{j:.1f}',color='C0')
+    ax2 = ax1.twinx()
+    color = 'C1'
+    list1, list2 = zip(*sorted(zip(idxs_ceiled.keys(), [len(idx) for idx in idxs_ceiled.values()])))
+    ax2.plot(np.array(list1) - width/2, list2, color=color,alpha=1)
+    plt.title("Impact des longueurs de phrases utilisées sur les scores Bleu")
+    ax2.tick_params(axis='y', labelcolor=color,colors=color)
+    ax2.set_ylabel('Le nombre de phrases par groupe',color=color)
+
+
+
+
+    fig.tight_layout()
+    # plt.show()
+    plt.grid()
+
+    plt.savefig('plots/len_sentences_impact.png')
+    plt.savefig('plots/len_sentences_impact.eps')
+    plt.savefig('plots/len_sentences_impact.pdf')
+
+
 def main():
     #todo: try this on GPU
-    translate(translations_file)
-    # evaluate(translations_file)
+    # translate(translations_file)
+    evaluate(translations_file)
     #translate(translations_file) #todo: try this on GPU
     #evaluate(translations_file)
 
     refs, sys = get_data_for_eval(translations_file)
-    variability(refs, sys)
+    variability_nb_sentences(refs, sys)
+    variability_len_sentences(refs, sys)
 
 
 if __name__ == '__main__':
